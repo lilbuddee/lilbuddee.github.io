@@ -1,118 +1,97 @@
+settings:
+  render_command:
+    design: ../assets/rendercv/design.yaml
+    locale: ../assets/rendercv/locale.yaml
+    typst_path: ../assets/rendercv/rendercv_output/deepak_sathyan_cv.typ
+    pdf_path: ../assets/rendercv/rendercv_output/deepak_sathyan_cv.pdf
+    html_path: ../assets/rendercv/rendercv_output/deepak_sathyan_cv.html
+    dont_generate_markdown: true
+    dont_generate_html: false
+    dont_generate_typst: false
+    dont_generate_pdf: false
+    dont_generate_png: true
+
+
 cv:
   name: Deepak Sathyan
-  label: Postdoctoral Research Associate
+  # label: Postdoctoral Research Associate
   email: dsathyan@tamu.edu
   location: College Station, Texas, US
-  image: ""
+  # image: ""
   # summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
 
   social_networks:
-    - network: X
-      username: AlbertEinstein
-    - network: GitHub
-      username: example
-    - network: LinkedIn
-      username: example
+    - network: ORCID
+      username: 0000-0001-9421-5480
+    - network: Google Scholar
+      username: 29PfYjgAAAAJ
+    # - network: GitHub
+      # username: lilbuddee
 
-  address:
-    street: Mitchell Institute for Fundamental Physics and Astronomy, Texas A&M University
-    city: College Station
-    region: TX
-    postalCode: 77843
-    countryCode: US
+  # address:
+  #   street: Mitchell Institute for Fundamental Physics and Astronomy, Texas A&M University
+  #   city: College Station
+  #   region: TX
+  #   postalCode: 77843
+  #   countryCode: US
 
   sections:
     Education:
+      - institution: University of Maryland
+        location: College Park, MD
+        url: https://www.umd.edu/
+        area: ""
+        # degree: Ph.D. in Physics
+        # studyType: Ph.D.
+        start_date: "2018-08"
+        end_date: "2024-07"
+        summary: |
+          Ph.D. in Physics
+          Thesis: Unifying Searches for New Physics with Precision Measurements of the W Boson Mass
+          Advisor: Dr. Kaustubh Agashe
+
       - institution: Boston University
         location: Boston, MA
         url: https://www.bu.edu/
-        area: Physics
-        studyType: Bachelor of Arts
-        start_date: 2014
-        end_date: 2018
-        score: 3.9
-        courses: ""
-        highlights:
-          - Summa Cum Laude with honors in Physics
-          - Major: Physics
-          - Minor: Mathematics
-          - Senior thesis: "Muon (g-2): Searching for the Muon Electric Dipole Moment"
-          - Undergraduate Research Advisor: Robert Carey
-
-      - institution: Eidgenössische Technische Hochschule
-        location: Zurich, Switzerland
-        area: Physics
-        studyType: Federal teaching diploma
-        start_date: 1896
-        end_date: 1900
-        highlights:
-          - Description 1.
-          - Description 2.
+        area: ""
+        # studyType: Bachelor of Arts
+        start_date: "2014-08"
+        end_date: "2018-05"
+        summary: |
+          Bachelor of Arts in Physics, Summa Cum Laude with honors in Physics
+          Major: Physics
+          Minor: Mathematics
+          GPA: 3.9
+          Thesis: Muon (g-2): Searching for the Muon Electric Dipole Moment
+          Advisor: Dr. Robert Carey
 
     Experience:
-      - company: Institute for Advanced Study, Princeton University
-        position: Professor of Theoretical Physics
-        location: Princeton University, NJ
-        start_date: 1933
-        end_date: 1955
-        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
-        highlights:
-          - Relativity
-          - Description 2.
+      - company: Mitchell Institute for Fundamental Physics and Astronomy, Texas A&M University
+        position: Postdoctoral Research Associate
+        location: College Station, Texas, US
+        start_date: 2024-09
+        end_date: 2027-08
+        # summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
+        # highlights:
+        #   - Relativity
+        #   - Description 2.
 
-      - company: California Institute of Technology
-        position: Visiting Professor
-        location: Pasadena, California, US
-        start_date: 1933
-        end_date: 1933
-        highlights:
-          - Description 1.
-          - Description 2.
-
-      - company: Kaiser Wilhelm Institute for Physics
-        position: Director
-        location: Berlin, Germany
-        start_date: 1917
-        end_date: 1933
-
-      - company: Karl-Ferdinand University
-        position: Professor of Theoretical Physics
-        location: Prague, Czechoslovakia
-        start_date: 1911
-        end_date: 1917
-
-      - company: University of Zurich
-        position: Associate Professor of Theoretical Physics
-        location: Zurich, Switzerland
-        start_date: 1909
-        end_date: 1911
-
-    Volunteer:
-      - company: People's Climate March
-        position: Lead Organizer
-        location: Zurich, Switzerland
-        start_date: 2014-04-01
-        end_date: 2015-07-01
-        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
-        highlights:
-          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-          - "Men of the year 2014 by Time magazine"
+    # Volunteer:
+    #   - company: People's Climate March
+    #     position: Lead Organizer
+    #     location: Zurich, Switzerland
+    #     start_date: 2014-04-01
+    #     end_date: 2015-07-01
+    #     summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
+    #     highlights:
+    #       - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
+    #       - "Men of the year 2014 by Time magazine"
 
     Awards:
-      - title: Nobel Prize in Physics
-        authors:
-          - "Royal Swedish Academy of Sciences"
-        date: 1921-11-01
-        awarder: Royal Swedish Academy of Sciences
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
-
-      - title: Max Planck Medal
-        authors:
-          - "German Physical Society"
-        date: 2029
-        awarder: German Physical Society
-        summary: Awarded for outstanding scientific achievement
+      - name: "[Breakthrough Prize in Fundamental Physics](https://breakthroughprize.org/Laureates/1/L4025)"
+        date: 2026-04
+        summary: Muon g-2 Collaboration
+        location: Breakthrough Prize Board
 
     Publications:
       - title: Zur Elektrodynamik bewegter Körper
