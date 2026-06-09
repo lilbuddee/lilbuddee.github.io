@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: lilbuddee.github.io/sitemap.xml
+Sitemap: https://lilbuddee.github.io/sitemap.xml
