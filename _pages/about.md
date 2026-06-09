@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Postdoctoral Research Fellow at <a href='https://mitchell.tamu.edu/'>Mitchell Institute for Fundamental Physics and Astronomy</a>, <a href='https://tamu.edu/'>Texas A&M University</a>
+subtitle: Postdoctoral Research Associate at <a href='https://mitchell.tamu.edu/'>The Mitchell Institute for Fundamental Physics and Astronomy</a>, <a href='https://tamu.edu/'>Texas A&M University</a>
 
 profile:
   align: right
