@@ -1,10 +1,10 @@
 cv:
-  name: Albert Einstein
-  label: Scientist
-  email: einstein@example.com
-  location: Princeton, NJ
+  name: Deepak Sathyan
+  label: Postdoctoral Research Associate
+  email: dsathyan@tamu.edu
+  location: College Station, Texas, US
   image: ""
-  summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
+  # summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
 
   social_networks:
     - network: X
@@ -15,26 +15,29 @@ cv:
       username: example
 
   address:
-    street: 2712 Broadway St
-    city: San Francisco
-    region: California
-    postalCode: CA 94115
+    street: Mitchell Institute for Fundamental Physics and Astronomy, Texas A&M University
+    city: College Station
+    region: Texas
+    postalCode: TX 77843
     countryCode: US
 
   sections:
     Education:
-      - institution: University of Zurich
-        location: Zurich, Switzerland
-        url: https://www.uzh.ch/
+      - institution: Boston University
+        location: Boston, MA
+        url: https://www.bu.edu/
         area: Physics
-        studyType: PhD
-        start_date: 1900
-        end_date: 1905
-        score: ""
-        courses: "Theory of Relativity"
+        studyType: Bachelor of Arts
+        start_date: 2014
+        end_date: 2018
+        score: 3.9
+        courses: ""
         highlights:
-          - Description 1.
-          - Description 2.
+          - Summa Cum Laude with honors in Physics
+          - Major: Physics
+          - Minor: Mathematics
+          - Senior thesis: "Muon (g-2): Searching for the Muon Electric Dipole Moment"
+          - Undergraduate Research Advisor: Robert Carey
 
       - institution: Eidgenössische Technische Hochschule
         location: Zurich, Switzerland
