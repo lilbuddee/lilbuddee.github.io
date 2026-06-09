@@ -16,7 +16,7 @@ cv:
   name: Deepak Sathyan
   # label: Postdoctoral Research Associate
   email: dsathyan@tamu.edu
-  location: College Station, Texas, US
+  location: College Station, Texas
   # image: ""
   # summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
 
@@ -87,11 +87,13 @@ cv:
     #       - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
     #       - "Men of the year 2014 by Time magazine"
 
-    Awards:
-      - name: "[Breakthrough Prize in Fundamental Physics](https://breakthroughprize.org/Laureates/1/L4025)"
-        date: 2026-04
-        summary: Muon g-2 Collaboration
-        location: Breakthrough Prize Board
+    Awards: 
+      - title: Breakthrough Prize in Fundamental Physics 
+        authors: 
+        - "Muon g-2 Collaboration" 
+        date: 2026-04 
+        awarder: Breakthrough Prize Board 
+        # url: https://breakthroughprize.org/Laureates/1/L4025
 
     Publications:
       - title: Zur Elektrodynamik bewegter Körper
