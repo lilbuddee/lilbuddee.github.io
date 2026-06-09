@@ -5,7 +5,7 @@ permalink: /
 subtitle: Postdoctoral Research Associate at <a href='https://mitchell.tamu.edu/'>The Mitchell Institute for Fundamental Physics and Astronomy</a>, <a href='https://tamu.edu/'>Texas A&M University</a>
 
 profile:
-  align: right
+  align: left
   image: prof_pic_boston.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
