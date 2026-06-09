@@ -17,8 +17,8 @@ cv:
   address:
     street: Mitchell Institute for Fundamental Physics and Astronomy, Texas A&M University
     city: College Station
-    region: Texas
-    postalCode: TX 77843
+    region: TX
+    postalCode: 77843
     countryCode: US
 
   sections:
