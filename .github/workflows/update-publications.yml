@@ -37,4 +37,5 @@ jobs:
             _data/cv.yml \
             _data/.cache/inspire.json
           git diff --cached --quiet || git commit -m "chore: regenerate publications from papers.raw.bib"
+          git pull --rebase origin main
           git push
