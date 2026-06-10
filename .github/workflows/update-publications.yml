@@ -4,6 +4,7 @@ on:
   push:
     paths:
       - '_bibliography/papers.raw.bib'
+      - '_data/cv.raw.yml'
 
 jobs:
   update-publications:
