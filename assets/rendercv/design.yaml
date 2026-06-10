@@ -2,9 +2,31 @@
 # design:
 #   theme: moderncv
 #   page:
-#     size: a4
-#     show_footer: false
-#     show_top_note: false
+#     size: us-letter
+#     top_margin: 0.7in
+#     bottom_margin: 0.7in
+#     left_margin: 0.7in
+#     right_margin: 0.7in
+#     show_footer: true
+#     show_top_note: true
+
+#   colors:
+#     body: rgb(0, 0, 0)
+#     name: rgb(0, 79, 144)
+#     headline: rgb(0, 79, 144)
+#     connections: rgb(0, 79, 144)
+#     section_titles: rgb(0, 79, 144)
+#     links: rgb(0, 79, 144)
+#     footer: rgb(128, 128, 128)
+#     top_note: rgb(128, 128, 128)
+
+#   typography:
+#     font_family:
+#       body: Source Sans 3
+#       name: Source Sans 3
+#       headline: Source Sans 3
+#       connections: Source Sans 3
+#       section_titles: Source Sans 3
 
 design:
   theme: classic
@@ -65,22 +87,22 @@ design:
     photo_position: left 
     photo_space_left: 0.4cm
     photo_space_right: 0.4cm
-    space_below_name: 0.7cm
-    space_below_headline: 0.7cm
-    space_below_connections: 0.7cm
+    space_below_name: 0.6cm
+    space_below_headline: 0.25cm
+    space_below_connections: 0.75cm
     connections:
       phone_number_format: national 
       hyperlink: true
       show_icons: true
       display_urls_instead_of_usernames: false
       separator: ''
-      space_between_connections: 0.5cm
+      space_between_connections: 0.25cm
 
   section_titles:
     type: with_partial_line 
     line_thickness: 0.5pt
-    space_above: 0.5cm
-    space_below: 0.3cm
+    space_above: 0.8cm
+    space_below: 0.4cm
 
   sections:
     allow_page_break: true
@@ -136,9 +158,9 @@ design:
         DATE
     experience_entry:
       main_column: |-
-        **COMPANY**
+        **POSITION**
+        COMPANY
         SUMMARY
-        POSITION
         HIGHLIGHTS
       date_and_location_column: |-
         LOCATION
