@@ -377,8 +377,20 @@ selected_export = [
     if p["selected"] == "true"
 ]
 
-cv["cv"]["sections"]["Publications"] = publications_export
-cv["cv"]["sections"]["Selected Publications"] = selected_export
+# cv["cv"]["sections"]["Publications"] = publications_export
+# cv["cv"]["sections"]["Selected Publications"] = selected_export
+
+# Replace the two assignment lines at the bottom with:
+old_sections = cv["cv"].get("sections", {})
+cv["cv"]["sections"] = {
+    "Education": old_sections.get("Education", []),
+    "Experience": old_sections.get("Experience", []),
+    "Selected Publications": selected_export,
+    "Publications": publications_export,
+    "Projects": old_sections.get("Projects", []),
+    "Awards": old_sections.get("Awards", []),
+    "Skills": old_sections.get("Skills", []),
+}
 
 class IndentedDumper(yaml.SafeDumper):
     pass
@@ -409,5 +421,7 @@ with open(OUTPUT_CV_FINAL, "w") as f:
         indent=4,
         Dumper=IndentedDumper,
     )
+    
+
 
 save_cache(cache)

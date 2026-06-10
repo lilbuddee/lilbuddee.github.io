@@ -69,9 +69,9 @@
           {% endif %}
 
           {% if entry.summary %}
-            <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem; font-style: italic">
-              {{ entry.summary | markdownify | remove: '<p>' | remove: '</p>' }}
-            </h6>
+            <div class="ml-1 ml-md-4" style="font-size: 0.95rem">
+              {{ entry.summary | markdownify }}
+            </div>
           {% endif %}
 
           {% if entry.courses or entry.highlights %}
