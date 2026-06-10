@@ -13,7 +13,7 @@ settings:
 cv:
     name: Deepak Sathyan
     email: dsathyan@tamu.edu
-    location: College Station, Texas
+    location: College Station, TX
     social_networks:
     -   network: ORCID
         username: 0000-0001-9421-5480
@@ -43,7 +43,8 @@ cv:
                 Thesis: Muon (g-2): Searching for the Muon Electric Dipole Moment
                 Advisor: Dr. Robert Carey
         Employment:
-        -   company: Mitchell Institute for Fundamental Physics and Astronomy <br>
+        -   company: |
+                Mitchell Institute for Fundamental Physics and Astronomy
                 Texas A&M University
             position: Postdoctoral Research Associate
             location: College Station, TX
