@@ -25,6 +25,15 @@ CACHE_PATH.parent.mkdir(parents=True, exist_ok=True)
 
 CURRENT_YEAR = datetime.now().year
 
+# def build_date(entry):
+#     year = str(entry.get("year") or "").strip()
+#     month = str(entry.get("month") or "").strip()
+
+#     if year and month.isdigit():
+#         return f"{year}-{int(month):02d}"
+
+#     return year
+
 def build_date(entry):
     year = str(entry.get("year") or "").strip()
     month = str(entry.get("month") or "").strip()
@@ -32,7 +41,7 @@ def build_date(entry):
     if year and month.isdigit():
         return f"{year}-{int(month):02d}"
 
-    return year
+    return int(year) if year else None
 
 
 # =========================
@@ -344,13 +353,31 @@ def sanitize(obj):
         return None
     return obj
 
+# def rendercv_publication(p):
+#     return {
+#         "title": p["title"],
+#         "authors": p["authors"],
+#         "date": p["date"],
+#         "journal": p["journal"] or None,
+#         "url": p["url"],
+#     }
+
 def rendercv_publication(p):
+    url = p["url"]
+    highlights = []
+    if url and "arxiv.org/abs/" in url:
+        arxiv_id = url.split("arxiv.org/abs/")[-1]
+        journal = p["journal"]
+        journal_str = f" ({journal})" if journal else ""
+        highlights.append(f"[arXiv:{arxiv_id}]({url}){journal_str}")
+
     return {
         "title": p["title"],
         "authors": p["authors"],
         "date": p["date"],
-        "journal": p["journal"] or None,
-        "url": p["url"],
+        "journal": None,
+        "url": url,
+        "highlights": highlights or None,
     }
 
 # date order
@@ -358,7 +385,8 @@ publications_export = [
     rendercv_publication(p)
     for p in sorted(
         pubs,
-        key=lambda x: x["date"] or "",
+        # key=lambda x: x["date"] or "",
+        key=lambda x: str(x.get("date") or ""),
         reverse=True,
     )
 ]

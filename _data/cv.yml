@@ -53,9 +53,11 @@ cv:
                 ppm
             authors:
             - Muon g-2
-            date: '2021'
-            journal: Phys. Rev. Lett.
+            date: 2021
+            journal: null
             url: https://arxiv.org/abs/2104.03281
+            highlights:
+            - '[arXiv:2104.03281](https://arxiv.org/abs/2104.03281) (Phys. Rev. Lett.)'
         -   title: New laboratory constraints on neutrinophilic mediators
             authors:
             - P.S.B. Dev
@@ -63,18 +65,22 @@ cv:
             - D. Sathyan
             - K. Sinha
             - Y. Zhang
-            date: '2025'
-            journal: Phys. Lett. B
+            date: 2025
+            journal: null
             url: https://arxiv.org/abs/2407.12738
+            highlights:
+            - '[arXiv:2407.12738](https://arxiv.org/abs/2407.12738) (Phys. Lett. B)'
         -   title: LHC Signals for KK Graviton from an Extended Warped Extra Dimension
             authors:
             - K. Agashe
             - M. Ekhterachian
             - D. Kim
             - D. Sathyan
-            date: '2020'
-            journal: JHEP
+            date: 2020
+            journal: null
             url: https://arxiv.org/abs/2008.06480
+            highlights:
+            - '[arXiv:2008.06480](https://arxiv.org/abs/2008.06480) (JHEP)'
         Publications:
         -   title: Producing the GeV Galactic Center Excess via Cosmic Ray-Dark Matter
                 Scattering
@@ -87,6 +93,8 @@ cv:
             date: 2026-05
             journal: null
             url: https://arxiv.org/abs/2605.08010
+            highlights:
+            - '[arXiv:2605.08010](https://arxiv.org/abs/2605.08010)'
         -   title: A Baryon and Lepton Number Violation Model Testable at the LHC
             authors:
             - A. Bhoonah
@@ -97,6 +105,8 @@ cv:
             date: 2025-08
             journal: null
             url: https://arxiv.org/abs/2508.21064
+            highlights:
+            - '[arXiv:2508.21064](https://arxiv.org/abs/2508.21064)'
         -   title: 'New Constraints on Neutrino-Dark Matter Interactions: A Comprehensive
                 Analysis'
             authors:
@@ -108,6 +118,8 @@ cv:
             date: 2025-07
             journal: null
             url: https://arxiv.org/abs/2507.01000
+            highlights:
+            - '[arXiv:2507.01000](https://arxiv.org/abs/2507.01000)'
         -   title: New laboratory constraints on neutrinophilic mediators
             authors:
             - P.S.B. Dev
@@ -115,9 +127,11 @@ cv:
             - D. Sathyan
             - K. Sinha
             - Y. Zhang
-            date: '2025'
-            journal: Phys. Lett. B
+            date: 2025
+            journal: null
             url: https://arxiv.org/abs/2407.12738
+            highlights:
+            - '[arXiv:2407.12738](https://arxiv.org/abs/2407.12738) (Phys. Lett. B)'
         -   title: '''Unification'' of BSM searches and SM measurements: the case
                 of lepton+MET and m_W'
             authors:
@@ -128,9 +142,11 @@ cv:
             - A.V. Kotwal
             - L. Ricci
             - D. Sathyan
-            date: '2025'
-            journal: JHEP
+            date: 2025
+            journal: null
             url: https://arxiv.org/abs/2404.17574
+            highlights:
+            - '[arXiv:2404.17574](https://arxiv.org/abs/2404.17574) (JHEP)'
         -   title: 'A new purpose for the W-boson mass measurement: Searching for
                 New Physics in lepton+MET'
             authors:
@@ -141,16 +157,19 @@ cv:
             - A.V. Kotwal
             - L. Ricci
             - D. Sathyan
-            date: '2024'
-            journal: Phys. Lett. B
+            date: 2024
+            journal: null
             url: https://arxiv.org/abs/2310.13687
+            highlights:
+            - '[arXiv:2310.13687](https://arxiv.org/abs/2310.13687) (Phys. Lett. B)'
         -   title: Unifying Searches for New Physics with Precision Measurements of
                 the W Boson Mass
             authors:
             - D. Sathyan
-            date: '2024'
+            date: 2024
             journal: null
-            url: null
+            url: https://drum.lib.umd.edu/items/f9b081c8-444a-4af2-b69e-c8156d11a2c9
+            highlights: null
         -   title: Energy-peak based method to measure top quark mass via B-hadron
                 decay lengths
             authors:
@@ -160,15 +179,19 @@ cv:
             - J. Incandela
             - D. Kim
             - D. Sathyan
-            date: '2023'
-            journal: JHEP
+            date: 2023
+            journal: null
             url: https://arxiv.org/abs/2212.03929
+            highlights:
+            - '[arXiv:2212.03929](https://arxiv.org/abs/2212.03929) (JHEP)'
         -   title: 'TF07 Snowmass Report: Theory of Collider Phenomena'
             authors:
             - Collaboration
             date: 2022-10
             journal: null
             url: https://arxiv.org/abs/2210.02591
+            highlights:
+            - '[arXiv:2210.02591](https://arxiv.org/abs/2210.02591)'
         -   title: Report of the Topical Group on Physics Beyond the Standard Model
                 at Energy Frontier for Snowmass 2021
             authors:
@@ -176,6 +199,8 @@ cv:
             date: 2022-09
             journal: null
             url: https://arxiv.org/abs/2209.13128
+            highlights:
+            - '[arXiv:2209.13128](https://arxiv.org/abs/2209.13128)'
         -   title: Report of the Topical Group on Top quark physics and heavy flavor
                 production for Snowmass 2021
             authors:
@@ -183,6 +208,8 @@ cv:
             date: 2022-09
             journal: null
             url: https://arxiv.org/abs/2209.11267
+            highlights:
+            - '[arXiv:2209.11267](https://arxiv.org/abs/2209.11267)'
         -   title: 'Snowmass2021 - White Paper, Implications of Energy Peak for Collider
                 Phenomenology: Top Quark Mass Determination and Beyond'
             authors:
@@ -194,6 +221,8 @@ cv:
             date: 2022-04
             journal: null
             url: https://arxiv.org/abs/2204.02928
+            highlights:
+            - '[arXiv:2204.02928](https://arxiv.org/abs/2204.02928)'
         -   title: 'Snowmass2021 White Paper: Collider Physics Opportunities of Extended
                 Warped Extra-Dimensional Models'
             authors:
@@ -208,35 +237,46 @@ cv:
             date: 2022-03
             journal: null
             url: https://arxiv.org/abs/2203.13305
+            highlights:
+            - '[arXiv:2203.13305](https://arxiv.org/abs/2203.13305)'
         -   title: The straw tracking detector for the Fermilab Muon g-2 Experiment
             authors:
             - Collaboration
-            date: '2022'
-            journal: JINST
+            date: 2022
+            journal: null
             url: https://arxiv.org/abs/2111.02076
+            highlights:
+            - '[arXiv:2111.02076](https://arxiv.org/abs/2111.02076) (JINST)'
         -   title: Measurement of the Positive Muon Anomalous Magnetic Moment to 0.46
                 ppm
             authors:
             - Muon g-2
-            date: '2021'
-            journal: Phys. Rev. Lett.
+            date: 2021
+            journal: null
             url: https://arxiv.org/abs/2104.03281
+            highlights:
+            - '[arXiv:2104.03281](https://arxiv.org/abs/2104.03281) (Phys. Rev. Lett.)'
         -   title: Beam dynamics corrections to the Run-1 measurement of the muon
                 anomalous magnetic moment at Fermilab
             authors:
             - Muon g-2
-            date: '2021'
-            journal: Phys. Rev. Accel. Beams
+            date: 2021
+            journal: null
             url: https://arxiv.org/abs/2104.03240
+            highlights:
+            - '[arXiv:2104.03240](https://arxiv.org/abs/2104.03240) (Phys. Rev. Accel.
+                Beams)'
         -   title: LHC Signals for KK Graviton from an Extended Warped Extra Dimension
             authors:
             - K. Agashe
             - M. Ekhterachian
             - D. Kim
             - D. Sathyan
-            date: '2020'
-            journal: JHEP
+            date: 2020
+            journal: null
             url: https://arxiv.org/abs/2008.06480
+            highlights:
+            - '[arXiv:2008.06480](https://arxiv.org/abs/2008.06480) (JHEP)'
         Projects:
         -   name: BSM Searches via W Boson Mass
             summary: Developed a framework unifying beyond-the-Standard-Model searches
