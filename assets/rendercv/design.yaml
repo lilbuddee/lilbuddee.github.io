@@ -7,7 +7,7 @@
 #     show_top_note: false
 
 design:
-  theme: moderncv
+  theme: classic
 
   page:
     size: us-letter 
