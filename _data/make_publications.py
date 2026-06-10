@@ -383,6 +383,7 @@ selected_export = [
 # Replace the two assignment lines at the bottom with:
 old_sections = cv["cv"].get("sections", {})
 cv["cv"]["sections"] = {
+    # " ": old_sections.get(" ", []),
     "Education": old_sections.get("Education", []),
     "Experience": old_sections.get("Experience", []),
     "Selected Publications": selected_export,

@@ -12,13 +12,11 @@ settings:
         dont_generate_png: true
 cv:
     name: Deepak Sathyan
+    headline: '[ArXiv](https://arxiv.org/a/sathyan_d_1)  |  [InspireHEP](https://inspirehep.net/authors/1615022)  |
+        [Google Scholar](https://scholar.google.com/citations?user=29PfYjgAAAAJ)  |  [ORCID](https://orcid.org/0000-0001-9421-5480)  |  [Website](https://deepaksathyan.com)'
     email: dsathyan@tamu.edu
-    location: College Station, TX
-    social_networks:
-    -   network: ORCID
-        username: 0000-0001-9421-5480
-    -   network: Google Scholar
-        username: 29PfYjgAAAAJ
+    location: Mitchell Institute for Fundamental Physics and Astronomy, Texas A&M
+        University, College Station, TX
     sections:
         Education:
         -   institution: University of Maryland
@@ -29,7 +27,7 @@ cv:
             start_date: 2018-08
             end_date: 2024-07
             summary: |
-                Thesis: 'Unifying Searches for New Physics with Precision Measurements of the W Boson Mass'
+                Thesis: Unifying Searches for New Physics with Precision Measurements of the W Boson Mass
                 Advisor: Dr. Kaustubh Agashe
         -   institution: Boston University
             location: Boston, MA
@@ -41,7 +39,7 @@ cv:
             summary: |
                 GPA: 3.9
                 Minor: Mathematics
-                Thesis: 'Muon (g-2): Searching for the Muon Electric Dipole Moment'
+                Thesis: Muon (g-2): Searching for the Muon Electric Dipole Moment
                 Advisor: Dr. Robert Carey
         Experience:
         -   company: Mitchell Institute for Fundamental Physics and Astronomy
@@ -121,7 +119,7 @@ cv:
             journal: Phys. Lett. B
             url: https://arxiv.org/abs/2407.12738
         -   title: '''Unification'' of BSM searches and SM measurements: the case
-                of lepton+MET and m$_{W}$'
+                of lepton+MET and m_W'
             authors:
             - K. Agashe
             - S. Airen
