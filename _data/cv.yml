@@ -29,21 +29,19 @@ cv:
             start_date: 2018-08
             end_date: 2024-07
             summary: |
-                Thesis: Unifying Searches for New Physics with Precision Measurements of the W Boson Mass
+                Thesis: 'Unifying Searches for New Physics with Precision Measurements of the W Boson Mass'
                 Advisor: Dr. Kaustubh Agashe
         -   institution: Boston University
             location: Boston, MA
             url: https://www.bu.edu/physics/
             area: Physics
-            degree: |
-                Bachelor of Arts in Physics
-                Summa Cum Laude with Honors
+            degree: Bachelor of Arts in Physics, Summa Cum Laude with Honors
             start_date: 2014-08
             end_date: 2018-05
             summary: |
                 GPA: 3.9
                 Minor: Mathematics
-                Thesis: Muon (g-2): Searching for the Muon Electric Dipole Moment
+                Thesis: 'Muon (g-2): Searching for the Muon Electric Dipole Moment'
                 Advisor: Dr. Robert Carey
         Experience:
         -   company: |
@@ -53,34 +51,33 @@ cv:
             location: College Station, TX
             start_date: 2024-09
             end_date: 2027-08
-        Awards:
-        -   title: Breakthrough Prize in Fundamental Physics
+        Selected Publications:
+        -   title: Measurement of the Positive Muon Anomalous Magnetic Moment to 0.46
+                ppm
             authors:
-            - Muon g-2 Collaboration
-            date: 2026-04
-            awarder: Breakthrough Prize Board
-        Skills:
-        -   name: High Energy Physics
-            level: Expert
-            icon: fa-solid fa-atom
-            keywords: Beyond Standard Model, W Boson Mass, LHC Phenomenology, Dark
-                Matter, Neutrino Physics
-        -   name: Computing
-            level: Master
-            icon: fa-solid fa-code
-            keywords: Python, ROOT, Monte Carlo simulations, LaTeX
-        Projects:
-        -   name: BSM Searches via W Boson Mass
-            summary: Developed a framework unifying beyond-the-Standard-Model searches
-                with precision measurements of the W boson mass at the LHC.
-            start_date: 2020-01
-            end_date: 2024-07
-        -   name: Muon g-2 Experiment
-            summary: Contributed to the straw tracking detector and beam dynamics
-                corrections for the Fermilab Muon g-2 experiment, which measured the
-                muon anomalous magnetic moment to 0.46 ppm.
-            start_date: 2018-08
-            end_date: 2022-01
+            - Muon g-2
+            date: '2021'
+            journal: Phys. Rev. Lett.
+            url: https://arxiv.org/abs/2104.03281
+        -   title: New laboratory constraints on neutrinophilic mediators
+            authors:
+            - P.S.B. Dev
+            - D. Kim
+            - D. Sathyan
+            - K. Sinha
+            - Y. Zhang
+            date: '2025'
+            journal: Phys. Lett. B
+            url: https://arxiv.org/abs/2407.12738
+        -   title: LHC Signals for KK Graviton from an Extended Warped Extra Dimension
+            authors:
+            - K. Agashe
+            - M. Ekhterachian
+            - D. Kim
+            - D. Sathyan
+            date: '2020'
+            journal: JHEP
+            url: https://arxiv.org/abs/2008.06480
         Publications:
         -   title: Producing the GeV Galactic Center Excess via Cosmic Ray-Dark Matter
                 Scattering
@@ -243,30 +240,31 @@ cv:
             date: '2020'
             journal: JHEP
             url: https://arxiv.org/abs/2008.06480
-        Selected Publications:
-        -   title: Measurement of the Positive Muon Anomalous Magnetic Moment to 0.46
-                ppm
+        Projects:
+        -   name: BSM Searches via W Boson Mass
+            summary: Developed a framework unifying beyond-the-Standard-Model searches
+                with precision measurements of the W boson mass at the LHC.
+            start_date: 2020-01
+            end_date: 2024-07
+        -   name: Muon g-2 Experiment
+            summary: Contributed to the straw tracking detector and beam dynamics
+                corrections for the Fermilab Muon g-2 experiment, which measured the
+                muon anomalous magnetic moment to 0.46 ppm.
+            start_date: 2018-08
+            end_date: 2022-01
+        Awards:
+        -   title: Breakthrough Prize in Fundamental Physics
             authors:
-            - Muon g-2
-            date: '2021'
-            journal: Phys. Rev. Lett.
-            url: https://arxiv.org/abs/2104.03281
-        -   title: New laboratory constraints on neutrinophilic mediators
-            authors:
-            - P.S.B. Dev
-            - D. Kim
-            - D. Sathyan
-            - K. Sinha
-            - Y. Zhang
-            date: '2025'
-            journal: Phys. Lett. B
-            url: https://arxiv.org/abs/2407.12738
-        -   title: LHC Signals for KK Graviton from an Extended Warped Extra Dimension
-            authors:
-            - K. Agashe
-            - M. Ekhterachian
-            - D. Kim
-            - D. Sathyan
-            date: '2020'
-            journal: JHEP
-            url: https://arxiv.org/abs/2008.06480
+            - Muon g-2 Collaboration
+            date: 2026-04
+            awarder: Breakthrough Prize Board
+        Skills:
+        -   name: High Energy Physics
+            level: Expert
+            icon: fa-solid fa-atom
+            keywords: Beyond Standard Model, W Boson Mass, LHC Phenomenology, Dark
+                Matter, Neutrino Physics
+        -   name: Computing
+            level: Master
+            icon: fa-solid fa-code
+            keywords: Python, ROOT, Monte Carlo simulations, LaTeX
