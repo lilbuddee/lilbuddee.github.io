@@ -48,11 +48,11 @@ cv:
         Advisor: Dr. Robert Carey
 
         '
-    Experience:
-    - company: Mitchell Institute for Fundamental Physics and Astronomy, Texas A&M
-        University
+    Employment:
+    - company: Mitchell Institute for Fundamental Physics and Astronomy <br> Texas
+        A&M University
       position: Postdoctoral Research Associate
-      location: College Station, Texas
+      location: College Station, TX
       start_date: 2024-09
       end_date: 2027-08
     Awards:
