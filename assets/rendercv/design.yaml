@@ -119,7 +119,7 @@ design:
     education_entry:
       main_column: |-
         **INSTITUTION**
-        **DEGREE** -- AREA
+        **DEGREE**
         SUMMARY
         HIGHLIGHTS
       date_and_location_column: |-
