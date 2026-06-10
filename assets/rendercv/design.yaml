@@ -88,7 +88,7 @@ design:
     photo_space_left: 0.4cm
     photo_space_right: 0.4cm
     space_below_name: 0.6cm
-    space_below_headline: 0.25cm
+    space_below_headline: 0.35cm
     space_below_connections: 0.75cm
     connections:
       phone_number_format: national 
@@ -122,7 +122,7 @@ design:
       space_left: 0cm  
     highlights:
       bullet: • 
-      # bullet: ''
+      # bullet: ' '
       nested_bullet: •
       # nested_bullet: ''
       space_left: 0.15cm
