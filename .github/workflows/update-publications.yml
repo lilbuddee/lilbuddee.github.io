@@ -33,7 +33,7 @@ jobs:
           git add \
             _bibliography/papers.bib \
             _data/publications.yml \
-            _data/cv.final.yml \
+            _data/cv.yml \
             _data/.cache/inspire.json
           git diff --cached --quiet || git commit -m "chore: regenerate publications from papers.raw.bib"
           git push

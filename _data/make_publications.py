@@ -16,9 +16,9 @@ BASE_DIR = Path(__file__).resolve().parents[1]
 BIB_RAW = BASE_DIR / "_bibliography" / "papers.raw.bib"
 BIB_OUT = BASE_DIR / "_bibliography" / "papers.bib"
 
-CV_PATH = BASE_DIR / "_data" / "cv.yml"
+CV_PATH = BASE_DIR / "_data" / "cv.raw.yml"
 OUTPUT_PUBS = BASE_DIR / "_data" / "publications.yml"
-OUTPUT_CV_FINAL = BASE_DIR / "_data" / "cv.final.yml"
+OUTPUT_CV_FINAL = BASE_DIR / "_data" / "cv.yml"
 
 CACHE_PATH = BASE_DIR / "_data" / ".cache" / "inspire.json"
 CACHE_PATH.parent.mkdir(parents=True, exist_ok=True)
@@ -353,9 +353,6 @@ def rendercv_publication(p):
         "url": p["url"],
     }
 
-
-# Replace the score-based sort
-pubs = sorted(pubs, key=lambda x: x["date"] or "", reverse=True)
 # date order
 publications_export = [
     rendercv_publication(p)

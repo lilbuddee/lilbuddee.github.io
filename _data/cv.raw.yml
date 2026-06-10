@@ -1,0 +1,104 @@
+settings:
+  render_command:
+    design: ../assets/rendercv/design.yaml
+    locale: ../assets/rendercv/locale.yaml
+    typst_path: ../assets/rendercv/rendercv_output/deepak_sathyan_cv.typ
+    pdf_path: ../assets/rendercv/rendercv_output/deepak_sathyan_cv.pdf
+    html_path: ../assets/rendercv/rendercv_output/deepak_sathyan_cv.html
+    dont_generate_markdown: true
+    dont_generate_html: false
+    dont_generate_typst: false
+    dont_generate_pdf: false
+    dont_generate_png: true
+
+
+cv:
+  name: Deepak Sathyan
+  # label: Postdoctoral Research Associate
+  email: dsathyan@tamu.edu
+  location: College Station, Texas
+  # image: ""
+  # summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
+
+  social_networks:
+    - network: ORCID
+      username: 0000-0001-9421-5480
+    - network: Google Scholar
+      username: 29PfYjgAAAAJ
+    # - network: GitHub
+      # username: lilbuddee
+
+  # address:
+  #   street: Mitchell Institute for Fundamental Physics and Astronomy, Texas A&M University
+  #   city: College Station
+  #   region: TX
+  #   postalCode: 77843
+  #   countryCode: US
+
+  sections:
+    Education:
+      - institution: University of Maryland
+        location: College Park, MD
+        url: https://www.umd.edu/
+        area: Physics
+        degree: Ph.D.
+        start_date: "2018-08"
+        end_date: "2024-07"
+        summary: |
+          Thesis: Unifying Searches for New Physics with Precision Measurements of the W Boson Mass
+          Advisor: Dr. Kaustubh Agashe
+
+      - institution: Boston University
+        location: Boston, MA
+        url: https://www.bu.edu/
+        area: Physics
+        degree: B.A., Summa Cum Laude
+        start_date: "2014-08"
+        end_date: "2018-05"
+        summary: |
+          Minor: Mathematics | GPA: 3.9
+          Thesis: Muon (g-2): Searching for the Muon Electric Dipole Moment
+          Advisor: Dr. Robert Carey
+
+    Experience:
+      - company: Mitchell Institute for Fundamental Physics and Astronomy, Texas A&M University
+        position: Postdoctoral Research Associate
+        location: College Station, Texas
+        start_date: "2024-09"
+        end_date: "2027-08"
+
+    Awards:
+      - title: Breakthrough Prize in Fundamental Physics
+        authors:
+          - "Muon g-2 Collaboration"
+        date: "2026-04"
+        awarder: Breakthrough Prize Board
+
+    Skills:
+      - name: High Energy Physics
+        level: Expert
+        icon: fa-solid fa-atom
+        keywords: "Beyond Standard Model, W Boson Mass, LHC Phenomenology, Dark Matter, Neutrino Physics"
+      - name: Computing
+        level: Master
+        icon: fa-solid fa-code
+        keywords: "Python, ROOT, Monte Carlo simulations, LaTeX"
+
+    Projects:
+      - name: BSM Searches via W Boson Mass
+        summary: Developed a framework unifying beyond-the-Standard-Model searches with precision measurements of the W boson mass at the LHC.
+        start_date: "2020-01"
+        end_date: "2024-07"
+      - name: Muon g-2 Experiment
+        summary: Contributed to the straw tracking detector and beam dynamics corrections for the Fermilab Muon g-2 experiment, which measured the muon anomalous magnetic moment to 0.46 ppm.
+        start_date: "2018-08"
+        end_date: "2022-01"
+
+      # References:
+      #   - name: Professor John Doe
+      #     icon: fa-solid fa-laptop
+      #     reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+
+      #   - name: Professor Jane Smith
+      #     icon: fa-solid fa-thumbtack
+      #     reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
