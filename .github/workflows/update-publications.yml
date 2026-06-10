@@ -1,0 +1,39 @@
+name: Update Publications
+
+on:
+  push:
+    paths:
+      - '_bibliography/papers.raw.bib'
+
+jobs:
+  update-publications:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install bibtexparser pyyaml requests
+
+      - name: Run publications script
+        run: python _data/make_publications.py
+
+      - name: Commit and push changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add \
+            _bibliography/papers.bib \
+            _data/publications.yml \
+            _data/cv.final.yml \
+            _data/.cache/inspire.json
+          git diff --cached --quiet || git commit -m "chore: regenerate publications from papers.raw.bib"
+          git push
