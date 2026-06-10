@@ -4,7 +4,7 @@
 
 <ul class="card-text font-weight-light list-group list-group-flush">
   {% for entry in entries %}
-    <li class="list-group-item">
+    <li class="list-group-item" style="list-style-type: none;">
       <div class="row">
         {% capture pub_date %}
           {% if entry.releaseDate %}{{ entry.releaseDate }}{% elsif entry.date %}{{ entry.date }}{% endif %}
