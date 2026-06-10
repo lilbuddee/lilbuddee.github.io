@@ -363,14 +363,6 @@ publications_export = [
     )
 ]
 
-with open(OUTPUT_PUBS, "w") as f:
-    yaml.dump(
-        sanitize(publications_export),
-        f,
-        sort_keys=False,
-        allow_unicode=True,
-    )
-
 cv = {}
 if CV_PATH.exists():
     with open(CV_PATH, "r") as f:
@@ -388,7 +380,34 @@ selected_export = [
 cv["cv"]["sections"]["Publications"] = publications_export
 cv["cv"]["sections"]["Selected Publications"] = selected_export
 
+class IndentedDumper(yaml.SafeDumper):
+    pass
+
+def str_presenter(dumper, data):
+    if '\n' in data:
+        return dumper.represent_scalar('tag:yaml.org,2002:str', data, style='|')
+    return dumper.represent_scalar('tag:yaml.org,2002:str', data)
+
+IndentedDumper.add_representer(str, str_presenter)
+
+with open(OUTPUT_PUBS, "w") as f:
+    yaml.dump(
+        sanitize(publications_export),
+        f,
+        sort_keys=False,
+        allow_unicode=True,
+        indent=4,
+        Dumper=IndentedDumper,
+    )
+
 with open(OUTPUT_CV_FINAL, "w") as f:
-    yaml.dump(sanitize(cv), f, sort_keys=False, allow_unicode=True)
+    yaml.dump(
+        sanitize(cv),
+        f,
+        sort_keys=False,
+        allow_unicode=True,
+        indent=4,
+        Dumper=IndentedDumper,
+    )
 
 save_cache(cache)
