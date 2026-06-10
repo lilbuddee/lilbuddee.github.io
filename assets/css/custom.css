@@ -1,6 +1,0 @@
-/* Make footer non-sticky — appears only at natural bottom of page */
-
-footer.sticky-bottom,
-footer {
-  position: static !important;
-}
