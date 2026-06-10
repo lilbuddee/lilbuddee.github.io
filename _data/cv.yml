@@ -23,9 +23,9 @@ cv:
         Education:
         -   institution: University of Maryland
             location: College Park, MD
-            url: https://www.umd.edu/
+            url: https://umdphysics.umd.edu/
             area: Physics
-            degree: Ph.D.
+            degree: Ph.D. in Physics
             start_date: 2018-08
             end_date: 2024-07
             summary: |
@@ -33,13 +33,16 @@ cv:
                 Advisor: Dr. Kaustubh Agashe
         -   institution: Boston University
             location: Boston, MA
-            url: https://www.bu.edu/
+            url: https://www.bu.edu/physics/
             area: Physics
-            degree: B.A., Summa Cum Laude
+            degree: |
+                Bachelor of Arts in Physics
+                Summa Cum Laude with Honors
             start_date: 2014-08
             end_date: 2018-05
             summary: |
-                Minor: Mathematics | GPA: 3.9
+                GPA: 3.9
+                Minor: Mathematics
                 Thesis: Muon (g-2): Searching for the Muon Electric Dipole Moment
                 Advisor: Dr. Robert Carey
         Experience:
