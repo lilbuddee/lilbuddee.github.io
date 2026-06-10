@@ -16,7 +16,7 @@ cv:
   name: Deepak Sathyan
   # label: Postdoctoral Research Associate
   email: dsathyan@tamu.edu
-  location: College Station, Texas
+  location: College Station, TX
   # image: ""
   # summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
 
@@ -59,9 +59,11 @@ cv:
           Minor: Mathematics | GPA: 3.9
           Thesis: Muon (g-2): Searching for the Muon Electric Dipole Moment
           Advisor: Dr. Robert Carey
-
+          
     Employment:
-      - company: "Mitchell Institute for Fundamental Physics and Astronomy <br> Texas A&M University"
+      - company: |
+          Mitchell Institute for Fundamental Physics and Astronomy
+          Texas A&M University
         position: Postdoctoral Research Associate
         location: College Station, TX
         start_date: "2024-09"
