@@ -119,10 +119,9 @@ design:
     education_entry:
       main_column: |-
         **INSTITUTION**
-        AREA
+        **DEGREE** -- AREA
         SUMMARY
         HIGHLIGHTS
-      degree_column: '**DEGREE**'
       date_and_location_column: |-
         LOCATION
         DATE
