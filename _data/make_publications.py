@@ -353,32 +353,32 @@ def sanitize(obj):
         return None
     return obj
 
-# def rendercv_publication(p):
-#     return {
-#         "title": p["title"],
-#         "authors": p["authors"],
-#         "date": p["date"],
-#         "journal": p["journal"] or None,
-#         "url": p["url"],
-#     }
-
 def rendercv_publication(p):
-    url = p["url"]
-    highlights = []
-    if url and "arxiv.org/abs/" in url:
-        arxiv_id = url.split("arxiv.org/abs/")[-1]
-        journal = p["journal"]
-        journal_str = f" ({journal})" if journal else ""
-        highlights.append(f"[arXiv:{arxiv_id}]({url}){journal_str}")
-
     return {
         "title": p["title"],
         "authors": p["authors"],
         "date": p["date"],
-        "journal": None,
-        "url": url,
-        "highlights": highlights or None,
+        "journal": p["journal"] or None,
+        "url": p["url"],
     }
+
+# def rendercv_publication(p):
+#     url = p["url"]
+#     highlights = []
+#     if url and "arxiv.org/abs/" in url:
+#         arxiv_id = url.split("arxiv.org/abs/")[-1]
+#         journal = p["journal"]
+#         journal_str = f" ({journal})" if journal else ""
+#         highlights.append(f"[arXiv:{arxiv_id}]({url}){journal_str}")
+
+#     return {
+#         "title": p["title"],
+#         "authors": p["authors"],
+#         "date": p["date"],
+#         "journal": None,
+#         "url": url,
+#         "highlights": highlights or None,
+#     }
 
 # date order
 publications_export = [
