@@ -23,6 +23,16 @@ bundle exec jekyll build --config "_config.yml,${tmp_override}" -d "${tmp_site}"
 giscus_page="${tmp_site}/blog/2022/giscus-comments/index.html"
 disqus_page="${tmp_site}/blog/2015/disqus-comments/index.html"
 
+if [ ! -f "${giscus_page}" ]; then
+  echo "giscus page not built (post may be unpublished)" >&2
+  exit 1
+fi
+
+if [ ! -f "${disqus_page}" ]; then
+  echo "disqus page not built (post may be unpublished)" >&2
+  exit 1
+fi
+
 grep -q 'https://giscus.app/client.js' "${giscus_page}"
 if grep -q 'giscus comments misconfigured' "${giscus_page}"; then
   echo "unexpected giscus misconfiguration warning in ${giscus_page}" >&2
