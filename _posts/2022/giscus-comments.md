@@ -7,8 +7,8 @@ tags: comments
 categories: sample-posts external-services
 giscus_comments: true
 related_posts: false
+permalink: /blog/2022/giscus-comments/
 published: false
-sitemap: false
 ---
 
 This post shows how to add GISCUS comments.
