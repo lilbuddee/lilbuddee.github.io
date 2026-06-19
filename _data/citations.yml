@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-06-10'
+  last_updated: '2026-06-19'
 papers:
   29PfYjgAAAAJ:2osOgNQ5qMEC:
     citations: 0
@@ -22,7 +22,7 @@ papers:
     title: Signals of KK graviton from extended warped extra dimensions at the LHC (II)
     year: '2021'
   29PfYjgAAAAJ:IjCSPb-OGe4C:
-    citations: 138
+    citations: 141
     title: Beam dynamics corrections to the Run-1 measurement of the muon anomalous magnetic moment at Fermilab
     year: '2021'
   29PfYjgAAAAJ:LkGwnXOMwfcC:
@@ -38,7 +38,7 @@ papers:
     title: Producing the GeV Galactic Center Excess via Cosmic Ray-Dark Matter Scattering
     year: '2026'
   29PfYjgAAAAJ:UeHWp8X0CEIC:
-    citations: 2398
+    citations: 2405
     title: Measurement of the positive muon anomalous magnetic moment to 0.46 ppm
     year: '2021'
   29PfYjgAAAAJ:W7OEmFMy1HYC:
@@ -54,7 +54,7 @@ papers:
     title: 'Snowmass2021 White Paper: Collider Physics Opportunities of Extended Warped Extra-Dimensional Models'
     year: '2022'
   29PfYjgAAAAJ:YsMSGLbcyi4C:
-    citations: 69
+    citations: 68
     title: Report of the topical group on physics beyond the standard model at energy frontier for snowmass 2021
     year: '2022'
   29PfYjgAAAAJ:Zph67rFs4hoC:
@@ -94,6 +94,6 @@ papers:
     title: 'arXiv: TF07 Snowmass Report: Theory of Collider Phenomena'
     year: '2022'
   29PfYjgAAAAJ:zYLM7Y9cAGgC:
-    citations: 24
+    citations: 25
     title: The straw tracking detector for the Fermilab Muon g-2 Experiment
     year: '2022'
