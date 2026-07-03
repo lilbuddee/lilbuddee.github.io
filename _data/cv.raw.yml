@@ -73,6 +73,7 @@ cv:
           Probing BSM with the W boson mass measurement
         summary: |
           CMS Exotica general meeting, May 2024
+        start_date: 2024-05
       
       - name: | 
           A New Purpose A New Purpose for the W-mass Measurement: 
@@ -84,17 +85,25 @@ cv:
           CMS SUSY general meeting, Nov 2023
           Seminar at UT Austin, Dec 2023
           Seminar at Texas A&M, Dec 2023
+        start_date: 2023-10
+        end_date: 2023-12
         
 
     Conference Talks:
+      
+      - name: 'Probing Dark Matter-Neutrino Interactions via Supernova Neutrinos'
+        summary: |
+          Phenomenology Conference at the University of Pittsburgh, May 2023
+      
+      - name: 'Model-Independent Measurement of Top Quark Mass Using B-Hadron Decay Lengths (Part I)'
+        summary: |
+          Phenomenology Conference at the University of Pittsburgh, May 2022
+
       - name: 'Signals of KK graviton from extended warped extra dimensions at the LHC (II)'
         summary: |
           Phenomenology Conference at the University of Pittsburgh, May 2020
           April APS Meeting, April 2021
 
-      - name: 'Model-Independent Measurement of Top Quark Mass Using B-Hadron Decay Lengths (Part I)'
-        summary: |
-          Phenomenology Conference at the University of Pittsburgh, May 2022
 
     Awards:
       - title: Breakthrough Prize in Fundamental Physics
