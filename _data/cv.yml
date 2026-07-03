@@ -288,6 +288,13 @@ cv:
             - Muon g-2 Collaboration
             date: 2026-04
             awarder: Breakthrough Prize Board
+        Schools Attended:
+        -   name: GGI Lectures on the Theory of Fundamental Interactions
+            start_date: 2023-01-09
+            end_date: 2023-01-27
+        -   name: 'TASI 2024: The Frontiers of Particle Theory'
+            start_date: 2024-06-03
+            end_date: 2024-06-28
         Skills:
         -   name: High Energy Physics
             level: Expert
