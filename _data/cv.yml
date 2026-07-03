@@ -273,6 +273,15 @@ cv:
                 muon anomalous magnetic moment to 0.46 ppm.
             start_date: 2018-08
             end_date: 2022-01
+        Conferences Organized:
+        -   name: The Mitchell Conference on Collider, Dark Matter, and Neutrino Physics
+                2026
+            start_date: 2026-05-27
+            end_date: 2026-05-30
+        -   name: The Mitchell Conference on Collider, Dark Matter, and Neutrino Physics
+                2025
+            start_date: 2025-05-13
+            end_date: 2025-05-16
         Awards:
         -   title: Breakthrough Prize in Fundamental Physics
             authors:
