@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-06-24'
+  last_updated: '2026-07-03'
 papers:
   29PfYjgAAAAJ:2osOgNQ5qMEC:
     citations: 0
@@ -10,7 +10,7 @@ papers:
     title: United States Muon Collider Community White Paper for the European Strategy for Particle Physics Update
     year: '2025'
   29PfYjgAAAAJ:5nxA0vEk-isC:
-    citations: 25
+    citations: 26
     title: New Laboratory Constraints on Neutrinophilic Mediators
     year: '2024'
   29PfYjgAAAAJ:8k81kl-MbHgC:
@@ -22,7 +22,7 @@ papers:
     title: Signals of KK graviton from extended warped extra dimensions at the LHC (II)
     year: '2021'
   29PfYjgAAAAJ:IjCSPb-OGe4C:
-    citations: 142
+    citations: 143
     title: Beam dynamics corrections to the Run-1 measurement of the muon anomalous magnetic moment at Fermilab
     year: '2021'
   29PfYjgAAAAJ:LkGwnXOMwfcC:
@@ -38,7 +38,7 @@ papers:
     title: Producing the GeV Galactic Center Excess via Cosmic Ray-Dark Matter Scattering
     year: '2026'
   29PfYjgAAAAJ:UeHWp8X0CEIC:
-    citations: 2413
+    citations: 2422
     title: Measurement of the positive muon anomalous magnetic moment to 0.46 ppm
     year: '2021'
   29PfYjgAAAAJ:W7OEmFMy1HYC:
@@ -54,7 +54,7 @@ papers:
     title: 'Snowmass2021 White Paper: Collider Physics Opportunities of Extended Warped Extra-Dimensional Models'
     year: '2022'
   29PfYjgAAAAJ:YsMSGLbcyi4C:
-    citations: 70
+    citations: 68
     title: Report of the topical group on physics beyond the standard model at energy frontier for snowmass 2021
     year: '2022'
   29PfYjgAAAAJ:Zph67rFs4hoC:
@@ -74,11 +74,11 @@ papers:
     title: Report of the Topical Group on Top quark physics and heavy flavor production for Snowmass 2021
     year: '2022'
   29PfYjgAAAAJ:hqOjcs7Dif8C:
-    citations: 6
+    citations: 7
     title: "\u201CUnification\u201D of BSM searches and SM measurements: the case of lepton+ and mW"
     year: '2025'
   29PfYjgAAAAJ:kNdYIx-mwKoC:
-    citations: 11
+    citations: 12
     title: 'New Constraints on Neutrino-Dark Matter Interactions: A Comprehensive Analysis'
     year: '2025'
   29PfYjgAAAAJ:roLk4NBRz8UC:
