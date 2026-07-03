@@ -66,27 +66,50 @@ cv:
         end_date: 2027-08
         summary: Texas A&M University
 
-
     Seminars:
-      - name: "Unification of Searches and Measurements:\n Probing BSM with the W boson mass measurement\n"
+      - name: 'Unification of Searches and Measurements: Probing BSM with the W boson mass measurement'
         summary: |
           CMS Exotica general meeting, May 2024
-        start_date: 2024-05
       
-      - name: "A New Purpose A New Purpose for the W-mass Measurement:\n Searching for New Physics via l + MET\n"
+      - name: 'A New Purpose A New Purpose for the W-mass Measurement: Searching for New Physics via l + MET'
         summary: |
-          Theory Seminar at Washington University in St. Louis, Oct 2023
-          HEP Seminar at Northwestern University, Oct 2023
-          HEP Seminar at University of Pittsburgh, Nov 2023
-          CMS SUSY general meeting, Nov 2023
-          Seminar at UT Austin, Dec 2023
-          Seminar at Texas A&M, Dec 2023
-        start_date: 2023-10
-        end_date: 2023-12
+          Theory Seminar at Washington University in St. Louis, October 2023
+          HEP Seminar at Northwestern University, October 2023
+          HEP Seminar at University of Pittsburgh, November 2023
+          CMS SUSY general meeting, November 2023
+          Seminar at UT Austin, December 2023
+          Seminar at Texas A&M, December 2023
         
 
     Conference Talks:
+      - name: 'Can the LHC be sensitive to the Light Dark World?'
+        summary: | 
+          Light Dark World 2026 at Carleton University, July 2026
       
+      - name: 'Producing the GeV Galactic Center Excess via Cosmic Ray-Dark Matter Scattering'
+        summary: |
+          CETUP* Workshop, June 2026
+
+      - name: 'A Baryon and Lepton Number Violaton Model Testable at the LHC'
+        summary: | 
+          Particle Physics on the Plains at the University of Kansas, November 2025
+
+      - name: 'Can the LHC be sensitive to light dark mediators?'
+        summary: | 
+          Phenomenology Conference at the University of Pittsburgh, May 2025
+          CETUP* Workshop, June 2025
+
+      - name: 'A comprehensive analysis of supernova neutrino-dark matter interactions'
+        summary: |
+          Mitchell Conference at Texas A&M University, May 2024
+          NuFact Conference, September 2024
+          Texas TACOS @ UT Austin, October 2024
+          Particle Physics on the Plains at the University of Kansas, November 2024
+
+      - name: 'A New Purpose for the W-mass Measurement: Searching for New Physics via l + MET'
+        summary: | 
+          Particle Physics on the Plains at the University of Kansas, October 2023
+
       - name: 'Probing Dark Matter-Neutrino Interactions via Supernova Neutrinos'
         summary: |
           Phenomenology Conference at the University of Pittsburgh, May 2023
