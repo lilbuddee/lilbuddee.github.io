@@ -421,7 +421,9 @@ cv["cv"]["sections"] = {
     "Projects": old_sections.get("Projects", []),
     "Conferences Organized": old_sections.get("Conferences Organized", []),
     "Awards": old_sections.get("Awards", []),
+    "Schools Attended": old_sections.get("Schools Attended", []),
     "Skills": old_sections.get("Skills", []),
+    # "Projects": old_sections.get("Projects", []),
 }
 
 class IndentedDumper(yaml.SafeDumper):
