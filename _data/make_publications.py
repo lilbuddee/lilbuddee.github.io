@@ -419,6 +419,7 @@ cv["cv"]["sections"] = {
     "Seminars": old_sections.get("Seminars", []),
     "Conference Talks": old_sections.get("Conference Talks", []),
     "Projects": old_sections.get("Projects", []),
+    "Conferences Organized": old_sections.get("Conferences Organized", []),
     "Awards": old_sections.get("Awards", []),
     "Skills": old_sections.get("Skills", []),
 }

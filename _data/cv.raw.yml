@@ -123,6 +123,14 @@ cv:
           Phenomenology Conference at the University of Pittsburgh, May 2020
           April APS Meeting, April 2021
 
+    Conferences Organized:
+      - name: 'The Mitchell Conference on Collider, Dark Matter, and Neutrino Physics 2026'
+        start_date: 2026-05-27
+        end_date: 2026-05-30
+      
+      - name: 'The Mitchell Conference on Collider, Dark Matter, and Neutrino Physics 2025'
+        start_date: 2025-05-13
+        end_date: 2025-05-16
 
     Awards:
       - title: Breakthrough Prize in Fundamental Physics
