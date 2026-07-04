@@ -189,7 +189,7 @@ K. Agashe, J.H. Collins, P. Du, M. Ekhterachian, S. Hong, D. Kim, R.K. Mishra, D
 
 2022
 
-Muon g-2 Collaboration
+Collaboration
 
 [arxiv.org/abs/2111.02076](https://arxiv.org/abs/2111.02076) (JINST)
 
@@ -199,7 +199,7 @@ Muon g-2 Collaboration
 
 2021
 
-Muon g-2 Collaboration
+Muon g-2
 
 [arxiv.org/abs/2104.03281](https://arxiv.org/abs/2104.03281) (Phys. Rev. Lett.)
 
@@ -209,7 +209,7 @@ Muon g-2 Collaboration
 
 2021
 
-Muon g-2 Collaboration
+Muon g-2
 
 [arxiv.org/abs/2104.03240](https://arxiv.org/abs/2104.03240) (Phys. Rev. Accel. Beams)
 
@@ -333,13 +333,13 @@ Contributed to the straw tracking detector and beam dynamics corrections for the
 # Conferences Organized
 ## **The Mitchell Conference on Collider, Dark Matter, and Neutrino Physics 2026**
 
-May 2026 – May 2026
+Texas A&M University, May 27-30, 2026
 
 
 
 ## **The Mitchell Conference on Collider, Dark Matter, and Neutrino Physics 2025**
 
-May 2025 – May 2025
+Texas A&M University, May 13-16, 2025
 
 
 
