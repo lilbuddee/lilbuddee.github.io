@@ -183,21 +183,21 @@ cv:
             url: https://arxiv.org/abs/2203.13305
         -   title: The straw tracking detector for the Fermilab Muon g-2 Experiment
             authors:
-            - Collaboration
+            - Muon g-2 Collaboration
             date: 2022
             journal: JINST
             url: https://arxiv.org/abs/2111.02076
         -   title: Measurement of the Positive Muon Anomalous Magnetic Moment to 0.46
                 ppm
             authors:
-            - Muon g-2
+            - Muon g-2 Collaboration
             date: 2021
             journal: Phys. Rev. Lett.
             url: https://arxiv.org/abs/2104.03281
         -   title: Beam dynamics corrections to the Run-1 measurement of the muon
                 anomalous magnetic moment at Fermilab
             authors:
-            - Muon g-2
+            - Muon g-2 Collaboration
             date: 2021
             journal: Phys. Rev. Accel. Beams
             url: https://arxiv.org/abs/2104.03240
