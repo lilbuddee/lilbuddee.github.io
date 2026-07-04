@@ -125,12 +125,12 @@ cv:
 
     Conferences Organized:
       - name: 'The Mitchell Conference on Collider, Dark Matter, and Neutrino Physics 2026'
-        start_date: 2026-05-27
-        end_date: 2026-05-30
+        summary: |
+          Texas A&M University, May 27-30, 2026
       
       - name: 'The Mitchell Conference on Collider, Dark Matter, and Neutrino Physics 2025'
-        start_date: 2025-05-13
-        end_date: 2025-05-16
+        summary: |
+          Texas A&M University, May 13-16, 2025
 
     Awards:
       - title: Breakthrough Prize in Fundamental Physics
