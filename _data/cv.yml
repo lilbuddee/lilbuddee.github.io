@@ -5,7 +5,7 @@ settings:
         typst_path: ../assets/rendercv/rendercv_output/deepak_sathyan_cv.typ
         pdf_path: ../assets/rendercv/rendercv_output/deepak_sathyan_cv.pdf
         html_path: ../assets/rendercv/rendercv_output/deepak_sathyan_cv.html
-        dont_generate_markdown: false
+        dont_generate_markdown: true
         dont_generate_html: false
         dont_generate_typst: false
         dont_generate_pdf: false
@@ -183,21 +183,21 @@ cv:
             url: https://arxiv.org/abs/2203.13305
         -   title: The straw tracking detector for the Fermilab Muon g-2 Experiment
             authors:
-            - Muon g-2 Collaboration
+            - Collaboration
             date: 2022
             journal: JINST
             url: https://arxiv.org/abs/2111.02076
         -   title: Measurement of the Positive Muon Anomalous Magnetic Moment to 0.46
                 ppm
             authors:
-            - Muon g-2 Collaboration
+            - Muon g-2
             date: 2021
             journal: Phys. Rev. Lett.
             url: https://arxiv.org/abs/2104.03281
         -   title: Beam dynamics corrections to the Run-1 measurement of the muon
                 anomalous magnetic moment at Fermilab
             authors:
-            - Muon g-2 Collaboration
+            - Muon g-2
             date: 2021
             journal: Phys. Rev. Accel. Beams
             url: https://arxiv.org/abs/2104.03240
@@ -276,12 +276,12 @@ cv:
         Conferences Organized:
         -   name: The Mitchell Conference on Collider, Dark Matter, and Neutrino Physics
                 2026
-            start_date: 2026-05-27
-            end_date: 2026-05-30
+            summary: |
+                Texas A&M University, May 27-30, 2026
         -   name: The Mitchell Conference on Collider, Dark Matter, and Neutrino Physics
                 2025
-            start_date: 2025-05-13
-            end_date: 2025-05-16
+            summary: |
+                Texas A&M University, May 13-16, 2025
         Awards:
         -   title: Breakthrough Prize in Fundamental Physics
             authors:
