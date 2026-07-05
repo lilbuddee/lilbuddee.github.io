@@ -2,3 +2,8 @@
 div.social div.contact-icons {
   font-size: 2rem !important;
 }
+
+.cv ul.list-group {
+  list-style: none;
+  padding-left: 0;
+}
