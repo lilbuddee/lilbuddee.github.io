@@ -5,15 +5,13 @@
 
 
 # Education
-## **University of Maryland**, Physics
-
-**Ph.D. in Physics**
-
-
+## **University of Maryland**
 College Park, MD
 
 
 Aug 2018 – July 2024
+
+**Ph.D. in Physics**
 
 Thesis: Unifying Searches for New Physics with Precision Measurements of the W Boson Mass
 
@@ -21,15 +19,13 @@ Advisor: Dr. Kaustubh Agashe
 
 
 
-## **Boston University**, Physics
-
-**Bachelor of Arts in Physics, Summa Cum Laude with Honors**
-
-
+## **Boston University**
 Boston, MA
 
 
 Aug 2014 – May 2018
+
+**Bachelor of Arts in Physics, Summa Cum Laude with Honors**
 
 GPA: 3.9
 
@@ -42,7 +38,7 @@ Advisor: Dr. Robert Carey
 
 
 # Experience
-## **Mitchell Institute for Fundamental Physics and Astronomy**, Postdoctoral Research Associate
+## **Postdoctoral Research Associate**
 
 College Station, TX
 
@@ -51,6 +47,8 @@ Sept 2024 – Aug 2027
 
 
 3 years
+
+Mitchell Institute for Fundamental Physics and Astronomy
 
 Texas A&M University
 

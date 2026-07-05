@@ -1,15 +1,15 @@
-# settings:
-#   render_command:
-#     design: ../assets/rendercv/design.yaml
-#     locale: ../assets/rendercv/locale.yaml
-#     typst_path: ../assets/rendercv/rendercv_output/deepak_sathyan_cv.typ
-#     pdf_path: ../assets/rendercv/rendercv_output/deepak_sathyan_cv.pdf
-#     html_path: ../assets/rendercv/rendercv_output/deepak_sathyan_cv.html
-#     dont_generate_markdown: false
-#     dont_generate_html: false
-#     dont_generate_typst: false
-#     dont_generate_pdf: false
-#     dont_generate_png: true
+settings:
+  render_command:
+    design: ../assets/rendercv/design.yaml
+    locale: ../assets/rendercv/locale.yaml
+    typst_path: ../assets/rendercv/rendercv_output/deepak_sathyan_cv.typ
+    pdf_path: ../assets/rendercv/rendercv_output/deepak_sathyan_cv.pdf
+    html_path: ../assets/rendercv/rendercv_output/deepak_sathyan_cv.html
+    dont_generate_markdown: false
+    dont_generate_html: false
+    dont_generate_typst: false
+    dont_generate_pdf: false
+    dont_generate_png: true
 
 
 cv:
