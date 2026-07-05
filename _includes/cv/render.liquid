@@ -191,7 +191,7 @@
                       <li class="list-group-item">
                         <h6 class="title font-weight-bold">{{ entry.name }}</h6>
                         {% if entry.summary %}
-                          <p>{{ entry.summary | markdownify | remove: '<p>' | remove: '</p>' }}</p>
+                          <p>{{ entry.summary | newline_to_br }}</p>
                         {% endif %}
                       </li>
                     </ul>
