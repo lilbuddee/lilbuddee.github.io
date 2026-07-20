@@ -191,10 +191,10 @@
                     </div>
                   {% elsif entry.name %}
                     {% capture entry_body %}
-                      <div class="d-flex justify-content-between align-items-baseline flex-wrap" style="gap: 0.5rem">
-                        <h6 class="title font-weight-bold mb-0">{{ entry.name }}</h6>
+                      <div class="d-flex" style="gap: 0.5rem; align-items: flex-start">
+                        <h6 class="title font-weight-bold mb-0" style="flex: 1 1 auto; min-width: 0">{{ entry.name }}</h6>
                         {% if entry.start_date or entry.end_date or entry.date %}
-                          <span class="text-muted small" style="white-space: nowrap; flex-shrink: 0">
+                          <span class="text-muted small" style="white-space: nowrap; flex: 0 0 auto">
                             {% if entry.date %}
                               {{ entry.date }}
                             {% else %}

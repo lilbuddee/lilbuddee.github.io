@@ -9,28 +9,30 @@
     side-column layout (transform nudge) overflowed into the title text at common viewport widths.
 {% endcomment %}
 
-<div class="card-text font-weight-light list-group list-group-flush">
+<div class="card-text font-weight-light">
   {% for entry in entries %}
-    <div class="list-group-item">
+    <div class="list-group-item" {% unless forloop.first %}style="margin-top: 1rem"{% endunless %}>
       {% capture start_date %}
         {% if entry.date %}{{ entry.date }}{% endif %}
       {% endcapture %}
       {% assign award_year = start_date | split: '-' | slice: 0, 1 | join: '' %}
 
-      <div class="d-flex justify-content-between align-items-baseline flex-wrap" style="gap: 0.5rem">
+      <div class="d-flex" style="gap: 0.5rem; align-items: flex-start">
         {% if entry.url %}
-          <h6 class="title font-weight-bold mb-0">
+          <h6 class="title font-weight-bold mb-0" style="flex: 1 1 auto; min-width: 0">
             <a href="{{ entry.url }}">{{ entry.title }}</a>
           </h6>
         {% elsif entry.title %}
-          <h6 class="title font-weight-bold mb-0">{{ entry.title }}</h6>
+          <h6 class="title font-weight-bold mb-0" style="flex: 1 1 auto; min-width: 0">{{ entry.title }}</h6>
         {% endif %}
         {% if award_year != '' %}
-          <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle" style="white-space: nowrap; flex-shrink: 0">{{ award_year }}</span>
+          <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle" style="white-space: nowrap; flex: 0 0 auto">{{ award_year }}</span>
         {% endif %}
       </div>
 
-      {% if entry.awarder %}
+      {% if entry.authors %}
+        <h6 class="mb-0" style="font-size: 0.95rem">{{ entry.authors | join: ', ' }}</h6>
+      {% elsif entry.awarder %}
         <h6 class="mb-0" style="font-size: 0.95rem">{{ entry.awarder }}</h6>
       {% endif %}
 

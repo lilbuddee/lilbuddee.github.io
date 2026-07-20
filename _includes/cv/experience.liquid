@@ -13,9 +13,9 @@
     at common viewport widths.
 {% endcomment %}
 
-<div class="card-text font-weight-light list-group list-group-flush">
+<div class="card-text font-weight-light">
   {% for entry in entries %}
-    <div class="list-group-item">
+    <div class="list-group-item" {% unless forloop.first %}style="margin-top: 1rem"{% endunless %}>
       {% capture start_date %}
         {% if entry.start_date %}{{ entry.start_date }}{% elsif entry.startDate %}{{ entry.startDate }}{% endif %}
       {% endcapture %}
@@ -36,16 +36,16 @@
         {% if entry.position %}{{ entry.position }}{% endif %}
       {% endcapture %}
 
-      <div class="d-flex justify-content-between align-items-baseline flex-wrap" style="gap: 0.5rem">
+      <div class="d-flex" style="gap: 0.5rem; align-items: flex-start">
         {% if entry.url %}
-          <h6 class="title font-weight-bold mb-0">
+          <h6 class="title font-weight-bold mb-0" style="flex: 1 1 auto; min-width: 0">
             <a href="{{ entry.url }}">{{ position_title }}</a>
           </h6>
         {% elsif position_title != '' %}
-          <h6 class="title font-weight-bold mb-0">{{ position_title }}</h6>
+          <h6 class="title font-weight-bold mb-0" style="flex: 1 1 auto; min-width: 0">{{ position_title }}</h6>
         {% endif %}
         {% if date %}
-          <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle" style="white-space: nowrap; flex-shrink: 0">{{ date }}</span>
+          <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle" style="white-space: nowrap; flex: 0 0 auto">{{ date }}</span>
         {% endif %}
       </div>
 
