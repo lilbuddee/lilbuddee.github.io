@@ -179,22 +179,29 @@
                 <!-- Generic section -->
                 {% for entry in section_entries %}
                   {% if entry.bullet %}
-                    <ul class="card-text font-weight-light list-group list-group-flush">
-                      <li class="list-group-item">{{ entry.bullet | markdownify | remove: '<p>' | remove: '</p>' }}</li>
-                    </ul>
+                    <div class="card-text font-weight-light mb-2">{{ entry.bullet | markdownify | remove: '<p>' | remove: '</p>' }}</div>
                   {% elsif entry.label %}
-                    <div class="card-text font-weight-light">
+                    <div class="card-text font-weight-light mb-2">
                       <strong>{{ entry.label }}:</strong> {{ entry.details }}
                     </div>
                   {% elsif entry.name %}
-                    <ul class="card-text font-weight-light list-group list-group-flush">
-                      <li class="list-group-item">
-                        <h6 class="title font-weight-bold">{{ entry.name }}</h6>
-                        {% if entry.summary %}
-                          <p>{{ entry.summary | newline_to_br }}</p>
+                    <div class="card-text font-weight-light mb-3">
+                      <div class="d-flex justify-content-between align-items-baseline flex-wrap">
+                        <h6 class="title font-weight-bold mb-0">{{ entry.name }}</h6>
+                        {% if entry.start_date or entry.end_date or entry.date %}
+                          <span class="text-muted small">
+                            {% if entry.date %}
+                              {{ entry.date }}
+                            {% else %}
+                              {{ entry.start_date | date: "%b %Y" }}{% if entry.end_date %} – {{ entry.end_date | date: "%b %Y" }}{% endif %}
+                            {% endif %}
+                          </span>
                         {% endif %}
-                      </li>
-                    </ul>
+                      </div>
+                      {% if entry.summary %}
+                        <p class="mb-0">{{ entry.summary | newline_to_br }}</p>
+                      {% endif %}
+                    </div>
                   {% endif %}
                 {% endfor %}
               {% endif %}
