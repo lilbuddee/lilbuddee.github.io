@@ -1,18 +1,16 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image and giscus comments
+title: Galactic Center Excess
+description: 
 img: assets/img/3.jpg
-importance: 2
+importance: 1
 category: work
-giscus_comments: true
+# giscus_comments: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+Recently, my collaborators and I have considered a novel source for the Fermi-LAT galactic center gamma-ray excess (GCE): scattering of cosmic rays with sub-GeV dark matter producing energetic photons.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+<!-- To give your project a background in the portfolio page, just add the img tag to the front matter like so:
 
     ---
     layout: page
@@ -78,4 +76,4 @@ Here's the code for the last row of images above:
 </div>
 ```
 
-{% endraw %}
+{% endraw %} -->

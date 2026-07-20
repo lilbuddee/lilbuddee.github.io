@@ -1,99 +1,98 @@
 metadata:
-  last_updated: '2026-07-10'
+  last_updated: '2026-07-20'
+  source: inspirehep
 papers:
-  29PfYjgAAAAJ:2osOgNQ5qMEC:
+  Agashe:2020wph:
+    citations: 23
+    record_id: '1811806'
+    title: LHC Signals for KK Graviton from an Extended Warped Extra Dimension
+    year: '2020'
+  Agashe:2022gbb:
+    citations: 2
+    record_id: '2058509'
+    title: 'Snowmass2021 White Paper: Collider Physics Opportunities of Extended Warped
+      Extra-Dimensional Models'
+    year: '2022'
+  Agashe:2022sxw:
+    citations: 3
+    record_id: '2063957'
+    title: 'Snowmass2021 - White Paper, Implications of Energy Peak for Collider Phenomenology:
+      Top Quark Mass Determination and Beyond'
+    year: '2022'
+  Agashe:2022syx:
     citations: 0
-    title: Signals of KK graviton from extended warped extra dimensions at the LHC (I)
-    year: '2021'
-  29PfYjgAAAAJ:3fE2CSJIrl8C:
-    citations: 5
-    title: United States Muon Collider Community White Paper for the European Strategy for Particle Physics Update
-    year: '2025'
-  29PfYjgAAAAJ:5nxA0vEk-isC:
-    citations: 26
-    title: New Laboratory Constraints on Neutrinophilic Mediators
-    year: '2024'
-  29PfYjgAAAAJ:8k81kl-MbHgC:
-    citations: 0
-    title: Unifying Searches for New Physics with Precision Measurements of the W Boson Mass
-    year: '2024'
-  29PfYjgAAAAJ:9yKSN-GCB0IC:
-    citations: 0
-    title: Signals of KK graviton from extended warped extra dimensions at the LHC (II)
-    year: '2021'
-  29PfYjgAAAAJ:IjCSPb-OGe4C:
-    citations: 143
-    title: Beam dynamics corrections to the Run-1 measurement of the muon anomalous magnetic moment at Fermilab
-    year: '2021'
-  29PfYjgAAAAJ:LkGwnXOMwfcC:
-    citations: 1
+    record_id: '2612659'
     title: Energy-peak based method to measure top quark mass via B-hadron decay lengths
+    year: '2022'
+  Agashe:2023itp:
+    citations: 6
+    record_id: '2713116'
+    title: 'A new purpose for the W-boson mass measurement: Searching for New Physics
+      in lepton+MET'
     year: '2023'
-  29PfYjgAAAAJ:Se3iqnhoufwC:
-    citations: 0
-    title: Theory of Collider Phenomena
-    year: '2022'
-  29PfYjgAAAAJ:ULOm3_A8WrAC:
-    citations: 0
-    title: Producing the GeV Galactic Center Excess via Cosmic Ray-Dark Matter Scattering
-    year: '2026'
-  29PfYjgAAAAJ:UeHWp8X0CEIC:
-    citations: 2424
-    title: Measurement of the positive muon anomalous magnetic moment to 0.46 ppm
-    year: '2021'
-  29PfYjgAAAAJ:W7OEmFMy1HYC:
-    citations: 1
-    title: 'Snowmass2021-White Paper, Implications of Energy Peak for Collider Phenomenology: Top Quark Mass Determination and Beyond'
-    year: '2022'
-  29PfYjgAAAAJ:WF5omc3nYNoC:
-    citations: 0
-    title: 'arXiv: Report of the Topical Group on Physics Beyond the Standard Model at Energy Frontier for Snowmass 2021'
-    year: '2022'
-  29PfYjgAAAAJ:Y0pCki6q_DkC:
-    citations: 0
-    title: 'Snowmass2021 White Paper: Collider Physics Opportunities of Extended Warped Extra-Dimensional Models'
-    year: '2022'
-  29PfYjgAAAAJ:YsMSGLbcyi4C:
-    citations: 68
-    title: Report of the topical group on physics beyond the standard model at energy frontier for snowmass 2021
-    year: '2022'
-  29PfYjgAAAAJ:Zph67rFs4hoC:
-    citations: 1
+  Agashe:2024owh:
+    citations: 9
+    record_id: '2781347'
+    title: '“Unification” of BSM searches and SM measurements: the case of lepton+[inline-graphic
+      not available: see fulltext] and m$_{W}$'
+    year: '2024'
+  Bhoonah:2025qzd:
+    citations: 3
+    record_id: '2964573'
     title: A Baryon and Lepton Number Violation Model Testable at the LHC
     year: '2025'
-  29PfYjgAAAAJ:_FxGoFyzp5QC:
-    citations: 0
-    title: 'arXiv: Report of the Topical Group on Top quark physics and heavy flavor production for Snowmass 2021'
+  Bose:2022obr:
+    citations: 63
+    record_id: '2157249'
+    title: Report of the Topical Group on Physics Beyond the Standard Model at Energy
+      Frontier for Snowmass 2021
     year: '2022'
-  29PfYjgAAAAJ:d1gkVwhDpl0C:
-    citations: 0
-    title: Hanbury-Brown-Twiss (HBT) Effect
-    year: '2017'
-  29PfYjgAAAAJ:eQOLeE2rZwMC:
-    citations: 35
-    title: Report of the Topical Group on Top quark physics and heavy flavor production for Snowmass 2021
-    year: '2022'
-  29PfYjgAAAAJ:hqOjcs7Dif8C:
-    citations: 7
-    title: "\u201CUnification\u201D of BSM searches and SM measurements: the case of lepton+ and mW"
-    year: '2025'
-  29PfYjgAAAAJ:kNdYIx-mwKoC:
-    citations: 12
-    title: 'New Constraints on Neutrino-Dark Matter Interactions: A Comprehensive Analysis'
-    year: '2025'
-  29PfYjgAAAAJ:roLk4NBRz8UC:
-    citations: 6
-    title: 'A new purpose for the W-boson mass measurement: Searching for New Physics in lepton+ MET'
+  Dev:2024ygx:
+    citations: 34
+    record_id: '2808646'
+    title: New laboratory constraints on neutrinophilic mediators
     year: '2024'
-  29PfYjgAAAAJ:u5HHmVD_uO8C:
-    citations: 31
-    title: LHC signals for KK graviton from an extended warped extra dimension
-    year: '2020'
-  29PfYjgAAAAJ:ufrVoPGSRksC:
+  Dev:2025tdv:
+    citations: 20
+    record_id: '2940899'
+    title: 'New Constraints on Neutrino-Dark Matter Interactions: A Comprehensive
+      Analysis'
+    year: '2025'
+  Dutta:2026rai:
     citations: 0
-    title: 'arXiv: TF07 Snowmass Report: Theory of Collider Phenomena'
-    year: '2022'
-  29PfYjgAAAAJ:zYLM7Y9cAGgC:
-    citations: 25
+    record_id: '3153585'
+    title: Producing the GeV Galactic Center Excess via Cosmic Ray-Dark Matter Scattering
+    year: '2026'
+  King:2021hst:
+    citations: 26
+    record_id: '1959546'
     title: The straw tracking detector for the Fermilab Muon g-2 Experiment
+    year: '2021'
+  Maltoni:2022bqs:
+    citations: 23
+    record_id: '2161664'
+    title: 'TF07 Snowmass Report: Theory of Collider Phenomena'
+    year: '2022'
+  Muong-2:2021ojo:
+    citations: 2162
+    record_id: '1856627'
+    title: Measurement of the Positive Muon Anomalous Magnetic Moment to 0.46 ppm
+    year: '2021'
+  Muong-2:2021xzz:
+    citations: 129
+    record_id: '1856628'
+    title: Beam dynamics corrections to the Run-1 measurement of the muon anomalous
+      magnetic moment at Fermilab
+    year: '2021'
+  Sathyan:2024pjj:
+    citations: 0
+    record_id: '2837508'
+    title: Unifying Searches for New Physics with Precision Measurements of the W
+      Boson Mass
+    year: '2024'
+  Schwienhorst:2022yqu:
+    citations: 39
+    record_id: '2155820'
+    title: Report of the Topical Group on Top quark physics and heavy flavor production
+      for Snowmass 2021
     year: '2022'

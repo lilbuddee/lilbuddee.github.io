@@ -1,26 +1,27 @@
 ---
 layout: page
-title: project 1
+title: Muon g-2
 description: with background image
 img: assets/img/12.jpg
-importance: 1
+importance: 5
 category: work
 related_publications: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+As an undergraduate at Boston University, I worked on the Muon g-2 experiment, whose measurement of the muon anomalous precession frequency is one of the most precisely measured observables of nature.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+My primary focus was on the straw trackers, used to measure the decay positron position and momenta. This information was used to extrapolate the muon decay point in the beam and cross-check measurements with the calorimeters. I spent much of summer 2017 at Fermilab working on improvements in the software used to analyze event data and began work on a GEANT-based extrapolation code. 
+I completed my senior thesis on the electric dipole measurement of the muon with the g-2 experiment. 
+
+<!-- To give your project a background in the portfolio page, just add the img tag to the front matter like so:
 
     ---
     layout: page
     title: project
     description: a project with a background image
     img: /assets/img/12.jpg
-    ---
-
+    --- -->
+<!-- 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
@@ -78,4 +79,4 @@ Here's the code for the last row of images above:
 </div>
 ```
 
-{% endraw %}
+{% endraw %} -->
