@@ -1,70 +1,42 @@
 {% comment %}
   Unified awards entry renderer for both formats
 
-  Local override of al_folio_cv's awards.liquid: renders entries as <div>s instead of <ul><li>
-  so no bullet marker is shown (this site runs Tailwind with preflight disabled and Bootstrap
-  compat off, so the gem's list-group bullet-suppression CSS isn't reliably available).
+  Local override of al_folio_cv's awards.liquid:
+  - Renders entries as <div>s instead of <ul><li> so no bullet marker is shown (this site runs
+    Tailwind with preflight disabled and Bootstrap compat off, so the gem's list-group
+    bullet-suppression CSS isn't reliably available).
+  - Puts the date badge inline next to the title instead of in a fixed-width side column; the
+    side-column layout (transform nudge) overflowed into the title text at common viewport widths.
 {% endcomment %}
 
 <div class="card-text font-weight-light list-group list-group-flush">
   {% for entry in entries %}
     <div class="list-group-item">
-      <div class="row">
-        {% capture start_date %}
-          {% if entry.date %}{{ entry.date }}{% endif %}
-        {% endcapture %}
+      {% capture start_date %}
+        {% if entry.date %}{{ entry.date }}{% endif %}
+      {% endcapture %}
+      {% assign award_year = start_date | split: '-' | slice: 0, 1 | join: '' %}
 
-        {% if start_date != '' %}
-          <div class="col-xs-2 col-sm-2 col-md-2 text-center">
-            <table class="table-cv">
-              <tbody>
-                <tr>
-                  <td>
-                    <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle" style="min-width: 75px">
-                      {{- start_date | split: '-' | slice: 0, 1 | join: '' -}}
-                    </span>
-                  </td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-          <div class="col-xs-10 col-sm-10 col-md-10 mt-2 mt-md-0">
-            {% if entry.url %}
-              <h6 class="title font-weight-bold ml-1 ml-md-4">
-                <a href="{{ entry.url }}">{{ entry.title }}</a>
-              </h6>
-            {% elsif entry.title %}
-              <h6 class="title font-weight-bold ml-1 ml-md-4">{{ entry.title }}</h6>
-            {% endif %}
-
-            {% if entry.awarder %}
-              <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem">{{ entry.awarder }}</h6>
-            {% endif %}
-
-            {% if entry.summary %}
-              <p class="ml-1 ml-md-4">{{ entry.summary | markdownify | remove: '<p>' | remove: '</p>' }}</p>
-            {% endif %}
-          </div>
-        {% else %}
-          <div class="col-xs-12 col-sm-12 col-md-12">
-            {% if entry.url %}
-              <h6 class="title font-weight-bold ml-1 ml-md-4">
-                <a href="{{ entry.url }}">{{ entry.title }}</a>
-              </h6>
-            {% elsif entry.title %}
-              <h6 class="title font-weight-bold ml-1 ml-md-4">{{ entry.title }}</h6>
-            {% endif %}
-
-            {% if entry.awarder %}
-              <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem">{{ entry.awarder }}</h6>
-            {% endif %}
-
-            {% if entry.summary %}
-              <p class="ml-1 ml-md-4">{{ entry.summary | markdownify | remove: '<p>' | remove: '</p>' }}</p>
-            {% endif %}
-          </div>
+      <div class="d-flex justify-content-between align-items-baseline flex-wrap" style="gap: 0.5rem">
+        {% if entry.url %}
+          <h6 class="title font-weight-bold mb-0">
+            <a href="{{ entry.url }}">{{ entry.title }}</a>
+          </h6>
+        {% elsif entry.title %}
+          <h6 class="title font-weight-bold mb-0">{{ entry.title }}</h6>
+        {% endif %}
+        {% if award_year != '' %}
+          <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle" style="white-space: nowrap; flex-shrink: 0">{{ award_year }}</span>
         {% endif %}
       </div>
+
+      {% if entry.awarder %}
+        <h6 class="mb-0" style="font-size: 0.95rem">{{ entry.awarder }}</h6>
+      {% endif %}
+
+      {% if entry.summary %}
+        <p class="mb-0">{{ entry.summary | markdownify | remove: '<p>' | remove: '</p>' }}</p>
+      {% endif %}
     </div>
   {% endfor %}
 </div>

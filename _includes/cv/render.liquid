@@ -191,14 +191,23 @@
                     </div>
                   {% elsif entry.name %}
                     {% capture entry_body %}
-                      <div class="d-flex justify-content-between align-items-baseline flex-wrap">
+                      <div class="d-flex justify-content-between align-items-baseline flex-wrap" style="gap: 0.5rem">
                         <h6 class="title font-weight-bold mb-0">{{ entry.name }}</h6>
                         {% if entry.start_date or entry.end_date or entry.date %}
-                          <span class="text-muted small">
+                          <span class="text-muted small" style="white-space: nowrap; flex-shrink: 0">
                             {% if entry.date %}
                               {{ entry.date }}
                             {% else %}
-                              {{ entry.start_date | date: "%b %Y" }}{% if entry.end_date %} – {{ entry.end_date | date: "%b %Y" }}{% endif %}
+                              {% assign start_display = entry.start_date | date: "%b %Y" %}
+                              {% assign end_display = '' %}
+                              {% if entry.end_date %}
+                                {% assign end_display = entry.end_date | date: "%b %Y" %}
+                              {% endif %}
+                              {% if end_display != '' and end_display != start_display %}
+                                {{ start_display }} – {{ end_display }}
+                              {% else %}
+                                {{ start_display }}
+                              {% endif %}
                             {% endif %}
                           </span>
                         {% endif %}

@@ -4,92 +4,83 @@
   - RenderCV: company, position, start_date, end_date, location, url, summary, highlights
   - JSONResume: name, position, startDate, endDate, location, url, summary, highlights
 
-  Local override of al_folio_cv's experience.liquid: renders entries as <div>s instead of <ul><li>
-  so no bullet marker is shown (this site runs Tailwind with preflight disabled and Bootstrap
-  compat off, so the gem's list-group bullet-suppression CSS isn't reliably available).
+  Local override of al_folio_cv's experience.liquid:
+  - Renders entries as <div>s instead of <ul><li> so no bullet marker is shown (this site runs
+    Tailwind with preflight disabled and Bootstrap compat off, so the gem's list-group
+    bullet-suppression CSS isn't reliably available).
+  - Puts the date badge inline next to the position title instead of in a fixed-width side column;
+    the side-column layout (date-column class + transform nudge) overflowed into the title text
+    at common viewport widths.
 {% endcomment %}
 
 <div class="card-text font-weight-light list-group list-group-flush">
   {% for entry in entries %}
     <div class="list-group-item">
-      <div class="row">
-        <div class="col-xs-2 col-sm-2 col-md-2 text-center date-column">
-          {% capture start_date %}
-            {% if entry.start_date %}{{ entry.start_date }}{% elsif entry.startDate %}{{ entry.startDate }}{% endif %}
-          {% endcapture %}
-          {% capture end_date %}
-            {% if entry.end_date %}{{ entry.end_date }}{% elsif entry.endDate %}{{ entry.endDate }}{% endif %}
-          {% endcapture %}
+      {% capture start_date %}
+        {% if entry.start_date %}{{ entry.start_date }}{% elsif entry.startDate %}{{ entry.startDate }}{% endif %}
+      {% endcapture %}
+      {% capture end_date %}
+        {% if entry.end_date %}{{ entry.end_date }}{% elsif entry.endDate %}{{ entry.endDate }}{% endif %}
+      {% endcapture %}
 
-          {% if start_date != '' %}
-            {% comment %} Extract year only from dates like "1933-01-01" or just use "1933" as is {% endcomment %}
-            {% assign startDate = start_date | split: '-' | first %}
-            {% assign endDate = end_date | split: '-' | first | default: 'Present' %}
-            {% assign date = startDate | append: ' - ' | append: endDate %}
-          {% else %}
-            {% assign date = '' %}
-          {% endif %}
+      {% if start_date != '' %}
+        {% comment %} Extract year only from dates like "1933-01-01" or just use "1933" as is {% endcomment %}
+        {% assign startDate = start_date | split: '-' | first %}
+        {% assign endDate = end_date | split: '-' | first | default: 'Present' %}
+        {% assign date = startDate | append: ' - ' | append: endDate %}
+      {% else %}
+        {% assign date = null %}
+      {% endif %}
 
-          <table class="table-cv">
-            <tbody>
-              <tr>
-                <td>
-                  <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle" style="min-width: 75px">{{ date }}</span>
-                </td>
-              </tr>
-              {% capture location %}
-                {% if entry.location %}{{ entry.location }}{% endif %}
-              {% endcapture %}
-              {% if location != '' %}
-                <tr>
-                  <td>
-                    <p class="location">
-                      <i class="fa-solid fa-location-dot iconlocation"></i>
-                      {{ location }}
-                    </p>
-                  </td>
-                </tr>
-              {% endif %}
-            </tbody>
-          </table>
-        </div>
-        <div class="col-xs-10 col-sm-10 col-md-10 mt-2 mt-md-0">
-          {% capture position_title %}
-            {% if entry.position %}{{ entry.position }}{% endif %}
-          {% endcapture %}
+      {% capture position_title %}
+        {% if entry.position %}{{ entry.position }}{% endif %}
+      {% endcapture %}
 
-          {% if entry.url %}
-            <h6 class="title font-weight-bold ml-1 ml-md-4">
-              <a href="{{ entry.url }}">{{ position_title }}</a>
-            </h6>
-          {% elsif position_title != '' %}
-            <h6 class="title font-weight-bold ml-1 ml-md-4">{{ position_title }}</h6>
-          {% endif %}
-
-          {% capture company_name %}
-            {% if entry.name %}{{ entry.name }}{% elsif entry.company %}{{ entry.company }}{% elsif entry.organization %}{{ entry.organization }}{% endif %}
-          {% endcapture %}
-          {% if company_name != '' %}
-            <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem">{{ company_name }}</h6>
-          {% endif %}
-
-          {% if entry.summary %}
-            <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem; font-style: italic">
-              {{ entry.summary | markdownify | remove: '<p>' | remove: '</p>' }}
-            </h6>
-          {% endif %}
-
-          {% if entry.highlights %}
-            <ul class="items">
-              {% for item in entry.highlights %}
-                <li>
-                  <span class="item">{{ item | markdownify | remove: '<p>' | remove: '</p>' }}</span>
-                </li>
-              {% endfor %}
-            </ul>
-          {% endif %}
-        </div>
+      <div class="d-flex justify-content-between align-items-baseline flex-wrap" style="gap: 0.5rem">
+        {% if entry.url %}
+          <h6 class="title font-weight-bold mb-0">
+            <a href="{{ entry.url }}">{{ position_title }}</a>
+          </h6>
+        {% elsif position_title != '' %}
+          <h6 class="title font-weight-bold mb-0">{{ position_title }}</h6>
+        {% endif %}
+        {% if date %}
+          <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle" style="white-space: nowrap; flex-shrink: 0">{{ date }}</span>
+        {% endif %}
       </div>
+
+      {% capture company_name %}
+        {% if entry.name %}{{ entry.name }}{% elsif entry.company %}{{ entry.company }}{% elsif entry.organization %}{{ entry.organization }}{% endif %}
+      {% endcapture %}
+      {% if company_name != '' %}
+        <h6 class="mb-0" style="font-size: 0.95rem">{{ company_name }}</h6>
+      {% endif %}
+
+      {% capture location %}
+        {% if entry.location %}{{ entry.location }}{% endif %}
+      {% endcapture %}
+      {% if location != '' %}
+        <p class="location mb-1">
+          <i class="fa-solid fa-location-dot iconlocation"></i>
+          {{ location }}
+        </p>
+      {% endif %}
+
+      {% if entry.summary %}
+        <h6 class="mb-1" style="font-size: 0.95rem; font-style: italic">
+          {{ entry.summary | markdownify | remove: '<p>' | remove: '</p>' }}
+        </h6>
+      {% endif %}
+
+      {% if entry.highlights %}
+        <ul class="items">
+          {% for item in entry.highlights %}
+            <li>
+              <span class="item">{{ item | markdownify | remove: '<p>' | remove: '</p>' }}</span>
+            </li>
+          {% endfor %}
+        </ul>
+      {% endif %}
     </div>
   {% endfor %}
 </div>
