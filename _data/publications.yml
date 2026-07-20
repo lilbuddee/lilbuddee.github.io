@@ -85,21 +85,21 @@
     url: https://arxiv.org/abs/2212.03929
 -   title: 'TF07 Snowmass Report: Theory of Collider Phenomena'
     authors:
-    - Collaboration
+    - F. Maltoni et al.
     date: 2022-10
     journal: null
     url: https://arxiv.org/abs/2210.02591
 -   title: Report of the Topical Group on Physics Beyond the Standard Model at Energy
         Frontier for Snowmass 2021
     authors:
-    - Collaboration
+    - T. Bose et al.
     date: 2022-09
     journal: null
     url: https://arxiv.org/abs/2209.13128
 -   title: Report of the Topical Group on Top quark physics and heavy flavor production
         for Snowmass 2021
     authors:
-    - Collaboration
+    - K. Agashe et al.
     date: 2022-09
     journal: null
     url: https://arxiv.org/abs/2209.11267
@@ -130,20 +130,20 @@
     url: https://arxiv.org/abs/2203.13305
 -   title: The straw tracking detector for the Fermilab Muon g-2 Experiment
     authors:
-    - Collaboration
+    - B.T. King et al.
     date: 2022
     journal: JINST
     url: https://arxiv.org/abs/2111.02076
 -   title: Measurement of the Positive Muon Anomalous Magnetic Moment to 0.46 ppm
     authors:
-    - Muon g-2
+    - Muon g-2 Collaboration
     date: 2021
     journal: Phys. Rev. Lett.
     url: https://arxiv.org/abs/2104.03281
 -   title: Beam dynamics corrections to the Run-1 measurement of the muon anomalous
         magnetic moment at Fermilab
     authors:
-    - Muon g-2
+    - Muon g-2 Collaboration
     date: 2021
     journal: Phys. Rev. Accel. Beams
     url: https://arxiv.org/abs/2104.03240

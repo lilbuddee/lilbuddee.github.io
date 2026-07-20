@@ -83,21 +83,40 @@ def clean_braces(s):
 # =========================
 # AUTHOR NORMALIZATION (FIXED)
 # =========================
-def normalize_author_string(s):
+_TRUNCATED_AUTHORS_RE = re.compile(r"\s+and\s+others\b|\s+et\s+al\.?\b", re.IGNORECASE)
+
+
+def clean_author_string(s):
     if not s:
         return ""
 
     s = str(s)
     s = s.replace("\n", " ")
     s = re.sub(r"\s+", " ", s)
-
-    # COLLAPSE ALL COLLAB-LIKE PATTERNS
-    if re.search(r"\band\s+others\b", s, flags=re.IGNORECASE):
-        return "__COLLAB__"
-    if re.search(r"\bet\s+al\.?\b", s, flags=re.IGNORECASE):
-        return "__COLLAB__"
-
     return s.strip()
+
+
+def is_truncated_author_list(s):
+    """True for BibTeX author strings truncated to a single name, e.g. 'Bose, Tulika and others'."""
+    return bool(_TRUNCATED_AUTHORS_RE.search(s))
+
+
+def format_author_name(name):
+    if "," in name:
+        last, first = [x.strip() for x in name.split(",", 1)]
+    else:
+        parts = name.split()
+        first = parts[0] if parts else ""
+        last = " ".join(parts[1:]) if len(parts) > 1 else ""
+
+    initials = "".join([f"{p[0]}." for p in first.split() if p])
+    return f"{initials} {last}".strip()
+
+
+def extract_first_author(raw):
+    """Pull the name preceding 'and others' / 'et al.' out of a truncated author string."""
+    first = _TRUNCATED_AUTHORS_RE.split(raw, maxsplit=1)[0].strip()
+    return first or raw.strip()
 
 
 # =========================
@@ -144,10 +163,10 @@ def get_collaboration(entry):
 # AUTHOR COUNT (FIXED)
 # =========================
 def get_author_count(entry, collab=None):
-    raw = normalize_author_string(entry.get("author", ""))
+    raw = clean_author_string(entry.get("author", ""))
 
     # collaboration detected either way
-    if raw == "__COLLAB__" or collab:
+    if collab or is_truncated_author_list(raw):
         return 1000
 
     authors = [a.strip() for a in raw.split(" and ") if a.strip()]
@@ -158,26 +177,23 @@ def get_author_count(entry, collab=None):
 # AUTHOR FORMATTER (FIXED)
 # =========================
 def format_authors(entry, collab=None):
-    raw = normalize_author_string(entry.get("author", ""))
+    raw = clean_author_string(entry.get("author", ""))
 
-    # collaboration case
-    if raw == "__COLLAB__" or collab:
-        return [entry.get("collaboration") or "Collaboration"]
+    # Named collaboration (e.g. "Muon g-2" -> "Muon g-2 Collaboration"): use the
+    # already-formatted name, not the raw bibtex field, or the "Collaboration"
+    # suffix gets silently dropped.
+    if collab:
+        return [collab]
+
+    # Truncated author list with no named collaboration (e.g. Snowmass reports
+    # like "Bose, Tulika and others"): cite as "First Author et al.", not the
+    # literal string "Collaboration".
+    if is_truncated_author_list(raw):
+        first_author = extract_first_author(raw)
+        return [f"{format_author_name(first_author)} et al."] if first_author else ["et al."]
 
     authors = [a.strip() for a in raw.split(" and ") if a.strip()]
-
-    def fmt(name):
-        if "," in name:
-            last, first = [x.strip() for x in name.split(",", 1)]
-        else:
-            parts = name.split()
-            first = parts[0] if parts else ""
-            last = " ".join(parts[1:]) if len(parts) > 1 else ""
-
-        initials = "".join([f"{p[0]}." for p in first.split() if p])
-        return f"{initials} {last}".strip()
-
-    return [fmt(a) for a in authors]
+    return [format_author_name(a) for a in authors]
 
 
 # =========================
@@ -307,17 +323,25 @@ for e in bib_db.entries:
 # =========================
 # SORT + SELECT
 # =========================
-pubs = sorted(pubs, key=lambda x: -x["score"])
+TOP_K = 5
+RECENT_K = 2  # always-selected slots reserved for the most recent papers, preprints included
 
-TOP_K = 3
-selected = set()
+pubs_by_score = sorted(pubs, key=lambda x: -x["score"])
+pubs_by_date = sorted(pubs, key=lambda x: str(x.get("date") or ""), reverse=True)
 
-for p in pubs[:TOP_K]:
+# The most recent papers (including preprints with no journal yet) always make
+# the selected list, regardless of citation score - a brand-new preprint has
+# had no time to accumulate citations, so score-only selection would bury it.
+selected = set(p["uid"] for p in pubs_by_date[:RECENT_K])
+
+for p in pubs_by_score:
+    if len(selected) >= TOP_K:
+        break
     selected.add(p["uid"])
-    p["selected"] = "true"
 
-for p in pubs[TOP_K:]:
-    p["selected"] = "false"
+pubs = pubs_by_score
+for p in pubs:
+    p["selected"] = "true" if p["uid"] in selected else "false"
 
 
 # =========================
@@ -332,10 +356,18 @@ for p in pubs:
     else:
         e.pop("selected", None)
 
+# BibTexWriter defaults to alphabetizing entries by citation key, which
+# discards date order entirely. selected_papers.liquid renders the
+# "selected=true" query without a group/sort override, so it just follows
+# whatever order the entries are written in here - write them most-recent
+# first so the guaranteed-recent selections (see RECENT_K above) actually
+# appear first on the page instead of wherever their texkey happens to sort.
+bib_db.entries = [p["raw"] for p in pubs_by_date]
 
 writer = BibTexWriter()
 writer.indent = "    "
 writer.comma_first = False
+writer.order_entries_by = None
 
 with open(BIB_OUT, "w") as f:
     f.write(writer.write(bib_db))

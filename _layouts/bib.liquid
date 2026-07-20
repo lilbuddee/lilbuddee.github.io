@@ -270,8 +270,14 @@
         {% assign entry_has_dimensions_badge = true %}
       {% endif %}
 
+      {% comment %}
+        Local override: papers.bib is regenerated from papers.raw.bib by
+        _data/make_publications.py and never carries a google_scholar_id
+        field, so gate the badge on having a citations.yml record for this
+        entry's texkey (entry.key) instead.
+      {% endcomment %}
       {% assign entry_has_google_scholar_badge = false %}
-      {% if entry.google_scholar_id %}
+      {% if site.data.citations.papers[entry.key] %}
         {% assign entry_has_google_scholar_badge = true %}
       {% endif %}
 
@@ -324,17 +330,9 @@
               record's InspireHEP record_id so the badge can link straight to the
               InspireHEP literature page instead of Google Scholar.
             {% endcomment %}
-            {% assign citation_count = 0 %}
-            {% assign citation_record_id = '' %}
-            {% if site.data.citations.papers[entry.key] %}
-              {% assign citation_count = site.data.citations.papers[entry.key].citations %}
-              {% assign citation_record_id = site.data.citations.papers[entry.key].record_id %}
-            {% endif %}
-            {% if citation_record_id != '' %}
-              {% assign citation_href = 'https://inspirehep.net/literature/' | append: citation_record_id %}
-            {% else %}
-              {% assign citation_href = 'https://scholar.google.com/citations?view_op=view_citation&hl=en&user=' | append: site.data.socials.scholar_userid | append: '&citation_for_view=' | append: site.data.socials.scholar_userid | append: ':' | append: entry.google_scholar_id %}
-            {% endif %}
+            {% assign citation_count = site.data.citations.papers[entry.key].citations | default: 0 %}
+            {% assign citation_record_id = site.data.citations.papers[entry.key].record_id %}
+            {% assign citation_href = 'https://inspirehep.net/literature/' | append: citation_record_id %}
             <a href="{{ citation_href }}" aria-label="InspireHEP link" role="button">
               <img
                 src="https://img.shields.io/badge/inspire-{{ citation_count }}-001628?logo=inspire&logoColor=001628&labelColor=beige"
