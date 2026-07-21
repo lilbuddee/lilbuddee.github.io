@@ -32,6 +32,7 @@ latest_posts:
 <!-- Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically. -->
 
 <!-- Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them. -->
+
 As an undergraduate at Boston University, I worked on the Muon g-2 experiment, whose measurement of the muon anomalous precession frequency is one of the most precisely measured observables of nature.
 
 My research as a graduate student at the University of Maryland primarily focused on collider phenomenology, specifically searching for new physics beyond the standard model (BSM) at the Large Hadron Collider (LHC). I explored novel BSM searches through precision measurements of Standard Model observables like the W-boson mass and by pushing the high energy frontier. I am still exploring what the LHC can detect, from models of dark matter to models of baryon number violation, one of the conditions needed to explain the matter-antimatter asymmetry of the universe.

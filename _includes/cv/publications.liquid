@@ -11,7 +11,12 @@
 
 <div class="card-text font-weight-light">
   {% for entry in entries %}
-    <div class="list-group-item" {% unless forloop.first %}style="margin-top: 1rem"{% endunless %}>
+    <div
+      class="list-group-item"
+      {% unless forloop.first %}
+        style="margin-top: 1rem"
+      {% endunless %}
+    >
       {% capture pub_date %}
         {% if entry.releaseDate %}{{ entry.releaseDate }}{% elsif entry.date %}{{ entry.date }}{% endif %}
       {% endcapture %}
@@ -32,7 +37,9 @@
           <h6 class="title font-weight-bold mb-0" style="flex: 1 1 auto; min-width: 0">{{ entry.title }}</h6>
         {% endif %}
         {% if pub_date != '' %}
-          <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle" style="white-space: nowrap; flex: 0 0 auto">{{ pub_date_display }}</span>
+          <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle" style="white-space: nowrap; flex: 0 0 auto">
+            {{- pub_date_display -}}
+          </span>
         {% endif %}
       </div>
 

@@ -1,9 +1,9 @@
 /*******************************************************************************
  * Themes
  *
- * Local override of al_folio_core's _sass/_themes.scss: light-mode accent
- * recolored to cobalt blue (--global-theme-color/--global-hover-color).
- * Dark mode is untouched (still al_folio_core's cyan).
+ * Local override of al_folio_core's _sass/_themes.scss: accent color
+ * (--global-theme-color/--global-hover-color) recolored to royal blue
+ * (#305CDE) in light mode and cornflower blue (#6395EE) in dark mode.
  ******************************************************************************/
 @use "variables" as v;
 @use "sass:color";
@@ -14,8 +14,8 @@
   --global-code-bg-color: #{v.$code-bg-color-light};
   --global-text-color: #{v.$black-color};
   --global-text-color-light: #{v.$grey-color};
-  --global-theme-color: #0047ab;
-  --global-hover-color: #0047ab;
+  --global-theme-color: #305cde;
+  --global-hover-color: #305cde;
   --global-hover-text-color: #{v.$white-color};
   --global-footer-bg-color: #{v.$grey-color-dark};
   --global-footer-text-color: #{v.$grey-color-light};
@@ -84,8 +84,8 @@ html[data-theme="dark"] {
   --global-code-bg-color: #{v.$code-bg-color-dark};
   --global-text-color: #{v.$grey-color-light};
   --global-text-color-light: #{v.$grey-color};
-  --global-theme-color: #{v.$cyan-color};
-  --global-hover-color: #{v.$cyan-color};
+  --global-theme-color: #6395ee;
+  --global-hover-color: #6395ee;
   --global-hover-text-color: #{v.$white-color};
   --global-footer-bg-color: #{v.$grey-color-light};
   --global-footer-text-color: #{v.$grey-color-dark};

@@ -11,7 +11,12 @@
 
 <div class="card-text font-weight-light">
   {% for entry in entries %}
-    <div class="list-group-item" {% unless forloop.first %}style="margin-top: 1rem"{% endunless %}>
+    <div
+      class="list-group-item"
+      {% unless forloop.first %}
+        style="margin-top: 1rem"
+      {% endunless %}
+    >
       {% capture start_date %}
         {% if entry.date %}{{ entry.date }}{% endif %}
       {% endcapture %}
@@ -26,7 +31,9 @@
           <h6 class="title font-weight-bold mb-0" style="flex: 1 1 auto; min-width: 0">{{ entry.title }}</h6>
         {% endif %}
         {% if award_year != '' %}
-          <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle" style="white-space: nowrap; flex: 0 0 auto">{{ award_year }}</span>
+          <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle" style="white-space: nowrap; flex: 0 0 auto">
+            {{- award_year -}}
+          </span>
         {% endif %}
       </div>
 

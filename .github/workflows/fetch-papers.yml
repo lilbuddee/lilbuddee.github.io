@@ -2,8 +2,8 @@ name: Fetch New Papers
 
 on:
   schedule:
-    - cron: '0 6 * * 1'  # every Monday at 6am UTC
-  workflow_dispatch:       # also allows manual trigger
+    - cron: "0 6 * * 1" # every Monday at 6am UTC
+  workflow_dispatch: # also allows manual trigger
 
 jobs:
   fetch-papers:
@@ -16,7 +16,7 @@ jobs:
 
       - uses: actions/setup-python@v5
         with:
-          python-version: '3.11'
+          python-version: "3.11"
 
       - run: pip install bibtexparser requests
 

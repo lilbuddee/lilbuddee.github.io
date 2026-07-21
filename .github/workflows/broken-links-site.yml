@@ -43,5 +43,6 @@ jobs:
         uses: lycheeverse/lychee-action@v2.0.2
         with:
           fail: true
-          # only check local links
-          args: --offline --remap '_site(/?.*)/assets/(.*) _site/assets/$2' --verbose --no-progress '_site/**/*.html'
+          # only check local links; root-relative links (e.g. /cv/, /assets/...) need
+          # --root-dir to resolve against the built site instead of erroring out
+          args: --offline --root-dir "$GITHUB_WORKSPACE/_site" --verbose --no-progress '_site/**/*.html'

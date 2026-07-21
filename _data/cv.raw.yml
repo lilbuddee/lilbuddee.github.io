@@ -11,14 +11,13 @@ settings:
     dont_generate_pdf: false
     dont_generate_png: true
 
-
 cv:
   name: Deepak Sathyan
-  headline: '[arXiv](https://arxiv.org/a/sathyan_d_1)  |  [InspireHEP](https://inspirehep.net/authors/1615022)  | [Google Scholar](https://scholar.google.com/citations?user=29PfYjgAAAAJ)  |  [ORCID](https://orcid.org/0000-0001-9421-5480)  |  [Website](https://deepaksathyan.com)'
+  headline: "[arXiv](https://arxiv.org/a/sathyan_d_1)  |  [InspireHEP](https://inspirehep.net/authors/1615022)  | [Google Scholar](https://scholar.google.com/citations?user=29PfYjgAAAAJ)  |  [ORCID](https://orcid.org/0000-0001-9421-5480)  |  [Website](https://deepaksathyan.com)"
   email: dsathyan@tamu.edu
   location: Mitchell Institute for Fundamental Physics and Astronomy, Texas A&M University, College Station, TX
   # image: ""
-  
+
   # social_networks:
   # - network: ORCID
   #   username: 0000-0001-9421-5480
@@ -67,11 +66,11 @@ cv:
         summary: Texas A&M University
 
     Seminars:
-      - name: 'Unification of Searches and Measurements: Probing BSM with the W boson mass measurement'
+      - name: "Unification of Searches and Measurements: Probing BSM with the W boson mass measurement"
         summary: |
           CMS Exotica general meeting, May 2024
-      
-      - name: 'A New Purpose A New Purpose for the W-mass Measurement: Searching for New Physics via l + MET'
+
+      - name: "A New Purpose A New Purpose for the W-mass Measurement: Searching for New Physics via l + MET"
         summary: |
           Theory Seminar at Washington University in St. Louis, October 2023
           HEP Seminar at Northwestern University, October 2023
@@ -79,56 +78,55 @@ cv:
           CMS SUSY general meeting, November 2023
           Seminar at UT Austin, December 2023
           Seminar at Texas A&M, December 2023
-        
 
     Conference Talks:
-      - name: 'Can the LHC be sensitive to the Light Dark World?'
-        summary: | 
+      - name: "Can the LHC be sensitive to the Light Dark World?"
+        summary: |
           Light Dark World 2026 at Carleton University, July 2026
-      
-      - name: 'Producing the GeV Galactic Center Excess via Cosmic Ray-Dark Matter Scattering'
+
+      - name: "Producing the GeV Galactic Center Excess via Cosmic Ray-Dark Matter Scattering"
         summary: |
           CETUP* Workshop, June 2026
 
-      - name: 'A Baryon and Lepton Number Violaton Model Testable at the LHC'
-        summary: | 
+      - name: "A Baryon and Lepton Number Violaton Model Testable at the LHC"
+        summary: |
           Particle Physics on the Plains at the University of Kansas, November 2025
 
-      - name: 'Can the LHC be sensitive to light dark mediators?'
-        summary: | 
+      - name: "Can the LHC be sensitive to light dark mediators?"
+        summary: |
           Phenomenology Conference at the University of Pittsburgh, May 2025
           CETUP* Workshop, June 2025
 
-      - name: 'A comprehensive analysis of supernova neutrino-dark matter interactions'
+      - name: "A comprehensive analysis of supernova neutrino-dark matter interactions"
         summary: |
           Mitchell Conference at Texas A&M University, May 2024
           NuFact Conference, September 2024
           Texas TACOS @ UT Austin, October 2024
           Particle Physics on the Plains at the University of Kansas, November 2024
 
-      - name: 'A New Purpose for the W-mass Measurement: Searching for New Physics via l + MET'
-        summary: | 
+      - name: "A New Purpose for the W-mass Measurement: Searching for New Physics via l + MET"
+        summary: |
           Particle Physics on the Plains at the University of Kansas, October 2023
 
-      - name: 'Probing Dark Matter-Neutrino Interactions via Supernova Neutrinos'
+      - name: "Probing Dark Matter-Neutrino Interactions via Supernova Neutrinos"
         summary: |
           Phenomenology Conference at the University of Pittsburgh, May 2023
-      
-      - name: 'Model-Independent Measurement of Top Quark Mass Using B-Hadron Decay Lengths (Part I)'
+
+      - name: "Model-Independent Measurement of Top Quark Mass Using B-Hadron Decay Lengths (Part I)"
         summary: |
           Phenomenology Conference at the University of Pittsburgh, May 2022
 
-      - name: 'Signals of KK graviton from extended warped extra dimensions at the LHC (II)'
+      - name: "Signals of KK graviton from extended warped extra dimensions at the LHC (II)"
         summary: |
           Phenomenology Conference at the University of Pittsburgh, May 2020
           April APS Meeting, April 2021
 
     Conferences Organized:
-      - name: 'The Mitchell Conference on Collider, Dark Matter, and Neutrino Physics 2026'
+      - name: "The Mitchell Conference on Collider, Dark Matter, and Neutrino Physics 2026"
         summary: |
           Texas A&M University, May 27-30, 2026
-      
-      - name: 'The Mitchell Conference on Collider, Dark Matter, and Neutrino Physics 2025'
+
+      - name: "The Mitchell Conference on Collider, Dark Matter, and Neutrino Physics 2025"
         summary: |
           Texas A&M University, May 13-16, 2025
 
@@ -143,7 +141,7 @@ cv:
       - name: GGI Lectures on the Theory of Fundamental Interactions
         start_date: 2023-01-09
         end_date: 2023-01-27
-      - name: 'TASI 2024: The Frontiers of Particle Theory'
+      - name: "TASI 2024: The Frontiers of Particle Theory"
         start_date: 2024-06-03
         end_date: 2024-06-28
 
