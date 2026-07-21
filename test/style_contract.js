@@ -1,5 +1,6 @@
 const fs = require("node:fs");
 const path = require("node:path");
+const { spawnSync } = require("node:child_process");
 
 const root = process.cwd();
 
@@ -61,7 +62,33 @@ if (/gem 'al_math',\s*:git =>/.test(gemfile)) {
   failures.push("`Gemfile` must not use git-branch pin for `al_math`; use released gem version.");
 }
 
-for (const forbiddenPath of ["_includes", "_layouts", "_sass", "_scripts", "assets/tailwind", "tailwind.config.js", "assets/webfonts"]) {
+// docs/BOUNDARIES.md: "A starter site may define _layouts/<name>.liquid,
+// _includes/<path>.liquid, _sass/*.scss ... when the customization is only
+// for that site" - as long as any gem-owned file it shadows is acknowledged
+// via `bundle exec al-folio upgrade overrides accept`, so upstream drift can
+// be tracked. Delegate to that tool rather than re-deriving its gem-path
+// mapping here (e.g. al_folio_cv ships _includes/cv/*.liquid from a
+// templates/cv/ path in the gem, not a 1:1 directory mirror): it already
+// knows which files under _includes/_layouts/_sass are real gem shadows
+// (and must be acknowledged) versus net-new site-only files with no
+// upstream counterpart (fine as-is, nothing to track). Build-tooling paths
+// stay banned outright below - the starter has no sanctioned reason to own
+// those file-by-file.
+const overridesAudit = spawnSync("bundle", ["exec", "al-folio", "upgrade", "overrides", "audit", "--fail-on-stale"], {
+  cwd: root,
+  encoding: "utf8",
+});
+if (overridesAudit.error) {
+  failures.push(`Could not run \`bundle exec al-folio upgrade overrides audit\`: ${overridesAudit.error.message}`);
+} else if (overridesAudit.status !== 0) {
+  failures.push(
+    "Unacknowledged or stale local override(s) under _includes/_layouts/_sass. Run `bundle exec al-folio upgrade overrides audit` for details, " +
+      "then `bundle exec al-folio upgrade overrides accept` (see docs/BOUNDARIES.md):\n" +
+      (overridesAudit.stdout || overridesAudit.stderr || "").trim()
+  );
+}
+
+for (const forbiddenPath of ["_scripts", "assets/tailwind", "tailwind.config.js", "assets/webfonts"]) {
   if (exists(forbiddenPath)) {
     failures.push(`Starter must not own core component path \`${forbiddenPath}\`; move ownership to the corresponding gem.`);
   }

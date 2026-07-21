@@ -21,7 +21,7 @@ jobs:
       - run: pip install bibtexparser requests
 
       - name: Fetch new papers from InspireHEP
-        run: python _data/fetch_papers.py
+        run: python "scripts/import requests.py"
 
       - name: Commit if papers.raw.bib changed
         run: |
