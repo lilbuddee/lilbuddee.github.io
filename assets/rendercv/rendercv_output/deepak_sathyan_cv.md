@@ -139,7 +139,7 @@ K. Agashe, S. Airen, R. Franceschini, J. Incandela, D. Kim, D. Sathyan
 
 Oct 2022
 
-Collaboration
+F. Maltoni et al.
 
 [arxiv.org/abs/2210.02591](https://arxiv.org/abs/2210.02591)
 
@@ -149,7 +149,7 @@ Collaboration
 
 Sept 2022
 
-Collaboration
+T. Bose et al.
 
 [arxiv.org/abs/2209.13128](https://arxiv.org/abs/2209.13128)
 
@@ -159,7 +159,7 @@ Collaboration
 
 Sept 2022
 
-Collaboration
+K. Agashe et al.
 
 [arxiv.org/abs/2209.11267](https://arxiv.org/abs/2209.11267)
 
@@ -189,7 +189,7 @@ K. Agashe, J.H. Collins, P. Du, M. Ekhterachian, S. Hong, D. Kim, R.K. Mishra, D
 
 2022
 
-Collaboration
+B.T. King et al.
 
 [arxiv.org/abs/2111.02076](https://arxiv.org/abs/2111.02076) (JINST)
 
@@ -199,7 +199,7 @@ Collaboration
 
 2021
 
-Muon g-2
+Muon g-2 Collaboration
 
 [arxiv.org/abs/2104.03281](https://arxiv.org/abs/2104.03281) (Phys. Rev. Lett.)
 
@@ -209,7 +209,7 @@ Muon g-2
 
 2021
 
-Muon g-2
+Muon g-2 Collaboration
 
 [arxiv.org/abs/2104.03240](https://arxiv.org/abs/2104.03240) (Phys. Rev. Accel. Beams)
 
