@@ -6,6 +6,7 @@ settings:
     typst_path: ../assets/rendercv/rendercv_output/deepak_sathyan_cv.typ
     pdf_path: ../assets/rendercv/rendercv_output/deepak_sathyan_cv.pdf
     html_path: ../assets/rendercv/rendercv_output/deepak_sathyan_cv.html
+    markdown_path: ../assets/rendercv/rendercv_output/deepak_sathyan_cv.md
     dont_generate_markdown: false
     dont_generate_html: false
     dont_generate_typst: false
