@@ -32,7 +32,7 @@ design:
   theme: classic
 
   page:
-    size: us-letter 
+    size: us-letter
     top_margin: 0.7in
     bottom_margin: 0.7in
     left_margin: 0.7in
@@ -52,10 +52,10 @@ design:
 
   typography:
     line_spacing: 0.6em
-    alignment: justified 
+    alignment: justified
     date_and_location_column_alignment: right
-    font_family: 
-      body: Source Sans 3 
+    font_family:
+      body: Source Sans 3
       name: Source Sans 3
       headline: Source Sans 3
       connections: Source Sans 3
@@ -82,24 +82,24 @@ design:
     show_external_link_icon: false
 
   header:
-    alignment: center 
+    alignment: center
     photo_width: 3.5cm
-    photo_position: left 
+    photo_position: left
     photo_space_left: 0.4cm
     photo_space_right: 0.4cm
     space_below_name: 0.6cm
     space_below_headline: 0.35cm
     space_below_connections: 0.75cm
     connections:
-      phone_number_format: national 
+      phone_number_format: national
       hyperlink: true
       show_icons: true
       display_urls_instead_of_usernames: false
-      separator: ''
+      separator: ""
       space_between_connections: 0.25cm
 
   section_titles:
-    type: with_partial_line 
+    type: with_partial_line
     line_thickness: 0.5pt
     space_above: 0.8cm
     space_below: 0.4cm
@@ -108,7 +108,7 @@ design:
     allow_page_break: true
     space_between_regular_entries: 1.2em
     space_between_text_based_entries: 0.3em
-    show_time_spans_in: 
+    show_time_spans_in:
       - experience
 
   entries:
@@ -119,9 +119,9 @@ design:
     short_second_row: true
     summary:
       space_above: 0cm
-      space_left: 0cm  
+      space_left: 0cm
     highlights:
-      bullet: • 
+      bullet: •
       # bullet: ' '
       nested_bullet: •
       # nested_bullet: ''
@@ -130,21 +130,21 @@ design:
       space_between_items: 0cm
       space_between_bullet_and_text: 0.5em
 
-  templates: 
-    footer: '*NAME -- PAGE_NUMBER/TOTAL_PAGES*'
-    top_note: '*LAST_UPDATED CURRENT_DATE*'
+  templates:
+    footer: "*NAME -- PAGE_NUMBER/TOTAL_PAGES*"
+    top_note: "*LAST_UPDATED CURRENT_DATE*"
     single_date: MONTH_ABBREVIATION YEAR
     date_range: START_DATE – END_DATE
     time_span: HOW_MANY_YEARS YEARS HOW_MANY_MONTHS MONTHS
     one_line_entry:
-      main_column: '**LABEL:** DETAILS'
+      main_column: "**LABEL:** DETAILS"
     education_entry:
       main_column: |-
         **INSTITUTION**
         **DEGREE**
         SUMMARY
         HIGHLIGHTS
-      degree_column: ''
+      degree_column: ""
       date_and_location_column: |-
         LOCATION
         DATE
