@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-08-03'
+  last_updated: '2026-08-05'
   source: inspirehep
 papers:
   Agashe:2020wph:
@@ -74,12 +74,12 @@ papers:
     title: 'TF07 Snowmass Report: Theory of Collider Phenomena'
     year: '2022'
   Muong-2:2021ojo:
-    citations: 2164
+    citations: 2167
     record_id: '1856627'
     title: Measurement of the Positive Muon Anomalous Magnetic Moment to 0.46 ppm
     year: '2021'
   Muong-2:2021xzz:
-    citations: 129
+    citations: 130
     record_id: '1856628'
     title: Beam dynamics corrections to the Run-1 measurement of the muon anomalous
       magnetic moment at Fermilab
