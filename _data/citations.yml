@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-08-12'
+  last_updated: '2026-08-14'
   source: inspirehep
 papers:
   Agashe:2020wph:
@@ -42,7 +42,7 @@ papers:
     title: A Baryon and Lepton Number Violation Model Testable at the LHC
     year: '2025'
   Bose:2022obr:
-    citations: 63
+    citations: 64
     record_id: '2157249'
     title: Report of the Topical Group on Physics Beyond the Standard Model at Energy
       Frontier for Snowmass 2021
@@ -64,7 +64,7 @@ papers:
     title: Producing the GeV Galactic Center Excess via Cosmic Ray-Dark Matter Scattering
     year: '2026'
   King:2021hst:
-    citations: 26
+    citations: 27
     record_id: '1959546'
     title: The straw tracking detector for the Fermilab Muon g-2 Experiment
     year: '2021'
@@ -74,12 +74,12 @@ papers:
     title: 'TF07 Snowmass Report: Theory of Collider Phenomena'
     year: '2022'
   Muong-2:2021ojo:
-    citations: 2169
+    citations: 2171
     record_id: '1856627'
     title: Measurement of the Positive Muon Anomalous Magnetic Moment to 0.46 ppm
     year: '2021'
   Muong-2:2021xzz:
-    citations: 130
+    citations: 131
     record_id: '1856628'
     title: Beam dynamics corrections to the Run-1 measurement of the muon anomalous
       magnetic moment at Fermilab
