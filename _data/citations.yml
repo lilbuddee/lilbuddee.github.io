@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-08-17'
+  last_updated: '2026-08-19'
   source: inspirehep
 papers:
   Agashe:2020wph:
@@ -42,7 +42,7 @@ papers:
     title: A Baryon and Lepton Number Violation Model Testable at the LHC
     year: '2025'
   Bose:2022obr:
-    citations: 64
+    citations: 65
     record_id: '2157249'
     title: Report of the Topical Group on Physics Beyond the Standard Model at Energy
       Frontier for Snowmass 2021
