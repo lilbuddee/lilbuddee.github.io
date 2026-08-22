@@ -313,23 +313,6 @@ April APS Meeting, April 2021
 
 
 
-# Projects
-## **BSM Searches via W Boson Mass**
-
-Jan 2020 – July 2024
-
-Developed a framework unifying beyond-the-Standard-Model searches with precision measurements of the W boson mass at the LHC.
-
-
-
-## **Muon g-2 Experiment**
-
-Aug 2018 – Jan 2022
-
-Contributed to the straw tracking detector and beam dynamics corrections for the Fermilab Muon g-2 experiment, which measured the muon anomalous magnetic moment to 0.46 ppm.
-
-
-
 # Conferences Organized
 ## **The Mitchell Conference on Collider, Dark Matter, and Neutrino Physics 2026**
 

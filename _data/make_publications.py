@@ -450,12 +450,12 @@ cv["cv"]["sections"] = {
     "Publications": publications_export,
     "Seminars": old_sections.get("Seminars", []),
     "Conference Talks": old_sections.get("Conference Talks", []),
-    "Projects": old_sections.get("Projects", []),
     "Conferences Organized": old_sections.get("Conferences Organized", []),
     "Awards": old_sections.get("Awards", []),
     "Schools Attended": old_sections.get("Schools Attended", []),
     "Skills": old_sections.get("Skills", []),
-    # "Projects": old_sections.get("Projects", []),
+    # "Projects" intentionally omitted - not displayed on the website CV or PDF CV.
+    # Source data is still in cv.raw.yml under Projects if this is ever reversed.
 }
 
 class IndentedDumper(yaml.SafeDumper):

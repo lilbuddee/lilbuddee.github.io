@@ -261,18 +261,6 @@ cv:
             summary: |
                 Phenomenology Conference at the University of Pittsburgh, May 2020
                 April APS Meeting, April 2021
-        Projects:
-        -   name: BSM Searches via W Boson Mass
-            summary: Developed a framework unifying beyond-the-Standard-Model searches
-                with precision measurements of the W boson mass at the LHC.
-            start_date: 2020-01
-            end_date: 2024-07
-        -   name: Muon g-2 Experiment
-            summary: Contributed to the straw tracking detector and beam dynamics
-                corrections for the Fermilab Muon g-2 experiment, which measured the
-                muon anomalous magnetic moment to 0.46 ppm.
-            start_date: 2018-08
-            end_date: 2022-01
         Conferences Organized:
         -   name: The Mitchell Conference on Collider, Dark Matter, and Neutrino Physics
                 2026
