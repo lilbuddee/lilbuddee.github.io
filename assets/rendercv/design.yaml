@@ -55,14 +55,14 @@ design:
     alignment: justified
     date_and_location_column_alignment: right
     font_family:
-      body: Source Sans 3
-      name: Source Sans 3
-      headline: Source Sans 3
-      connections: Source Sans 3
-      section_titles: Source Sans 3
+      body: Libertinus Serif
+      name: Libertinus Serif
+      headline: Libertinus Serif
+      connections: Libertinus Serif
+      section_titles: Libertinus Serif
     font_size:
       body: 11pt
-      name: 30pt
+      name: 25pt
       headline: 10pt
       connections: 10pt
       section_titles: 1.4em
