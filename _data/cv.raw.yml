@@ -146,12 +146,20 @@ cv:
         end_date: 2024-06-28
 
     Skills:
-      - name: High Energy Physics
-        level: Expert
-        keywords: "Beyond Standard Model, W Boson Mass, LHC Phenomenology, Dark Matter, Neutrino Physics"
-      - name: Computing
-        level: Master
-        keywords: "Python, ROOT, Monte Carlo simulations, LaTeX"
+      - name: 'Programming: Mathematica, Python, C++'
+      - name: 'Physics Software: MadGraph5_aMC@NLO, Pythia6, Pythia8, Delphes, ROOT, GEANT4, FeynRules'
+      # - name: High Energy Physics
+      #   level: Expert
+      #   keywords: "Beyond Standard Model, W Boson Mass, LHC Phenomenology, Dark Matter, Neutrino Physics"
+      # - name: Computing
+      #   level: Master
+      #   keywords: "Python, ROOT, Monte Carlo simulations, LaTeX"
+
+    Outreach:
+      - name: BU Student Mentorship Program PRISM (2016-2018)
+        summary: Mentored incoming freshman undergraduates in physics, providing guidance on courses, research opportunities, and resources
+      - name: TAMU Physics and Engineering Festival (2025-2027)
+        summary: Presented demonstrations of fluid dyanmics to the general public, including high school students and families
 
     Projects:
       - name: BSM Searches via W Boson Mass
@@ -162,6 +170,7 @@ cv:
         summary: Contributed to the straw tracking detector and beam dynamics corrections for the Fermilab Muon g-2 experiment, which measured the muon anomalous magnetic moment to 0.46 ppm.
         start_date: "2018-08"
         end_date: "2022-01"
+
 
       # References:
       #   - name: Professor John Doe

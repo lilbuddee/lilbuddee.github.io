@@ -225,6 +225,47 @@ K. Agashe, M. Ekhterachian, D. Kim, D. Sathyan
 
 
 
+# Articles in Preparation
+## **LHC as a Beam Dump: Probing Light Dark Photons**
+
+Sept 2026
+
+B. Dutta, A. Karthikeyan, D. Kim, H. Kim, T. Kim, D. Sathyan
+
+[arxiv.org/a/sathyan_d_1](https://arxiv.org/a/sathyan_d_1)
+
+
+
+## **New Probes of Dark Sectors at a Muon Collider**
+
+Jan 2027
+
+B. Dutta, A. Karthikeyan, D. Kim, K. Kelly, D. Sathyan
+
+[arxiv.org/a/sathyan_d_1](https://arxiv.org/a/sathyan_d_1)
+
+
+
+## **Exploring open systems approach to neutrino oscillations**
+
+Mar 2027
+
+A. Chandra Shekar, K. Kelly, D. Sathyan, L. Strigari, T. Zhou
+
+[arxiv.org/a/sathyan_d_1](https://arxiv.org/a/sathyan_d_1)
+
+
+
+## **LHC Signals for KK Gravitons Producing 8-Particle Final States**
+
+Mar 2027
+
+K. Agashe, D. Kim, P. Maksimovic, S. Mondal, M. Osherson, K. Panchal, D. Plotnikov, D. Sathyan
+
+[arxiv.org/a/sathyan_d_1](https://arxiv.org/a/sathyan_d_1)
+
+
+
 # Seminars
 ## **Unification of Searches and Measurements: Probing BSM with the W boson mass measurement**
 
@@ -348,11 +389,24 @@ June 2024 – June 2024
 
 
 
+# Outreach
+## **BU Student Mentorship Program PRISM (2016-2018)**
+
+Mentored incoming freshman undergraduates in physics, providing guidance on courses, research opportunities, and resources
+
+
+
+## **TAMU Physics and Engineering Festival (2025-2027)**
+
+Presented demonstrations of fluid dyanmics to the general public, including high school students and families
+
+
+
 # Skills
-## **High Energy Physics**
+## **Programming: Mathematica, Python, C++**
 
 
 
-## **Computing**
+## **Physics Software: MadGraph5_aMC@NLO, Pythia6, Pythia8, Delphes, ROOT, GEANT4, FeynRules**
 
 

@@ -17,6 +17,7 @@ BIB_RAW = BASE_DIR / "_bibliography" / "papers.raw.bib"
 BIB_OUT = BASE_DIR / "_bibliography" / "papers.bib"
 
 CV_PATH = BASE_DIR / "_data" / "cv.raw.yml"
+ARTICLES_PATH = BASE_DIR / "_data" / "articles.yml"
 OUTPUT_PUBS = BASE_DIR / "_data" / "publications.yml"
 OUTPUT_CV_FINAL = BASE_DIR / "_data" / "cv.yml"
 
@@ -428,6 +429,19 @@ if CV_PATH.exists():
     with open(CV_PATH, "r") as f:
         cv = yaml.safe_load(f) or {}
 
+# Articles in preparation: hand-maintained (not scraped from bib/InspireHEP),
+# already in the same shape rendercv_publication() produces, since they have
+# no citations/DOI/venue yet. Reuse cv/publications.liquid on the website and
+# rendercv's PublicationEntry on the PDF for both by keeping that field shape -
+# entry type there is inferred structurally, not tied to the section's name.
+articles_in_prep = []
+if ARTICLES_PATH.exists():
+    with open(ARTICLES_PATH, "r") as f:
+        articles_in_prep = yaml.safe_load(f) or []
+for a in articles_in_prep:
+    a["authors"] = [name.strip() for name in a.get("authors", [])]
+articles_in_prep = sorted(articles_in_prep, key=lambda a: str(a.get("date") or ""))
+
 cv.setdefault("cv", {})
 cv["cv"].setdefault("sections", {})
 
@@ -448,11 +462,13 @@ cv["cv"]["sections"] = {
     "Experience": old_sections.get("Experience", []),
     # "Selected Publications": selected_export,
     "Publications": publications_export,
+    "Articles in Preparation": articles_in_prep,
     "Seminars": old_sections.get("Seminars", []),
     "Conference Talks": old_sections.get("Conference Talks", []),
     "Conferences Organized": old_sections.get("Conferences Organized", []),
     "Awards": old_sections.get("Awards", []),
     "Schools Attended": old_sections.get("Schools Attended", []),
+    "Outreach": old_sections.get("Outreach", []),
     "Skills": old_sections.get("Skills", []),
     # "Projects" intentionally omitted - not displayed on the website CV or PDF CV.
     # Source data is still in cv.raw.yml under Projects if this is ever reversed.
