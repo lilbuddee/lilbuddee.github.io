@@ -6,6 +6,7 @@ img:
 importance: 5
 category: work
 related_publications: true
+published: false
 ---
 
 As an undergraduate at Boston University, I worked on the Muon g-2 experiment, whose measurement of the muon anomalous precession frequency is one of the most precisely measured observables of nature.
