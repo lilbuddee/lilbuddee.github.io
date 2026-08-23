@@ -64,71 +64,69 @@ cv:
         start_date: 2024-09
         end_date: 2027-08
         summary: Texas A&M University
-    
+
     Research Interests:
-      - name: "Collider Physics"
+      - name: "Beyond the Standard Model searches with Collider Physics"
         summary: |
-          Beyond the Standard Model searches at the LHC, sub-GeV dark matter, invisible new physics, Kaluza-Klein modes, baryon number violation
-      - name: "Neutrino-Dark Matter Interactions"
-
-      - name: ""
-
+          searches at the LHC, sub-GeV dark matter, invisible new physics via precision measurements, Kaluza-Klein modes in Randall-Sundrum models, baryon number violation models, muon collider phenomenology
+      - name: "Searches for sub-GeV Dark Matter"
+        summary: |
+          Constraints on dark matter-neutrino interactions, dark photon production at the LHC, dark sector production at muon collider, astrophysical signals of cosmic ray-dark matter scattering, astrophysical sources of sub-GeV dark matter
+      - name: "Neutrino Physics"
+        summary: |
+          Supernova neutrino attenuation and detection, neutrino oscillations in open systems, neutrinophilic mediators
 
     Seminars:
-      - name: "Unification of Searches and Measurements: Probing BSM with the W boson mass measurement"
-        summary: |
-          CMS Exotica general meeting, May 2024
+      - name: CMS Exotica general meeting, May 2024
+        summary: "Unification of Searches and Measurements: Probing BSM with the W boson mass measurement"
 
-      - name: "A New Purpose A New Purpose for the W-mass Measurement: Searching for New Physics via l + MET"
-        summary: |
-          Theory Seminar at Washington University in St. Louis, October 2023
-          HEP Seminar at Northwestern University, October 2023
-          HEP Seminar at University of Pittsburgh, November 2023
-          CMS SUSY general meeting, November 2023
-          Seminar at UT Austin, December 2023
-          Seminar at Texas A&M, December 2023
+      - name: Seminar at Texas A&M, December 2023
+        summary: "A New Purpose A New Purpose for the W-mass Measurement: Searching for New Physics via l + MET"
+
+      - name: Seminar at UT Austin, December 2023
+        summary: "A New Purpose A New Purpose for the W-mass Measurement: Searching for New Physics via l + MET"
+
+      - name: CMS SUSY general meeting, November 2023
+        summary: "A New Purpose A New Purpose for the W-mass Measurement: Searching for New Physics via l + MET"
+
+      - name: HEP Seminar at University of Pittsburgh, November 2023
+        summary: "A New Purpose A New Purpose for the W-mass Measurement: Searching for New Physics via l + MET"
+
+      - name: HEP Seminar at Northwestern University, October 2023
+        summary: "A New Purpose A New Purpose for the W-mass Measurement: Searching for New Physics via l + MET"
+
+      - name: Theory Seminar at Washington University in St. Louis, October 2023
+        summary: "A New Purpose A New Purpose for the W-mass Measurement: Searching for New Physics via l + MET"
 
     Conference Talks:
-      - name: "Can the LHC be sensitive to the Light Dark World?"
-        summary: |
-          Light Dark World 2026 at Carleton University, July 2026
-
-      - name: "Producing the GeV Galactic Center Excess via Cosmic Ray-Dark Matter Scattering"
-        summary: |
-          CETUP* Workshop, June 2026
-
-      - name: "A Baryon and Lepton Number Violaton Model Testable at the LHC"
-        summary: |
-          Particle Physics on the Plains at the University of Kansas, November 2025
-
-      - name: "Can the LHC be sensitive to light dark mediators?"
-        summary: |
-          Phenomenology Conference at the University of Pittsburgh, May 2025
-          CETUP* Workshop, June 2025
-
-      - name: "A comprehensive analysis of supernova neutrino-dark matter interactions"
-        summary: |
-          Mitchell Conference at Texas A&M University, May 2024
-          NuFact Conference, September 2024
-          Texas TACOS @ UT Austin, October 2024
-          Particle Physics on the Plains at the University of Kansas, November 2024
-
-      - name: "A New Purpose for the W-mass Measurement: Searching for New Physics via l + MET"
-        summary: |
-          Particle Physics on the Plains at the University of Kansas, October 2023
-
-      - name: "Probing Dark Matter-Neutrino Interactions via Supernova Neutrinos"
-        summary: |
-          Phenomenology Conference at the University of Pittsburgh, May 2023
-
-      - name: "Model-Independent Measurement of Top Quark Mass Using B-Hadron Decay Lengths (Part I)"
-        summary: |
-          Phenomenology Conference at the University of Pittsburgh, May 2022
-
-      - name: "Signals of KK graviton from extended warped extra dimensions at the LHC (II)"
-        summary: |
-          Phenomenology Conference at the University of Pittsburgh, May 2020
-          April APS Meeting, April 2021
+      - name: Light Dark World 2026 at Carleton University, July 2026
+        summary: "Can the LHC be sensitive to the Light Dark World?"
+      - name: CETUP* Workshop, June 2026
+        summary: "Producing the GeV Galactic Center Excess via Cosmic Ray-Dark Matter Scattering"
+      - name: Particle Physics on the Plains at the University of Kansas, November 2025
+        summary: "A Baryon and Lepton Number Violaton Model Testable at the LHC"
+      - name: CETUP* Workshop, June 2025
+        summary: "Can the LHC be sensitive to light dark mediators?"
+      - name: Phenomenology Conference at the University of Pittsburgh, May 2025
+        summary: "Can the LHC be sensitive to light dark mediators?"
+      - name: Particle Physics on the Plains at the University of Kansas, November 2024
+        summary: "A comprehensive analysis of supernova neutrino-dark matter interactions"
+      - name: Texas TACOS @ UT Austin, October 2024
+        summary: "A comprehensive analysis of supernova neutrino-dark matter interactions"
+      - name: NuFact Conference, September 2024
+        summary: "A comprehensive analysis of supernova neutrino-dark matter interactions"
+      - name: Mitchell Conference at Texas A&M University, May 2024
+        summary: "A comprehensive analysis of supernova neutrino-dark matter interactions"
+      - name: Particle Physics on the Plains at the University of Kansas, October 2023
+        summary: "A New Purpose for the W-mass Measurement: Searching for New Physics via l + MET"
+      - name: Phenomenology Conference at the University of Pittsburgh, May 2023
+        summary: "Probing Dark Matter-Neutrino Interactions via Supernova Neutrinos"
+      - name: Phenomenology Conference at the University of Pittsburgh, May 2022
+        summary: "Model-Independent Measurement of Top Quark Mass Using B-Hadron Decay Lengths (Part I)"
+      - name: April APS Meeting, April 2021
+        summary: "Signals of KK graviton from extended warped extra dimensions at the LHC (II)"
+      - name: Phenomenology Conference at the University of Pittsburgh, May 2020
+        summary: "Signals of KK graviton from extended warped extra dimensions at the LHC (II)"
 
     Conferences Organized:
       - name: "The Mitchell Conference on Collider, Dark Matter, and Neutrino Physics 2026"
@@ -155,10 +153,10 @@ cv:
         end_date: 2024-06-28
 
     Skills:
-      - name: 'Programming:'
-        keywords: 'Mathematica, Python, C++'
-      - name: 'Physics Software:'
-        keywords: 'MadGraph5_aMC@NLO, Pythia6, Pythia8, Delphes, ROOT, GEANT4, FeynRules'
+      - name: "Programming:"
+        keywords: "Mathematica, Python, C++"
+      - name: "Physics Software:"
+        keywords: "MadGraph5_aMC@NLO, Pythia6, Pythia8, Delphes, ROOT, GEANT4, FeynRules"
       # - name: High Energy Physics
       #   level: Expert
       #   keywords: "Beyond Standard Model, W Boson Mass, LHC Phenomenology, Dark Matter, Neutrino Physics"
@@ -171,6 +169,8 @@ cv:
         summary: Mentored incoming freshman undergraduates in physics, providing guidance on courses, research opportunities, and resources
       - name: TAMU Physics and Engineering Festival (2025-2027)
         summary: Presented demonstrations of fluid dyanmics to the general public, including high school students and families
+      - name: 'University of South Dakota talk: "My path through particle physics research so far" (December 2024)'
+        summary: Presented my path through particle physics research to students, showing a variety of interesting ideas to pursue'
 
     Projects:
       - name: BSM Searches via W Boson Mass
@@ -181,7 +181,6 @@ cv:
         summary: Contributed to the straw tracking detector and beam dynamics corrections for the Fermilab Muon g-2 experiment, which measured the muon anomalous magnetic moment to 0.46 ppm.
         start_date: "2018-08"
         end_date: "2022-01"
-
 
       # References:
       #   - name: Professor John Doe

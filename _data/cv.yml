@@ -48,9 +48,19 @@ cv:
             start_date: 2024-09
             end_date: 2027-08
             summary: Texas A&M University
-        Publications:
-        -   title: Producing the GeV Galactic Center Excess via Cosmic Ray-Dark Matter
-                Scattering
+        Research Interests:
+        -   name: Beyond the Standard Model searches with Collider Physics
+            summary: |
+                searches at the LHC, sub-GeV dark matter, invisible new physics via precision measurements, Kaluza-Klein modes in Randall-Sundrum models, baryon number violation models, muon collider phenomenology
+        -   name: Searches for sub-GeV Dark Matter
+            summary: |
+                Constraints on dark matter-neutrino interactions, dark photon production at the LHC, dark sector production at muon collider, astrophysical signals of cosmic ray-dark matter scattering, astrophysical sources of sub-GeV dark matter
+        -   name: Neutrino Physics
+            summary: |
+                Supernova neutrino attenuation and detection, neutrino oscillations in open systems, neutrinophilic mediators
+        Articles in Review:
+        -   title: 3. Producing the GeV Galactic Center Excess via Cosmic Ray-Dark
+                Matter Scattering
             authors:
             - B. Dutta
             - D. Goswami
@@ -60,7 +70,7 @@ cv:
             date: 2026-05
             journal: null
             url: https://arxiv.org/abs/2605.08010
-        -   title: A Baryon and Lepton Number Violation Model Testable at the LHC
+        -   title: 2. A Baryon and Lepton Number Violation Model Testable at the LHC
             authors:
             - A. Bhoonah
             - F. Burk
@@ -70,7 +80,7 @@ cv:
             date: 2025-08
             journal: null
             url: https://arxiv.org/abs/2508.21064
-        -   title: 'New Constraints on Neutrino-Dark Matter Interactions: A Comprehensive
+        -   title: '1. New Constraints on Neutrino-Dark Matter Interactions: A Comprehensive
                 Analysis'
             authors:
             - P.S.B. Dev
@@ -81,17 +91,18 @@ cv:
             date: 2025-07
             journal: null
             url: https://arxiv.org/abs/2507.01000
-        -   title: New laboratory constraints on neutrinophilic mediators
+        Articles in Refereed Journals:
+        -   title: 5. New laboratory constraints on neutrinophilic mediators
             authors:
             - P.S.B. Dev
             - D. Kim
             - D. Sathyan
             - K. Sinha
             - Y. Zhang
-            date: 2025
-            journal: Phys. Lett. B
+            date: 2024-07
+            journal: Phys.Lett.B 868 (2025) 139765
             url: https://arxiv.org/abs/2407.12738
-        -   title: '''Unification'' of BSM searches and SM measurements: the case
+        -   title: '4. ''Unification'' of BSM searches and SM measurements: the case
                 of lepton+MET and m_W'
             authors:
             - K. Agashe
@@ -101,10 +112,10 @@ cv:
             - A.V. Kotwal
             - L. Ricci
             - D. Sathyan
-            date: 2025
-            journal: JHEP
+            date: 2024-04
+            journal: JHEP 02 (2025) 139
             url: https://arxiv.org/abs/2404.17574
-        -   title: 'A new purpose for the W-boson mass measurement: Searching for
+        -   title: '3. A new purpose for the W-boson mass measurement: Searching for
                 New Physics in lepton+MET'
             authors:
             - K. Agashe
@@ -114,17 +125,10 @@ cv:
             - A.V. Kotwal
             - L. Ricci
             - D. Sathyan
-            date: 2024
-            journal: Phys. Lett. B
+            date: 2023-10
+            journal: Phys.Lett.B 855 (2024) 138774
             url: https://arxiv.org/abs/2310.13687
-        -   title: Unifying Searches for New Physics with Precision Measurements of
-                the W Boson Mass
-            authors:
-            - D. Sathyan
-            date: 2024
-            journal: Ph.D. Thesis
-            url: https://drum.lib.umd.edu/items/f9b081c8-444a-4af2-b69e-c8156d11a2c9
-        -   title: Energy-peak based method to measure top quark mass via B-hadron
+        -   title: 2. Energy-peak based method to measure top quark mass via B-hadron
                 decay lengths
             authors:
             - K. Agashe
@@ -133,85 +137,20 @@ cv:
             - J. Incandela
             - D. Kim
             - D. Sathyan
-            date: 2023
-            journal: JHEP
+            date: 2022-12
+            journal: JHEP 06 (2023) 021
             url: https://arxiv.org/abs/2212.03929
-        -   title: 'TF07 Snowmass Report: Theory of Collider Phenomena'
-            authors:
-            - F. Maltoni et al.
-            date: 2022-10
-            journal: null
-            url: https://arxiv.org/abs/2210.02591
-        -   title: Report of the Topical Group on Physics Beyond the Standard Model
-                at Energy Frontier for Snowmass 2021
-            authors:
-            - T. Bose et al.
-            date: 2022-09
-            journal: null
-            url: https://arxiv.org/abs/2209.13128
-        -   title: Report of the Topical Group on Top quark physics and heavy flavor
-                production for Snowmass 2021
-            authors:
-            - K. Agashe et al.
-            date: 2022-09
-            journal: null
-            url: https://arxiv.org/abs/2209.11267
-        -   title: 'Snowmass2021 - White Paper, Implications of Energy Peak for Collider
-                Phenomenology: Top Quark Mass Determination and Beyond'
-            authors:
-            - K. Agashe
-            - S. Airen
-            - R. Franceschini
-            - D. Kim
-            - D. Sathyan
-            date: 2022-04
-            journal: null
-            url: https://arxiv.org/abs/2204.02928
-        -   title: 'Snowmass2021 White Paper: Collider Physics Opportunities of Extended
-                Warped Extra-Dimensional Models'
-            authors:
-            - K. Agashe
-            - J.H. Collins
-            - P. Du
-            - M. Ekhterachian
-            - S. Hong
-            - D. Kim
-            - R.K. Mishra
-            - D. Sathyan
-            date: 2022-03
-            journal: null
-            url: https://arxiv.org/abs/2203.13305
-        -   title: The straw tracking detector for the Fermilab Muon g-2 Experiment
-            authors:
-            - B.T. King et al.
-            date: 2022
-            journal: JINST
-            url: https://arxiv.org/abs/2111.02076
-        -   title: Measurement of the Positive Muon Anomalous Magnetic Moment to 0.46
-                ppm
-            authors:
-            - Muon g-2 Collaboration
-            date: 2021
-            journal: Phys. Rev. Lett.
-            url: https://arxiv.org/abs/2104.03281
-        -   title: Beam dynamics corrections to the Run-1 measurement of the muon
-                anomalous magnetic moment at Fermilab
-            authors:
-            - Muon g-2 Collaboration
-            date: 2021
-            journal: Phys. Rev. Accel. Beams
-            url: https://arxiv.org/abs/2104.03240
-        -   title: LHC Signals for KK Graviton from an Extended Warped Extra Dimension
+        -   title: 1. LHC Signals for KK Graviton from an Extended Warped Extra Dimension
             authors:
             - K. Agashe
             - M. Ekhterachian
             - D. Kim
             - D. Sathyan
-            date: 2020
-            journal: JHEP
+            date: 2020-08
+            journal: JHEP 11 (2020) 109
             url: https://arxiv.org/abs/2008.06480
         Articles in Preparation:
-        -   title: 'LHC as a Beam Dump: Probing Light Dark Photons'
+        -   title: '1. LHC as a Beam Dump: Probing Light Dark Photons'
             authors:
             - B. Dutta
             - A. Karthikeyan
@@ -222,7 +161,7 @@ cv:
             date: 2026-09
             journal: null
             url: https://arxiv.org/a/sathyan_d_1
-        -   title: New Probes of Dark Sectors at a Muon Collider
+        -   title: 2. New Probes of Dark Sectors at a Muon Collider
             authors:
             - B. Dutta
             - A. Karthikeyan
@@ -232,7 +171,7 @@ cv:
             date: 2027-01
             journal: null
             url: https://arxiv.org/a/sathyan_d_1
-        -   title: Exploring open systems approach to neutrino oscillations
+        -   title: 3. Exploring open systems approach to neutrino oscillations
             authors:
             - A. Chandra Shekar
             - K. Kelly
@@ -242,7 +181,7 @@ cv:
             date: 2027-03
             journal: null
             url: https://arxiv.org/a/sathyan_d_1
-        -   title: LHC Signals for KK Gravitons Producing 8-Particle Final States
+        -   title: 4. LHC Signals for KK Gravitons Producing 8-Particle Final States
             authors:
             - K. Agashe
             - D. Kim
@@ -255,57 +194,140 @@ cv:
             date: 2027-03
             journal: null
             url: https://arxiv.org/a/sathyan_d_1
+        Ph.D. Thesis:
+        -   title: 1. Unifying Searches for New Physics with Precision Measurements
+                of the W Boson Mass
+            authors:
+            - D. Sathyan
+            date: 2024
+            journal: Ph.D. Thesis
+            url: https://drum.lib.umd.edu/items/f9b081c8-444a-4af2-b69e-c8156d11a2c9
+        Snowmass2021 Contributions:
+        -   title: '5. TF07 Snowmass Report: Theory of Collider Phenomena'
+            authors:
+            - F. Maltoni et al.
+            date: 2022-10
+            journal: null
+            url: https://arxiv.org/abs/2210.02591
+        -   title: 4. Report of the Topical Group on Top quark physics and heavy flavor
+                production for Snowmass 2021
+            authors:
+            - K. Agashe et al.
+            date: 2022-09
+            journal: null
+            url: https://arxiv.org/abs/2209.11267
+        -   title: 3. Report of the Topical Group on Physics Beyond the Standard Model
+                at Energy Frontier for Snowmass 2021
+            authors:
+            - T. Bose et al.
+            date: 2022-09
+            journal: null
+            url: https://arxiv.org/abs/2209.13128
+        -   title: '2. Snowmass2021 - White Paper, Implications of Energy Peak for
+                Collider Phenomenology: Top Quark Mass Determination and Beyond'
+            authors:
+            - K. Agashe
+            - S. Airen
+            - R. Franceschini
+            - D. Kim
+            - D. Sathyan
+            date: 2022-04
+            journal: null
+            url: https://arxiv.org/abs/2204.02928
+        -   title: '1. Snowmass2021 White Paper: Collider Physics Opportunities of
+                Extended Warped Extra-Dimensional Models'
+            authors:
+            - K. Agashe
+            - J.H. Collins
+            - P. Du
+            - M. Ekhterachian
+            - S. Hong
+            - D. Kim
+            - R.K. Mishra
+            - D. Sathyan
+            date: 2022-03
+            journal: null
+            url: https://arxiv.org/abs/2203.13305
+        Muon g-2 Articles:
+        -   title: 3. The straw tracking detector for the Fermilab Muon g-2 Experiment
+            authors:
+            - B.T. King et al.
+            date: 2021-11
+            journal: JINST 17 (2022) P02035
+            url: https://arxiv.org/abs/2111.02076
+        -   title: 2. Beam dynamics corrections to the Run-1 measurement of the muon
+                anomalous magnetic moment at Fermilab
+            authors:
+            - Muon g-2 Collaboration
+            date: 2021-04
+            journal: Phys.Rev.Accel.Beams 24 (2021) 044002
+            url: https://arxiv.org/abs/2104.03240
+        -   title: 1. Measurement of the Positive Muon Anomalous Magnetic Moment to
+                0.46 ppm
+            authors:
+            - Muon g-2 Collaboration
+            date: 2021-04
+            journal: Phys.Rev.Lett. 126 (2021) 141801
+            url: https://arxiv.org/abs/2104.03281
         Seminars:
-        -   name: 'Unification of Searches and Measurements: Probing BSM with the
+        -   name: CMS Exotica general meeting, May 2024
+            summary: 'Unification of Searches and Measurements: Probing BSM with the
                 W boson mass measurement'
-            summary: |
-                CMS Exotica general meeting, May 2024
-        -   name: 'A New Purpose A New Purpose for the W-mass Measurement: Searching
+        -   name: Seminar at Texas A&M, December 2023
+            summary: 'A New Purpose A New Purpose for the W-mass Measurement: Searching
                 for New Physics via l + MET'
-            summary: |
-                Theory Seminar at Washington University in St. Louis, October 2023
-                HEP Seminar at Northwestern University, October 2023
-                HEP Seminar at University of Pittsburgh, November 2023
-                CMS SUSY general meeting, November 2023
-                Seminar at UT Austin, December 2023
-                Seminar at Texas A&M, December 2023
+        -   name: Seminar at UT Austin, December 2023
+            summary: 'A New Purpose A New Purpose for the W-mass Measurement: Searching
+                for New Physics via l + MET'
+        -   name: CMS SUSY general meeting, November 2023
+            summary: 'A New Purpose A New Purpose for the W-mass Measurement: Searching
+                for New Physics via l + MET'
+        -   name: HEP Seminar at University of Pittsburgh, November 2023
+            summary: 'A New Purpose A New Purpose for the W-mass Measurement: Searching
+                for New Physics via l + MET'
+        -   name: HEP Seminar at Northwestern University, October 2023
+            summary: 'A New Purpose A New Purpose for the W-mass Measurement: Searching
+                for New Physics via l + MET'
+        -   name: Theory Seminar at Washington University in St. Louis, October 2023
+            summary: 'A New Purpose A New Purpose for the W-mass Measurement: Searching
+                for New Physics via l + MET'
         Conference Talks:
-        -   name: Can the LHC be sensitive to the Light Dark World?
-            summary: |
-                Light Dark World 2026 at Carleton University, July 2026
-        -   name: Producing the GeV Galactic Center Excess via Cosmic Ray-Dark Matter
-                Scattering
-            summary: |
-                CETUP* Workshop, June 2026
-        -   name: A Baryon and Lepton Number Violaton Model Testable at the LHC
-            summary: |
-                Particle Physics on the Plains at the University of Kansas, November 2025
-        -   name: Can the LHC be sensitive to light dark mediators?
-            summary: |
-                Phenomenology Conference at the University of Pittsburgh, May 2025
-                CETUP* Workshop, June 2025
-        -   name: A comprehensive analysis of supernova neutrino-dark matter interactions
-            summary: |
-                Mitchell Conference at Texas A&M University, May 2024
-                NuFact Conference, September 2024
-                Texas TACOS @ UT Austin, October 2024
-                Particle Physics on the Plains at the University of Kansas, November 2024
-        -   name: 'A New Purpose for the W-mass Measurement: Searching for New Physics
-                via l + MET'
-            summary: |
-                Particle Physics on the Plains at the University of Kansas, October 2023
-        -   name: Probing Dark Matter-Neutrino Interactions via Supernova Neutrinos
-            summary: |
-                Phenomenology Conference at the University of Pittsburgh, May 2023
-        -   name: Model-Independent Measurement of Top Quark Mass Using B-Hadron Decay
-                Lengths (Part I)
-            summary: |
-                Phenomenology Conference at the University of Pittsburgh, May 2022
-        -   name: Signals of KK graviton from extended warped extra dimensions at
-                the LHC (II)
-            summary: |
-                Phenomenology Conference at the University of Pittsburgh, May 2020
-                April APS Meeting, April 2021
+        -   name: Light Dark World 2026 at Carleton University, July 2026
+            summary: Can the LHC be sensitive to the Light Dark World?
+        -   name: CETUP* Workshop, June 2026
+            summary: Producing the GeV Galactic Center Excess via Cosmic Ray-Dark
+                Matter Scattering
+        -   name: Particle Physics on the Plains at the University of Kansas, November
+                2025
+            summary: A Baryon and Lepton Number Violaton Model Testable at the LHC
+        -   name: CETUP* Workshop, June 2025
+            summary: Can the LHC be sensitive to light dark mediators?
+        -   name: Phenomenology Conference at the University of Pittsburgh, May 2025
+            summary: Can the LHC be sensitive to light dark mediators?
+        -   name: Particle Physics on the Plains at the University of Kansas, November
+                2024
+            summary: A comprehensive analysis of supernova neutrino-dark matter interactions
+        -   name: Texas TACOS @ UT Austin, October 2024
+            summary: A comprehensive analysis of supernova neutrino-dark matter interactions
+        -   name: NuFact Conference, September 2024
+            summary: A comprehensive analysis of supernova neutrino-dark matter interactions
+        -   name: Mitchell Conference at Texas A&M University, May 2024
+            summary: A comprehensive analysis of supernova neutrino-dark matter interactions
+        -   name: Particle Physics on the Plains at the University of Kansas, October
+                2023
+            summary: 'A New Purpose for the W-mass Measurement: Searching for New
+                Physics via l + MET'
+        -   name: Phenomenology Conference at the University of Pittsburgh, May 2023
+            summary: Probing Dark Matter-Neutrino Interactions via Supernova Neutrinos
+        -   name: Phenomenology Conference at the University of Pittsburgh, May 2022
+            summary: Model-Independent Measurement of Top Quark Mass Using B-Hadron
+                Decay Lengths (Part I)
+        -   name: April APS Meeting, April 2021
+            summary: Signals of KK graviton from extended warped extra dimensions
+                at the LHC (II)
+        -   name: Phenomenology Conference at the University of Pittsburgh, May 2020
+            summary: Signals of KK graviton from extended warped extra dimensions
+                at the LHC (II)
         Conferences Organized:
         -   name: The Mitchell Conference on Collider, Dark Matter, and Neutrino Physics
                 2026
@@ -335,6 +357,10 @@ cv:
         -   name: TAMU Physics and Engineering Festival (2025-2027)
             summary: Presented demonstrations of fluid dyanmics to the general public,
                 including high school students and families
+        -   name: 'University of South Dakota talk: "My path through particle physics
+                research so far" (December 2024)'
+            summary: Presented my path through particle physics research to students,
+                showing a variety of interesting ideas to pursue'
         Skills:
         -   name: 'Programming:'
             summary: Mathematica, Python, C++

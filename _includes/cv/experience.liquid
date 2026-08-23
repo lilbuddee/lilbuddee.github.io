@@ -63,6 +63,12 @@
         <h6 class="mb-0" style="font-size: 0.95rem">{{ company_name }}</h6>
       {% endif %}
 
+      {% if entry.summary %}
+        <h6 class="mb-0" style="font-size: 0.95rem">
+          {{ entry.summary | markdownify | remove: '<p>' | remove: '</p>' }}
+        </h6>
+      {% endif %}
+
       {% capture location %}
         {% if entry.location %}{{ entry.location }}{% endif %}
       {% endcapture %}
@@ -71,12 +77,6 @@
           <i class="fa-solid fa-location-dot iconlocation"></i>
           {{ location }}
         </p>
-      {% endif %}
-
-      {% if entry.summary %}
-        <h6 class="mb-1" style="font-size: 0.95rem; font-style: italic">
-          {{ entry.summary | markdownify | remove: '<p>' | remove: '</p>' }}
-        </h6>
       {% endif %}
 
       {% if entry.highlights %}

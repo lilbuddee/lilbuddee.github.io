@@ -18,6 +18,8 @@ BIB_OUT = BASE_DIR / "_bibliography" / "papers.bib"
 
 CV_PATH = BASE_DIR / "_data" / "cv.raw.yml"
 ARTICLES_PATH = BASE_DIR / "_data" / "articles.yml"
+SNOWMASS_PATH = BASE_DIR / "_data" / "snowmass2021.yml"
+MUONG2_PATH = BASE_DIR / "_data" / "muong2.yml"
 OUTPUT_PUBS = BASE_DIR / "_data" / "publications.yml"
 OUTPUT_CV_FINAL = BASE_DIR / "_data" / "cv.yml"
 
@@ -43,6 +45,19 @@ def build_date(entry):
         return f"{year}-{int(month):02d}"
 
     return int(year) if year else None
+
+
+def arxiv_submission_date(arxiv_id):
+    """YYMM.NNNNN arXiv IDs (2007+) encode the submission year/month in their
+    first 4 digits - use that for sorting/display instead of the bibtex
+    year/month, which for a published article reflect acceptance/publication
+    date, not when the work was actually posted."""
+    if not arxiv_id or len(arxiv_id) < 4 or not arxiv_id[:4].isdigit():
+        return None
+    year, month = 2000 + int(arxiv_id[:2]), int(arxiv_id[2:4])
+    if not 1 <= month <= 12:
+        return None
+    return f"{year}-{month:02d}"
 
 
 # =========================
@@ -302,10 +317,14 @@ for e in bib_db.entries:
     entry = {
         "uid": uid,
         "title": clean_braces(e.get("title")),
-        "date": build_date(e),
+        "date": arxiv_submission_date(arxiv_id) or build_date(e),
         "journal": str(e.get("journal") or ""),
+        "volume": clean_braces(e.get("volume")),
+        "pages": clean_braces(e.get("pages")),
+        "year": clean_braces(e.get("year")),
         "url": clean_url(e, arxiv_id),
         "eprint": arxiv_id,
+        "is_phd_thesis": e.get("ENTRYTYPE") == "phdthesis",
         "citations": fetch_inspire_citations(e),
         "n_authors": 0,
         "authors": [],
@@ -386,14 +405,44 @@ def sanitize(obj):
         return None
     return obj
 
-def rendercv_publication(p):
+def format_journal_citation(entry):
+    """Full Inspire/arXiv-style citation, e.g. "Phys.Lett.B 868 (2025) 139765".
+    Falls back to the bare journal name if volume/pages/year aren't all
+    available (preprints, or a hand-maintained entry with no pipeline match)."""
+    journal = str(entry.get("journal") or "").strip()
+    if not journal:
+        return None
+    volume = str(entry.get("volume") or "").strip()
+    pages = str(entry.get("pages") or "").strip()
+    year = str(entry.get("year") or "").strip()
+    if volume and pages and year:
+        return f"{journal.replace(' ', '')} {volume} ({year}) {pages}"
+    return journal
+
+
+def rendercv_publication(p, number=None):
+    title = p["title"]
+    if number is not None:
+        title = f"{number}. {title}"
     return {
-        "title": p["title"],
+        "title": title,
         "authors": p["authors"],
         "date": p["date"],
-        "journal": p["journal"] or None,
+        "journal": format_journal_citation(p),
         "url": p["url"],
     }
+
+
+def numbered_publications(pubs_unordered, newest_first=True):
+    """Number entries by chronological rank - oldest is 1, newest is
+    len(pubs) - independent of display order. newest_first=True displays
+    newest-on-top (numbers count down from the top, the default for every
+    subsection); newest_first=False displays oldest-on-top instead (numbers
+    count up top-to-bottom, 1, 2, 3... - used for Articles in Preparation)."""
+    ranked = sorted(pubs_unordered, key=lambda p: str(p.get("date") or ""))  # oldest first
+    date_rank = {id(p): rank + 1 for rank, p in enumerate(ranked)}
+    ordered = list(reversed(ranked)) if newest_first else ranked
+    return [rendercv_publication(p, number=date_rank[id(p)]) for p in ordered]
 
 # def rendercv_publication(p):
 #     url = p["url"]
@@ -413,34 +462,93 @@ def rendercv_publication(p):
 #         "highlights": highlights or None,
 #     }
 
-# date order
-publications_export = [
-    rendercv_publication(p)
-    for p in sorted(
-        pubs,
-        # key=lambda x: x["date"] or "",
-        key=lambda x: str(x.get("date") or ""),
-        reverse=True,
-    )
+# date order (now arXiv-submission-date order - see arxiv_submission_date())
+pubs_date_order = sorted(pubs, key=lambda x: str(x.get("date") or ""), reverse=True)
+publications_export = [rendercv_publication(p) for p in pubs_date_order]
+
+
+# Hand-maintained publication-shaped YAML files (articles in preparation, plus
+# the topical Snowmass2021/Muon g-2 cross-listings), already in the same shape
+# rendercv_publication() produces. Reuse cv/publications.liquid on the website
+# and rendercv's PublicationEntry on the PDF for both by keeping that field
+# shape - entry type there is inferred structurally, not tied to the
+# section's name.
+def load_hand_maintained_publications(path):
+    entries = []
+    if path.exists():
+        with open(path, "r") as f:
+            entries = yaml.safe_load(f) or []
+    for entry in entries:
+        entry["authors"] = [name.strip() for name in entry.get("authors", [])]
+    return entries
+
+
+articles_in_prep = load_hand_maintained_publications(ARTICLES_PATH)
+
+# Topical cross-listings, manually duplicated out of publications.yml by
+# design: publications.yml keeps growing as new papers are added, so these
+# two files are static snapshots the user curates by hand. A paper listed
+# here is excluded from the refereed/review split below (see
+# excluded_arxiv_ids) so it only shows up once, under its own topical section
+# instead - rather than showing up a second time under refereed/review too.
+snowmass_articles = load_hand_maintained_publications(SNOWMASS_PATH)
+muong2_articles = load_hand_maintained_publications(MUONG2_PATH)
+
+
+def arxiv_id_from_url(url):
+    if url and "arxiv.org/abs/" in url:
+        return url.split("arxiv.org/abs/")[-1].strip()
+    return None
+
+
+# The hand-maintained files above only carry a bare journal name (no volume/
+# pages/year) and a hand-typed date rather than an arXiv-submission-date, so
+# neither format_journal_citation() nor the newest-first sort would be
+# accurate from them directly. Where a topical entry's arXiv ID matches a
+# pipeline-derived paper, use that paper's data instead - full citation,
+# arXiv-submission-date, and consistently formatted authors.
+pubs_by_arxiv_id = {p["eprint"]: p for p in pubs if p.get("eprint")}
+
+
+def prefer_canonical_source(entries):
+    return [
+        pubs_by_arxiv_id.get(arxiv_id_from_url(entry.get("url")), entry) for entry in entries
+    ]
+
+
+snowmass_articles = prefer_canonical_source(snowmass_articles)
+muong2_articles = prefer_canonical_source(muong2_articles)
+
+excluded_arxiv_ids = {
+    arxiv_id_from_url(entry.get("url")) for entry in snowmass_articles + muong2_articles
+} - {None}
+
+# The Ph.D. thesis gets its own section rather than sitting in Articles in
+# Refereed Journals alongside actual journal articles.
+phd_thesis_pubs = [p for p in pubs_date_order if p.get("is_phd_thesis")]
+excluded_uids = {p["uid"] for p in phd_thesis_pubs}
+
+# "Articles in Review" = already on arXiv (in papers.raw.bib) but with no
+# journal yet, i.e. not yet accepted/published.
+pubs_for_refereed_review = [
+    p
+    for p in pubs_date_order
+    if p.get("eprint") not in excluded_arxiv_ids and p["uid"] not in excluded_uids
 ]
+refereed_export = numbered_publications([p for p in pubs_for_refereed_review if p["journal"]])
+in_review_export = numbered_publications([p for p in pubs_for_refereed_review if not p["journal"]])
+
+phd_thesis_export = numbered_publications(phd_thesis_pubs)
+# Chronological, not reverse-chronological, per explicit request: oldest is
+# "1" at the top, newest is the highest number at the bottom.
+articles_in_prep_export = numbered_publications(articles_in_prep, newest_first=False)
+snowmass_export = numbered_publications(snowmass_articles)
+muong2_export = numbered_publications(muong2_articles)
 
 cv = {}
 if CV_PATH.exists():
     with open(CV_PATH, "r") as f:
         cv = yaml.safe_load(f) or {}
-
-# Articles in preparation: hand-maintained (not scraped from bib/InspireHEP),
-# already in the same shape rendercv_publication() produces, since they have
-# no citations/DOI/venue yet. Reuse cv/publications.liquid on the website and
-# rendercv's PublicationEntry on the PDF for both by keeping that field shape -
-# entry type there is inferred structurally, not tied to the section's name.
-articles_in_prep = []
-if ARTICLES_PATH.exists():
-    with open(ARTICLES_PATH, "r") as f:
-        articles_in_prep = yaml.safe_load(f) or []
-for a in articles_in_prep:
-    a["authors"] = [name.strip() for name in a.get("authors", [])]
-articles_in_prep = sorted(articles_in_prep, key=lambda a: str(a.get("date") or ""))
 
 cv.setdefault("cv", {})
 cv["cv"].setdefault("sections", {})
@@ -474,9 +582,19 @@ cv["cv"]["sections"] = {
     # " ": old_sections.get(" ", []),
     "Education": old_sections.get("Education", []),
     "Experience": old_sections.get("Experience", []),
+    "Research Interests": old_sections.get("Research Interests", []),
     # "Selected Publications": selected_export,
-    "Publications": publications_export,
-    "Articles in Preparation": articles_in_prep,
+    # Formerly one flat "Publications" section - now split into subsections
+    # (RenderCV has no native concept of subsections nested under one shared
+    # heading, so each is its own top-level section, kept adjacent in output
+    # order to read as one grouped "Research Papers" block on both the
+    # website and the PDF).
+    "Articles in Review": in_review_export,
+    "Articles in Refereed Journals": refereed_export,
+    "Articles in Preparation": articles_in_prep_export,
+    "Ph.D. Thesis": phd_thesis_export,
+    "Snowmass2021 Contributions": snowmass_export,
+    "Muon g-2 Articles": muong2_export,
     "Seminars": old_sections.get("Seminars", []),
     "Conference Talks": old_sections.get("Conference Talks", []),
     "Conferences Organized": old_sections.get("Conferences Organized", []),
