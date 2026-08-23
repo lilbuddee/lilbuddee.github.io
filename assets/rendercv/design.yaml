@@ -151,7 +151,7 @@ design:
     normal_entry:
       main_column: |-
         **NAME**
-        SUMMARY
+        #h(1.35em)SUMMARY
         HIGHLIGHTS
       date_and_location_column: |-
         LOCATION
@@ -168,6 +168,6 @@ design:
     publication_entry:
       main_column: |-
         **TITLE**
-        AUTHORS
-        URL (JOURNAL)
+        #set par(hanging-indent: 1.35em);#h(1.35em)AUTHORS
+        #h(1.35em)URL (JOURNAL)
       date_and_location_column: DATE
