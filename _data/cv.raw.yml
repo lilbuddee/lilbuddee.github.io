@@ -64,6 +64,15 @@ cv:
         start_date: 2024-09
         end_date: 2027-08
         summary: Texas A&M University
+    
+    Research Interests:
+      - name: "Collider Physics"
+        summary: |
+          Beyond the Standard Model searches at the LHC, sub-GeV dark matter, invisible new physics, Kaluza-Klein modes, baryon number violation
+      - name: "Neutrino-Dark Matter Interactions"
+
+      - name: ""
+
 
     Seminars:
       - name: "Unification of Searches and Measurements: Probing BSM with the W boson mass measurement"
@@ -146,8 +155,10 @@ cv:
         end_date: 2024-06-28
 
     Skills:
-      - name: 'Programming: Mathematica, Python, C++'
-      - name: 'Physics Software: MadGraph5_aMC@NLO, Pythia6, Pythia8, Delphes, ROOT, GEANT4, FeynRules'
+      - name: 'Programming:'
+        keywords: 'Mathematica, Python, C++'
+      - name: 'Physics Software:'
+        keywords: 'MadGraph5_aMC@NLO, Pythia6, Pythia8, Delphes, ROOT, GEANT4, FeynRules'
       # - name: High Energy Physics
       #   level: Expert
       #   keywords: "Beyond Standard Model, W Boson Mass, LHC Phenomenology, Dark Matter, Neutrino Physics"

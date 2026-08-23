@@ -445,6 +445,20 @@ articles_in_prep = sorted(articles_in_prep, key=lambda a: str(a.get("date") or "
 cv.setdefault("cv", {})
 cv["cv"].setdefault("sections", {})
 
+# Skills entries author "keywords" (a plain string, e.g. "Mathematica, Python,
+# C++") rather than "summary". Neither the website's generic-section renderer
+# nor rendercv's NormalEntry template know about "keywords" - both use
+# "summary" to show a plain (non-bold) line under the bolded name - so map it
+# across here rather than teaching two separate renderers a new field.
+def with_keywords_as_summary(entries):
+    result = []
+    for entry in entries:
+        entry = dict(entry)
+        if "keywords" in entry:
+            entry["summary"] = entry.pop("keywords")
+        result.append(entry)
+    return result
+
 selected_export = [
     rendercv_publication(p)
     for p in pubs
@@ -469,7 +483,7 @@ cv["cv"]["sections"] = {
     "Awards": old_sections.get("Awards", []),
     "Schools Attended": old_sections.get("Schools Attended", []),
     "Outreach": old_sections.get("Outreach", []),
-    "Skills": old_sections.get("Skills", []),
+    "Skills": with_keywords_as_summary(old_sections.get("Skills", [])),
     # "Projects" intentionally omitted - not displayed on the website CV or PDF CV.
     # Source data is still in cv.raw.yml under Projects if this is ever reversed.
 }

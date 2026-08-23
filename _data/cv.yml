@@ -336,6 +336,7 @@ cv:
             summary: Presented demonstrations of fluid dyanmics to the general public,
                 including high school students and families
         Skills:
-        -   name: 'Programming: Mathematica, Python, C++'
-        -   name: 'Physics Software: MadGraph5_aMC@NLO, Pythia6, Pythia8, Delphes,
-                ROOT, GEANT4, FeynRules'
+        -   name: 'Programming:'
+            summary: Mathematica, Python, C++
+        -   name: 'Physics Software:'
+            summary: MadGraph5_aMC@NLO, Pythia6, Pythia8, Delphes, ROOT, GEANT4, FeynRules

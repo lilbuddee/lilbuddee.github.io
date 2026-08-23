@@ -157,9 +157,6 @@
               {% elsif section_title == 'Publications' or section_title == 'Articles in Preparation' %}
                 {% assign entries = section_entries %}
                 {% include cv/publications.liquid %}
-              {% elsif section_title == 'Skills' %}
-                {% assign entries = section_entries %}
-                {% include cv/skills.liquid %}
               {% elsif section_title == 'Languages' %}
                 {% assign entries = section_entries %}
                 {% include cv/languages.liquid %}
@@ -178,7 +175,10 @@
               {% else %}
                 <!-- Generic section -->
                 {% assign numbered_entry_sections = 'Seminars,Conference Talks' | split: ',' %}
-                {% assign use_numbered_entries = numbered_entry_sections contains section_title %}
+                {% assign use_numbered_entries = false %}
+                {% if numbered_entry_sections contains section_title %}
+                  {% assign use_numbered_entries = true %}
+                {% endif %}
                 {% if use_numbered_entries %}
                   <ol class="mb-0 ps-4">
                 {% endif %}
