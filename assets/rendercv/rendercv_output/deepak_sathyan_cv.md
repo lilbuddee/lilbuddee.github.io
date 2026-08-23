@@ -290,128 +290,128 @@ Apr 2021
 
 
 # Seminars
-## **CMS Exotica general meeting, May 2024**
+## **7. CMS Exotica general meeting, May 2024**
 
 #h(1.35em)Unification of Searches and Measurements: Probing BSM with the W boson mass measurement
 
 
 
-## **Seminar at Texas A&M, December 2023**
+## **6. Seminar at Texas A&M, December 2023**
 
 #h(1.35em)A New Purpose A New Purpose for the W-mass Measurement: Searching for New Physics via l + MET
 
 
 
-## **Seminar at UT Austin, December 2023**
+## **5. Seminar at UT Austin, December 2023**
 
 #h(1.35em)A New Purpose A New Purpose for the W-mass Measurement: Searching for New Physics via l + MET
 
 
 
-## **CMS SUSY general meeting, November 2023**
+## **4. CMS SUSY general meeting, November 2023**
 
 #h(1.35em)A New Purpose A New Purpose for the W-mass Measurement: Searching for New Physics via l + MET
 
 
 
-## **HEP Seminar at University of Pittsburgh, November 2023**
+## **3. HEP Seminar at University of Pittsburgh, November 2023**
 
 #h(1.35em)A New Purpose A New Purpose for the W-mass Measurement: Searching for New Physics via l + MET
 
 
 
-## **HEP Seminar at Northwestern University, October 2023**
+## **2. HEP Seminar at Northwestern University, October 2023**
 
 #h(1.35em)A New Purpose A New Purpose for the W-mass Measurement: Searching for New Physics via l + MET
 
 
 
-## **Theory Seminar at Washington University in St. Louis, October 2023**
+## **1. Theory Seminar at Washington University in St. Louis, October 2023**
 
 #h(1.35em)A New Purpose A New Purpose for the W-mass Measurement: Searching for New Physics via l + MET
 
 
 
 # Conference Talks
-## **Light Dark World 2026 at Carleton University, July 2026**
+## **14. Light Dark World 2026 at Carleton University, July 2026**
 
 #h(1.35em)Can the LHC be sensitive to the Light Dark World?
 
 
 
-## **CETUP* Workshop, June 2026**
+## **13. CETUP* Workshop, June 2026**
 
 #h(1.35em)Producing the GeV Galactic Center Excess via Cosmic Ray-Dark Matter Scattering
 
 
 
-## **Particle Physics on the Plains at the University of Kansas, November 2025**
+## **12. Particle Physics on the Plains at the University of Kansas, November 2025**
 
 #h(1.35em)A Baryon and Lepton Number Violaton Model Testable at the LHC
 
 
 
-## **CETUP* Workshop, June 2025**
+## **11. CETUP* Workshop, June 2025**
 
 #h(1.35em)Can the LHC be sensitive to light dark mediators?
 
 
 
-## **Phenomenology Conference at the University of Pittsburgh, May 2025**
+## **10. Phenomenology Conference at the University of Pittsburgh, May 2025**
 
 #h(1.35em)Can the LHC be sensitive to light dark mediators?
 
 
 
-## **Particle Physics on the Plains at the University of Kansas, November 2024**
+## **9. Particle Physics on the Plains at the University of Kansas, November 2024**
 
 #h(1.35em)A comprehensive analysis of supernova neutrino-dark matter interactions
 
 
 
-## **Texas TACOS @ UT Austin, October 2024**
+## **8. Texas TACOS @ UT Austin, October 2024**
 
 #h(1.35em)A comprehensive analysis of supernova neutrino-dark matter interactions
 
 
 
-## **NuFact Conference, September 2024**
+## **7. NuFact Conference, September 2024**
 
 #h(1.35em)A comprehensive analysis of supernova neutrino-dark matter interactions
 
 
 
-## **Mitchell Conference at Texas A&M University, May 2024**
+## **6. Mitchell Conference at Texas A&M University, May 2024**
 
 #h(1.35em)A comprehensive analysis of supernova neutrino-dark matter interactions
 
 
 
-## **Particle Physics on the Plains at the University of Kansas, October 2023**
+## **5. Particle Physics on the Plains at the University of Kansas, October 2023**
 
 #h(1.35em)A New Purpose for the W-mass Measurement: Searching for New Physics via l + MET
 
 
 
-## **Phenomenology Conference at the University of Pittsburgh, May 2023**
+## **4. Phenomenology Conference at the University of Pittsburgh, May 2023**
 
 #h(1.35em)Probing Dark Matter-Neutrino Interactions via Supernova Neutrinos
 
 
 
-## **Phenomenology Conference at the University of Pittsburgh, May 2022**
+## **3. Phenomenology Conference at the University of Pittsburgh, May 2022**
 
 #h(1.35em)Model-Independent Measurement of Top Quark Mass Using B-Hadron Decay Lengths (Part I)
 
 
 
-## **April APS Meeting, April 2021**
+## **2. April APS Meeting, April 2021**
 
 #h(1.35em)Signals of KK graviton from extended warped extra dimensions at the LHC (II)
 
 
 
-## **Phenomenology Conference at the University of Pittsburgh, May 2020**
+## **1. Phenomenology Conference at the University of Pittsburgh, May 2020**
 
 #h(1.35em)Signals of KK graviton from extended warped extra dimensions at the LHC (II)
 
@@ -467,7 +467,7 @@ June 2024 – June 2024
 
 ## **University of South Dakota talk: "My path through particle physics research so far" (December 2024)**
 
-#h(1.35em)Presented my path through particle physics research to students, showing a variety of interesting ideas to pursue'
+#h(1.35em)Presented my path through particle physics research to students, showing a variety of interesting ideas to pursue
 
 
 
