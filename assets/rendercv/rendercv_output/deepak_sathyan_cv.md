@@ -403,10 +403,14 @@ Presented demonstrations of fluid dyanmics to the general public, including high
 
 
 # Skills
-## **Programming: Mathematica, Python, C++**
+## **Programming:**
+
+Mathematica, Python, C++
 
 
 
-## **Physics Software: MadGraph5_aMC@NLO, Pythia6, Pythia8, Delphes, ROOT, GEANT4, FeynRules**
+## **Physics Software:**
+
+MadGraph5_aMC@NLO, Pythia6, Pythia8, Delphes, ROOT, GEANT4, FeynRules
 
 
