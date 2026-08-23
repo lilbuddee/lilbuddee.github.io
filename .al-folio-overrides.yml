@@ -34,7 +34,7 @@ overrides:
     gem_version: 1.0.0
     upstream_path: templates/cv/render.liquid
     upstream_sha256: 89c9ce23250ace91325d69ae0b8fab67ecc31466de1f09f91958c745e98a2324
-    local_sha256: d1f6b9bb6a3f5835364ea6a5cecd0e5e866c1ec77db25b6195d6a24ab2031b6f
+    local_sha256: c3ca87990c417cbe5a0723a164c8b385d72123f80263e5db8f694389ae30129f
     acknowledged_at: "2026-08-23"
   _layouts/bib.liquid:
     owner: al_folio_core

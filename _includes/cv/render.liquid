@@ -177,14 +177,6 @@
                 {% include cv/references.liquid %}
               {% else %}
                 <!-- Generic section -->
-                {% assign numbered_entry_sections = 'Seminars,Conference Talks' | split: ',' %}
-                {% assign use_numbered_entries = false %}
-                {% if numbered_entry_sections contains section_title %}
-                  {% assign use_numbered_entries = true %}
-                {% endif %}
-                {% if use_numbered_entries %}
-                  <ol class="mb-0 ps-4">
-                {% endif %}
                 {% for entry in section_entries %}
                   {% if entry.bullet %}
                     <div class="card-text font-weight-light mb-2">{{ entry.bullet | markdownify | remove: '<p>' | remove: '</p>' }}</div>
@@ -193,7 +185,7 @@
                       <strong>{{ entry.label }}:</strong> {{ entry.details }}
                     </div>
                   {% elsif entry.name %}
-                    {% capture entry_body %}
+                    <div class="card-text font-weight-light mb-3">
                       <div class="d-flex" style="gap: 0.5rem; align-items: flex-start">
                         <h6 class="title font-weight-bold mb-0" style="flex: 1 1 auto; min-width: 0">{{ entry.name }}</h6>
                         {% if entry.start_date or entry.end_date or entry.date %}
@@ -201,10 +193,10 @@
                             {% if entry.date %}
                               {{ entry.date }}
                             {% else %}
-                              {% assign start_display = entry.start_date | date: "%b %Y" %}
+                              {% assign start_display = entry.start_date | date: '%b %Y' %}
                               {% assign end_display = '' %}
                               {% if entry.end_date %}
-                                {% assign end_display = entry.end_date | date: "%b %Y" %}
+                                {% assign end_display = entry.end_date | date: '%b %Y' %}
                               {% endif %}
                               {% if end_display != '' and end_display != start_display %}
                                 {{ start_display }} – {{ end_display }}
@@ -218,17 +210,9 @@
                       {% if entry.summary %}
                         <p class="mb-0" style="margin-left: 1.35em">{{ entry.summary | newline_to_br }}</p>
                       {% endif %}
-                    {% endcapture %}
-                    {% if use_numbered_entries %}
-                      <li class="card-text font-weight-light mb-3">{{ entry_body }}</li>
-                    {% else %}
-                      <div class="card-text font-weight-light mb-3">{{ entry_body }}</div>
-                    {% endif %}
+                    </div>
                   {% endif %}
                 {% endfor %}
-                {% if use_numbered_entries %}
-                  </ol>
-                {% endif %}
               {% endif %}
             </div>
           </div>

@@ -567,6 +567,24 @@ def with_keywords_as_summary(entries):
         result.append(entry)
     return result
 
+
+# Seminars/Conference Talks have no structured date field to sort/number by
+# (the venue and date are baked into "name" as free text, e.g. "CMS Exotica
+# general meeting, May 2024"), so entries are hand-ordered newest-first in
+# cv.raw.yml already. Number by position instead: oldest (last in the list)
+# is 1, newest (first in the list) is the highest number - same
+# oldest-is-1 convention as numbered_publications(), baked into the name so
+# it shows on both the website and the PDF (neither has a native reversed
+# list-number renderer that reaches both).
+def with_reverse_position_numbers(entries):
+    total = len(entries)
+    result = []
+    for i, entry in enumerate(entries):
+        entry = dict(entry)
+        entry["name"] = f"{total - i}. {entry.get('name', '')}"
+        result.append(entry)
+    return result
+
 selected_export = [
     rendercv_publication(p)
     for p in pubs
@@ -595,8 +613,8 @@ cv["cv"]["sections"] = {
     "Ph.D. Thesis": phd_thesis_export,
     "Snowmass2021 Contributions": snowmass_export,
     "Muon g-2 Articles": muong2_export,
-    "Seminars": old_sections.get("Seminars", []),
-    "Conference Talks": old_sections.get("Conference Talks", []),
+    "Seminars": with_reverse_position_numbers(old_sections.get("Seminars", [])),
+    "Conference Talks": with_reverse_position_numbers(old_sections.get("Conference Talks", [])),
     "Conferences Organized": old_sections.get("Conferences Organized", []),
     "Awards": old_sections.get("Awards", []),
     "Schools Attended": old_sections.get("Schools Attended", []),

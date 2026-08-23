@@ -270,62 +270,67 @@ cv:
             journal: Phys.Rev.Lett. 126 (2021) 141801
             url: https://arxiv.org/abs/2104.03281
         Seminars:
-        -   name: CMS Exotica general meeting, May 2024
+        -   name: 7. CMS Exotica general meeting, May 2024
             summary: 'Unification of Searches and Measurements: Probing BSM with the
                 W boson mass measurement'
-        -   name: Seminar at Texas A&M, December 2023
+        -   name: 6. Seminar at Texas A&M, December 2023
             summary: 'A New Purpose A New Purpose for the W-mass Measurement: Searching
                 for New Physics via l + MET'
-        -   name: Seminar at UT Austin, December 2023
+        -   name: 5. Seminar at UT Austin, December 2023
             summary: 'A New Purpose A New Purpose for the W-mass Measurement: Searching
                 for New Physics via l + MET'
-        -   name: CMS SUSY general meeting, November 2023
+        -   name: 4. CMS SUSY general meeting, November 2023
             summary: 'A New Purpose A New Purpose for the W-mass Measurement: Searching
                 for New Physics via l + MET'
-        -   name: HEP Seminar at University of Pittsburgh, November 2023
+        -   name: 3. HEP Seminar at University of Pittsburgh, November 2023
             summary: 'A New Purpose A New Purpose for the W-mass Measurement: Searching
                 for New Physics via l + MET'
-        -   name: HEP Seminar at Northwestern University, October 2023
+        -   name: 2. HEP Seminar at Northwestern University, October 2023
             summary: 'A New Purpose A New Purpose for the W-mass Measurement: Searching
                 for New Physics via l + MET'
-        -   name: Theory Seminar at Washington University in St. Louis, October 2023
+        -   name: 1. Theory Seminar at Washington University in St. Louis, October
+                2023
             summary: 'A New Purpose A New Purpose for the W-mass Measurement: Searching
                 for New Physics via l + MET'
         Conference Talks:
-        -   name: Light Dark World 2026 at Carleton University, July 2026
+        -   name: 14. Light Dark World 2026 at Carleton University, July 2026
             summary: Can the LHC be sensitive to the Light Dark World?
-        -   name: CETUP* Workshop, June 2026
+        -   name: 13. CETUP* Workshop, June 2026
             summary: Producing the GeV Galactic Center Excess via Cosmic Ray-Dark
                 Matter Scattering
-        -   name: Particle Physics on the Plains at the University of Kansas, November
-                2025
+        -   name: 12. Particle Physics on the Plains at the University of Kansas,
+                November 2025
             summary: A Baryon and Lepton Number Violaton Model Testable at the LHC
-        -   name: CETUP* Workshop, June 2025
+        -   name: 11. CETUP* Workshop, June 2025
             summary: Can the LHC be sensitive to light dark mediators?
-        -   name: Phenomenology Conference at the University of Pittsburgh, May 2025
+        -   name: 10. Phenomenology Conference at the University of Pittsburgh, May
+                2025
             summary: Can the LHC be sensitive to light dark mediators?
-        -   name: Particle Physics on the Plains at the University of Kansas, November
+        -   name: 9. Particle Physics on the Plains at the University of Kansas, November
                 2024
             summary: A comprehensive analysis of supernova neutrino-dark matter interactions
-        -   name: Texas TACOS @ UT Austin, October 2024
+        -   name: 8. Texas TACOS @ UT Austin, October 2024
             summary: A comprehensive analysis of supernova neutrino-dark matter interactions
-        -   name: NuFact Conference, September 2024
+        -   name: 7. NuFact Conference, September 2024
             summary: A comprehensive analysis of supernova neutrino-dark matter interactions
-        -   name: Mitchell Conference at Texas A&M University, May 2024
+        -   name: 6. Mitchell Conference at Texas A&M University, May 2024
             summary: A comprehensive analysis of supernova neutrino-dark matter interactions
-        -   name: Particle Physics on the Plains at the University of Kansas, October
+        -   name: 5. Particle Physics on the Plains at the University of Kansas, October
                 2023
             summary: 'A New Purpose for the W-mass Measurement: Searching for New
                 Physics via l + MET'
-        -   name: Phenomenology Conference at the University of Pittsburgh, May 2023
+        -   name: 4. Phenomenology Conference at the University of Pittsburgh, May
+                2023
             summary: Probing Dark Matter-Neutrino Interactions via Supernova Neutrinos
-        -   name: Phenomenology Conference at the University of Pittsburgh, May 2022
+        -   name: 3. Phenomenology Conference at the University of Pittsburgh, May
+                2022
             summary: Model-Independent Measurement of Top Quark Mass Using B-Hadron
                 Decay Lengths (Part I)
-        -   name: April APS Meeting, April 2021
+        -   name: 2. April APS Meeting, April 2021
             summary: Signals of KK graviton from extended warped extra dimensions
                 at the LHC (II)
-        -   name: Phenomenology Conference at the University of Pittsburgh, May 2020
+        -   name: 1. Phenomenology Conference at the University of Pittsburgh, May
+                2020
             summary: Signals of KK graviton from extended warped extra dimensions
                 at the LHC (II)
         Conferences Organized:
@@ -360,7 +365,7 @@ cv:
         -   name: 'University of South Dakota talk: "My path through particle physics
                 research so far" (December 2024)'
             summary: Presented my path through particle physics research to students,
-                showing a variety of interesting ideas to pursue'
+                showing a variety of interesting ideas to pursue
         Skills:
         -   name: 'Programming:'
             summary: Mathematica, Python, C++
