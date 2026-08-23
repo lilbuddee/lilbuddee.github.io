@@ -159,7 +159,8 @@ design:
     experience_entry:
       main_column: |-
         **POSITION**
-        COMPANY
+        #set par(hanging-indent: 1.35em);
+        #h(1.35em)COMPANY
         SUMMARY
         HIGHLIGHTS
       date_and_location_column: |-
