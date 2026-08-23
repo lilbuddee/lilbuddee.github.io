@@ -7,6 +7,8 @@ on:
     paths:
       - "_data/cv.yml"
       - "_data/cv.raw.yml"
+      - "_data/cv_publications.yml"
+      - "_data/cv_no_articles.yml"
       - "assets/rendercv/design.yaml"
       - "assets/rendercv/locale.yaml"
       - "assets/rendercv/settings.yaml"
@@ -44,12 +46,28 @@ jobs:
             exit 1
           fi
           rendercv render $cv_file --settings $settings
-          rm assets/rendercv/rendercv_output/*.typ
+
+          # cv_publications.yml / cv_no_articles.yml carry their own
+          # settings.render_command block (distinct output paths per
+          # variant), so render them without --settings - passing it would
+          # replace their embedded settings wholesale and redirect all three
+          # variants to the same output files.
+          for variant in _data/cv_publications.yml _data/cv_no_articles.yml; do
+            if [ -f "$variant" ]; then
+              rendercv render "$variant"
+            fi
+          done
+
+          rm -f assets/rendercv/rendercv_output/*.typ
       - name: Upload rendercv_output as an artifact
         uses: actions/upload-artifact@v4
         with:
           name: RenderCV Output
-          path: assets/rendercv/rendercv_output
+          path: |
+            assets/rendercv/rendercv_output
+            assets/deepak_sathyan_cv.pdf
+            assets/deepak_sathyan_publications.pdf
+            assets/deepak_sathyan_cv_no_articles.pdf
       - name: Commit and push rendered CV
         run: |
           git config --global user.name "github-actions[bot]"

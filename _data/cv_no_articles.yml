@@ -1,0 +1,192 @@
+settings:
+  render_command:
+    design: ../assets/rendercv/design.yaml
+    locale: ../assets/rendercv/locale.yaml
+    typst_path: ../assets/rendercv/rendercv_output/deepak_sathyan_cv_no_articles.typ
+    pdf_path: ../assets/deepak_sathyan_cv_no_articles.pdf
+    html_path: ../assets/rendercv/rendercv_output/deepak_sathyan_cv_no_articles.html
+    dont_generate_markdown: false
+    dont_generate_html: false
+    dont_generate_typst: false
+    dont_generate_pdf: false
+    dont_generate_png: true
+    markdown_path: ../assets/rendercv/rendercv_output/deepak_sathyan_cv_no_articles.md
+cv:
+  name: Deepak Sathyan
+  headline: "[arXiv](https://arxiv.org/a/sathyan_d_1)  |  [InspireHEP](https://inspirehep.net/authors/1615022)  |
+    [Google Scholar](https://scholar.google.com/citations?user=29PfYjgAAAAJ)  |  [ORCID](https://orcid.org/0000-0001-9421-5480)  |  [Website](https://deepaksathyan.com)"
+  email: dsathyan@tamu.edu
+  location: Mitchell Institute for Fundamental Physics and Astronomy, Texas A&M
+    University, College Station, TX
+  sections:
+    Education:
+      - institution: University of Maryland
+        location: College Park, MD
+        url: https://umdphysics.umd.edu/
+        area: Physics
+        degree: Ph.D. in Physics
+        start_date: 2018-08
+        end_date: 2024-07
+        summary: |
+          Thesis: Unifying Searches for New Physics with Precision Measurements of the W Boson Mass
+          Advisor: Dr. Kaustubh Agashe
+      - institution: Boston University
+        location: Boston, MA
+        url: https://www.bu.edu/physics/
+        area: Physics
+        degree: Bachelor of Arts in Physics, Summa Cum Laude with Honors
+        start_date: 2014-08
+        end_date: 2018-05
+        summary: |
+          GPA: 3.9
+          Minor: Mathematics
+          Thesis: Muon (g-2): Searching for the Muon Electric Dipole Moment
+          Advisor: Dr. Robert Carey
+    Experience:
+      - company: Mitchell Institute for Fundamental Physics and Astronomy
+        position: Postdoctoral Research Associate
+        location: College Station, TX
+        start_date: 2024-09
+        end_date: 2027-08
+        summary: Texas A&M University
+    Research Interests:
+      - name: Beyond the Standard Model searches with Collider Physics
+        summary: |
+          searches at the LHC, sub-GeV dark matter, invisible new physics via precision measurements, Kaluza-Klein modes in Randall-Sundrum models, baryon number violation models, muon collider phenomenology
+      - name: Searches for sub-GeV Dark Matter
+        summary: |
+          Constraints on dark matter-neutrino interactions, dark photon production at the LHC, dark sector production at muon collider, astrophysical signals of cosmic ray-dark matter scattering, astrophysical sources of sub-GeV dark matter
+      - name: Neutrino Physics
+        summary: |
+          Supernova neutrino attenuation and detection, neutrino oscillations in open systems, neutrinophilic mediators
+    Seminars:
+      - name: "#set par(hanging-indent: 0.984em);7.#h(0.3em)CMS Exotica general
+          meeting"
+        date: 2024-05
+        summary: "Unification of Searches and Measurements: Probing BSM with the
+          W boson mass measurement"
+      - name: "#set par(hanging-indent: 0.984em);6.#h(0.3em)Seminar at Texas A&M"
+        date: 2023-12
+        summary: "A New Purpose A New Purpose for the W-mass Measurement: Searching
+          for New Physics via l + MET"
+      - name: "#set par(hanging-indent: 0.984em);5.#h(0.3em)Seminar at UT Austin"
+        date: 2023-12
+        summary: "A New Purpose A New Purpose for the W-mass Measurement: Searching
+          for New Physics via l + MET"
+      - name: "#set par(hanging-indent: 0.984em);4.#h(0.3em)CMS SUSY general meeting"
+        date: 2023-11
+        summary: "A New Purpose A New Purpose for the W-mass Measurement: Searching
+          for New Physics via l + MET"
+      - name: "#set par(hanging-indent: 0.984em);3.#h(0.3em)HEP Seminar at University
+          of Pittsburgh"
+        date: 2023-11
+        summary: "A New Purpose A New Purpose for the W-mass Measurement: Searching
+          for New Physics via l + MET"
+      - name: "#set par(hanging-indent: 0.984em);2.#h(0.3em)HEP Seminar at Northwestern
+          University"
+        date: 2023-10
+        summary: "A New Purpose A New Purpose for the W-mass Measurement: Searching
+          for New Physics via l + MET"
+      - name: "#set par(hanging-indent: 0.984em);1.#h(0.3em)Theory Seminar at
+          Washington University in St. Louis"
+        date: 2023-10
+        summary: "A New Purpose A New Purpose for the W-mass Measurement: Searching
+          for New Physics via l + MET"
+    Conference Talks:
+      - name: "#set par(hanging-indent: 1.45em);14.#h(0.3em)Light Dark World 2026
+          at Carleton University"
+        date: 2026-07
+        summary: Can the LHC be sensitive to the Light Dark World?
+      - name: "#set par(hanging-indent: 1.45em);13.#h(0.3em)CETUP* Workshop"
+        date: 2026-06
+        summary: Producing the GeV Galactic Center Excess via Cosmic Ray-Dark
+          Matter Scattering
+      - name: "#set par(hanging-indent: 1.45em);12.#h(0.3em)Particle Physics on
+          the Plains at the University of Kansas"
+        date: 2025-11
+        summary: A Baryon and Lepton Number Violaton Model Testable at the LHC
+      - name: "#set par(hanging-indent: 1.45em);11.#h(0.3em)CETUP* Workshop"
+        date: 2025-06
+        summary: Can the LHC be sensitive to light dark mediators?
+      - name: "#set par(hanging-indent: 1.45em);10.#h(0.3em)Phenomenology Conference
+          at the University of Pittsburgh"
+        date: 2025-05
+        summary: Can the LHC be sensitive to light dark mediators?
+      - name: "#set par(hanging-indent: 1.45em);#box(width: 0.466em)[]9.#h(0.3em)Particle
+          Physics on the Plains at the University of Kansas"
+        date: 2024-11
+        summary: A comprehensive analysis of supernova neutrino-dark matter interactions
+      - name: "#set par(hanging-indent: 1.45em);#box(width: 0.466em)[]8.#h(0.3em)Texas
+          TACOS @ UT Austin"
+        date: 2024-10
+        summary: A comprehensive analysis of supernova neutrino-dark matter interactions
+      - name: "#set par(hanging-indent: 1.45em);#box(width: 0.466em)[]7.#h(0.3em)NuFact
+          Conference"
+        date: 2024-09
+        summary: A comprehensive analysis of supernova neutrino-dark matter interactions
+      - name: "#set par(hanging-indent: 1.45em);#box(width: 0.466em)[]6.#h(0.3em)Mitchell
+          Conference at Texas A&M University"
+        date: 2024-05
+        summary: A comprehensive analysis of supernova neutrino-dark matter interactions
+      - name: "#set par(hanging-indent: 1.45em);#box(width: 0.466em)[]5.#h(0.3em)Particle
+          Physics on the Plains at the University of Kansas"
+        date: 2023-10
+        summary: "A New Purpose for the W-mass Measurement: Searching for New
+          Physics via l + MET"
+      - name: "#set par(hanging-indent: 1.45em);#box(width: 0.466em)[]4.#h(0.3em)Phenomenology
+          Conference at the University of Pittsburgh"
+        date: 2023-05
+        summary: Probing Dark Matter-Neutrino Interactions via Supernova Neutrinos
+      - name: "#set par(hanging-indent: 1.45em);#box(width: 0.466em)[]3.#h(0.3em)Phenomenology
+          Conference at the University of Pittsburgh"
+        date: 2022-05
+        summary: Model-Independent Measurement of Top Quark Mass Using B-Hadron
+          Decay Lengths (Part I)
+      - name: "#set par(hanging-indent: 1.45em);#box(width: 0.466em)[]2.#h(0.3em)April
+          APS Meeting"
+        date: 2021-04
+        summary: Signals of KK graviton from extended warped extra dimensions
+          at the LHC (II)
+      - name: "#set par(hanging-indent: 1.45em);#box(width: 0.466em)[]1.#h(0.3em)Phenomenology
+          Conference at the University of Pittsburgh"
+        date: 2020-05
+        summary: Signals of KK graviton from extended warped extra dimensions
+          at the LHC (II)
+    Conferences Organized:
+      - name: The Mitchell Conference on Collider, Dark Matter, and Neutrino Physics
+          2026
+        summary: |
+          Texas A&M University, May 27-30, 2026
+      - name: The Mitchell Conference on Collider, Dark Matter, and Neutrino Physics
+          2025
+        summary: |
+          Texas A&M University, May 13-16, 2025
+    Awards:
+      - title: Breakthrough Prize in Fundamental Physics
+        authors:
+          - Muon g-2 Collaboration
+        date: 2026-04
+        awarder: Breakthrough Prize Board
+    Schools Attended:
+      - name: GGI Lectures on the Theory of Fundamental Interactions
+        start_date: 2023-01-09
+        end_date: 2023-01-27
+      - name: "TASI 2024: The Frontiers of Particle Theory"
+        start_date: 2024-06-03
+        end_date: 2024-06-28
+    Outreach:
+      - name: BU Student Mentorship Program PRISM (2016-2018)
+        summary: Mentored incoming freshman undergraduates in physics, providing
+          guidance on courses, research opportunities, and resources
+      - name: TAMU Physics and Engineering Festival (2025-2027)
+        summary: Presented demonstrations of fluid dyanmics to the general public,
+          including high school students and families
+      - name: 'University of South Dakota talk: "My path through particle physics
+          research so far" (December 2024)'
+        summary: Presented my path through particle physics research to students,
+          showing a variety of interesting ideas to pursue
+    Skills:
+      - name: "Programming:"
+        summary: Mathematica, Python, C++
+      - name: "Physics Software:"
+        summary: MadGraph5_aMC@NLO, Pythia6, Pythia8, Delphes, ROOT, GEANT4, FeynRules

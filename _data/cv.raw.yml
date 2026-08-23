@@ -3,7 +3,7 @@ settings:
     design: ../assets/rendercv/design.yaml
     locale: ../assets/rendercv/locale.yaml
     typst_path: ../assets/rendercv/rendercv_output/deepak_sathyan_cv.typ
-    pdf_path: ../assets/rendercv/rendercv_output/deepak_sathyan_cv.pdf
+    pdf_path: ../assets/deepak_sathyan_cv.pdf
     html_path: ../assets/rendercv/rendercv_output/deepak_sathyan_cv.html
     dont_generate_markdown: false
     dont_generate_html: false
@@ -77,55 +77,76 @@ cv:
           Supernova neutrino attenuation and detection, neutrino oscillations in open systems, neutrinophilic mediators
 
     Seminars:
-      - name: CMS Exotica general meeting, May 2024
+      - name: CMS Exotica general meeting
+        date: 2024-05
         summary: "Unification of Searches and Measurements: Probing BSM with the W boson mass measurement"
 
-      - name: Seminar at Texas A&M, December 2023
+      - name: Seminar at Texas A&M
+        date: 2023-12
         summary: "A New Purpose A New Purpose for the W-mass Measurement: Searching for New Physics via l + MET"
 
-      - name: Seminar at UT Austin, December 2023
+      - name: Seminar at UT Austin
+        date: 2023-12
         summary: "A New Purpose A New Purpose for the W-mass Measurement: Searching for New Physics via l + MET"
 
-      - name: CMS SUSY general meeting, November 2023
+      - name: CMS SUSY general meeting
+        date: 2023-11
         summary: "A New Purpose A New Purpose for the W-mass Measurement: Searching for New Physics via l + MET"
 
-      - name: HEP Seminar at University of Pittsburgh, November 2023
+      - name: HEP Seminar at University of Pittsburgh
+        date: 2023-11
         summary: "A New Purpose A New Purpose for the W-mass Measurement: Searching for New Physics via l + MET"
 
-      - name: HEP Seminar at Northwestern University, October 2023
+      - name: HEP Seminar at Northwestern University
+        date: 2023-10
         summary: "A New Purpose A New Purpose for the W-mass Measurement: Searching for New Physics via l + MET"
 
-      - name: Theory Seminar at Washington University in St. Louis, October 2023
+      - name: Theory Seminar at Washington University in St. Louis
+        date: 2023-10
         summary: "A New Purpose A New Purpose for the W-mass Measurement: Searching for New Physics via l + MET"
 
     Conference Talks:
-      - name: Light Dark World 2026 at Carleton University, July 2026
+      - name: Light Dark World 2026 at Carleton University
+        date: 2026-07
         summary: "Can the LHC be sensitive to the Light Dark World?"
-      - name: CETUP* Workshop, June 2026
+      - name: CETUP* Workshop
+        date: 2026-06
         summary: "Producing the GeV Galactic Center Excess via Cosmic Ray-Dark Matter Scattering"
-      - name: Particle Physics on the Plains at the University of Kansas, November 2025
+      - name: Particle Physics on the Plains at the University of Kansas
+        date: 2025-11
         summary: "A Baryon and Lepton Number Violaton Model Testable at the LHC"
-      - name: CETUP* Workshop, June 2025
+      - name: CETUP* Workshop
+        date: 2025-06
         summary: "Can the LHC be sensitive to light dark mediators?"
-      - name: Phenomenology Conference at the University of Pittsburgh, May 2025
+      - name: Phenomenology Conference at the University of Pittsburgh
+        date: 2025-05
         summary: "Can the LHC be sensitive to light dark mediators?"
-      - name: Particle Physics on the Plains at the University of Kansas, November 2024
+      - name: Particle Physics on the Plains at the University of Kansas
+        date: 2024-11
         summary: "A comprehensive analysis of supernova neutrino-dark matter interactions"
-      - name: Texas TACOS @ UT Austin, October 2024
+      - name: Texas TACOS @ UT Austin
+        date: 2024-10
         summary: "A comprehensive analysis of supernova neutrino-dark matter interactions"
-      - name: NuFact Conference, September 2024
+      - name: NuFact 2024 Conference at Argonne National Laboratory
+        date: 2024-09
         summary: "A comprehensive analysis of supernova neutrino-dark matter interactions"
-      - name: Mitchell Conference at Texas A&M University, May 2024
+      - name: Mitchell Conference at Texas A&M University
+        date: 2024-05
         summary: "A comprehensive analysis of supernova neutrino-dark matter interactions"
-      - name: Particle Physics on the Plains at the University of Kansas, October 2023
+      - name: Particle Physics on the Plains at the University of Kansas
+        date: 2023-10
         summary: "A New Purpose for the W-mass Measurement: Searching for New Physics via l + MET"
-      - name: Phenomenology Conference at the University of Pittsburgh, May 2023
+      - name: Phenomenology Conference at the University of Pittsburgh
+        date: 2023-05
         summary: "Probing Dark Matter-Neutrino Interactions via Supernova Neutrinos"
-      - name: Phenomenology Conference at the University of Pittsburgh, May 2022
+      - name: Phenomenology Conference at the University of Pittsburgh
+        date: 2022-05
         summary: "Model-Independent Measurement of Top Quark Mass Using B-Hadron Decay Lengths (Part I)"
-      - name: April APS Meeting, April 2021
+      - name: April APS Meeting
+        date: 2021-04
         summary: "Signals of KK graviton from extended warped extra dimensions at the LHC (II)"
-      - name: Phenomenology Conference at the University of Pittsburgh, May 2020
+      - name: Phenomenology Conference at the University of Pittsburgh
+        date: 2020-05
         summary: "Signals of KK graviton from extended warped extra dimensions at the LHC (II)"
 
     Conferences Organized:

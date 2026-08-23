@@ -22,6 +22,8 @@ SNOWMASS_PATH = BASE_DIR / "_data" / "snowmass2021.yml"
 MUONG2_PATH = BASE_DIR / "_data" / "muong2.yml"
 OUTPUT_PUBS = BASE_DIR / "_data" / "publications.yml"
 OUTPUT_CV_FINAL = BASE_DIR / "_data" / "cv.yml"
+OUTPUT_CV_PUBLICATIONS = BASE_DIR / "_data" / "cv_publications.yml"
+OUTPUT_CV_NO_ARTICLES = BASE_DIR / "_data" / "cv_no_articles.yml"
 
 CACHE_PATH = BASE_DIR / "_data" / ".cache" / "inspire.json"
 CACHE_PATH.parent.mkdir(parents=True, exist_ok=True)
@@ -420,10 +422,68 @@ def format_journal_citation(entry):
     return journal
 
 
-def rendercv_publication(p, number=None):
+# Zero-pad so "9." and "14." are the same width and the title/name text
+# after the number lines up regardless of digit count. (A space-padded
+# version was tried first, but the number sits inside a **...** bold
+# wrapper in every design.yaml template, and Markdown's CommonMark rule
+# voids strong-emphasis when the content right after the opening ** is
+# whitespace - so a leading space made the ** print literally instead of
+# rendering bold. Leading zeros are ordinary non-whitespace characters, so
+# they don't trip that rule.)
+# Measured directly in Typst (#measure() on "N." at 11pt Libertinus Serif,
+# then divided by 11pt to get a size-independent em value): digits in this
+# font ARE perfectly tabular-width (every 1-digit number measured the exact
+# same width, every 2-digit number too) - an earlier attempt at this same
+# fix used an eyeballed 0.6em/digit guess, which was simply wrong (measured
+# at 0.4655em) and produced a small but real misalignment that compounded
+# further with each additional digit.
+_DIGIT_WIDTH_EM = 0.4655  # width added per digit beyond the first
+_SINGLE_DIGIT_WITH_PERIOD_EM = 0.6845  # width of e.g. "7."
+_NUMBER_GAP_EM = 0.3  # gap between the number and the title/name text
+
+
+def format_number_prefix(number, width):
+    """Right-align on the ones digit without a visible leading zero, and set
+    up hanging-indent so a wrapped 2nd line aligns with the title/name text
+    rather than the left margin (where the number sits).
+
+    An empty, fixed-width #box() reserves exact layout space for the
+    missing digits regardless of glyph metrics, so the number column is
+    exact by construction rather than by font-metric luck.
+
+    The #set par(hanging-indent: ...) width is calculated to match the
+    number-column + gap width exactly, using the measured constants above,
+    so wrapped continuation lines land under the title/name text instead of
+    at the true left margin.
+
+    All of this is raw Typst, injected straight through RenderCV's markdown
+    pipeline (a #command() is recognized and passed through unescaped) -
+    but kept to a single (non-nested) bracket level each, since the
+    escaping regex that preserves #command()[...] doesn't handle nested
+    brackets correctly (an earlier #box(...)[#align(right)[...]] attempt
+    got its outer "]" corrupted into "\\]" because of this, and a #context
+    {...} attempt at exact hanging-indent via #measure() got its square
+    brackets corrupted the same way, since the regex doesn't handle curly
+    braces at all).
+
+    This also sidesteps Typst's own markup-mode list-shorthand ("1. item"
+    autonumbers and silently drops a leading zero): the paragraph now
+    starts with a #set/#box(...) call, not a literal digit, so that
+    shorthand never matches in the first place.
+    """
+    number_str = str(number)
+    pad_digits = width - len(number_str)
+    spacer = f"#box(width: {round(pad_digits * _DIGIT_WIDTH_EM, 3)}em)[]" if pad_digits > 0 else ""
+    hanging_indent_em = round(
+        _SINGLE_DIGIT_WITH_PERIOD_EM + (width - 1) * _DIGIT_WIDTH_EM + _NUMBER_GAP_EM, 3
+    )
+    return f"#set par(hanging-indent: {hanging_indent_em}em);{spacer}{number_str}.#h({_NUMBER_GAP_EM}em)"
+
+
+def rendercv_publication(p, number=None, number_width=1):
     title = p["title"]
     if number is not None:
-        title = f"{number}. {title}"
+        title = f"{format_number_prefix(number, number_width)}{title}"
     return {
         "title": title,
         "authors": p["authors"],
@@ -440,9 +500,11 @@ def numbered_publications(pubs_unordered, newest_first=True):
     subsection); newest_first=False displays oldest-on-top instead (numbers
     count up top-to-bottom, 1, 2, 3... - used for Articles in Preparation)."""
     ranked = sorted(pubs_unordered, key=lambda p: str(p.get("date") or ""))  # oldest first
+    total = len(ranked)
+    width = len(str(total))
     date_rank = {id(p): rank + 1 for rank, p in enumerate(ranked)}
     ordered = list(reversed(ranked)) if newest_first else ranked
-    return [rendercv_publication(p, number=date_rank[id(p)]) for p in ordered]
+    return [rendercv_publication(p, number=date_rank[id(p)], number_width=width) for p in ordered]
 
 # def rendercv_publication(p):
 #     url = p["url"]
@@ -578,10 +640,11 @@ def with_keywords_as_summary(entries):
 # list-number renderer that reaches both).
 def with_reverse_position_numbers(entries):
     total = len(entries)
+    width = len(str(total))
     result = []
     for i, entry in enumerate(entries):
         entry = dict(entry)
-        entry["name"] = f"{total - i}. {entry.get('name', '')}"
+        entry["name"] = f"{format_number_prefix(total - i, width)}{entry.get('name', '')}"
         result.append(entry)
     return result
 
@@ -624,6 +687,62 @@ cv["cv"]["sections"] = {
     # Source data is still in cv.raw.yml under Projects if this is ever reversed.
 }
 
+# Article-only and article-free PDF variants, split out of the same
+# cv["cv"]["sections"] used for the main CV so subsections/numbering/dates
+# stay identical - just two different slices of the same data. Keep this
+# list in sync with _includes/cv/render.liquid's publication_shaped_sections
+# if the set of article sections ever changes.
+ARTICLE_SECTION_TITLES = [
+    "Articles in Review",
+    "Articles in Refereed Journals",
+    "Articles in Preparation",
+    "Ph.D. Thesis",
+    "Snowmass2021 Contributions",
+    "Muon g-2 Articles",
+]
+
+
+def build_cv_variant(base_name, cv_header, section_titles, keep=True):
+    """A second cv.yml-shaped dict with the same render_command shape as the
+    main one but writing to its own output paths, and either only
+    section_titles (keep=True) or everything except them (keep=False)."""
+    render_command = dict(cv.get("settings", {}).get("render_command", {}))
+    render_command["typst_path"] = f"../assets/rendercv/rendercv_output/{base_name}.typ"
+    render_command["pdf_path"] = f"../assets/{base_name}.pdf"
+    render_command["html_path"] = f"../assets/rendercv/rendercv_output/{base_name}.html"
+    render_command["markdown_path"] = f"../assets/rendercv/rendercv_output/{base_name}.md"
+
+    all_sections = cv["cv"]["sections"]
+    sections = {
+        title: entries
+        for title, entries in all_sections.items()
+        if (title in section_titles) == keep
+    }
+
+    return {
+        "settings": {"render_command": render_command},
+        "cv": {**cv_header, "sections": sections},
+    }
+
+
+# Publication list only: name in the header, no links/contact info, just the
+# article sections.
+cv_publications = build_cv_variant(
+    "deepak_sathyan_publications",
+    {"name": cv["cv"]["name"]},
+    ARTICLE_SECTION_TITLES,
+    keep=True,
+)
+
+# The complementary CV: full header, every section except the articles.
+cv_no_articles = build_cv_variant(
+    "deepak_sathyan_cv_no_articles",
+    {k: v for k, v in cv["cv"].items() if k != "sections"},
+    ARTICLE_SECTION_TITLES,
+    keep=False,
+)
+
+
 class IndentedDumper(yaml.SafeDumper):
     pass
 
@@ -653,7 +772,26 @@ with open(OUTPUT_CV_FINAL, "w") as f:
         indent=4,
         Dumper=IndentedDumper,
     )
-    
+
+with open(OUTPUT_CV_PUBLICATIONS, "w") as f:
+    yaml.dump(
+        sanitize(cv_publications),
+        f,
+        sort_keys=False,
+        allow_unicode=True,
+        indent=4,
+        Dumper=IndentedDumper,
+    )
+
+with open(OUTPUT_CV_NO_ARTICLES, "w") as f:
+    yaml.dump(
+        sanitize(cv_no_articles),
+        f,
+        sort_keys=False,
+        allow_unicode=True,
+        indent=4,
+        Dumper=IndentedDumper,
+    )
 
 
 save_cache(cache)

@@ -3,7 +3,7 @@ settings:
         design: ../assets/rendercv/design.yaml
         locale: ../assets/rendercv/locale.yaml
         typst_path: ../assets/rendercv/rendercv_output/deepak_sathyan_cv.typ
-        pdf_path: ../assets/rendercv/rendercv_output/deepak_sathyan_cv.pdf
+        pdf_path: ../assets/deepak_sathyan_cv.pdf
         html_path: ../assets/rendercv/rendercv_output/deepak_sathyan_cv.html
         dont_generate_markdown: false
         dont_generate_html: false
@@ -59,8 +59,8 @@ cv:
             summary: |
                 Supernova neutrino attenuation and detection, neutrino oscillations in open systems, neutrinophilic mediators
         Articles in Review:
-        -   title: 3. Producing the GeV Galactic Center Excess via Cosmic Ray-Dark
-                Matter Scattering
+        -   title: '#set par(hanging-indent: 0.984em);3.#h(0.3em)Producing the GeV
+                Galactic Center Excess via Cosmic Ray-Dark Matter Scattering'
             authors:
             - B. Dutta
             - D. Goswami
@@ -70,7 +70,8 @@ cv:
             date: 2026-05
             journal: null
             url: https://arxiv.org/abs/2605.08010
-        -   title: 2. A Baryon and Lepton Number Violation Model Testable at the LHC
+        -   title: '#set par(hanging-indent: 0.984em);2.#h(0.3em)A Baryon and Lepton
+                Number Violation Model Testable at the LHC'
             authors:
             - A. Bhoonah
             - F. Burk
@@ -80,8 +81,8 @@ cv:
             date: 2025-08
             journal: null
             url: https://arxiv.org/abs/2508.21064
-        -   title: '1. New Constraints on Neutrino-Dark Matter Interactions: A Comprehensive
-                Analysis'
+        -   title: '#set par(hanging-indent: 0.984em);1.#h(0.3em)New Constraints on
+                Neutrino-Dark Matter Interactions: A Comprehensive Analysis'
             authors:
             - P.S.B. Dev
             - D. Kim
@@ -92,7 +93,8 @@ cv:
             journal: null
             url: https://arxiv.org/abs/2507.01000
         Articles in Refereed Journals:
-        -   title: 5. New laboratory constraints on neutrinophilic mediators
+        -   title: '#set par(hanging-indent: 0.984em);5.#h(0.3em)New laboratory constraints
+                on neutrinophilic mediators'
             authors:
             - P.S.B. Dev
             - D. Kim
@@ -102,8 +104,8 @@ cv:
             date: 2024-07
             journal: Phys.Lett.B 868 (2025) 139765
             url: https://arxiv.org/abs/2407.12738
-        -   title: '4. ''Unification'' of BSM searches and SM measurements: the case
-                of lepton+MET and m_W'
+        -   title: '#set par(hanging-indent: 0.984em);4.#h(0.3em)''Unification'' of
+                BSM searches and SM measurements: the case of lepton+MET and m_W'
             authors:
             - K. Agashe
             - S. Airen
@@ -115,8 +117,8 @@ cv:
             date: 2024-04
             journal: JHEP 02 (2025) 139
             url: https://arxiv.org/abs/2404.17574
-        -   title: '3. A new purpose for the W-boson mass measurement: Searching for
-                New Physics in lepton+MET'
+        -   title: '#set par(hanging-indent: 0.984em);3.#h(0.3em)A new purpose for
+                the W-boson mass measurement: Searching for New Physics in lepton+MET'
             authors:
             - K. Agashe
             - S. Airen
@@ -128,8 +130,8 @@ cv:
             date: 2023-10
             journal: Phys.Lett.B 855 (2024) 138774
             url: https://arxiv.org/abs/2310.13687
-        -   title: 2. Energy-peak based method to measure top quark mass via B-hadron
-                decay lengths
+        -   title: '#set par(hanging-indent: 0.984em);2.#h(0.3em)Energy-peak based
+                method to measure top quark mass via B-hadron decay lengths'
             authors:
             - K. Agashe
             - S. Airen
@@ -140,7 +142,8 @@ cv:
             date: 2022-12
             journal: JHEP 06 (2023) 021
             url: https://arxiv.org/abs/2212.03929
-        -   title: 1. LHC Signals for KK Graviton from an Extended Warped Extra Dimension
+        -   title: '#set par(hanging-indent: 0.984em);1.#h(0.3em)LHC Signals for KK
+                Graviton from an Extended Warped Extra Dimension'
             authors:
             - K. Agashe
             - M. Ekhterachian
@@ -150,7 +153,8 @@ cv:
             journal: JHEP 11 (2020) 109
             url: https://arxiv.org/abs/2008.06480
         Articles in Preparation:
-        -   title: '1. LHC as a Beam Dump: Probing Light Dark Photons'
+        -   title: '#set par(hanging-indent: 0.984em);1.#h(0.3em)LHC as a Beam Dump:
+                Probing Light Dark Photons'
             authors:
             - B. Dutta
             - A. Karthikeyan
@@ -161,7 +165,8 @@ cv:
             date: 2026-09
             journal: null
             url: https://arxiv.org/a/sathyan_d_1
-        -   title: 2. New Probes of Dark Sectors at a Muon Collider
+        -   title: '#set par(hanging-indent: 0.984em);2.#h(0.3em)New Probes of Dark
+                Sectors at a Muon Collider'
             authors:
             - B. Dutta
             - A. Karthikeyan
@@ -171,7 +176,8 @@ cv:
             date: 2027-01
             journal: null
             url: https://arxiv.org/a/sathyan_d_1
-        -   title: 3. Exploring open systems approach to neutrino oscillations
+        -   title: '#set par(hanging-indent: 0.984em);3.#h(0.3em)Exploring open systems
+                approach to neutrino oscillations'
             authors:
             - A. Chandra Shekar
             - K. Kelly
@@ -181,7 +187,8 @@ cv:
             date: 2027-03
             journal: null
             url: https://arxiv.org/a/sathyan_d_1
-        -   title: 4. LHC Signals for KK Gravitons Producing 8-Particle Final States
+        -   title: '#set par(hanging-indent: 0.984em);4.#h(0.3em)LHC Signals for KK
+                Gravitons Producing 8-Particle Final States'
             authors:
             - K. Agashe
             - D. Kim
@@ -195,36 +202,40 @@ cv:
             journal: null
             url: https://arxiv.org/a/sathyan_d_1
         Ph.D. Thesis:
-        -   title: 1. Unifying Searches for New Physics with Precision Measurements
-                of the W Boson Mass
+        -   title: '#set par(hanging-indent: 0.984em);1.#h(0.3em)Unifying Searches
+                for New Physics with Precision Measurements of the W Boson Mass'
             authors:
             - D. Sathyan
             date: 2024
             journal: Ph.D. Thesis
             url: https://drum.lib.umd.edu/items/f9b081c8-444a-4af2-b69e-c8156d11a2c9
         Snowmass2021 Contributions:
-        -   title: '5. TF07 Snowmass Report: Theory of Collider Phenomena'
+        -   title: '#set par(hanging-indent: 0.984em);5.#h(0.3em)TF07 Snowmass Report:
+                Theory of Collider Phenomena'
             authors:
             - F. Maltoni et al.
             date: 2022-10
             journal: null
             url: https://arxiv.org/abs/2210.02591
-        -   title: 4. Report of the Topical Group on Top quark physics and heavy flavor
-                production for Snowmass 2021
+        -   title: '#set par(hanging-indent: 0.984em);4.#h(0.3em)Report of the Topical
+                Group on Top quark physics and heavy flavor production for Snowmass
+                2021'
             authors:
             - K. Agashe et al.
             date: 2022-09
             journal: null
             url: https://arxiv.org/abs/2209.11267
-        -   title: 3. Report of the Topical Group on Physics Beyond the Standard Model
-                at Energy Frontier for Snowmass 2021
+        -   title: '#set par(hanging-indent: 0.984em);3.#h(0.3em)Report of the Topical
+                Group on Physics Beyond the Standard Model at Energy Frontier for
+                Snowmass 2021'
             authors:
             - T. Bose et al.
             date: 2022-09
             journal: null
             url: https://arxiv.org/abs/2209.13128
-        -   title: '2. Snowmass2021 - White Paper, Implications of Energy Peak for
-                Collider Phenomenology: Top Quark Mass Determination and Beyond'
+        -   title: '#set par(hanging-indent: 0.984em);2.#h(0.3em)Snowmass2021 - White
+                Paper, Implications of Energy Peak for Collider Phenomenology: Top
+                Quark Mass Determination and Beyond'
             authors:
             - K. Agashe
             - S. Airen
@@ -234,8 +245,9 @@ cv:
             date: 2022-04
             journal: null
             url: https://arxiv.org/abs/2204.02928
-        -   title: '1. Snowmass2021 White Paper: Collider Physics Opportunities of
-                Extended Warped Extra-Dimensional Models'
+        -   title: '#set par(hanging-indent: 0.984em);1.#h(0.3em)Snowmass2021 White
+                Paper: Collider Physics Opportunities of Extended Warped Extra-Dimensional
+                Models'
             authors:
             - K. Agashe
             - J.H. Collins
@@ -249,88 +261,119 @@ cv:
             journal: null
             url: https://arxiv.org/abs/2203.13305
         Muon g-2 Articles:
-        -   title: 3. The straw tracking detector for the Fermilab Muon g-2 Experiment
+        -   title: '#set par(hanging-indent: 0.984em);3.#h(0.3em)The straw tracking
+                detector for the Fermilab Muon g-2 Experiment'
             authors:
             - B.T. King et al.
             date: 2021-11
             journal: JINST 17 (2022) P02035
             url: https://arxiv.org/abs/2111.02076
-        -   title: 2. Beam dynamics corrections to the Run-1 measurement of the muon
-                anomalous magnetic moment at Fermilab
+        -   title: '#set par(hanging-indent: 0.984em);2.#h(0.3em)Beam dynamics corrections
+                to the Run-1 measurement of the muon anomalous magnetic moment at
+                Fermilab'
             authors:
             - Muon g-2 Collaboration
             date: 2021-04
             journal: Phys.Rev.Accel.Beams 24 (2021) 044002
             url: https://arxiv.org/abs/2104.03240
-        -   title: 1. Measurement of the Positive Muon Anomalous Magnetic Moment to
-                0.46 ppm
+        -   title: '#set par(hanging-indent: 0.984em);1.#h(0.3em)Measurement of the
+                Positive Muon Anomalous Magnetic Moment to 0.46 ppm'
             authors:
             - Muon g-2 Collaboration
             date: 2021-04
             journal: Phys.Rev.Lett. 126 (2021) 141801
             url: https://arxiv.org/abs/2104.03281
         Seminars:
-        -   name: 7. CMS Exotica general meeting, May 2024
+        -   name: '#set par(hanging-indent: 0.984em);7.#h(0.3em)CMS Exotica general
+                meeting'
+            date: 2024-05
             summary: 'Unification of Searches and Measurements: Probing BSM with the
                 W boson mass measurement'
-        -   name: 6. Seminar at Texas A&M, December 2023
+        -   name: '#set par(hanging-indent: 0.984em);6.#h(0.3em)Seminar at Texas A&M'
+            date: 2023-12
             summary: 'A New Purpose A New Purpose for the W-mass Measurement: Searching
                 for New Physics via l + MET'
-        -   name: 5. Seminar at UT Austin, December 2023
+        -   name: '#set par(hanging-indent: 0.984em);5.#h(0.3em)Seminar at UT Austin'
+            date: 2023-12
             summary: 'A New Purpose A New Purpose for the W-mass Measurement: Searching
                 for New Physics via l + MET'
-        -   name: 4. CMS SUSY general meeting, November 2023
+        -   name: '#set par(hanging-indent: 0.984em);4.#h(0.3em)CMS SUSY general meeting'
+            date: 2023-11
             summary: 'A New Purpose A New Purpose for the W-mass Measurement: Searching
                 for New Physics via l + MET'
-        -   name: 3. HEP Seminar at University of Pittsburgh, November 2023
+        -   name: '#set par(hanging-indent: 0.984em);3.#h(0.3em)HEP Seminar at University
+                of Pittsburgh'
+            date: 2023-11
             summary: 'A New Purpose A New Purpose for the W-mass Measurement: Searching
                 for New Physics via l + MET'
-        -   name: 2. HEP Seminar at Northwestern University, October 2023
+        -   name: '#set par(hanging-indent: 0.984em);2.#h(0.3em)HEP Seminar at Northwestern
+                University'
+            date: 2023-10
             summary: 'A New Purpose A New Purpose for the W-mass Measurement: Searching
                 for New Physics via l + MET'
-        -   name: 1. Theory Seminar at Washington University in St. Louis, October
-                2023
+        -   name: '#set par(hanging-indent: 0.984em);1.#h(0.3em)Theory Seminar at
+                Washington University in St. Louis'
+            date: 2023-10
             summary: 'A New Purpose A New Purpose for the W-mass Measurement: Searching
                 for New Physics via l + MET'
         Conference Talks:
-        -   name: 14. Light Dark World 2026 at Carleton University, July 2026
+        -   name: '#set par(hanging-indent: 1.45em);14.#h(0.3em)Light Dark World 2026
+                at Carleton University'
+            date: 2026-07
             summary: Can the LHC be sensitive to the Light Dark World?
-        -   name: 13. CETUP* Workshop, June 2026
+        -   name: '#set par(hanging-indent: 1.45em);13.#h(0.3em)CETUP* Workshop'
+            date: 2026-06
             summary: Producing the GeV Galactic Center Excess via Cosmic Ray-Dark
                 Matter Scattering
-        -   name: 12. Particle Physics on the Plains at the University of Kansas,
-                November 2025
+        -   name: '#set par(hanging-indent: 1.45em);12.#h(0.3em)Particle Physics on
+                the Plains at the University of Kansas'
+            date: 2025-11
             summary: A Baryon and Lepton Number Violaton Model Testable at the LHC
-        -   name: 11. CETUP* Workshop, June 2025
+        -   name: '#set par(hanging-indent: 1.45em);11.#h(0.3em)CETUP* Workshop'
+            date: 2025-06
             summary: Can the LHC be sensitive to light dark mediators?
-        -   name: 10. Phenomenology Conference at the University of Pittsburgh, May
-                2025
+        -   name: '#set par(hanging-indent: 1.45em);10.#h(0.3em)Phenomenology Conference
+                at the University of Pittsburgh'
+            date: 2025-05
             summary: Can the LHC be sensitive to light dark mediators?
-        -   name: 9. Particle Physics on the Plains at the University of Kansas, November
-                2024
+        -   name: '#set par(hanging-indent: 1.45em);#box(width: 0.466em)[]9.#h(0.3em)Particle
+                Physics on the Plains at the University of Kansas'
+            date: 2024-11
             summary: A comprehensive analysis of supernova neutrino-dark matter interactions
-        -   name: 8. Texas TACOS @ UT Austin, October 2024
+        -   name: '#set par(hanging-indent: 1.45em);#box(width: 0.466em)[]8.#h(0.3em)Texas
+                TACOS @ UT Austin'
+            date: 2024-10
             summary: A comprehensive analysis of supernova neutrino-dark matter interactions
-        -   name: 7. NuFact Conference, September 2024
+        -   name: '#set par(hanging-indent: 1.45em);#box(width: 0.466em)[]7.#h(0.3em)NuFact
+                Conference'
+            date: 2024-09
             summary: A comprehensive analysis of supernova neutrino-dark matter interactions
-        -   name: 6. Mitchell Conference at Texas A&M University, May 2024
+        -   name: '#set par(hanging-indent: 1.45em);#box(width: 0.466em)[]6.#h(0.3em)Mitchell
+                Conference at Texas A&M University'
+            date: 2024-05
             summary: A comprehensive analysis of supernova neutrino-dark matter interactions
-        -   name: 5. Particle Physics on the Plains at the University of Kansas, October
-                2023
+        -   name: '#set par(hanging-indent: 1.45em);#box(width: 0.466em)[]5.#h(0.3em)Particle
+                Physics on the Plains at the University of Kansas'
+            date: 2023-10
             summary: 'A New Purpose for the W-mass Measurement: Searching for New
                 Physics via l + MET'
-        -   name: 4. Phenomenology Conference at the University of Pittsburgh, May
-                2023
+        -   name: '#set par(hanging-indent: 1.45em);#box(width: 0.466em)[]4.#h(0.3em)Phenomenology
+                Conference at the University of Pittsburgh'
+            date: 2023-05
             summary: Probing Dark Matter-Neutrino Interactions via Supernova Neutrinos
-        -   name: 3. Phenomenology Conference at the University of Pittsburgh, May
-                2022
+        -   name: '#set par(hanging-indent: 1.45em);#box(width: 0.466em)[]3.#h(0.3em)Phenomenology
+                Conference at the University of Pittsburgh'
+            date: 2022-05
             summary: Model-Independent Measurement of Top Quark Mass Using B-Hadron
                 Decay Lengths (Part I)
-        -   name: 2. April APS Meeting, April 2021
+        -   name: '#set par(hanging-indent: 1.45em);#box(width: 0.466em)[]2.#h(0.3em)April
+                APS Meeting'
+            date: 2021-04
             summary: Signals of KK graviton from extended warped extra dimensions
                 at the LHC (II)
-        -   name: 1. Phenomenology Conference at the University of Pittsburgh, May
-                2020
+        -   name: '#set par(hanging-indent: 1.45em);#box(width: 0.466em)[]1.#h(0.3em)Phenomenology
+                Conference at the University of Pittsburgh'
+            date: 2020-05
             summary: Signals of KK graviton from extended warped extra dimensions
                 at the LHC (II)
         Conferences Organized:

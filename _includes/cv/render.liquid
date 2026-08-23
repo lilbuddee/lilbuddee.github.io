@@ -185,13 +185,32 @@
                       <strong>{{ entry.label }}:</strong> {{ entry.details }}
                     </div>
                   {% elsif entry.name %}
+                    {% comment %}
+                      Seminars/Conference Talks numbering right-aligns
+                      single-digit numbers and sets a matching hanging-indent
+                      on the PDF with raw Typst (format_number_prefix() in
+                      make_publications.py) - meaningless markup to a
+                      browser, so strip it here.
+                    {% endcomment %}
                     <div class="card-text font-weight-light mb-3">
                       <div class="d-flex" style="gap: 0.5rem; align-items: flex-start">
-                        <h6 class="title font-weight-bold mb-0" style="flex: 1 1 auto; min-width: 0">{{ entry.name }}</h6>
+                        <h6 class="title font-weight-bold mb-0" style="flex: 1 1 auto; min-width: 0">
+                          {{
+                            entry.name
+                            | regex_replace: '#set par\(hanging-indent: [\d.]+em\);', ''
+                            | regex_replace: '#box\(width: [\d.]+em\)\[\]', ''
+                            | regex_replace: '#h\([\d.]+em\)', ' '
+                          }}
+                        </h6>
                         {% if entry.start_date or entry.end_date or entry.date %}
                           <span class="text-muted small" style="white-space: nowrap; flex: 0 0 auto">
                             {% if entry.date %}
-                              {{ entry.date }}
+                              {% assign entry_date_str = entry.date | append: '' %}
+                              {% if entry_date_str contains '-' %}
+                                {{ entry_date_str | append: '-01' | date: '%b %Y' }}
+                              {% else %}
+                                {{ entry_date_str }}
+                              {% endif %}
                             {% else %}
                               {% assign start_display = entry.start_date | date: '%b %Y' %}
                               {% assign end_display = '' %}

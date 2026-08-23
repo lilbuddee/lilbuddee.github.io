@@ -8,18 +8,19 @@ Source for [Deepak Sathyan's](https://lilbuddee.github.io) personal academic sit
 - `_posts/`, `_projects/`, `_news/` — blog posts, project pages, news items.
 - `_bibliography/papers.raw.bib` — hand-maintained source bibliography. `_bibliography/papers.bib` is generated from it (citation IDs, `selected` flags) and shouldn't be hand-edited.
 - `_data/cv.raw.yml` — hand-maintained CV source (education, experience, awards, talks, etc). `_data/cv.yml` and `_data/publications.yml` are generated from it plus the bibliography.
+- `_data/cv_publications.yml`, `_data/cv_no_articles.yml` — also generated (by `_data/make_publications.py`), same underlying section data as `cv.yml` split into two complementary RenderCV inputs: a publication-list-only PDF (name-only header, just the article sections) and a CV with every section except the articles. Rendered to `assets/deepak_sathyan_publications.pdf` and `assets/deepak_sathyan_cv_no_articles.pdf`.
 - `_data/citations.yml` — cached InspireHEP citation counts, keyed by BibTeX citation key.
 - `_data/socials.yml`, `_data/venues.yml`, `_data/coauthors.yml` — supporting data (contact/social links, venue metadata, coauthor profile links used on the publications page).
-- `assets/rendercv/` — RenderCV config (`design.yaml`, `locale.yaml`, `settings.yaml`) and its generated output (`rendercv_output/`), which is what the CV page's PDF download links to.
+- `assets/rendercv/` — RenderCV config (`design.yaml`, `locale.yaml`, `settings.yaml`) and its generated HTML/Markdown/Typst output (`rendercv_output/`). Each of the three PDFs is written directly to `assets/`, which is what the CV page's PDF download links to (for the main CV).
 - `_includes/cv/`, `_layouts/bib.liquid`, `_sass/_themes.scss` — local overrides of gem-owned files, tracked in `.al-folio-overrides.yml` so upstream drift can be flagged on gem updates. Prefer porting a fix upstream to the owning gem over growing this list.
 - `_config.yml` — site metadata, plugin list, and feature flags.
 
 ## Automation (`.github/workflows/`)
 
 - `fetch-papers.yml` — weekly, pulls new papers by ORCID from the InspireHEP API into `papers.raw.bib` (`scripts/import requests.py`).
-- `update-publications.yml` — on push to `papers.raw.bib` or `cv.raw.yml`, regenerates `papers.bib`, `cv.yml`, and `publications.yml` (`_data/make_publications.py`).
+- `update-publications.yml` — on push to `papers.raw.bib` or `cv.raw.yml`, regenerates `papers.bib`, `cv.yml`, `cv_publications.yml`, `cv_no_articles.yml`, and `publications.yml` (`_data/make_publications.py`).
 - `update-citations.yml` — Mon/Wed/Fri, refreshes `_data/citations.yml` from InspireHEP (`scripts/fetch_inspire_citations.py`).
-- `render-cv.yml` — on push to `cv.yml`/`cv.raw.yml`/RenderCV config, re-renders the CV PDF/HTML/Markdown into `assets/rendercv/rendercv_output/`.
+- `render-cv.yml` — on push to any of the three `cv*.yml` data files or RenderCV config, re-renders all three CV PDFs (to `assets/`) plus their HTML/Markdown/Typst output (`assets/rendercv/rendercv_output/`).
 - `deploy.yml` — builds and publishes the site to GitHub Pages.
 - `unit-tests.yml`, `visual-regression.yml`, `upgrade-check.yml`, `prettier.yml`, `axe.yml`, `broken-links*.yml`, `codeql.yml`, `lighthouse-badger.yml` — CI checks (style contract, integration tests, visual diffing, accessibility, dead links, upgrade audit, formatting).
 

@@ -28,13 +28,28 @@
         {% assign pub_date_display = pub_date %}
       {% endif %}
 
+      {% comment %}
+        Numbered subsections (Refereed Journals, Review, Preparation, Ph.D.
+        Thesis, Snowmass2021, Muon g-2) get a raw-Typst spacer box + gap and
+        a matching hanging-indent prefixed onto the title so single- and
+        double-digit numbers right-align on the PDF and wrapped 2nd lines
+        align with the title text - see format_number_prefix() in
+        make_publications.py. That markup means nothing to a browser, so
+        strip it here before display.
+      {% endcomment %}
+      {% assign display_title = entry.title
+        | default: entry.name
+        | regex_replace: '#set par\(hanging-indent: [\d.]+em\);', ''
+        | regex_replace: '#box\(width: [\d.]+em\)\[\]', ''
+        | regex_replace: '#h\([\d.]+em\)', ' '
+      %}
       <div class="d-flex" style="gap: 0.5rem; align-items: flex-start">
         {% if entry.url %}
           <h6 class="title font-weight-bold mb-0" style="flex: 1 1 auto; min-width: 0">
-            <a href="{{ entry.url }}">{{ entry.title | default: entry.name }}</a>
+            <a href="{{ entry.url }}">{{ display_title }}</a>
           </h6>
         {% elsif entry.title %}
-          <h6 class="title font-weight-bold mb-0" style="flex: 1 1 auto; min-width: 0">{{ entry.title }}</h6>
+          <h6 class="title font-weight-bold mb-0" style="flex: 1 1 auto; min-width: 0">{{ display_title }}</h6>
         {% endif %}
         {% if pub_date != '' %}
           <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle" style="white-space: nowrap; flex: 0 0 auto">
