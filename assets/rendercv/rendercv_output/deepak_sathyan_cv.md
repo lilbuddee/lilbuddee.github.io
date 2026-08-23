@@ -57,19 +57,19 @@ Texas A&M University
 # Research Interests
 ## **Beyond the Standard Model searches with Collider Physics**
 
-#h(1.35em)searches at the LHC, sub-GeV dark matter, invisible new physics via precision measurements, Kaluza-Klein modes in Randall-Sundrum models, baryon number violation models, muon collider phenomenology
+searches at the LHC, sub-GeV dark matter, invisible new physics via precision measurements, Kaluza-Klein modes in Randall-Sundrum models, baryon number violation models, muon collider phenomenology
 
 
 
 ## **Searches for sub-GeV Dark Matter**
 
-#h(1.35em)Constraints on dark matter-neutrino interactions, dark photon production at the LHC, dark sector production at muon collider, astrophysical signals of cosmic ray-dark matter scattering, astrophysical sources of sub-GeV dark matter
+Constraints on dark matter-neutrino interactions, dark photon production at the LHC, dark sector production at muon collider, astrophysical signals of cosmic ray-dark matter scattering, astrophysical sources of sub-GeV dark matter
 
 
 
 ## **Neutrino Physics**
 
-#h(1.35em)Supernova neutrino attenuation and detection, neutrino oscillations in open systems, neutrinophilic mediators
+Supernova neutrino attenuation and detection, neutrino oscillations in open systems, neutrinophilic mediators
 
 
 
@@ -78,7 +78,9 @@ Texas A&M University
 
 May 2026
 
-#set par(hanging-indent: 1.35em);#h(1.35em)B. Dutta, D. Goswami, J. Kumar, M. Rai, D. Sathyan
+#set par(hanging-indent: 1.35em)
+
+#h(1.35em)B. Dutta, D. Goswami, J. Kumar, M. Rai, D. Sathyan
 
 #h(1.35em)[arxiv.org/abs/2605.08010](https://arxiv.org/abs/2605.08010)
 
@@ -88,7 +90,9 @@ May 2026
 
 Aug 2025
 
-#set par(hanging-indent: 1.35em);#h(1.35em)A. Bhoonah, F. Burk, D. Liu, T. Ou, D. Sathyan
+#set par(hanging-indent: 1.35em)
+
+#h(1.35em)A. Bhoonah, F. Burk, D. Liu, T. Ou, D. Sathyan
 
 #h(1.35em)[arxiv.org/abs/2508.21064](https://arxiv.org/abs/2508.21064)
 
@@ -98,7 +102,9 @@ Aug 2025
 
 July 2025
 
-#set par(hanging-indent: 1.35em);#h(1.35em)P.S.B. Dev, D. Kim, D. Sathyan, K. Sinha, Y. Zhang
+#set par(hanging-indent: 1.35em)
+
+#h(1.35em)P.S.B. Dev, D. Kim, D. Sathyan, K. Sinha, Y. Zhang
 
 #h(1.35em)[arxiv.org/abs/2507.01000](https://arxiv.org/abs/2507.01000)
 
@@ -109,7 +115,9 @@ July 2025
 
 July 2024
 
-#set par(hanging-indent: 1.35em);#h(1.35em)P.S.B. Dev, D. Kim, D. Sathyan, K. Sinha, Y. Zhang
+#set par(hanging-indent: 1.35em);
+
+#h(1.35em)P.S.B. Dev, D. Kim, D. Sathyan, K. Sinha, Y. Zhang
 
 #h(1.35em)[arxiv.org/abs/2407.12738](https://arxiv.org/abs/2407.12738) (Phys.Lett.B 868 (2025) 139765)
 
@@ -119,7 +127,9 @@ July 2024
 
 Apr 2024
 
-#set par(hanging-indent: 1.35em);#h(1.35em)K. Agashe, S. Airen, R. Franceschini, D. Kim, A.V. Kotwal, L. Ricci, D. Sathyan
+#set par(hanging-indent: 1.35em);
+
+#h(1.35em)K. Agashe, S. Airen, R. Franceschini, D. Kim, A.V. Kotwal, L. Ricci, D. Sathyan
 
 #h(1.35em)[arxiv.org/abs/2404.17574](https://arxiv.org/abs/2404.17574) (JHEP 02 (2025) 139)
 
@@ -129,7 +139,9 @@ Apr 2024
 
 Oct 2023
 
-#set par(hanging-indent: 1.35em);#h(1.35em)K. Agashe, S. Airen, R. Franceschini, D. Kim, A.V. Kotwal, L. Ricci, D. Sathyan
+#set par(hanging-indent: 1.35em);
+
+#h(1.35em)K. Agashe, S. Airen, R. Franceschini, D. Kim, A.V. Kotwal, L. Ricci, D. Sathyan
 
 #h(1.35em)[arxiv.org/abs/2310.13687](https://arxiv.org/abs/2310.13687) (Phys.Lett.B 855 (2024) 138774)
 
@@ -139,7 +151,9 @@ Oct 2023
 
 Dec 2022
 
-#set par(hanging-indent: 1.35em);#h(1.35em)K. Agashe, S. Airen, R. Franceschini, J. Incandela, D. Kim, D. Sathyan
+#set par(hanging-indent: 1.35em);
+
+#h(1.35em)K. Agashe, S. Airen, R. Franceschini, J. Incandela, D. Kim, D. Sathyan
 
 #h(1.35em)[arxiv.org/abs/2212.03929](https://arxiv.org/abs/2212.03929) (JHEP 06 (2023) 021)
 
@@ -149,7 +163,9 @@ Dec 2022
 
 Aug 2020
 
-#set par(hanging-indent: 1.35em);#h(1.35em)K. Agashe, M. Ekhterachian, D. Kim, D. Sathyan
+#set par(hanging-indent: 1.35em);
+
+#h(1.35em)K. Agashe, M. Ekhterachian, D. Kim, D. Sathyan
 
 #h(1.35em)[arxiv.org/abs/2008.06480](https://arxiv.org/abs/2008.06480) (JHEP 11 (2020) 109)
 
@@ -160,7 +176,9 @@ Aug 2020
 
 Sept 2026
 
-#set par(hanging-indent: 1.35em);#h(1.35em)B. Dutta, A. Karthikeyan, D. Kim, H. Kim, T. Kim, D. Sathyan
+#set par(hanging-indent: 1.35em)
+
+#h(1.35em)B. Dutta, A. Karthikeyan, D. Kim, H. Kim, T. Kim, D. Sathyan
 
 #h(1.35em)[arxiv.org/a/sathyan_d_1](https://arxiv.org/a/sathyan_d_1)
 
@@ -170,7 +188,9 @@ Sept 2026
 
 Jan 2027
 
-#set par(hanging-indent: 1.35em);#h(1.35em)B. Dutta, A. Karthikeyan, D. Kim, K. Kelly, D. Sathyan
+#set par(hanging-indent: 1.35em)
+
+#h(1.35em)B. Dutta, A. Karthikeyan, D. Kim, K. Kelly, D. Sathyan
 
 #h(1.35em)[arxiv.org/a/sathyan_d_1](https://arxiv.org/a/sathyan_d_1)
 
@@ -180,7 +200,9 @@ Jan 2027
 
 Mar 2027
 
-#set par(hanging-indent: 1.35em);#h(1.35em)A. Chandra Shekar, K. Kelly, D. Sathyan, L. Strigari, T. Zhou
+#set par(hanging-indent: 1.35em)
+
+#h(1.35em)A. Chandra Shekar, K. Kelly, D. Sathyan, L. Strigari, T. Zhou
 
 #h(1.35em)[arxiv.org/a/sathyan_d_1](https://arxiv.org/a/sathyan_d_1)
 
@@ -190,7 +212,9 @@ Mar 2027
 
 Mar 2027
 
-#set par(hanging-indent: 1.35em);#h(1.35em)K. Agashe, D. Kim, P. Maksimovic, S. Mondal, M. Osherson, K. Panchal, D. Plotnikov, D. Sathyan
+#set par(hanging-indent: 1.35em)
+
+#h(1.35em)K. Agashe, D. Kim, P. Maksimovic, S. Mondal, M. Osherson, K. Panchal, D. Plotnikov, D. Sathyan
 
 #h(1.35em)[arxiv.org/a/sathyan_d_1](https://arxiv.org/a/sathyan_d_1)
 
@@ -201,7 +225,9 @@ Mar 2027
 
 2024
 
-#set par(hanging-indent: 1.35em);#h(1.35em)D. Sathyan
+#set par(hanging-indent: 1.35em);
+
+#h(1.35em)D. Sathyan
 
 #h(1.35em)[drum.lib.umd.edu/items/f9b081c8-444a-4af2-b69e-c8156d11a2c9](https://drum.lib.umd.edu/items/f9b081c8-444a-4af2-b69e-c8156d11a2c9) (Ph.D. Thesis)
 
@@ -212,7 +238,9 @@ Mar 2027
 
 Oct 2022
 
-#set par(hanging-indent: 1.35em);#h(1.35em)F. Maltoni et al.
+#set par(hanging-indent: 1.35em)
+
+#h(1.35em)F. Maltoni et al.
 
 #h(1.35em)[arxiv.org/abs/2210.02591](https://arxiv.org/abs/2210.02591)
 
@@ -222,7 +250,9 @@ Oct 2022
 
 Sept 2022
 
-#set par(hanging-indent: 1.35em);#h(1.35em)K. Agashe et al.
+#set par(hanging-indent: 1.35em)
+
+#h(1.35em)K. Agashe et al.
 
 #h(1.35em)[arxiv.org/abs/2209.11267](https://arxiv.org/abs/2209.11267)
 
@@ -232,7 +262,9 @@ Sept 2022
 
 Sept 2022
 
-#set par(hanging-indent: 1.35em);#h(1.35em)T. Bose et al.
+#set par(hanging-indent: 1.35em)
+
+#h(1.35em)T. Bose et al.
 
 #h(1.35em)[arxiv.org/abs/2209.13128](https://arxiv.org/abs/2209.13128)
 
@@ -242,7 +274,9 @@ Sept 2022
 
 Apr 2022
 
-#set par(hanging-indent: 1.35em);#h(1.35em)K. Agashe, S. Airen, R. Franceschini, D. Kim, D. Sathyan
+#set par(hanging-indent: 1.35em)
+
+#h(1.35em)K. Agashe, S. Airen, R. Franceschini, D. Kim, D. Sathyan
 
 #h(1.35em)[arxiv.org/abs/2204.02928](https://arxiv.org/abs/2204.02928)
 
@@ -252,7 +286,9 @@ Apr 2022
 
 Mar 2022
 
-#set par(hanging-indent: 1.35em);#h(1.35em)K. Agashe, J.H. Collins, P. Du, M. Ekhterachian, S. Hong, D. Kim, R.K. Mishra, D. Sathyan
+#set par(hanging-indent: 1.35em)
+
+#h(1.35em)K. Agashe, J.H. Collins, P. Du, M. Ekhterachian, S. Hong, D. Kim, R.K. Mishra, D. Sathyan
 
 #h(1.35em)[arxiv.org/abs/2203.13305](https://arxiv.org/abs/2203.13305)
 
@@ -263,7 +299,9 @@ Mar 2022
 
 Nov 2021
 
-#set par(hanging-indent: 1.35em);#h(1.35em)B.T. King et al.
+#set par(hanging-indent: 1.35em);
+
+#h(1.35em)B.T. King et al.
 
 #h(1.35em)[arxiv.org/abs/2111.02076](https://arxiv.org/abs/2111.02076) (JINST 17 (2022) P02035)
 
@@ -273,7 +311,9 @@ Nov 2021
 
 Apr 2021
 
-#set par(hanging-indent: 1.35em);#h(1.35em)Muon g-2 Collaboration
+#set par(hanging-indent: 1.35em);
+
+#h(1.35em)Muon g-2 Collaboration
 
 #h(1.35em)[arxiv.org/abs/2104.03240](https://arxiv.org/abs/2104.03240) (Phys.Rev.Accel.Beams 24 (2021) 044002)
 
@@ -283,7 +323,9 @@ Apr 2021
 
 Apr 2021
 
-#set par(hanging-indent: 1.35em);#h(1.35em)Muon g-2 Collaboration
+#set par(hanging-indent: 1.35em);
+
+#h(1.35em)Muon g-2 Collaboration
 
 #h(1.35em)[arxiv.org/abs/2104.03281](https://arxiv.org/abs/2104.03281) (Phys.Rev.Lett. 126 (2021) 141801)
 
@@ -292,141 +334,141 @@ Apr 2021
 # Seminars
 ## **7. CMS Exotica general meeting, May 2024**
 
-#h(1.35em)Unification of Searches and Measurements: Probing BSM with the W boson mass measurement
+Unification of Searches and Measurements: Probing BSM with the W boson mass measurement
 
 
 
 ## **6. Seminar at Texas A&M, December 2023**
 
-#h(1.35em)A New Purpose A New Purpose for the W-mass Measurement: Searching for New Physics via l + MET
+A New Purpose A New Purpose for the W-mass Measurement: Searching for New Physics via l + MET
 
 
 
 ## **5. Seminar at UT Austin, December 2023**
 
-#h(1.35em)A New Purpose A New Purpose for the W-mass Measurement: Searching for New Physics via l + MET
+A New Purpose A New Purpose for the W-mass Measurement: Searching for New Physics via l + MET
 
 
 
 ## **4. CMS SUSY general meeting, November 2023**
 
-#h(1.35em)A New Purpose A New Purpose for the W-mass Measurement: Searching for New Physics via l + MET
+A New Purpose A New Purpose for the W-mass Measurement: Searching for New Physics via l + MET
 
 
 
 ## **3. HEP Seminar at University of Pittsburgh, November 2023**
 
-#h(1.35em)A New Purpose A New Purpose for the W-mass Measurement: Searching for New Physics via l + MET
+A New Purpose A New Purpose for the W-mass Measurement: Searching for New Physics via l + MET
 
 
 
 ## **2. HEP Seminar at Northwestern University, October 2023**
 
-#h(1.35em)A New Purpose A New Purpose for the W-mass Measurement: Searching for New Physics via l + MET
+A New Purpose A New Purpose for the W-mass Measurement: Searching for New Physics via l + MET
 
 
 
 ## **1. Theory Seminar at Washington University in St. Louis, October 2023**
 
-#h(1.35em)A New Purpose A New Purpose for the W-mass Measurement: Searching for New Physics via l + MET
+A New Purpose A New Purpose for the W-mass Measurement: Searching for New Physics via l + MET
 
 
 
 # Conference Talks
 ## **14. Light Dark World 2026 at Carleton University, July 2026**
 
-#h(1.35em)Can the LHC be sensitive to the Light Dark World?
+Can the LHC be sensitive to the Light Dark World?
 
 
 
 ## **13. CETUP* Workshop, June 2026**
 
-#h(1.35em)Producing the GeV Galactic Center Excess via Cosmic Ray-Dark Matter Scattering
+Producing the GeV Galactic Center Excess via Cosmic Ray-Dark Matter Scattering
 
 
 
 ## **12. Particle Physics on the Plains at the University of Kansas, November 2025**
 
-#h(1.35em)A Baryon and Lepton Number Violaton Model Testable at the LHC
+A Baryon and Lepton Number Violaton Model Testable at the LHC
 
 
 
 ## **11. CETUP* Workshop, June 2025**
 
-#h(1.35em)Can the LHC be sensitive to light dark mediators?
+Can the LHC be sensitive to light dark mediators?
 
 
 
 ## **10. Phenomenology Conference at the University of Pittsburgh, May 2025**
 
-#h(1.35em)Can the LHC be sensitive to light dark mediators?
+Can the LHC be sensitive to light dark mediators?
 
 
 
 ## **9. Particle Physics on the Plains at the University of Kansas, November 2024**
 
-#h(1.35em)A comprehensive analysis of supernova neutrino-dark matter interactions
+A comprehensive analysis of supernova neutrino-dark matter interactions
 
 
 
 ## **8. Texas TACOS @ UT Austin, October 2024**
 
-#h(1.35em)A comprehensive analysis of supernova neutrino-dark matter interactions
+A comprehensive analysis of supernova neutrino-dark matter interactions
 
 
 
 ## **7. NuFact Conference, September 2024**
 
-#h(1.35em)A comprehensive analysis of supernova neutrino-dark matter interactions
+A comprehensive analysis of supernova neutrino-dark matter interactions
 
 
 
 ## **6. Mitchell Conference at Texas A&M University, May 2024**
 
-#h(1.35em)A comprehensive analysis of supernova neutrino-dark matter interactions
+A comprehensive analysis of supernova neutrino-dark matter interactions
 
 
 
 ## **5. Particle Physics on the Plains at the University of Kansas, October 2023**
 
-#h(1.35em)A New Purpose for the W-mass Measurement: Searching for New Physics via l + MET
+A New Purpose for the W-mass Measurement: Searching for New Physics via l + MET
 
 
 
 ## **4. Phenomenology Conference at the University of Pittsburgh, May 2023**
 
-#h(1.35em)Probing Dark Matter-Neutrino Interactions via Supernova Neutrinos
+Probing Dark Matter-Neutrino Interactions via Supernova Neutrinos
 
 
 
 ## **3. Phenomenology Conference at the University of Pittsburgh, May 2022**
 
-#h(1.35em)Model-Independent Measurement of Top Quark Mass Using B-Hadron Decay Lengths (Part I)
+Model-Independent Measurement of Top Quark Mass Using B-Hadron Decay Lengths (Part I)
 
 
 
 ## **2. April APS Meeting, April 2021**
 
-#h(1.35em)Signals of KK graviton from extended warped extra dimensions at the LHC (II)
+Signals of KK graviton from extended warped extra dimensions at the LHC (II)
 
 
 
 ## **1. Phenomenology Conference at the University of Pittsburgh, May 2020**
 
-#h(1.35em)Signals of KK graviton from extended warped extra dimensions at the LHC (II)
+Signals of KK graviton from extended warped extra dimensions at the LHC (II)
 
 
 
 # Conferences Organized
 ## **The Mitchell Conference on Collider, Dark Matter, and Neutrino Physics 2026**
 
-#h(1.35em)Texas A&M University, May 27-30, 2026
+Texas A&M University, May 27-30, 2026
 
 
 
 ## **The Mitchell Conference on Collider, Dark Matter, and Neutrino Physics 2025**
 
-#h(1.35em)Texas A&M University, May 13-16, 2025
+Texas A&M University, May 13-16, 2025
 
 
 
@@ -435,7 +477,9 @@ Apr 2021
 
 Apr 2026
 
-#set par(hanging-indent: 1.35em);#h(1.35em)Muon g-2 Collaboration
+#set par(hanging-indent: 1.35em)
+
+#h(1.35em)Muon g-2 Collaboration
 
 
 
@@ -455,31 +499,31 @@ June 2024 – June 2024
 # Outreach
 ## **BU Student Mentorship Program PRISM (2016-2018)**
 
-#h(1.35em)Mentored incoming freshman undergraduates in physics, providing guidance on courses, research opportunities, and resources
+Mentored incoming freshman undergraduates in physics, providing guidance on courses, research opportunities, and resources
 
 
 
 ## **TAMU Physics and Engineering Festival (2025-2027)**
 
-#h(1.35em)Presented demonstrations of fluid dyanmics to the general public, including high school students and families
+Presented demonstrations of fluid dyanmics to the general public, including high school students and families
 
 
 
 ## **University of South Dakota talk: "My path through particle physics research so far" (December 2024)**
 
-#h(1.35em)Presented my path through particle physics research to students, showing a variety of interesting ideas to pursue
+Presented my path through particle physics research to students, showing a variety of interesting ideas to pursue
 
 
 
 # Skills
 ## **Programming:**
 
-#h(1.35em)Mathematica, Python, C++
+Mathematica, Python, C++
 
 
 
 ## **Physics Software:**
 
-#h(1.35em)MadGraph5_aMC@NLO, Pythia6, Pythia8, Delphes, ROOT, GEANT4, FeynRules
+MadGraph5_aMC@NLO, Pythia6, Pythia8, Delphes, ROOT, GEANT4, FeynRules
 
 
