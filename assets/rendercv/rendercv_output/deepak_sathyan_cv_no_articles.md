@@ -189,7 +189,7 @@ A comprehensive analysis of supernova neutrino-dark matter interactions
 
 
 
-## **#set par(hanging-indent: 1.45em);#box(width: 0.466em)[]7.#h(0.3em)NuFact Conference**
+## **#set par(hanging-indent: 1.45em);#box(width: 0.466em)[]7.#h(0.3em)NuFact 2024 Conference at Argonne National Laboratory**
 
 Sept 2024
 

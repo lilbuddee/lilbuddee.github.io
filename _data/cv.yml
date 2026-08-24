@@ -12,7 +12,8 @@ settings:
         dont_generate_png: true
 cv:
     name: Deepak Sathyan
-    headline: '[arXiv](https://arxiv.org/a/sathyan_d_1)  |  [InspireHEP](https://inspirehep.net/authors/1615022)  |
+    headline: '#text(fill: black, style: "italic", size: 16pt)[Curriculum Vitae]#linebreak()#v(0.35cm)
+        [arXiv](https://arxiv.org/a/sathyan_d_1)  |  [InspireHEP](https://inspirehep.net/authors/1615022)  |
         [Google Scholar](https://scholar.google.com/citations?user=29PfYjgAAAAJ)  |  [ORCID](https://orcid.org/0000-0001-9421-5480)  |  [Website](https://deepaksathyan.com)'
     email: dsathyan@tamu.edu
     location: Mitchell Institute for Fundamental Physics and Astronomy, Texas A&M

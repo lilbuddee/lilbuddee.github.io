@@ -729,7 +729,10 @@ def build_cv_variant(base_name, cv_header, section_titles, keep=True):
 # article sections.
 cv_publications = build_cv_variant(
     "deepak_sathyan_publications",
-    {"name": cv["cv"]["name"]},
+    {
+        "name": cv["cv"]["name"],
+        "headline": '#text(fill: black, style: "italic", size: 16pt)[Publication List]',
+    },
     ARTICLE_SECTION_TITLES,
     keep=True,
 )

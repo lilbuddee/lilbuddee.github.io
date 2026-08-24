@@ -62,7 +62,7 @@ design:
       section_titles: Libertinus Serif
     font_size:
       body: 11pt
-      name: 25pt
+      name: 22pt
       headline: 10pt
       connections: 10pt
       section_titles: 1.4em
@@ -72,13 +72,13 @@ design:
       connections: false
       section_titles: false
     bold:
-      name: true
+      name: false
       headline: false
       connections: false
       section_titles: true
 
   links:
-    underline: false
+    underline: true
     show_external_link_icon: false
 
   header:
@@ -87,7 +87,7 @@ design:
     photo_position: left
     photo_space_left: 0.4cm
     photo_space_right: 0.4cm
-    space_below_name: 0.6cm
+    space_below_name: 0.5em
     space_below_headline: 0.35cm
     space_below_connections: 0.75cm
     connections:
