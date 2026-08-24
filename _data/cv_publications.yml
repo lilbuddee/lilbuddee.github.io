@@ -1,242 +1,242 @@
 settings:
-    render_command:
-        design: ../assets/rendercv/design.yaml
-        locale: ../assets/rendercv/locale.yaml
-        typst_path: ../assets/rendercv/rendercv_output/deepak_sathyan_publications.typ
-        pdf_path: ../assets/deepak_sathyan_publications.pdf
-        html_path: ../assets/rendercv/rendercv_output/deepak_sathyan_publications.html
-        dont_generate_markdown: false
-        dont_generate_html: false
-        dont_generate_typst: false
-        dont_generate_pdf: false
-        dont_generate_png: true
-        markdown_path: ../assets/rendercv/rendercv_output/deepak_sathyan_publications.md
+  render_command:
+    design: ../assets/rendercv/design.yaml
+    locale: ../assets/rendercv/locale.yaml
+    typst_path: ../assets/rendercv/rendercv_output/deepak_sathyan_publications.typ
+    pdf_path: ../assets/deepak_sathyan_publications.pdf
+    html_path: ../assets/rendercv/rendercv_output/deepak_sathyan_publications.html
+    dont_generate_markdown: false
+    dont_generate_html: false
+    dont_generate_typst: false
+    dont_generate_pdf: false
+    dont_generate_png: true
+    markdown_path: ../assets/rendercv/rendercv_output/deepak_sathyan_publications.md
 cv:
-    name: Deepak Sathyan
-    headline: '#text(fill: black, style: "italic", size: 16pt)[Publication List]'
-    sections:
-        Articles in Review:
-        -   title: '#set par(hanging-indent: 0.984em);3.#h(0.3em)Producing the GeV
-                Galactic Center Excess via Cosmic Ray-Dark Matter Scattering'
-            authors:
-            - B. Dutta
-            - D. Goswami
-            - J. Kumar
-            - M. Rai
-            - D. Sathyan
-            date: 2026-05
-            journal: null
-            url: https://arxiv.org/abs/2605.08010
-        -   title: '#set par(hanging-indent: 0.984em);2.#h(0.3em)A Baryon and Lepton
-                Number Violation Model Testable at the LHC'
-            authors:
-            - A. Bhoonah
-            - F. Burk
-            - D. Liu
-            - T. Ou
-            - D. Sathyan
-            date: 2025-08
-            journal: null
-            url: https://arxiv.org/abs/2508.21064
-        -   title: '#set par(hanging-indent: 0.984em);1.#h(0.3em)New Constraints on
-                Neutrino-Dark Matter Interactions: A Comprehensive Analysis'
-            authors:
-            - P.S.B. Dev
-            - D. Kim
-            - D. Sathyan
-            - K. Sinha
-            - Y. Zhang
-            date: 2025-07
-            journal: null
-            url: https://arxiv.org/abs/2507.01000
-        Articles in Refereed Journals:
-        -   title: '#set par(hanging-indent: 0.984em);5.#h(0.3em)New laboratory constraints
-                on neutrinophilic mediators'
-            authors:
-            - P.S.B. Dev
-            - D. Kim
-            - D. Sathyan
-            - K. Sinha
-            - Y. Zhang
-            date: 2024-07
-            journal: Phys.Lett.B 868 (2025) 139765
-            url: https://arxiv.org/abs/2407.12738
-        -   title: '#set par(hanging-indent: 0.984em);4.#h(0.3em)''Unification'' of
-                BSM searches and SM measurements: the case of lepton+MET and m_W'
-            authors:
-            - K. Agashe
-            - S. Airen
-            - R. Franceschini
-            - D. Kim
-            - A.V. Kotwal
-            - L. Ricci
-            - D. Sathyan
-            date: 2024-04
-            journal: JHEP 02 (2025) 139
-            url: https://arxiv.org/abs/2404.17574
-        -   title: '#set par(hanging-indent: 0.984em);3.#h(0.3em)A new purpose for
-                the W-boson mass measurement: Searching for New Physics in lepton+MET'
-            authors:
-            - K. Agashe
-            - S. Airen
-            - R. Franceschini
-            - D. Kim
-            - A.V. Kotwal
-            - L. Ricci
-            - D. Sathyan
-            date: 2023-10
-            journal: Phys.Lett.B 855 (2024) 138774
-            url: https://arxiv.org/abs/2310.13687
-        -   title: '#set par(hanging-indent: 0.984em);2.#h(0.3em)Energy-peak based
-                method to measure top quark mass via B-hadron decay lengths'
-            authors:
-            - K. Agashe
-            - S. Airen
-            - R. Franceschini
-            - J. Incandela
-            - D. Kim
-            - D. Sathyan
-            date: 2022-12
-            journal: JHEP 06 (2023) 021
-            url: https://arxiv.org/abs/2212.03929
-        -   title: '#set par(hanging-indent: 0.984em);1.#h(0.3em)LHC Signals for KK
-                Graviton from an Extended Warped Extra Dimension'
-            authors:
-            - K. Agashe
-            - M. Ekhterachian
-            - D. Kim
-            - D. Sathyan
-            date: 2020-08
-            journal: JHEP 11 (2020) 109
-            url: https://arxiv.org/abs/2008.06480
-        Articles in Preparation:
-        -   title: '#set par(hanging-indent: 0.984em);1.#h(0.3em)LHC as a Beam Dump:
-                Probing Light Dark Photons'
-            authors:
-            - B. Dutta
-            - A. Karthikeyan
-            - D. Kim
-            - H. Kim
-            - T. Kim
-            - D. Sathyan
-            date: 2026-09
-            journal: null
-            url: https://arxiv.org/a/sathyan_d_1
-        -   title: '#set par(hanging-indent: 0.984em);2.#h(0.3em)New Probes of Dark
-                Sectors at a Muon Collider'
-            authors:
-            - B. Dutta
-            - A. Karthikeyan
-            - D. Kim
-            - K. Kelly
-            - D. Sathyan
-            date: 2027-01
-            journal: null
-            url: https://arxiv.org/a/sathyan_d_1
-        -   title: '#set par(hanging-indent: 0.984em);3.#h(0.3em)Exploring open systems
-                approach to neutrino oscillations'
-            authors:
-            - A. Chandra Shekar
-            - K. Kelly
-            - D. Sathyan
-            - L. Strigari
-            - T. Zhou
-            date: 2027-03
-            journal: null
-            url: https://arxiv.org/a/sathyan_d_1
-        -   title: '#set par(hanging-indent: 0.984em);4.#h(0.3em)LHC Signals for KK
-                Gravitons Producing 8-Particle Final States'
-            authors:
-            - K. Agashe
-            - D. Kim
-            - P. Maksimovic
-            - S. Mondal
-            - M. Osherson
-            - K. Panchal
-            - D. Plotnikov
-            - D. Sathyan
-            date: 2027-03
-            journal: null
-            url: https://arxiv.org/a/sathyan_d_1
-        Ph.D. Thesis:
-        -   title: '#set par(hanging-indent: 0.984em);1.#h(0.3em)Unifying Searches
-                for New Physics with Precision Measurements of the W Boson Mass'
-            authors:
-            - D. Sathyan
-            date: 2024
-            journal: Ph.D. Thesis
-            url: https://drum.lib.umd.edu/items/f9b081c8-444a-4af2-b69e-c8156d11a2c9
-        Snowmass2021 Contributions:
-        -   title: '#set par(hanging-indent: 0.984em);5.#h(0.3em)TF07 Snowmass Report:
-                Theory of Collider Phenomena'
-            authors:
-            - F. Maltoni et al.
-            date: 2022-10
-            journal: null
-            url: https://arxiv.org/abs/2210.02591
-        -   title: '#set par(hanging-indent: 0.984em);4.#h(0.3em)Report of the Topical
-                Group on Top quark physics and heavy flavor production for Snowmass
-                2021'
-            authors:
-            - K. Agashe et al.
-            date: 2022-09
-            journal: null
-            url: https://arxiv.org/abs/2209.11267
-        -   title: '#set par(hanging-indent: 0.984em);3.#h(0.3em)Report of the Topical
-                Group on Physics Beyond the Standard Model at Energy Frontier for
-                Snowmass 2021'
-            authors:
-            - T. Bose et al.
-            date: 2022-09
-            journal: null
-            url: https://arxiv.org/abs/2209.13128
-        -   title: '#set par(hanging-indent: 0.984em);2.#h(0.3em)Snowmass2021 - White
-                Paper, Implications of Energy Peak for Collider Phenomenology: Top
-                Quark Mass Determination and Beyond'
-            authors:
-            - K. Agashe
-            - S. Airen
-            - R. Franceschini
-            - D. Kim
-            - D. Sathyan
-            date: 2022-04
-            journal: null
-            url: https://arxiv.org/abs/2204.02928
-        -   title: '#set par(hanging-indent: 0.984em);1.#h(0.3em)Snowmass2021 White
-                Paper: Collider Physics Opportunities of Extended Warped Extra-Dimensional
-                Models'
-            authors:
-            - K. Agashe
-            - J.H. Collins
-            - P. Du
-            - M. Ekhterachian
-            - S. Hong
-            - D. Kim
-            - R.K. Mishra
-            - D. Sathyan
-            date: 2022-03
-            journal: null
-            url: https://arxiv.org/abs/2203.13305
-        Muon g-2 Articles:
-        -   title: '#set par(hanging-indent: 0.984em);3.#h(0.3em)The straw tracking
-                detector for the Fermilab Muon g-2 Experiment'
-            authors:
-            - B.T. King et al.
-            date: 2021-11
-            journal: JINST 17 (2022) P02035
-            url: https://arxiv.org/abs/2111.02076
-        -   title: '#set par(hanging-indent: 0.984em);2.#h(0.3em)Beam dynamics corrections
-                to the Run-1 measurement of the muon anomalous magnetic moment at
-                Fermilab'
-            authors:
-            - Muon g-2 Collaboration
-            date: 2021-04
-            journal: Phys.Rev.Accel.Beams 24 (2021) 044002
-            url: https://arxiv.org/abs/2104.03240
-        -   title: '#set par(hanging-indent: 0.984em);1.#h(0.3em)Measurement of the
-                Positive Muon Anomalous Magnetic Moment to 0.46 ppm'
-            authors:
-            - Muon g-2 Collaboration
-            date: 2021-04
-            journal: Phys.Rev.Lett. 126 (2021) 141801
-            url: https://arxiv.org/abs/2104.03281
+  name: Deepak Sathyan
+  headline: '#text(fill: black, style: "italic", size: 16pt)[Publication List]'
+  sections:
+    Articles in Review:
+      - title: "#set par(hanging-indent: 0.984em);3.#h(0.3em)Producing the GeV
+          Galactic Center Excess via Cosmic Ray-Dark Matter Scattering"
+        authors:
+          - B. Dutta
+          - D. Goswami
+          - J. Kumar
+          - M. Rai
+          - D. Sathyan
+        date: 2026-05
+        journal: null
+        url: https://arxiv.org/abs/2605.08010
+      - title: "#set par(hanging-indent: 0.984em);2.#h(0.3em)A Baryon and Lepton
+          Number Violation Model Testable at the LHC"
+        authors:
+          - A. Bhoonah
+          - F. Burk
+          - D. Liu
+          - T. Ou
+          - D. Sathyan
+        date: 2025-08
+        journal: null
+        url: https://arxiv.org/abs/2508.21064
+      - title: "#set par(hanging-indent: 0.984em);1.#h(0.3em)New Constraints on
+          Neutrino-Dark Matter Interactions: A Comprehensive Analysis"
+        authors:
+          - P.S.B. Dev
+          - D. Kim
+          - D. Sathyan
+          - K. Sinha
+          - Y. Zhang
+        date: 2025-07
+        journal: null
+        url: https://arxiv.org/abs/2507.01000
+    Articles in Refereed Journals:
+      - title: "#set par(hanging-indent: 0.984em);5.#h(0.3em)New laboratory constraints
+          on neutrinophilic mediators"
+        authors:
+          - P.S.B. Dev
+          - D. Kim
+          - D. Sathyan
+          - K. Sinha
+          - Y. Zhang
+        date: 2024-07
+        journal: Phys.Lett.B 868 (2025) 139765
+        url: https://arxiv.org/abs/2407.12738
+      - title: "#set par(hanging-indent: 0.984em);4.#h(0.3em)'Unification' of
+          BSM searches and SM measurements: the case of lepton+MET and m_W"
+        authors:
+          - K. Agashe
+          - S. Airen
+          - R. Franceschini
+          - D. Kim
+          - A.V. Kotwal
+          - L. Ricci
+          - D. Sathyan
+        date: 2024-04
+        journal: JHEP 02 (2025) 139
+        url: https://arxiv.org/abs/2404.17574
+      - title: "#set par(hanging-indent: 0.984em);3.#h(0.3em)A new purpose for
+          the W-boson mass measurement: Searching for New Physics in lepton+MET"
+        authors:
+          - K. Agashe
+          - S. Airen
+          - R. Franceschini
+          - D. Kim
+          - A.V. Kotwal
+          - L. Ricci
+          - D. Sathyan
+        date: 2023-10
+        journal: Phys.Lett.B 855 (2024) 138774
+        url: https://arxiv.org/abs/2310.13687
+      - title: "#set par(hanging-indent: 0.984em);2.#h(0.3em)Energy-peak based
+          method to measure top quark mass via B-hadron decay lengths"
+        authors:
+          - K. Agashe
+          - S. Airen
+          - R. Franceschini
+          - J. Incandela
+          - D. Kim
+          - D. Sathyan
+        date: 2022-12
+        journal: JHEP 06 (2023) 021
+        url: https://arxiv.org/abs/2212.03929
+      - title: "#set par(hanging-indent: 0.984em);1.#h(0.3em)LHC Signals for KK
+          Graviton from an Extended Warped Extra Dimension"
+        authors:
+          - K. Agashe
+          - M. Ekhterachian
+          - D. Kim
+          - D. Sathyan
+        date: 2020-08
+        journal: JHEP 11 (2020) 109
+        url: https://arxiv.org/abs/2008.06480
+    Articles in Preparation:
+      - title: "#set par(hanging-indent: 0.984em);1.#h(0.3em)LHC as a Beam Dump:
+          Probing Light Dark Photons"
+        authors:
+          - B. Dutta
+          - A. Karthikeyan
+          - D. Kim
+          - H. Kim
+          - T. Kim
+          - D. Sathyan
+        date: 2026-09
+        journal: null
+        url: https://arxiv.org/a/sathyan_d_1
+      - title: "#set par(hanging-indent: 0.984em);2.#h(0.3em)New Probes of Dark
+          Sectors at a Muon Collider"
+        authors:
+          - B. Dutta
+          - A. Karthikeyan
+          - D. Kim
+          - K. Kelly
+          - D. Sathyan
+        date: 2027-01
+        journal: null
+        url: https://arxiv.org/a/sathyan_d_1
+      - title: "#set par(hanging-indent: 0.984em);3.#h(0.3em)Exploring open systems
+          approach to neutrino oscillations"
+        authors:
+          - A. Chandra Shekar
+          - K. Kelly
+          - D. Sathyan
+          - L. Strigari
+          - T. Zhou
+        date: 2027-03
+        journal: null
+        url: https://arxiv.org/a/sathyan_d_1
+      - title: "#set par(hanging-indent: 0.984em);4.#h(0.3em)LHC Signals for KK
+          Gravitons Producing 8-Particle Final States"
+        authors:
+          - K. Agashe
+          - D. Kim
+          - P. Maksimovic
+          - S. Mondal
+          - M. Osherson
+          - K. Panchal
+          - D. Plotnikov
+          - D. Sathyan
+        date: 2027-03
+        journal: null
+        url: https://arxiv.org/a/sathyan_d_1
+    Ph.D. Thesis:
+      - title: "#set par(hanging-indent: 0.984em);1.#h(0.3em)Unifying Searches
+          for New Physics with Precision Measurements of the W Boson Mass"
+        authors:
+          - D. Sathyan
+        date: 2024
+        journal: Ph.D. Thesis
+        url: https://drum.lib.umd.edu/items/f9b081c8-444a-4af2-b69e-c8156d11a2c9
+    Snowmass2021 Contributions:
+      - title: "#set par(hanging-indent: 0.984em);5.#h(0.3em)TF07 Snowmass Report:
+          Theory of Collider Phenomena"
+        authors:
+          - F. Maltoni et al.
+        date: 2022-10
+        journal: null
+        url: https://arxiv.org/abs/2210.02591
+      - title: "#set par(hanging-indent: 0.984em);4.#h(0.3em)Report of the Topical
+          Group on Top quark physics and heavy flavor production for Snowmass
+          2021"
+        authors:
+          - K. Agashe et al.
+        date: 2022-09
+        journal: null
+        url: https://arxiv.org/abs/2209.11267
+      - title: "#set par(hanging-indent: 0.984em);3.#h(0.3em)Report of the Topical
+          Group on Physics Beyond the Standard Model at Energy Frontier for
+          Snowmass 2021"
+        authors:
+          - T. Bose et al.
+        date: 2022-09
+        journal: null
+        url: https://arxiv.org/abs/2209.13128
+      - title: "#set par(hanging-indent: 0.984em);2.#h(0.3em)Snowmass2021 - White
+          Paper, Implications of Energy Peak for Collider Phenomenology: Top
+          Quark Mass Determination and Beyond"
+        authors:
+          - K. Agashe
+          - S. Airen
+          - R. Franceschini
+          - D. Kim
+          - D. Sathyan
+        date: 2022-04
+        journal: null
+        url: https://arxiv.org/abs/2204.02928
+      - title: "#set par(hanging-indent: 0.984em);1.#h(0.3em)Snowmass2021 White
+          Paper: Collider Physics Opportunities of Extended Warped Extra-Dimensional
+          Models"
+        authors:
+          - K. Agashe
+          - J.H. Collins
+          - P. Du
+          - M. Ekhterachian
+          - S. Hong
+          - D. Kim
+          - R.K. Mishra
+          - D. Sathyan
+        date: 2022-03
+        journal: null
+        url: https://arxiv.org/abs/2203.13305
+    Muon g-2 Articles:
+      - title: "#set par(hanging-indent: 0.984em);3.#h(0.3em)The straw tracking
+          detector for the Fermilab Muon g-2 Experiment"
+        authors:
+          - B.T. King et al.
+        date: 2021-11
+        journal: JINST 17 (2022) P02035
+        url: https://arxiv.org/abs/2111.02076
+      - title: "#set par(hanging-indent: 0.984em);2.#h(0.3em)Beam dynamics corrections
+          to the Run-1 measurement of the muon anomalous magnetic moment at
+          Fermilab"
+        authors:
+          - Muon g-2 Collaboration
+        date: 2021-04
+        journal: Phys.Rev.Accel.Beams 24 (2021) 044002
+        url: https://arxiv.org/abs/2104.03240
+      - title: "#set par(hanging-indent: 0.984em);1.#h(0.3em)Measurement of the
+          Positive Muon Anomalous Magnetic Moment to 0.46 ppm"
+        authors:
+          - Muon g-2 Collaboration
+        date: 2021-04
+        journal: Phys.Rev.Lett. 126 (2021) 141801
+        url: https://arxiv.org/abs/2104.03281
