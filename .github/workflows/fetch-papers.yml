@@ -20,15 +20,24 @@ jobs:
         with:
           python-version: "3.11"
 
-      - run: pip install bibtexparser requests
+      - run: pip install bibtexparser pyyaml requests
 
       - name: Fetch new papers from InspireHEP
         run: python "scripts/import requests.py"
 
-      - name: Commit if papers.raw.bib changed
+      - name: Refresh InspireHEP citation counts
+        # Runs every time (not just when a new paper was found) so citation
+        # counts for existing papers also stay fresh - and, more to the
+        # point, so a paper added moments ago by the previous step already
+        # has a citations.yml entry (and therefore a citation badge on the
+        # site) instead of waiting for update-citations.yml's separate
+        # Mon/Wed/Fri schedule to catch up to it.
+        run: python scripts/fetch_inspire_citations.py
+
+      - name: Commit if papers.raw.bib or citations.yml changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add _bibliography/papers.raw.bib
+          git add _bibliography/papers.raw.bib _data/citations.yml
           git diff --cached --quiet || git commit -m "chore: add new papers from InspireHEP"
           git push

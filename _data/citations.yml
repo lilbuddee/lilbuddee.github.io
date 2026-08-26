@@ -36,6 +36,12 @@ papers:
     title: '“Unification” of BSM searches and SM measurements: the case of lepton+[inline-graphic
       not available: see fulltext] and m$_{W}$'
     year: '2024'
+  Begel:2025ldu:
+    citations: 8
+    record_id: '2906143'
+    title: United States Muon Collider Community White Paper for the European Strategy
+      for Particle Physics Update
+    year: '2025'
   Bhoonah:2025qzd:
     citations: 3
     record_id: '2964573'
@@ -62,6 +68,11 @@ papers:
     citations: 0
     record_id: '3153585'
     title: Producing the GeV Galactic Center Excess via Cosmic Ray-Dark Matter Scattering
+    year: '2026'
+  Kim:2026ojv:
+    citations: 0
+    record_id: '3194697'
+    title: Intensity-Frontier Signals of Warped Extra Dimensions
     year: '2026'
   King:2021hst:
     citations: 27
