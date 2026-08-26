@@ -1,9 +1,9 @@
 metadata:
-  last_updated: '2026-08-24'
+  last_updated: '2026-08-26'
   source: inspirehep
 papers:
   Agashe:2020wph:
-    citations: 23
+    citations: 24
     record_id: '1811806'
     title: LHC Signals for KK Graviton from an Extended Warped Extra Dimension
     year: '2020'
