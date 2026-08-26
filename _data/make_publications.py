@@ -327,6 +327,10 @@ for e in bib_db.entries:
         "url": clean_url(e, arxiv_id),
         "eprint": arxiv_id,
         "is_phd_thesis": e.get("ENTRYTYPE") == "phdthesis",
+        # Custom bibtex field, e.g. `cv_exclude = {true}`: keeps an entry on
+        # the website's full publications list (still written to papers.bib
+        # below) while dropping it from the CV/publication-list PDFs.
+        "cv_exclude": str(e.get("cv_exclude") or "").strip().lower() == "true",
         "citations": fetch_inspire_citations(e),
         "n_authors": 0,
         "authors": [],
@@ -595,7 +599,9 @@ excluded_uids = {p["uid"] for p in phd_thesis_pubs}
 pubs_for_refereed_review = [
     p
     for p in pubs_date_order
-    if p.get("eprint") not in excluded_arxiv_ids and p["uid"] not in excluded_uids
+    if p.get("eprint") not in excluded_arxiv_ids
+    and p["uid"] not in excluded_uids
+    and not p.get("cv_exclude")
 ]
 refereed_export = numbered_publications([p for p in pubs_for_refereed_review if p["journal"]])
 in_review_export = numbered_publications([p for p in pubs_for_refereed_review if not p["journal"]])

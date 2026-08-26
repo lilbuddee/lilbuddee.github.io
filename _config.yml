@@ -384,6 +384,7 @@ filtered_bibtex_keywords:
     bibtex_show,
     blog,
     code,
+    cv_exclude,
     dimensions,
     eprint,
     google_scholar_id,
