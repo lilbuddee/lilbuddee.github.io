@@ -60,7 +60,16 @@ cv:
             summary: |
                 Supernova neutrino attenuation and detection, neutrino oscillations in open systems, neutrinophilic mediators
         Articles in Review:
-        -   title: '#set par(hanging-indent: 0.984em);3.#h(0.3em)Producing the GeV
+        -   title: '#set par(hanging-indent: 0.984em);5.#h(0.3em)Intensity-Frontier
+                Signals of Warped Extra Dimensions'
+            authors:
+            - D. Kim
+            - D. Sathyan
+            - A. Verma
+            date: 2026-08
+            journal: null
+            url: https://arxiv.org/abs/2608.20482
+        -   title: '#set par(hanging-indent: 0.984em);4.#h(0.3em)Producing the GeV
                 Galactic Center Excess via Cosmic Ray-Dark Matter Scattering'
             authors:
             - B. Dutta
@@ -71,7 +80,7 @@ cv:
             date: 2026-05
             journal: null
             url: https://arxiv.org/abs/2605.08010
-        -   title: '#set par(hanging-indent: 0.984em);2.#h(0.3em)A Baryon and Lepton
+        -   title: '#set par(hanging-indent: 0.984em);3.#h(0.3em)A Baryon and Lepton
                 Number Violation Model Testable at the LHC'
             authors:
             - A. Bhoonah
@@ -82,7 +91,7 @@ cv:
             date: 2025-08
             journal: null
             url: https://arxiv.org/abs/2508.21064
-        -   title: '#set par(hanging-indent: 0.984em);1.#h(0.3em)New Constraints on
+        -   title: '#set par(hanging-indent: 0.984em);2.#h(0.3em)New Constraints on
                 Neutrino-Dark Matter Interactions: A Comprehensive Analysis'
             authors:
             - P.S.B. Dev
@@ -93,6 +102,14 @@ cv:
             date: 2025-07
             journal: null
             url: https://arxiv.org/abs/2507.01000
+        -   title: '#set par(hanging-indent: 0.984em);1.#h(0.3em)United States Muon
+                Collider Community White Paper for the European Strategy for Particle
+                Physics Update'
+            authors:
+            - M. Begel et al.
+            date: 2025-03
+            journal: null
+            url: https://arxiv.org/abs/2503.23695
         Articles in Refereed Journals:
         -   title: '#set par(hanging-indent: 0.984em);5.#h(0.3em)New laboratory constraints
                 on neutrinophilic mediators'

@@ -3,7 +3,19 @@
 
 
 # Articles in Review
-## **#set par(hanging-indent: 0.984em);3.#h(0.3em)Producing the GeV Galactic Center Excess via Cosmic Ray-Dark Matter Scattering**
+## **#set par(hanging-indent: 0.984em);5.#h(0.3em)Intensity-Frontier Signals of Warped Extra Dimensions**
+
+Aug 2026
+
+#set par(hanging-indent: 1.35em)
+
+#h(1.35em)D. Kim, D. Sathyan, A. Verma
+
+#h(1.35em)[arxiv.org/abs/2608.20482](https://arxiv.org/abs/2608.20482)
+
+
+
+## **#set par(hanging-indent: 0.984em);4.#h(0.3em)Producing the GeV Galactic Center Excess via Cosmic Ray-Dark Matter Scattering**
 
 May 2026
 
@@ -15,7 +27,7 @@ May 2026
 
 
 
-## **#set par(hanging-indent: 0.984em);2.#h(0.3em)A Baryon and Lepton Number Violation Model Testable at the LHC**
+## **#set par(hanging-indent: 0.984em);3.#h(0.3em)A Baryon and Lepton Number Violation Model Testable at the LHC**
 
 Aug 2025
 
@@ -27,7 +39,7 @@ Aug 2025
 
 
 
-## **#set par(hanging-indent: 0.984em);1.#h(0.3em)New Constraints on Neutrino-Dark Matter Interactions: A Comprehensive Analysis**
+## **#set par(hanging-indent: 0.984em);2.#h(0.3em)New Constraints on Neutrino-Dark Matter Interactions: A Comprehensive Analysis**
 
 July 2025
 
@@ -36,6 +48,18 @@ July 2025
 #h(1.35em)P.S.B. Dev, D. Kim, D. Sathyan, K. Sinha, Y. Zhang
 
 #h(1.35em)[arxiv.org/abs/2507.01000](https://arxiv.org/abs/2507.01000)
+
+
+
+## **#set par(hanging-indent: 0.984em);1.#h(0.3em)United States Muon Collider Community White Paper for the European Strategy for Particle Physics Update**
+
+Mar 2025
+
+#set par(hanging-indent: 1.35em)
+
+#h(1.35em)M. Begel et al.
+
+#h(1.35em)[arxiv.org/abs/2503.23695](https://arxiv.org/abs/2503.23695)
 
 
 
