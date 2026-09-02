@@ -31,7 +31,7 @@ papers:
       in lepton+MET'
     year: '2023'
   Agashe:2024owh:
-    citations: 9
+    citations: 10
     record_id: '2781347'
     title: '“Unification” of BSM searches and SM measurements: the case of lepton+[inline-graphic
       not available: see fulltext] and m$_{W}$'
@@ -75,7 +75,7 @@ papers:
     title: Intensity-Frontier Signals of Warped Extra Dimensions
     year: '2026'
   King:2021hst:
-    citations: 28
+    citations: 27
     record_id: '1959546'
     title: The straw tracking detector for the Fermilab Muon g-2 Experiment
     year: '2021'
@@ -85,12 +85,12 @@ papers:
     title: 'TF07 Snowmass Report: Theory of Collider Phenomena'
     year: '2022'
   Muong-2:2021ojo:
-    citations: 2178
+    citations: 2177
     record_id: '1856627'
     title: Measurement of the Positive Muon Anomalous Magnetic Moment to 0.46 ppm
     year: '2021'
   Muong-2:2021xzz:
-    citations: 133
+    citations: 132
     record_id: '1856628'
     title: Beam dynamics corrections to the Run-1 measurement of the muon anomalous
       magnetic moment at Fermilab
