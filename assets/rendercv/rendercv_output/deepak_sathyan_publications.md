@@ -2,56 +2,7 @@
 
 
 
-# Articles in Review
-## **#set par(hanging-indent: 0.984em);4.#h(0.3em)Intensity-Frontier Signals of Warped Extra Dimensions**
-
-Aug 2026
-
-#set par(hanging-indent: 1.35em)
-
-#h(1.35em)D. Kim, D. Sathyan, A. Verma
-
-#h(1.35em)[arxiv.org/abs/2608.20482](https://arxiv.org/abs/2608.20482)
-
-
-
-## **#set par(hanging-indent: 0.984em);3.#h(0.3em)Producing the GeV Galactic Center Excess via Cosmic Ray-Dark Matter Scattering**
-
-May 2026
-
-#set par(hanging-indent: 1.35em)
-
-#h(1.35em)B. Dutta, D. Goswami, J. Kumar, M. Rai, D. Sathyan
-
-#h(1.35em)[arxiv.org/abs/2605.08010](https://arxiv.org/abs/2605.08010)
-
-
-
-## **#set par(hanging-indent: 0.984em);2.#h(0.3em)A Baryon and Lepton Number Violation Model Testable at the LHC**
-
-Aug 2025
-
-#set par(hanging-indent: 1.35em)
-
-#h(1.35em)A. Bhoonah, F. Burk, D. Liu, T. Ou, D. Sathyan
-
-#h(1.35em)[arxiv.org/abs/2508.21064](https://arxiv.org/abs/2508.21064)
-
-
-
-## **#set par(hanging-indent: 0.984em);1.#h(0.3em)New Constraints on Neutrino-Dark Matter Interactions: A Comprehensive Analysis**
-
-July 2025
-
-#set par(hanging-indent: 1.35em)
-
-#h(1.35em)P.S.B. Dev, D. Kim, D. Sathyan, K. Sinha, Y. Zhang
-
-#h(1.35em)[arxiv.org/abs/2507.01000](https://arxiv.org/abs/2507.01000)
-
-
-
-# Articles in Refereed Journals
+# Publications
 ## **#set par(hanging-indent: 0.984em);5.#h(0.3em)New laboratory constraints on neutrinophilic mediators**
 
 July 2024
@@ -112,6 +63,55 @@ Aug 2020
 
 
 
+# Preprints
+## **#set par(hanging-indent: 0.984em);4.#h(0.3em)Intensity-Frontier Signals of Warped Extra Dimensions**
+
+Aug 2026
+
+#set par(hanging-indent: 1.35em)
+
+#h(1.35em)D. Kim, D. Sathyan, A. Verma
+
+#h(1.35em)[arxiv.org/abs/2608.20482](https://arxiv.org/abs/2608.20482)
+
+
+
+## **#set par(hanging-indent: 0.984em);3.#h(0.3em)Producing the GeV Galactic Center Excess via Cosmic Ray-Dark Matter Scattering**
+
+May 2026
+
+#set par(hanging-indent: 1.35em)
+
+#h(1.35em)B. Dutta, D. Goswami, J. Kumar, M. Rai, D. Sathyan
+
+#h(1.35em)[arxiv.org/abs/2605.08010](https://arxiv.org/abs/2605.08010)
+
+
+
+## **#set par(hanging-indent: 0.984em);2.#h(0.3em)A Baryon and Lepton Number Violation Model Testable at the LHC**
+
+Aug 2025
+
+#set par(hanging-indent: 1.35em)
+
+#h(1.35em)A. Bhoonah, F. Burk, D. Liu, T. Ou, D. Sathyan
+
+#h(1.35em)[arxiv.org/abs/2508.21064](https://arxiv.org/abs/2508.21064)
+
+
+
+## **#set par(hanging-indent: 0.984em);1.#h(0.3em)New Constraints on Neutrino-Dark Matter Interactions: A Comprehensive Analysis**
+
+July 2025
+
+#set par(hanging-indent: 1.35em)
+
+#h(1.35em)P.S.B. Dev, D. Kim, D. Sathyan, K. Sinha, Y. Zhang
+
+#h(1.35em)[arxiv.org/abs/2507.01000](https://arxiv.org/abs/2507.01000)
+
+
+
 # Articles in Preparation
 ## **#set par(hanging-indent: 0.984em);1.#h(0.3em)LHC as a Beam Dump: Probing Light Dark Photons**
 
@@ -158,19 +158,6 @@ Mar 2027
 #h(1.35em)K. Agashe, D. Kim, P. Maksimovic, S. Mondal, M. Osherson, K. Panchal, D. Plotnikov, D. Sathyan
 
 #h(1.35em)[arxiv.org/a/sathyan_d_1](https://arxiv.org/a/sathyan_d_1)
-
-
-
-# Ph.D. Thesis
-## **#set par(hanging-indent: 0.984em);1.#h(0.3em)Unifying Searches for New Physics with Precision Measurements of the W Boson Mass**
-
-2024
-
-#set par(hanging-indent: 1.35em);
-
-#h(1.35em)D. Sathyan
-
-#h(1.35em)[drum.lib.umd.edu/items/f9b081c8-444a-4af2-b69e-c8156d11a2c9](https://drum.lib.umd.edu/items/f9b081c8-444a-4af2-b69e-c8156d11a2c9) (Ph.D. Thesis)
 
 
 
@@ -269,5 +256,18 @@ Apr 2021
 #h(1.35em)Muon g-2 Collaboration
 
 #h(1.35em)[arxiv.org/abs/2104.03281](https://arxiv.org/abs/2104.03281) (Phys.Rev.Lett. 126 (2021) 141801)
+
+
+
+# Ph.D. Thesis
+## **#set par(hanging-indent: 0.984em);1.#h(0.3em)Unifying Searches for New Physics with Precision Measurements of the W Boson Mass**
+
+2024
+
+#set par(hanging-indent: 1.35em);
+
+#h(1.35em)D. Sathyan
+
+#h(1.35em)[drum.lib.umd.edu/items/f9b081c8-444a-4af2-b69e-c8156d11a2c9](https://drum.lib.umd.edu/items/f9b081c8-444a-4af2-b69e-c8156d11a2c9) (Ph.D. Thesis)
 
 

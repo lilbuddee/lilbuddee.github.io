@@ -594,8 +594,8 @@ excluded_arxiv_ids = {
 phd_thesis_pubs = [p for p in pubs_date_order if p.get("is_phd_thesis")]
 excluded_uids = {p["uid"] for p in phd_thesis_pubs}
 
-# "Articles in Review" = already on arXiv (in papers.raw.bib) but with no
-# journal yet, i.e. not yet accepted/published.
+# "Preprints" = already on arXiv (in papers.raw.bib) but with no journal yet,
+# i.e. not yet accepted/published.
 pubs_for_refereed_review = [
     p
     for p in pubs_date_order
@@ -675,13 +675,14 @@ cv["cv"]["sections"] = {
     # (RenderCV has no native concept of subsections nested under one shared
     # heading, so each is its own top-level section, kept adjacent in output
     # order to read as one grouped "Research Papers" block on both the
-    # website and the PDF).
-    "Articles in Review": in_review_export,
-    "Articles in Refereed Journals": refereed_export,
+    # website and the PDF). Published work leads, then preprints, then
+    # in-prep, then the topical cross-listings and thesis at the end.
+    "Publications": refereed_export,
+    "Preprints": in_review_export,
     "Articles in Preparation": articles_in_prep_export,
-    "Ph.D. Thesis": phd_thesis_export,
     "Snowmass2021 Contributions": snowmass_export,
     "Muon g-2 Articles": muong2_export,
+    "Ph.D. Thesis": phd_thesis_export,
     "Seminars": with_reverse_position_numbers(old_sections.get("Seminars", [])),
     "Conference Talks": with_reverse_position_numbers(old_sections.get("Conference Talks", [])),
     "Conferences Organized": old_sections.get("Conferences Organized", []),
@@ -699,12 +700,12 @@ cv["cv"]["sections"] = {
 # list in sync with _includes/cv/render.liquid's publication_shaped_sections
 # if the set of article sections ever changes.
 ARTICLE_SECTION_TITLES = [
-    "Articles in Review",
-    "Articles in Refereed Journals",
+    "Publications",
+    "Preprints",
     "Articles in Preparation",
-    "Ph.D. Thesis",
     "Snowmass2021 Contributions",
     "Muon g-2 Articles",
+    "Ph.D. Thesis",
 ]
 
 

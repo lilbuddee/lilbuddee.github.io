@@ -135,7 +135,7 @@
         {% endif %}
 
         {% comment %} Now render all other sections except Experience and Volunteer {% endcomment %}
-        {% assign publication_shaped_sections = 'Articles in Refereed Journals,Articles in Review,Articles in Preparation,Ph.D. Thesis,Snowmass2021 Contributions,Muon g-2 Articles'
+        {% assign publication_shaped_sections = 'Publications,Preprints,Articles in Preparation,Snowmass2021 Contributions,Muon g-2 Articles,Ph.D. Thesis'
           | split: ','
         %}
         {% for section_pair in cv.sections %}

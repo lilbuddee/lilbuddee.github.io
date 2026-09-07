@@ -15,50 +15,7 @@ cv:
   name: Deepak Sathyan
   headline: '#text(fill: black, style: "italic", size: 16pt)[Publication List]'
   sections:
-    Articles in Review:
-      - title: "#set par(hanging-indent: 0.984em);4.#h(0.3em)Intensity-Frontier
-          Signals of Warped Extra Dimensions"
-        authors:
-          - D. Kim
-          - D. Sathyan
-          - A. Verma
-        date: 2026-08
-        journal: null
-        url: https://arxiv.org/abs/2608.20482
-      - title: "#set par(hanging-indent: 0.984em);3.#h(0.3em)Producing the GeV
-          Galactic Center Excess via Cosmic Ray-Dark Matter Scattering"
-        authors:
-          - B. Dutta
-          - D. Goswami
-          - J. Kumar
-          - M. Rai
-          - D. Sathyan
-        date: 2026-05
-        journal: null
-        url: https://arxiv.org/abs/2605.08010
-      - title: "#set par(hanging-indent: 0.984em);2.#h(0.3em)A Baryon and Lepton
-          Number Violation Model Testable at the LHC"
-        authors:
-          - A. Bhoonah
-          - F. Burk
-          - D. Liu
-          - T. Ou
-          - D. Sathyan
-        date: 2025-08
-        journal: null
-        url: https://arxiv.org/abs/2508.21064
-      - title: "#set par(hanging-indent: 0.984em);1.#h(0.3em)New Constraints on
-          Neutrino-Dark Matter Interactions: A Comprehensive Analysis"
-        authors:
-          - P.S.B. Dev
-          - D. Kim
-          - D. Sathyan
-          - K. Sinha
-          - Y. Zhang
-        date: 2025-07
-        journal: null
-        url: https://arxiv.org/abs/2507.01000
-    Articles in Refereed Journals:
+    Publications:
       - title: "#set par(hanging-indent: 0.984em);5.#h(0.3em)New laboratory constraints
           on neutrinophilic mediators"
         authors:
@@ -118,6 +75,49 @@ cv:
         date: 2020-08
         journal: JHEP 11 (2020) 109
         url: https://arxiv.org/abs/2008.06480
+    Preprints:
+      - title: "#set par(hanging-indent: 0.984em);4.#h(0.3em)Intensity-Frontier
+          Signals of Warped Extra Dimensions"
+        authors:
+          - D. Kim
+          - D. Sathyan
+          - A. Verma
+        date: 2026-08
+        journal: null
+        url: https://arxiv.org/abs/2608.20482
+      - title: "#set par(hanging-indent: 0.984em);3.#h(0.3em)Producing the GeV
+          Galactic Center Excess via Cosmic Ray-Dark Matter Scattering"
+        authors:
+          - B. Dutta
+          - D. Goswami
+          - J. Kumar
+          - M. Rai
+          - D. Sathyan
+        date: 2026-05
+        journal: null
+        url: https://arxiv.org/abs/2605.08010
+      - title: "#set par(hanging-indent: 0.984em);2.#h(0.3em)A Baryon and Lepton
+          Number Violation Model Testable at the LHC"
+        authors:
+          - A. Bhoonah
+          - F. Burk
+          - D. Liu
+          - T. Ou
+          - D. Sathyan
+        date: 2025-08
+        journal: null
+        url: https://arxiv.org/abs/2508.21064
+      - title: "#set par(hanging-indent: 0.984em);1.#h(0.3em)New Constraints on
+          Neutrino-Dark Matter Interactions: A Comprehensive Analysis"
+        authors:
+          - P.S.B. Dev
+          - D. Kim
+          - D. Sathyan
+          - K. Sinha
+          - Y. Zhang
+        date: 2025-07
+        journal: null
+        url: https://arxiv.org/abs/2507.01000
     Articles in Preparation:
       - title: "#set par(hanging-indent: 0.984em);1.#h(0.3em)LHC as a Beam Dump:
           Probing Light Dark Photons"
@@ -167,14 +167,6 @@ cv:
         date: 2027-03
         journal: null
         url: https://arxiv.org/a/sathyan_d_1
-    Ph.D. Thesis:
-      - title: "#set par(hanging-indent: 0.984em);1.#h(0.3em)Unifying Searches
-          for New Physics with Precision Measurements of the W Boson Mass"
-        authors:
-          - D. Sathyan
-        date: 2024
-        journal: Ph.D. Thesis
-        url: https://drum.lib.umd.edu/items/f9b081c8-444a-4af2-b69e-c8156d11a2c9
     Snowmass2021 Contributions:
       - title: "#set par(hanging-indent: 0.984em);5.#h(0.3em)TF07 Snowmass Report:
           Theory of Collider Phenomena"
@@ -249,3 +241,11 @@ cv:
         date: 2021-04
         journal: Phys.Rev.Lett. 126 (2021) 141801
         url: https://arxiv.org/abs/2104.03281
+    Ph.D. Thesis:
+      - title: "#set par(hanging-indent: 0.984em);1.#h(0.3em)Unifying Searches
+          for New Physics with Precision Measurements of the W Boson Mass"
+        authors:
+          - D. Sathyan
+        date: 2024
+        journal: Ph.D. Thesis
+        url: https://drum.lib.umd.edu/items/f9b081c8-444a-4af2-b69e-c8156d11a2c9
