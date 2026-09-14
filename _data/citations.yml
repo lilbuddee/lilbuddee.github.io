@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-09-11'
+  last_updated: '2026-09-14'
   source: inspirehep
 papers:
   Agashe:2020wph:
@@ -54,12 +54,12 @@ papers:
       Frontier for Snowmass 2021
     year: '2022'
   Dev:2024ygx:
-    citations: 36
+    citations: 37
     record_id: '2808646'
     title: New laboratory constraints on neutrinophilic mediators
     year: '2024'
   Dev:2025tdv:
-    citations: 21
+    citations: 22
     record_id: '2940899'
     title: 'New Constraints on Neutrino-Dark Matter Interactions: A Comprehensive
       Analysis'
@@ -85,7 +85,7 @@ papers:
     title: 'TF07 Snowmass Report: Theory of Collider Phenomena'
     year: '2022'
   Muong-2:2021ojo:
-    citations: 2181
+    citations: 2182
     record_id: '1856627'
     title: Measurement of the Positive Muon Anomalous Magnetic Moment to 0.46 ppm
     year: '2021'
