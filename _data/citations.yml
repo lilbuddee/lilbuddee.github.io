@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-09-21'
+  last_updated: '2026-09-23'
   source: inspirehep
 papers:
   Agashe:2020wph:
@@ -54,7 +54,7 @@ papers:
       Frontier for Snowmass 2021
     year: '2022'
   Dev:2024ygx:
-    citations: 40
+    citations: 39
     record_id: '2808646'
     title: New laboratory constraints on neutrinophilic mediators
     year: '2024'
