@@ -209,7 +209,15 @@
                           <span class="text-muted small" style="white-space: nowrap; flex: 0 0 auto">
                             {% if entry.date %}
                               {% assign entry_date_str = entry.date | append: '' %}
-                              {% if entry_date_str contains '-' %}
+                              {% comment %}
+                                Only strict "YYYY-MM" is a machine date to reformat as "Mon YYYY" -
+                                anything else (a bare year, a human-written range like "2016 - 2018"
+                                or "2025 - present", free text) is shown as-is. A naive "contains '-'"
+                                check used to also match those ranges and feed them into the date
+                                filter, producing garbage like "2016 - 2018-01".
+                              {% endcomment %}
+                              {% assign entry_date_is_year_month = entry_date_str | regex_replace: '^\d{4}-\d{2}$', 'match' %}
+                              {% if entry_date_is_year_month == 'match' %}
                                 {{ entry_date_str | append: '-01' | date: '%b %Y' }}
                               {% else %}
                                 {{ entry_date_str }}
