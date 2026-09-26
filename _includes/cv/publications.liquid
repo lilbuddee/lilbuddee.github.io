@@ -7,6 +7,8 @@
     bullet-suppression CSS isn't reliably available).
   - Puts the date badge inline next to the title instead of in a fixed-width side column; the
     side-column layout (transform nudge) overflowed into the title text at common viewport widths.
+  - Shows the author list under the title (upstream doesn't render entry.authors at all), with
+    "D. Sathyan" bolded so it's easy to find his position in each paper's (alphabetical) author list.
 {% endcomment %}
 
 <div class="card-text font-weight-light">
@@ -57,6 +59,12 @@
           </span>
         {% endif %}
       </div>
+
+      {% if entry.authors %}
+        <h6 class="mb-0" style="font-size: 0.95rem">
+          {{ entry.authors | join: ', ' | replace: 'D. Sathyan', '<strong>D. Sathyan</strong>' }}
+        </h6>
+      {% endif %}
 
       {% if entry.journal %}
         <h6 class="mb-0" style="font-size: 0.95rem">

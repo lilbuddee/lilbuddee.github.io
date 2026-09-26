@@ -92,12 +92,12 @@ cv:
       - name: "Fundamentals of Physics for Biologists"
         date: "Fall 2018, Fall 2019"
         summary: "Teaching Assistant, University of Maryland"
-      - name: "[FILL IN: guest lecture title/venue]"
-        date: "[FILL IN: date]"
-        summary: "Guest Lecture — [FILL IN: course and institution]"
-      - name: "[FILL IN: TAMU teaching activity]"
-        date: "[FILL IN: date]"
-        summary: "[FILL IN: role and details]"
+      - name: "Guest Lecture for Undergraduate E&M at University of Maryland"
+        date: "2024-03"
+        summary: "Lectured on vector potentials in E&M"
+      - name: "Guest Lecture for Graduate E&M at Texas A&M University"
+        date: 2025-10
+        summary: "Lectured on relativistic Larmor formula and charged particle motion in magnetic fields"
 
     # Mentoring:
     #   - name: "[FILL IN: student name], [Undergraduate/Graduate Student]"
@@ -224,10 +224,18 @@ cv:
           - "Awarded to the Muon g-2 Collaboration; recognized as a collaboration member"
         date: "2026-04"
         awarder: Breakthrough Prize Board
-      - title: Teaching Assistant Award
+      - title: Ralph Myers & Friends of Physics Award
         authors:
-          - "University of Maryland Department of Physics"
+          - "Awarded by the University of Maryland Department of Physics"
         date: "2019-12"
+      - title: Ralph Myers & Friends of Physics Award
+        authors:
+          - "Awarded by the University of Maryland Department of Physics"
+        date: "2020-05"
+      - title: Alumni Award
+        authors:
+          - "Awarded by the Boston University Department of Physics"
+        date: "2018-05"
 
     Schools Attended:
       - name: GGI Lectures on the Theory of Fundamental Interactions
