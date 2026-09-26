@@ -7,8 +7,10 @@
     bullet-suppression CSS isn't reliably available).
   - Puts the date badge inline next to the title instead of in a fixed-width side column; the
     side-column layout (transform nudge) overflowed into the title text at common viewport widths.
-  - Shows the author list under the title (upstream doesn't render entry.authors at all), with
-    "D. Sathyan" bolded so it's easy to find his position in each paper's (alphabetical) author list.
+  - Shows the author list under the title (upstream doesn't render entry.authors at all). Each
+    entry's own name is wrapped in markdown bold at the source (bold_self_in_authors() in
+    make_publications.py) rather than here, so a single "**D. Sathyan**" convention drives both
+    the PDF (RenderCV's own markdown-to-Typst pipeline) and the website (markdownify below).
 {% endcomment %}
 
 <div class="card-text font-weight-light">
@@ -62,7 +64,7 @@
 
       {% if entry.authors %}
         <h6 class="mb-0" style="font-size: 0.95rem">
-          {{ entry.authors | join: ', ' | replace: 'D. Sathyan', '<strong>D. Sathyan</strong>' }}
+          {{ entry.authors | join: ', ' | markdownify | remove: '<p>' | remove: '</p>' }}
         </h6>
       {% endif %}
 

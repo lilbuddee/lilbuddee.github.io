@@ -27,7 +27,7 @@ overrides:
     gem_version: 1.0.0
     upstream_path: templates/cv/publications.liquid
     upstream_sha256: "0380b847b696092ae11e74ee3ca21216663c61c359a1ce7200543751ebe8928f"
-    local_sha256: a87ee732588966bf8b5757e43d2cf18d9e8202868e52e10deb39f223e8b5d70d
+    local_sha256: a1253150784c10d0506a3e3adc186bb244eea1a9d6f70b72baa7200061736ca3
     acknowledged_at: "2026-09-26"
   _includes/cv/references.liquid:
     owner: al_folio_cv

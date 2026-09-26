@@ -484,13 +484,23 @@ def format_number_prefix(number, width):
     return f"#set par(hanging-indent: {hanging_indent_em}em);{spacer}{number_str}.#h({_NUMBER_GAP_EM}em)"
 
 
+SELF_AUTHOR_NAME = "D. Sathyan"
+
+
+def bold_self_in_authors(authors):
+    """Wrap SELF_AUTHOR_NAME in markdown bold - RenderCV's markdown-to-Typst
+    pipeline renders it bold on the PDF, and website's publications.liquid
+    markdownifies the same joined string for the same effect there."""
+    return [f"**{a}**" if a == SELF_AUTHOR_NAME else a for a in authors]
+
+
 def rendercv_publication(p, number=None, number_width=1):
     title = p["title"]
     if number is not None:
         title = f"{format_number_prefix(number, number_width)}{title}"
     return {
         "title": title,
-        "authors": p["authors"],
+        "authors": bold_self_in_authors(p["authors"]),
         # display_date overrides "date" for entries that carry a real date only
         # for internal chronological sorting/numbering (see articles.yml) but
         # shouldn't show a specific date on the page - e.g. an in-prep paper's
