@@ -356,6 +356,8 @@ Apr 2026
 
 #h(1.35em)Awarded to the Muon g-2 Collaboration; recognized as a collaboration member
 
+#h(1.35em)
+
 
 
 ## **Ralph Myers & Friends of Physics Award**
@@ -365,6 +367,8 @@ Dec 2019
 #set par(hanging-indent: 1.35em)
 
 #h(1.35em)Awarded by the University of Maryland Department of Physics
+
+#h(1.35em)
 
 
 
@@ -376,6 +380,8 @@ May 2020
 
 #h(1.35em)Awarded by the University of Maryland Department of Physics
 
+#h(1.35em)
+
 
 
 ## **Alumni Award**
@@ -385,6 +391,8 @@ May 2018
 #set par(hanging-indent: 1.35em)
 
 #h(1.35em)Awarded by the Boston University Department of Physics
+
+#h(1.35em)
 
 
 
@@ -410,7 +418,7 @@ Mentored incoming freshman undergraduates in physics, providing guidance on cour
 
 ## **BU Outreach for Local High Schools**
 
-Helped demonstrate measurement of the charge-to-mass ratio of the electron for local high schoolers in physics
+Demonstrated measurement of the charge-to-mass ratio of the electron for local high schoolers in physics
 
 
 
