@@ -672,7 +672,9 @@ June 2024
 
 
 # Outreach
-## **BU Student Mentorship Program PRISM (2016-2018)**
+## **BU Student Mentorship Program PRISM**
+
+2016 - 2018
 
 Mentored incoming freshman undergraduates in physics, providing guidance on courses, research opportunities, and resources
 
@@ -680,17 +682,23 @@ Mentored incoming freshman undergraduates in physics, providing guidance on cour
 
 ## **BU Outreach for Local High Schools**
 
+Jan 2018
+
 Demonstrated measurement of the charge-to-mass ratio of the electron for local high schoolers in physics
 
 
 
-## **TAMU Physics and Engineering Festival (2025-present)**
+## **TAMU Physics and Engineering Festival**
+
+2025 - present
 
 Presented demonstrations of fluid dynamics to the general public, including high school students and families
 
 
 
-## **University of South Dakota talk: "My path through particle physics research so far" (December 2024)**
+## **University of South Dakota talk: "My path through particle physics research so far"**
+
+Dec 2024
 
 Presented my path through particle physics research to students, showing a variety of interesting ideas to pursue
 
