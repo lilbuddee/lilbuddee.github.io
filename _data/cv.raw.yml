@@ -77,33 +77,41 @@ cv:
           Supernova neutrino attenuation and detection, neutrino oscillations in open systems, neutrinophilic mediators
 
     Seminars:
+      - name: HEP Seminar at Northwestern University
+        date: 2026-09
+        summary: "Cosmic Ray–Dark Matter scattering explanation of the Galactic Center Excess"
+
+      - name: Fermilab Cosmic Physics Center Seminar
+        date: 2026-09
+        summary: "Cosmic Ray–Dark Matter scattering explanation of the Galactic Center Excess"
+
       - name: CMS Exotica general meeting
         date: 2024-05
         summary: "Unification of Searches and Measurements: Probing BSM with the W boson mass measurement"
 
       - name: Seminar at Texas A&M
         date: 2023-12
-        summary: "A New Purpose A New Purpose for the W-mass Measurement: Searching for New Physics via l + MET"
+        summary: "A New Purpose for the W-mass Measurement: Searching for New Physics via l + MET"
 
       - name: Seminar at UT Austin
         date: 2023-12
-        summary: "A New Purpose A New Purpose for the W-mass Measurement: Searching for New Physics via l + MET"
+        summary: "A New Purpose for the W-mass Measurement: Searching for New Physics via l + MET"
 
       - name: CMS SUSY general meeting
         date: 2023-11
-        summary: "A New Purpose A New Purpose for the W-mass Measurement: Searching for New Physics via l + MET"
+        summary: "A New Purpose for the W-mass Measurement: Searching for New Physics via l + MET"
 
       - name: HEP Seminar at University of Pittsburgh
         date: 2023-11
-        summary: "A New Purpose A New Purpose for the W-mass Measurement: Searching for New Physics via l + MET"
+        summary: "A New Purpose for the W-mass Measurement: Searching for New Physics via l + MET"
 
       - name: HEP Seminar at Northwestern University
         date: 2023-10
-        summary: "A New Purpose A New Purpose for the W-mass Measurement: Searching for New Physics via l + MET"
+        summary: "A New Purpose for the W-mass Measurement: Searching for New Physics via l + MET"
 
       - name: Theory Seminar at Washington University in St. Louis
         date: 2023-10
-        summary: "A New Purpose A New Purpose for the W-mass Measurement: Searching for New Physics via l + MET"
+        summary: "A New Purpose for the W-mass Measurement: Searching for New Physics via l + MET"
 
     Conference Talks:
       - name: Light Dark World 2026 at Carleton University

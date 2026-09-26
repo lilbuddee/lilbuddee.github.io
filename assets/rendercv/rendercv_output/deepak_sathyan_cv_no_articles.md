@@ -76,6 +76,22 @@ Supernova neutrino attenuation and detection, neutrino oscillations in open syst
 
 
 # Seminars
+## **#set par(hanging-indent: 0.984em);9.#h(0.3em)HEP Seminar at Northwestern University**
+
+Sept 2026
+
+Cosmic Ray–Dark Matter scattering explanation of the Galactic Center Excess
+
+
+
+## **#set par(hanging-indent: 0.984em);8.#h(0.3em)Fermilab Cosmic Physics Center Seminar**
+
+Sept 2026
+
+Cosmic Ray–Dark Matter scattering explanation of the Galactic Center Excess
+
+
+
 ## **#set par(hanging-indent: 0.984em);7.#h(0.3em)CMS Exotica general meeting**
 
 May 2024
@@ -88,7 +104,7 @@ Unification of Searches and Measurements: Probing BSM with the W boson mass meas
 
 Dec 2023
 
-A New Purpose A New Purpose for the W-mass Measurement: Searching for New Physics via l + MET
+A New Purpose for the W-mass Measurement: Searching for New Physics via l + MET
 
 
 
@@ -96,7 +112,7 @@ A New Purpose A New Purpose for the W-mass Measurement: Searching for New Physic
 
 Dec 2023
 
-A New Purpose A New Purpose for the W-mass Measurement: Searching for New Physics via l + MET
+A New Purpose for the W-mass Measurement: Searching for New Physics via l + MET
 
 
 
@@ -104,7 +120,7 @@ A New Purpose A New Purpose for the W-mass Measurement: Searching for New Physic
 
 Nov 2023
 
-A New Purpose A New Purpose for the W-mass Measurement: Searching for New Physics via l + MET
+A New Purpose for the W-mass Measurement: Searching for New Physics via l + MET
 
 
 
@@ -112,7 +128,7 @@ A New Purpose A New Purpose for the W-mass Measurement: Searching for New Physic
 
 Nov 2023
 
-A New Purpose A New Purpose for the W-mass Measurement: Searching for New Physics via l + MET
+A New Purpose for the W-mass Measurement: Searching for New Physics via l + MET
 
 
 
@@ -120,7 +136,7 @@ A New Purpose A New Purpose for the W-mass Measurement: Searching for New Physic
 
 Oct 2023
 
-A New Purpose A New Purpose for the W-mass Measurement: Searching for New Physics via l + MET
+A New Purpose for the W-mass Measurement: Searching for New Physics via l + MET
 
 
 
@@ -128,7 +144,7 @@ A New Purpose A New Purpose for the W-mass Measurement: Searching for New Physic
 
 Oct 2023
 
-A New Purpose A New Purpose for the W-mass Measurement: Searching for New Physics via l + MET
+A New Purpose for the W-mass Measurement: Searching for New Physics via l + MET
 
 
 
