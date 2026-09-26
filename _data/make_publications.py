@@ -491,9 +491,13 @@ def rendercv_publication(p, number=None, number_width=1):
     return {
         "title": title,
         "authors": p["authors"],
-        "date": p["date"],
+        # display_date overrides "date" for entries that carry a real date only
+        # for internal chronological sorting/numbering (see articles.yml) but
+        # shouldn't show a specific date on the page - e.g. an in-prep paper's
+        # eventual posting month is a guess, not a fact.
+        "date": p.get("display_date", p["date"]),
         "journal": format_journal_citation(p),
-        "url": p["url"],
+        "url": p.get("url"),
     }
 
 
@@ -667,8 +671,9 @@ selected_export = [
 old_sections = cv["cv"].get("sections", {})
 cv["cv"]["sections"] = {
     # " ": old_sections.get(" ", []),
-    "Education": old_sections.get("Education", []),
+    # Current position leads (standard postdoc CV layout), then education.
     "Experience": old_sections.get("Experience", []),
+    "Education": old_sections.get("Education", []),
     "Research Interests": old_sections.get("Research Interests", []),
     # "Selected Publications": selected_export,
     # Formerly one flat "Publications" section - now split into subsections
@@ -683,13 +688,17 @@ cv["cv"]["sections"] = {
     "Snowmass2021 Contributions": snowmass_export,
     "Muon g-2 Articles": muong2_export,
     "Ph.D. Thesis": phd_thesis_export,
+    "Teaching": old_sections.get("Teaching", []),
+    "Mentoring": old_sections.get("Mentoring", []),
     "Seminars": with_reverse_position_numbers(old_sections.get("Seminars", [])),
     "Conference Talks": with_reverse_position_numbers(old_sections.get("Conference Talks", [])),
-    "Conferences Organized": old_sections.get("Conferences Organized", []),
+    # Conference organizing + refereeing, formerly just "Conferences Organized".
+    "Professional Service": old_sections.get("Professional Service", []),
     "Awards": old_sections.get("Awards", []),
     "Schools Attended": old_sections.get("Schools Attended", []),
     "Outreach": old_sections.get("Outreach", []),
     "Skills": with_keywords_as_summary(old_sections.get("Skills", [])),
+    "References": old_sections.get("References", []),
     # "Projects" intentionally omitted - not displayed on the website CV or PDF CV.
     # Source data is still in cv.raw.yml under Projects if this is ever reversed.
 }

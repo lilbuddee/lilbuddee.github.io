@@ -115,49 +115,41 @@ July 2025
 # Articles in Preparation
 ## **#set par(hanging-indent: 0.984em);1.#h(0.3em)LHC as a Beam Dump: Probing Light Dark Photons**
 
-Sept 2026
-
 #set par(hanging-indent: 1.35em)
 
 #h(1.35em)B. Dutta, A. Karthikeyan, D. Kim, H. Kim, T. Kim, D. Sathyan
 
-#h(1.35em)[arxiv.org/a/sathyan_d_1](https://arxiv.org/a/sathyan_d_1)
+ (In preparation)
 
 
 
 ## **#set par(hanging-indent: 0.984em);2.#h(0.3em)New Probes of Dark Sectors at a Muon Collider**
 
-Jan 2027
-
 #set par(hanging-indent: 1.35em)
 
 #h(1.35em)B. Dutta, A. Karthikeyan, D. Kim, K. Kelly, D. Sathyan
 
-#h(1.35em)[arxiv.org/a/sathyan_d_1](https://arxiv.org/a/sathyan_d_1)
+ (In preparation)
 
 
 
 ## **#set par(hanging-indent: 0.984em);3.#h(0.3em)Exploring open systems approach to neutrino oscillations**
 
-Mar 2027
-
 #set par(hanging-indent: 1.35em)
 
 #h(1.35em)A. Chandra Shekar, K. Kelly, D. Sathyan, L. Strigari, T. Zhou
 
-#h(1.35em)[arxiv.org/a/sathyan_d_1](https://arxiv.org/a/sathyan_d_1)
+ (In preparation)
 
 
 
 ## **#set par(hanging-indent: 0.984em);4.#h(0.3em)LHC Signals for KK Gravitons Producing 8-Particle Final States**
 
-Mar 2027
-
 #set par(hanging-indent: 1.35em)
 
 #h(1.35em)K. Agashe, D. Kim, P. Maksimovic, S. Mondal, M. Osherson, K. Panchal, D. Plotnikov, D. Sathyan
 
-#h(1.35em)[arxiv.org/a/sathyan_d_1](https://arxiv.org/a/sathyan_d_1)
+ (In preparation)
 
 
 

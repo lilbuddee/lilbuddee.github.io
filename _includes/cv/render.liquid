@@ -150,6 +150,9 @@
           <a class="anchor" id="{{ section_title | slugify }}"></a>
           <div class="card mt-3 p-3">
             <h3 class="card-title font-weight-medium">{{ section_title }}</h3>
+            {% if section_title == 'Publications' %}
+              <p class="text-muted" style="font-size: 0.85rem; font-style: italic">Authors listed alphabetically, per hep-ph convention.</p>
+            {% endif %}
             <div>
               {% if section_title == 'Education' %}
                 {% assign entries = section_entries %}

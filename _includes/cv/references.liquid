@@ -1,0 +1,21 @@
+{% comment %}
+  Unified references entry renderer for both formats
+
+  Local override of al_folio_cv's references.liquid:
+  - Reads entry.summary instead of entry.reference, so entries use the same
+    "summary" field RenderCV's NormalEntry already renders on the PDF side
+    (the upstream "reference" field name has no RenderCV/Typst equivalent, so
+    it would only ever show up on the website, not the PDF).
+{% endcomment %}
+
+<ul class="card-text font-weight-light list-group list-group-flush">
+  {% for entry in entries %}
+    <li class="list-group-item">
+      {% if entry.icon %}
+        <i class="{{ entry.icon }}"></i>
+      {% endif %}
+      <strong>{{ entry.name }}</strong>
+      <p>{{ entry.summary | markdownify | remove: '<p>' | remove: '</p>' }}</p>
+    </li>
+  {% endfor %}
+</ul>

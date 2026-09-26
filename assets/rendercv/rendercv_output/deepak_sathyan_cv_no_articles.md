@@ -4,6 +4,25 @@
 - Location: Mitchell Institute for Fundamental Physics and Astronomy, Texas A&M University, College Station, TX
 
 
+# Experience
+## **Postdoctoral Research Associate**
+
+College Station, TX
+
+Sept 2024 – Aug 2027
+
+
+
+3 years
+
+#set par(hanging-indent: 1.35em)
+
+#h(1.35em)Mitchell Institute for Fundamental Physics and Astronomy
+
+Texas A&M University
+
+
+
 # Education
 ## **University of Maryland**
 College Park, MD
@@ -37,41 +56,58 @@ Advisor: Dr. Robert Carey
 
 
 
-# Experience
-## **Postdoctoral Research Associate**
-
-College Station, TX
-
-Sept 2024 – Aug 2027
-
-
-
-3 years
-
-#set par(hanging-indent: 1.35em)
-
-#h(1.35em)Mitchell Institute for Fundamental Physics and Astronomy
-
-Texas A&M University
-
-
-
 # Research Interests
-## **Beyond the Standard Model searches with Collider Physics**
-
-searches at the LHC, sub-GeV dark matter, invisible new physics via precision measurements, Kaluza-Klein modes in Randall-Sundrum models, baryon number violation models, muon collider phenomenology
+## **Beyond the Standard Model searches with Collider Physics: LHC and muon collider phenomenology, Kaluza-Klein and baryon-number-violation models**
 
 
 
-## **Searches for sub-GeV Dark Matter**
-
-Constraints on dark matter-neutrino interactions, dark photon production at the LHC, dark sector production at muon collider, astrophysical signals of cosmic ray-dark matter scattering, astrophysical sources of sub-GeV dark matter
+## **Searches for sub-GeV Dark Matter: dark matter-neutrino interactions, dark photon and dark sector production, cosmic ray-dark matter scattering**
 
 
 
-## **Neutrino Physics**
+## **Neutrino Physics: supernova neutrino attenuation and detection, open-system oscillations, neutrinophilic mediators**
 
-Supernova neutrino attenuation and detection, neutrino oscillations in open systems, neutrinophilic mediators
+
+
+# Teaching
+## **[FILL IN: course number/title], University of Maryland**
+
+[FILL IN: semester(s), e.g. Fall 2019]
+
+Teaching Assistant — [FILL IN: role, e.g. recitation instructor, grading, office hours]
+
+
+
+## **[FILL IN: guest lecture title/venue]**
+
+[FILL IN: date]
+
+Guest Lecture — [FILL IN: course and institution]
+
+
+
+## **[FILL IN: TAMU teaching activity]**
+
+[FILL IN: date]
+
+[FILL IN: role and details]
+
+
+
+# Mentoring
+## **[FILL IN: student name], [Undergraduate/Graduate Student]**
+
+[FILL IN: dates]
+
+[FILL IN: project/topic and level of involvement]
+
+
+
+## **[FILL IN: student name], [Undergraduate/Graduate Student]**
+
+[FILL IN: dates]
+
+[FILL IN: project/topic and level of involvement]
 
 
 
@@ -149,7 +185,7 @@ A New Purpose for the W-mass Measurement: Searching for New Physics via l + MET
 
 
 # Conference Talks
-## **#set par(hanging-indent: 1.45em);14.#h(0.3em)Light Dark World 2026 at Carleton University**
+## **#set par(hanging-indent: 1.45em);14.#h(0.3em)Light Dark World 2026 at Carleton University [Invited/Contributed — confirm]**
 
 July 2026
 
@@ -157,7 +193,7 @@ Can the LHC be sensitive to the Light Dark World?
 
 
 
-## **#set par(hanging-indent: 1.45em);13.#h(0.3em)CETUP* Workshop**
+## **#set par(hanging-indent: 1.45em);13.#h(0.3em)CETUP* Workshop [Invited/Contributed — confirm]**
 
 June 2026
 
@@ -165,15 +201,15 @@ Producing the GeV Galactic Center Excess via Cosmic Ray-Dark Matter Scattering
 
 
 
-## **#set par(hanging-indent: 1.45em);12.#h(0.3em)Particle Physics on the Plains at the University of Kansas**
+## **#set par(hanging-indent: 1.45em);12.#h(0.3em)Particle Physics on the Plains at the University of Kansas [Invited/Contributed — confirm]**
 
 Nov 2025
 
-A Baryon and Lepton Number Violaton Model Testable at the LHC
+A Baryon and Lepton Number Violation Model Testable at the LHC
 
 
 
-## **#set par(hanging-indent: 1.45em);11.#h(0.3em)CETUP* Workshop**
+## **#set par(hanging-indent: 1.45em);11.#h(0.3em)CETUP* Workshop [Invited/Contributed — confirm]**
 
 June 2025
 
@@ -181,7 +217,7 @@ Can the LHC be sensitive to light dark mediators?
 
 
 
-## **#set par(hanging-indent: 1.45em);10.#h(0.3em)Phenomenology Conference at the University of Pittsburgh**
+## **#set par(hanging-indent: 1.45em);10.#h(0.3em)Phenomenology Conference at the University of Pittsburgh [Invited/Contributed — confirm]**
 
 May 2025
 
@@ -189,7 +225,7 @@ Can the LHC be sensitive to light dark mediators?
 
 
 
-## **#set par(hanging-indent: 1.45em);#box(width: 0.466em)[]9.#h(0.3em)Particle Physics on the Plains at the University of Kansas**
+## **#set par(hanging-indent: 1.45em);#box(width: 0.466em)[]9.#h(0.3em)Particle Physics on the Plains at the University of Kansas [Invited/Contributed — confirm]**
 
 Nov 2024
 
@@ -197,7 +233,7 @@ A comprehensive analysis of supernova neutrino-dark matter interactions
 
 
 
-## **#set par(hanging-indent: 1.45em);#box(width: 0.466em)[]8.#h(0.3em)Texas TACOS @ UT Austin**
+## **#set par(hanging-indent: 1.45em);#box(width: 0.466em)[]8.#h(0.3em)Texas TACOS @ UT Austin [Invited/Contributed — confirm]**
 
 Oct 2024
 
@@ -205,7 +241,7 @@ A comprehensive analysis of supernova neutrino-dark matter interactions
 
 
 
-## **#set par(hanging-indent: 1.45em);#box(width: 0.466em)[]7.#h(0.3em)NuFact 2024 Conference at Argonne National Laboratory**
+## **#set par(hanging-indent: 1.45em);#box(width: 0.466em)[]7.#h(0.3em)NuFact 2024 Conference at Argonne National Laboratory [Invited/Contributed — confirm]**
 
 Sept 2024
 
@@ -213,7 +249,7 @@ A comprehensive analysis of supernova neutrino-dark matter interactions
 
 
 
-## **#set par(hanging-indent: 1.45em);#box(width: 0.466em)[]6.#h(0.3em)Mitchell Conference at Texas A&M University**
+## **#set par(hanging-indent: 1.45em);#box(width: 0.466em)[]6.#h(0.3em)Mitchell Conference at Texas A&M University [Invited/Contributed — confirm]**
 
 May 2024
 
@@ -221,7 +257,7 @@ A comprehensive analysis of supernova neutrino-dark matter interactions
 
 
 
-## **#set par(hanging-indent: 1.45em);#box(width: 0.466em)[]5.#h(0.3em)Particle Physics on the Plains at the University of Kansas**
+## **#set par(hanging-indent: 1.45em);#box(width: 0.466em)[]5.#h(0.3em)Particle Physics on the Plains at the University of Kansas [Invited/Contributed — confirm]**
 
 Oct 2023
 
@@ -229,7 +265,7 @@ A New Purpose for the W-mass Measurement: Searching for New Physics via l + MET
 
 
 
-## **#set par(hanging-indent: 1.45em);#box(width: 0.466em)[]4.#h(0.3em)Phenomenology Conference at the University of Pittsburgh**
+## **#set par(hanging-indent: 1.45em);#box(width: 0.466em)[]4.#h(0.3em)Phenomenology Conference at the University of Pittsburgh [Invited/Contributed — confirm]**
 
 May 2023
 
@@ -237,7 +273,7 @@ Probing Dark Matter-Neutrino Interactions via Supernova Neutrinos
 
 
 
-## **#set par(hanging-indent: 1.45em);#box(width: 0.466em)[]3.#h(0.3em)Phenomenology Conference at the University of Pittsburgh**
+## **#set par(hanging-indent: 1.45em);#box(width: 0.466em)[]3.#h(0.3em)Phenomenology Conference at the University of Pittsburgh [Invited/Contributed — confirm]**
 
 May 2022
 
@@ -245,7 +281,7 @@ Model-Independent Measurement of Top Quark Mass Using B-Hadron Decay Lengths (Pa
 
 
 
-## **#set par(hanging-indent: 1.45em);#box(width: 0.466em)[]2.#h(0.3em)April APS Meeting**
+## **#set par(hanging-indent: 1.45em);#box(width: 0.466em)[]2.#h(0.3em)April APS Meeting [Invited/Contributed — confirm]**
 
 Apr 2021
 
@@ -253,7 +289,7 @@ Signals of KK graviton from extended warped extra dimensions at the LHC (II)
 
 
 
-## **#set par(hanging-indent: 1.45em);#box(width: 0.466em)[]1.#h(0.3em)Phenomenology Conference at the University of Pittsburgh**
+## **#set par(hanging-indent: 1.45em);#box(width: 0.466em)[]1.#h(0.3em)Phenomenology Conference at the University of Pittsburgh [Invited/Contributed — confirm]**
 
 May 2020
 
@@ -261,16 +297,22 @@ Signals of KK graviton from extended warped extra dimensions at the LHC (II)
 
 
 
-# Conferences Organized
+# Professional Service
 ## **The Mitchell Conference on Collider, Dark Matter, and Neutrino Physics 2026**
 
-Texas A&M University, May 27-30, 2026
+Conference Organizer — Texas A&M University, May 27-30, 2026
 
 
 
 ## **The Mitchell Conference on Collider, Dark Matter, and Neutrino Physics 2025**
 
-Texas A&M University, May 13-16, 2025
+Conference Organizer — Texas A&M University, May 13-16, 2025
+
+
+
+## **Manuscript Referee**
+
+[FILL IN: journals refereed, e.g. Phys. Rev. D, JHEP, Phys. Lett. B, and approximate count/dates]
 
 
 
@@ -281,20 +323,20 @@ Apr 2026
 
 #set par(hanging-indent: 1.35em)
 
-#h(1.35em)Muon g-2 Collaboration
+#h(1.35em)Awarded to the Muon g-2 Collaboration; recognized as a collaboration member
 
 
 
 # Schools Attended
 ## **GGI Lectures on the Theory of Fundamental Interactions**
 
-Jan 2023 – Jan 2023
+Jan 2023
 
 
 
 ## **TASI 2024: The Frontiers of Particle Theory**
 
-June 2024 – June 2024
+June 2024
 
 
 
@@ -305,9 +347,15 @@ Mentored incoming freshman undergraduates in physics, providing guidance on cour
 
 
 
-## **TAMU Physics and Engineering Festival (2025-2027)**
+## **BU Outreach for Local High Schools**
 
-Presented demonstrations of fluid dyanmics to the general public, including high school students and families
+Helped demonstrate measurement of the charge-to-mass ratio of the electron for local high schoolers in physics
+
+
+
+## **TAMU Physics and Engineering Festival (2025-present)**
+
+Presented demonstrations of fluid dynamics to the general public, including high school students and families
 
 
 
@@ -327,5 +375,24 @@ Mathematica, Python, C++
 ## **Physics Software:**
 
 MadGraph5_aMC@NLO, Pythia6, Pythia8, Delphes, ROOT, GEANT4, FeynRules
+
+
+
+# References
+## **[FILL IN: Full Name, Title]**
+
+[FILL IN: Affiliation — email]
+
+
+
+## **[FILL IN: Full Name, Title]**
+
+[FILL IN: Affiliation — email]
+
+
+
+## **[FILL IN: Full Name, Title]**
+
+[FILL IN: Affiliation — email]
 
 

@@ -128,9 +128,9 @@ cv:
           - H. Kim
           - T. Kim
           - D. Sathyan
-        date: 2026-09
-        journal: null
-        url: https://arxiv.org/a/sathyan_d_1
+        date: null
+        journal: In preparation
+        url: null
       - title: "#set par(hanging-indent: 0.984em);2.#h(0.3em)New Probes of Dark
           Sectors at a Muon Collider"
         authors:
@@ -139,9 +139,9 @@ cv:
           - D. Kim
           - K. Kelly
           - D. Sathyan
-        date: 2027-01
-        journal: null
-        url: https://arxiv.org/a/sathyan_d_1
+        date: null
+        journal: In preparation
+        url: null
       - title: "#set par(hanging-indent: 0.984em);3.#h(0.3em)Exploring open systems
           approach to neutrino oscillations"
         authors:
@@ -150,9 +150,9 @@ cv:
           - D. Sathyan
           - L. Strigari
           - T. Zhou
-        date: 2027-03
-        journal: null
-        url: https://arxiv.org/a/sathyan_d_1
+        date: null
+        journal: In preparation
+        url: null
       - title: "#set par(hanging-indent: 0.984em);4.#h(0.3em)LHC Signals for KK
           Gravitons Producing 8-Particle Final States"
         authors:
@@ -164,9 +164,9 @@ cv:
           - K. Panchal
           - D. Plotnikov
           - D. Sathyan
-        date: 2027-03
-        journal: null
-        url: https://arxiv.org/a/sathyan_d_1
+        date: null
+        journal: In preparation
+        url: null
     Snowmass2021 Contributions:
       - title: "#set par(hanging-indent: 0.984em);5.#h(0.3em)TF07 Snowmass Report:
           Theory of Collider Phenomena"
