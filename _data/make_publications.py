@@ -692,8 +692,8 @@ cv["cv"]["sections"] = {
     "Mentoring": old_sections.get("Mentoring", []),
     "Seminars": with_reverse_position_numbers(old_sections.get("Seminars", [])),
     "Conference Talks": with_reverse_position_numbers(old_sections.get("Conference Talks", [])),
-    # Conference organizing + refereeing, formerly just "Conferences Organized".
-    "Professional Service": old_sections.get("Professional Service", []),
+    # Conference/seminar organizing + refereeing, formerly just "Conferences Organized".
+    "Service": old_sections.get("Service", []),
     "Awards": old_sections.get("Awards", []),
     "Schools Attended": old_sections.get("Schools Attended", []),
     "Outreach": old_sections.get("Outreach", []),
@@ -701,6 +701,12 @@ cv["cv"]["sections"] = {
     "References": old_sections.get("References", []),
     # "Projects" intentionally omitted - not displayed on the website CV or PDF CV.
     # Source data is still in cv.raw.yml under Projects if this is ever reversed.
+}
+
+# Drop sections with no entries (e.g. Mentoring while it's still commented out
+# in cv.raw.yml) so an empty heading doesn't show up on the website or PDF.
+cv["cv"]["sections"] = {
+    title: entries for title, entries in cv["cv"]["sections"].items() if entries
 }
 
 # Article-only and article-free PDF variants, split out of the same

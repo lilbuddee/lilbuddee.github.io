@@ -66,14 +66,32 @@ cv:
           Advisor: Dr. Robert Carey
 
     Research Interests:
-      - name: "Beyond the Standard Model searches with Collider Physics: LHC and muon collider phenomenology, Kaluza-Klein and baryon-number-violation models"
+      - name: "Beyond the Standard Model searches with Collider Physics: LHC and muon collider phenomenology, Randall-Sundrum and baryon-number-violation models"
       - name: "Searches for sub-GeV Dark Matter: dark matter-neutrino interactions, dark photon and dark sector production, cosmic ray-dark matter scattering"
-      - name: "Neutrino Physics: supernova neutrino attenuation and detection, open-system oscillations, neutrinophilic mediators"
+      - name: "Neutrino Physics: supernova neutrino attenuation and detection, open-system observables, neutrinophilic mediators, neutrino NSI"
 
     Teaching:
-      - name: "[FILL IN: course number/title], University of Maryland"
-        date: "[FILL IN: semester(s), e.g. Fall 2019]"
-        summary: "Teaching Assistant — [FILL IN: role, e.g. recitation instructor, grading, office hours]"
+      - name: "Principles of Modern Physics"
+        date: "Spring 2024"
+        summary: "Teaching Assistant, University of Maryland"
+      - name: "Electricity and Magnetism I"
+        date: "Spring 2024"
+        summary: "Teaching Assistant, University of Maryland"
+      - name: "Mathematical Methods for Physics II"
+        date: "Fall 2021, Fall 2022"
+        summary: "Teaching Assistant, University of Maryland"
+      - name: "Fundamentals of Physics I"
+        date: "Summer 2019, Spring 2022"
+        summary: "Teaching Assistant, University of Maryland"
+      - name: "Introduction to Quantum Mechanics I"
+        date: "Fall 2020"
+        summary: "Teaching Assistant, University of Maryland"
+      - name: "Fundamentals of Physics for Biologists II"
+        date: "Spring 2019, Spring 2020"
+        summary: "Teaching Assistant, University of Maryland"
+      - name: "Fundamentals of Physics for Biologists"
+        date: "Fall 2018, Fall 2019"
+        summary: "Teaching Assistant, University of Maryland"
       - name: "[FILL IN: guest lecture title/venue]"
         date: "[FILL IN: date]"
         summary: "Guest Lecture — [FILL IN: course and institution]"
@@ -81,13 +99,13 @@ cv:
         date: "[FILL IN: date]"
         summary: "[FILL IN: role and details]"
 
-    Mentoring:
-      - name: "[FILL IN: student name], [Undergraduate/Graduate Student]"
-        date: "[FILL IN: dates]"
-        summary: "[FILL IN: project/topic and level of involvement]"
-      - name: "[FILL IN: student name], [Undergraduate/Graduate Student]"
-        date: "[FILL IN: dates]"
-        summary: "[FILL IN: project/topic and level of involvement]"
+    # Mentoring:
+    #   - name: "[FILL IN: student name], [Undergraduate/Graduate Student]"
+    #     date: "[FILL IN: dates]"
+    #     summary: "[FILL IN: project/topic and level of involvement]"
+    #   - name: "[FILL IN: student name], [Undergraduate/Graduate Student]"
+    #     date: "[FILL IN: dates]"
+    #     summary: "[FILL IN: project/topic and level of involvement]"
 
     Seminars:
       - name: HEP Seminar at Northwestern University
@@ -127,50 +145,63 @@ cv:
         summary: "A New Purpose for the W-mass Measurement: Searching for New Physics via l + MET"
 
     Conference Talks:
-      - name: "Light Dark World 2026 at Carleton University [Invited/Contributed — confirm]"
+      - name: "Light Dark World 2026 at Carleton University [Invited]"
         date: 2026-07
         summary: "Can the LHC be sensitive to the Light Dark World?"
-      - name: "CETUP* Workshop [Invited/Contributed — confirm]"
+
+      - name: "CETUP* Workshop [Invited]"
         date: 2026-06
         summary: "Producing the GeV Galactic Center Excess via Cosmic Ray-Dark Matter Scattering"
-      - name: "Particle Physics on the Plains at the University of Kansas [Invited/Contributed — confirm]"
+
+      - name: "Particle Physics on the Plains at the University of Kansas [Contributed]"
         date: 2025-11
         summary: "A Baryon and Lepton Number Violation Model Testable at the LHC"
-      - name: "CETUP* Workshop [Invited/Contributed — confirm]"
+
+      - name: "CETUP* Workshop [Invited]"
         date: 2025-06
         summary: "Can the LHC be sensitive to light dark mediators?"
-      - name: "Phenomenology Conference at the University of Pittsburgh [Invited/Contributed — confirm]"
+
+      - name: "Phenomenology Conference at the University of Pittsburgh [Contributed]"
         date: 2025-05
         summary: "Can the LHC be sensitive to light dark mediators?"
-      - name: "Particle Physics on the Plains at the University of Kansas [Invited/Contributed — confirm]"
+
+      - name: "Particle Physics on the Plains at the University of Kansas [Contributed]"
         date: 2024-11
         summary: "A comprehensive analysis of supernova neutrino-dark matter interactions"
-      - name: "Texas TACOS @ UT Austin [Invited/Contributed — confirm]"
+
+      - name: "Texas TACOS @ UT Austin [Invited]"
         date: 2024-10
         summary: "A comprehensive analysis of supernova neutrino-dark matter interactions"
-      - name: "NuFact 2024 Conference at Argonne National Laboratory [Invited/Contributed — confirm]"
+
+      - name: "NuFact 2024 Conference at Argonne National Laboratory [Invited]"
         date: 2024-09
         summary: "A comprehensive analysis of supernova neutrino-dark matter interactions"
-      - name: "Mitchell Conference at Texas A&M University [Invited/Contributed — confirm]"
+
+      - name: "Mitchell Conference at Texas A&M University [Invited]"
         date: 2024-05
         summary: "A comprehensive analysis of supernova neutrino-dark matter interactions"
-      - name: "Particle Physics on the Plains at the University of Kansas [Invited/Contributed — confirm]"
+
+      - name: "Particle Physics on the Plains at the University of Kansas [Contributed]"
         date: 2023-10
         summary: "A New Purpose for the W-mass Measurement: Searching for New Physics via l + MET"
-      - name: "Phenomenology Conference at the University of Pittsburgh [Invited/Contributed — confirm]"
+
+      - name: "Phenomenology Conference at the University of Pittsburgh [Contributed]"
         date: 2023-05
         summary: "Probing Dark Matter-Neutrino Interactions via Supernova Neutrinos"
-      - name: "Phenomenology Conference at the University of Pittsburgh [Invited/Contributed — confirm]"
+
+      - name: "Phenomenology Conference at the University of Pittsburgh [Contributed]"
         date: 2022-05
         summary: "Model-Independent Measurement of Top Quark Mass Using B-Hadron Decay Lengths (Part I)"
-      - name: "April APS Meeting [Invited/Contributed — confirm]"
+
+      - name: "April APS Meeting [Contributed]"
         date: 2021-04
         summary: "Signals of KK graviton from extended warped extra dimensions at the LHC (II)"
-      - name: "Phenomenology Conference at the University of Pittsburgh [Invited/Contributed — confirm]"
+
+      - name: "Phenomenology Conference at the University of Pittsburgh [Contributed]"
         date: 2020-05
         summary: "Signals of KK graviton from extended warped extra dimensions at the LHC (II)"
 
-    Professional Service:
+    Service:
       - name: "The Mitchell Conference on Collider, Dark Matter, and Neutrino Physics 2026"
         summary: |
           Conference Organizer — Texas A&M University, May 27-30, 2026
@@ -179,9 +210,13 @@ cv:
         summary: |
           Conference Organizer — Texas A&M University, May 13-16, 2025
 
-      - name: "Manuscript Referee"
+      - name: "Mitchell Institute High Energy Phenomenology, Experiment, and Cosmology Seminar Series"
         summary: |
-          [FILL IN: journals refereed, e.g. Phys. Rev. D, JHEP, Phys. Lett. B, and approximate count/dates]
+          Weekly Seminar Organizer - Texas A&M University, Fall 2024 - Present
+
+      # - name: "Manuscript Referee"
+      # summary: |
+      # [FILL IN: journals refereed, e.g. Phys. Rev. D, JHEP, Phys. Lett. B, and approximate count/dates]
 
     Awards:
       - title: Breakthrough Prize in Fundamental Physics
@@ -189,6 +224,10 @@ cv:
           - "Awarded to the Muon g-2 Collaboration; recognized as a collaboration member"
         date: "2026-04"
         awarder: Breakthrough Prize Board
+      - title: Teaching Assistant Award
+        authors:
+          - "University of Maryland Department of Physics"
+        date: "2019-12"
 
     Schools Attended:
       - name: GGI Lectures on the Theory of Fundamental Interactions
@@ -218,23 +257,26 @@ cv:
       - name: 'University of South Dakota talk: "My path through particle physics research so far" (December 2024)'
         summary: Presented my path through particle physics research to students, showing a variety of interesting ideas to pursue
 
-    Projects:
-      - name: BSM Searches via W Boson Mass
-        summary: Developed a framework unifying beyond-the-Standard-Model searches with precision measurements of the W boson mass at the LHC.
-        start_date: "2020-01"
-        end_date: "2024-07"
-      - name: Muon g-2 Experiment
-        summary: Contributed to the straw tracking detector and beam dynamics corrections for the Fermilab Muon g-2 experiment, which measured the muon anomalous magnetic moment to 0.46 ppm.
-        start_date: "2018-08"
-        end_date: "2022-01"
+    # Projects:
+    #   - name: BSM Searches via W Boson Mass
+    #     summary: Developed a framework unifying beyond-the-Standard-Model searches with precision measurements of the W boson mass at the LHC.
+    #     start_date: "2020-01"
+    #     end_date: "2024-07"
+    #   - name: Muon g-2 Experiment
+    #     summary: Contributed to the straw tracking detector and beam dynamics corrections for the Fermilab Muon g-2 experiment, which measured the muon anomalous magnetic moment to 0.46 ppm.
+    #     start_date: "2018-08"
+    #     end_date: "2022-01"
 
     References:
-      - name: "[FILL IN: Full Name, Title]"
+      - name: "Dr. Kaustubh Agashe"
         icon: fa-solid fa-envelope
-        summary: "[FILL IN: Affiliation — email]"
-      - name: "[FILL IN: Full Name, Title]"
+        summary: "University of Maryland, College Park — kagashe@umd.edu"
+      - name: "Dr. Bhaskar Dutta"
         icon: fa-solid fa-envelope
-        summary: "[FILL IN: Affiliation — email]"
-      - name: "[FILL IN: Full Name, Title]"
+        summary: "Texas A&M University — dutta@tamu.edu"
+      - name: "Dr. Jason Kumar"
         icon: fa-solid fa-envelope
-        summary: "[FILL IN: Affiliation — email]"
+        summary: "University of Hawai'i — jkumar@hawaii.edu"
+      - name: "Dr. Bhupal Dev"
+        icon: fa-solid fa-envelope
+        summary: "Washington University in St. Louis — bdev@wustl.edu"

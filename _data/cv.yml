@@ -51,12 +51,12 @@ cv:
                 Advisor: Dr. Robert Carey
         Research Interests:
         -   name: 'Beyond the Standard Model searches with Collider Physics: LHC and
-                muon collider phenomenology, Kaluza-Klein and baryon-number-violation
+                muon collider phenomenology, Randall-Sundrum and baryon-number-violation
                 models'
         -   name: 'Searches for sub-GeV Dark Matter: dark matter-neutrino interactions,
                 dark photon and dark sector production, cosmic ray-dark matter scattering'
         -   name: 'Neutrino Physics: supernova neutrino attenuation and detection,
-                open-system oscillations, neutrinophilic mediators'
+                open-system observables, neutrinophilic mediators, neutrino NSI'
         Publications:
         -   title: '#set par(hanging-indent: 0.984em);5.#h(0.3em)New laboratory constraints
                 on neutrinophilic mediators'
@@ -292,23 +292,33 @@ cv:
             journal: Ph.D. Thesis
             url: https://drum.lib.umd.edu/items/f9b081c8-444a-4af2-b69e-c8156d11a2c9
         Teaching:
-        -   name: '[FILL IN: course number/title], University of Maryland'
-            date: '[FILL IN: semester(s), e.g. Fall 2019]'
-            summary: 'Teaching Assistant — [FILL IN: role, e.g. recitation instructor,
-                grading, office hours]'
+        -   name: Principles of Modern Physics
+            date: Spring 2024
+            summary: Teaching Assistant, University of Maryland
+        -   name: Electricity and Magnetism I
+            date: Spring 2024
+            summary: Teaching Assistant, University of Maryland
+        -   name: Mathematical Methods for Physics II
+            date: Fall 2021, Fall 2022
+            summary: Teaching Assistant, University of Maryland
+        -   name: Fundamentals of Physics I
+            date: Summer 2019, Spring 2022
+            summary: Teaching Assistant, University of Maryland
+        -   name: Introduction to Quantum Mechanics I
+            date: Fall 2020
+            summary: Teaching Assistant, University of Maryland
+        -   name: Fundamentals of Physics for Biologists II
+            date: Spring 2019, Spring 2020
+            summary: Teaching Assistant, University of Maryland
+        -   name: Fundamentals of Physics for Biologists
+            date: Fall 2018, Fall 2019
+            summary: Teaching Assistant, University of Maryland
         -   name: '[FILL IN: guest lecture title/venue]'
             date: '[FILL IN: date]'
             summary: 'Guest Lecture — [FILL IN: course and institution]'
         -   name: '[FILL IN: TAMU teaching activity]'
             date: '[FILL IN: date]'
             summary: '[FILL IN: role and details]'
-        Mentoring:
-        -   name: '[FILL IN: student name], [Undergraduate/Graduate Student]'
-            date: '[FILL IN: dates]'
-            summary: '[FILL IN: project/topic and level of involvement]'
-        -   name: '[FILL IN: student name], [Undergraduate/Graduate Student]'
-            date: '[FILL IN: dates]'
-            summary: '[FILL IN: project/topic and level of involvement]'
         Seminars:
         -   name: '#set par(hanging-indent: 0.984em);9.#h(0.3em)HEP Seminar at Northwestern
                 University'
@@ -354,73 +364,65 @@ cv:
                 Physics via l + MET'
         Conference Talks:
         -   name: '#set par(hanging-indent: 1.45em);14.#h(0.3em)Light Dark World 2026
-                at Carleton University [Invited/Contributed — confirm]'
+                at Carleton University [Invited]'
             date: 2026-07
             summary: Can the LHC be sensitive to the Light Dark World?
-        -   name: '#set par(hanging-indent: 1.45em);13.#h(0.3em)CETUP* Workshop [Invited/Contributed
-                — confirm]'
+        -   name: '#set par(hanging-indent: 1.45em);13.#h(0.3em)CETUP* Workshop [Invited]'
             date: 2026-06
             summary: Producing the GeV Galactic Center Excess via Cosmic Ray-Dark
                 Matter Scattering
         -   name: '#set par(hanging-indent: 1.45em);12.#h(0.3em)Particle Physics on
-                the Plains at the University of Kansas [Invited/Contributed — confirm]'
+                the Plains at the University of Kansas [Contributed]'
             date: 2025-11
             summary: A Baryon and Lepton Number Violation Model Testable at the LHC
-        -   name: '#set par(hanging-indent: 1.45em);11.#h(0.3em)CETUP* Workshop [Invited/Contributed
-                — confirm]'
+        -   name: '#set par(hanging-indent: 1.45em);11.#h(0.3em)CETUP* Workshop [Invited]'
             date: 2025-06
             summary: Can the LHC be sensitive to light dark mediators?
         -   name: '#set par(hanging-indent: 1.45em);10.#h(0.3em)Phenomenology Conference
-                at the University of Pittsburgh [Invited/Contributed — confirm]'
+                at the University of Pittsburgh [Contributed]'
             date: 2025-05
             summary: Can the LHC be sensitive to light dark mediators?
         -   name: '#set par(hanging-indent: 1.45em);#box(width: 0.466em)[]9.#h(0.3em)Particle
-                Physics on the Plains at the University of Kansas [Invited/Contributed
-                — confirm]'
+                Physics on the Plains at the University of Kansas [Contributed]'
             date: 2024-11
             summary: A comprehensive analysis of supernova neutrino-dark matter interactions
         -   name: '#set par(hanging-indent: 1.45em);#box(width: 0.466em)[]8.#h(0.3em)Texas
-                TACOS @ UT Austin [Invited/Contributed — confirm]'
+                TACOS @ UT Austin [Invited]'
             date: 2024-10
             summary: A comprehensive analysis of supernova neutrino-dark matter interactions
         -   name: '#set par(hanging-indent: 1.45em);#box(width: 0.466em)[]7.#h(0.3em)NuFact
-                2024 Conference at Argonne National Laboratory [Invited/Contributed
-                — confirm]'
+                2024 Conference at Argonne National Laboratory [Invited]'
             date: 2024-09
             summary: A comprehensive analysis of supernova neutrino-dark matter interactions
         -   name: '#set par(hanging-indent: 1.45em);#box(width: 0.466em)[]6.#h(0.3em)Mitchell
-                Conference at Texas A&M University [Invited/Contributed — confirm]'
+                Conference at Texas A&M University [Invited]'
             date: 2024-05
             summary: A comprehensive analysis of supernova neutrino-dark matter interactions
         -   name: '#set par(hanging-indent: 1.45em);#box(width: 0.466em)[]5.#h(0.3em)Particle
-                Physics on the Plains at the University of Kansas [Invited/Contributed
-                — confirm]'
+                Physics on the Plains at the University of Kansas [Contributed]'
             date: 2023-10
             summary: 'A New Purpose for the W-mass Measurement: Searching for New
                 Physics via l + MET'
         -   name: '#set par(hanging-indent: 1.45em);#box(width: 0.466em)[]4.#h(0.3em)Phenomenology
-                Conference at the University of Pittsburgh [Invited/Contributed —
-                confirm]'
+                Conference at the University of Pittsburgh [Contributed]'
             date: 2023-05
             summary: Probing Dark Matter-Neutrino Interactions via Supernova Neutrinos
         -   name: '#set par(hanging-indent: 1.45em);#box(width: 0.466em)[]3.#h(0.3em)Phenomenology
-                Conference at the University of Pittsburgh [Invited/Contributed —
-                confirm]'
+                Conference at the University of Pittsburgh [Contributed]'
             date: 2022-05
             summary: Model-Independent Measurement of Top Quark Mass Using B-Hadron
                 Decay Lengths (Part I)
         -   name: '#set par(hanging-indent: 1.45em);#box(width: 0.466em)[]2.#h(0.3em)April
-                APS Meeting [Invited/Contributed — confirm]'
+                APS Meeting [Contributed]'
             date: 2021-04
             summary: Signals of KK graviton from extended warped extra dimensions
                 at the LHC (II)
         -   name: '#set par(hanging-indent: 1.45em);#box(width: 0.466em)[]1.#h(0.3em)Phenomenology
-                Conference at the University of Pittsburgh [Invited/Contributed —
-                confirm]'
+                Conference at the University of Pittsburgh [Contributed]'
             date: 2020-05
             summary: Signals of KK graviton from extended warped extra dimensions
                 at the LHC (II)
-        Professional Service:
+        Service:
         -   name: The Mitchell Conference on Collider, Dark Matter, and Neutrino Physics
                 2026
             summary: |
@@ -429,9 +431,10 @@ cv:
                 2025
             summary: |
                 Conference Organizer — Texas A&M University, May 13-16, 2025
-        -   name: Manuscript Referee
+        -   name: Mitchell Institute High Energy Phenomenology, Experiment, and Cosmology
+                Seminar Series
             summary: |
-                [FILL IN: journals refereed, e.g. Phys. Rev. D, JHEP, Phys. Lett. B, and approximate count/dates]
+                Weekly Seminar Organizer - Texas A&M University, Fall 2024 - Present
         Awards:
         -   title: Breakthrough Prize in Fundamental Physics
             authors:
@@ -439,6 +442,10 @@ cv:
                 member
             date: 2026-04
             awarder: Breakthrough Prize Board
+        -   title: Teaching Assistant Award
+            authors:
+            - University of Maryland Department of Physics
+            date: 2019-12
         Schools Attended:
         -   name: GGI Lectures on the Theory of Fundamental Interactions
             date: 2023-01
@@ -464,12 +471,15 @@ cv:
         -   name: 'Physics Software:'
             summary: MadGraph5_aMC@NLO, Pythia6, Pythia8, Delphes, ROOT, GEANT4, FeynRules
         References:
-        -   name: '[FILL IN: Full Name, Title]'
+        -   name: Dr. Kaustubh Agashe
             icon: fa-solid fa-envelope
-            summary: '[FILL IN: Affiliation — email]'
-        -   name: '[FILL IN: Full Name, Title]'
+            summary: University of Maryland, College Park — kagashe@umd.edu
+        -   name: Dr. Bhaskar Dutta
             icon: fa-solid fa-envelope
-            summary: '[FILL IN: Affiliation — email]'
-        -   name: '[FILL IN: Full Name, Title]'
+            summary: Texas A&M University — dutta@tamu.edu
+        -   name: Dr. Jason Kumar
             icon: fa-solid fa-envelope
-            summary: '[FILL IN: Affiliation — email]'
+            summary: University of Hawai'i — jkumar@hawaii.edu
+        -   name: Dr. Bhupal Dev
+            icon: fa-solid fa-envelope
+            summary: Washington University in St. Louis — bdev@wustl.edu
