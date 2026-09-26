@@ -9,9 +9,9 @@ July 2024
 
 #set par(hanging-indent: 1.35em);
 
-#h(1.35em)P.S.B. Dev, D. Kim, D. Sathyan, K. Sinha, Y. Zhang
+#h(1.35em)P.S.B. Dev, D. Kim, **D. Sathyan**, K. Sinha, Y. Zhang
 
-#h(1.35em)[arxiv.org/abs/2407.12738](https://arxiv.org/abs/2407.12738) (Phys.Lett.B 868 (2025) 139765)
+#h(1.35em) [arxiv.org/abs/2407.12738](https://arxiv.org/abs/2407.12738) (Phys.Lett.B 868 (2025) 139765)
 
 
 
@@ -21,9 +21,9 @@ Apr 2024
 
 #set par(hanging-indent: 1.35em);
 
-#h(1.35em)K. Agashe, S. Airen, R. Franceschini, D. Kim, A.V. Kotwal, L. Ricci, D. Sathyan
+#h(1.35em)K. Agashe, S. Airen, R. Franceschini, D. Kim, A.V. Kotwal, L. Ricci, **D. Sathyan**
 
-#h(1.35em)[arxiv.org/abs/2404.17574](https://arxiv.org/abs/2404.17574) (JHEP 02 (2025) 139)
+#h(1.35em) [arxiv.org/abs/2404.17574](https://arxiv.org/abs/2404.17574) (JHEP 02 (2025) 139)
 
 
 
@@ -33,9 +33,9 @@ Oct 2023
 
 #set par(hanging-indent: 1.35em);
 
-#h(1.35em)K. Agashe, S. Airen, R. Franceschini, D. Kim, A.V. Kotwal, L. Ricci, D. Sathyan
+#h(1.35em)K. Agashe, S. Airen, R. Franceschini, D. Kim, A.V. Kotwal, L. Ricci, **D. Sathyan**
 
-#h(1.35em)[arxiv.org/abs/2310.13687](https://arxiv.org/abs/2310.13687) (Phys.Lett.B 855 (2024) 138774)
+#h(1.35em) [arxiv.org/abs/2310.13687](https://arxiv.org/abs/2310.13687) (Phys.Lett.B 855 (2024) 138774)
 
 
 
@@ -45,9 +45,9 @@ Dec 2022
 
 #set par(hanging-indent: 1.35em);
 
-#h(1.35em)K. Agashe, S. Airen, R. Franceschini, J. Incandela, D. Kim, D. Sathyan
+#h(1.35em)K. Agashe, S. Airen, R. Franceschini, J. Incandela, D. Kim, **D. Sathyan**
 
-#h(1.35em)[arxiv.org/abs/2212.03929](https://arxiv.org/abs/2212.03929) (JHEP 06 (2023) 021)
+#h(1.35em) [arxiv.org/abs/2212.03929](https://arxiv.org/abs/2212.03929) (JHEP 06 (2023) 021)
 
 
 
@@ -57,9 +57,9 @@ Aug 2020
 
 #set par(hanging-indent: 1.35em);
 
-#h(1.35em)K. Agashe, M. Ekhterachian, D. Kim, D. Sathyan
+#h(1.35em)K. Agashe, M. Ekhterachian, D. Kim, **D. Sathyan**
 
-#h(1.35em)[arxiv.org/abs/2008.06480](https://arxiv.org/abs/2008.06480) (JHEP 11 (2020) 109)
+#h(1.35em) [arxiv.org/abs/2008.06480](https://arxiv.org/abs/2008.06480) (JHEP 11 (2020) 109)
 
 
 
@@ -70,9 +70,9 @@ Aug 2026
 
 #set par(hanging-indent: 1.35em)
 
-#h(1.35em)D. Kim, D. Sathyan, A. Verma
+#h(1.35em)D. Kim, **D. Sathyan**, A. Verma
 
-#h(1.35em)[arxiv.org/abs/2608.20482](https://arxiv.org/abs/2608.20482)
+#h(1.35em) [arxiv.org/abs/2608.20482](https://arxiv.org/abs/2608.20482)
 
 
 
@@ -82,9 +82,9 @@ May 2026
 
 #set par(hanging-indent: 1.35em)
 
-#h(1.35em)B. Dutta, D. Goswami, J. Kumar, M. Rai, D. Sathyan
+#h(1.35em)B. Dutta, D. Goswami, J. Kumar, M. Rai, **D. Sathyan**
 
-#h(1.35em)[arxiv.org/abs/2605.08010](https://arxiv.org/abs/2605.08010)
+#h(1.35em) [arxiv.org/abs/2605.08010](https://arxiv.org/abs/2605.08010)
 
 
 
@@ -94,9 +94,9 @@ Aug 2025
 
 #set par(hanging-indent: 1.35em)
 
-#h(1.35em)A. Bhoonah, F. Burk, D. Liu, T. Ou, D. Sathyan
+#h(1.35em)A. Bhoonah, F. Burk, D. Liu, T. Ou, **D. Sathyan**
 
-#h(1.35em)[arxiv.org/abs/2508.21064](https://arxiv.org/abs/2508.21064)
+#h(1.35em) [arxiv.org/abs/2508.21064](https://arxiv.org/abs/2508.21064)
 
 
 
@@ -106,9 +106,9 @@ July 2025
 
 #set par(hanging-indent: 1.35em)
 
-#h(1.35em)P.S.B. Dev, D. Kim, D. Sathyan, K. Sinha, Y. Zhang
+#h(1.35em)P.S.B. Dev, D. Kim, **D. Sathyan**, K. Sinha, Y. Zhang
 
-#h(1.35em)[arxiv.org/abs/2507.01000](https://arxiv.org/abs/2507.01000)
+#h(1.35em) [arxiv.org/abs/2507.01000](https://arxiv.org/abs/2507.01000)
 
 
 
@@ -117,9 +117,9 @@ July 2025
 
 #set par(hanging-indent: 1.35em)
 
-#h(1.35em)B. Dutta, A. Karthikeyan, D. Kim, H. Kim, T. Kim, D. Sathyan
+#h(1.35em)B. Dutta, A. Karthikeyan, D. Kim, H. Kim, T. Kim, **D. Sathyan**
 
- (In preparation)
+#h(1.35em) (In preparation)
 
 
 
@@ -127,9 +127,9 @@ July 2025
 
 #set par(hanging-indent: 1.35em)
 
-#h(1.35em)B. Dutta, A. Karthikeyan, D. Kim, K. Kelly, D. Sathyan
+#h(1.35em)B. Dutta, A. Karthikeyan, D. Kim, K. Kelly, **D. Sathyan**
 
- (In preparation)
+#h(1.35em) (In preparation)
 
 
 
@@ -137,9 +137,9 @@ July 2025
 
 #set par(hanging-indent: 1.35em)
 
-#h(1.35em)A. Chandra Shekar, K. Kelly, D. Sathyan, L. Strigari, T. Zhou
+#h(1.35em)A. Chandra Shekar, K. Kelly, **D. Sathyan**, L. Strigari, T. Zhou
 
- (In preparation)
+#h(1.35em) (In preparation)
 
 
 
@@ -147,9 +147,9 @@ July 2025
 
 #set par(hanging-indent: 1.35em)
 
-#h(1.35em)K. Agashe, D. Kim, P. Maksimovic, S. Mondal, M. Osherson, K. Panchal, D. Plotnikov, D. Sathyan
+#h(1.35em)K. Agashe, D. Kim, P. Maksimovic, S. Mondal, M. Osherson, K. Panchal, D. Plotnikov, **D. Sathyan**
 
- (In preparation)
+#h(1.35em) (In preparation)
 
 
 
@@ -162,7 +162,7 @@ Oct 2022
 
 #h(1.35em)F. Maltoni et al.
 
-#h(1.35em)[arxiv.org/abs/2210.02591](https://arxiv.org/abs/2210.02591)
+#h(1.35em) [arxiv.org/abs/2210.02591](https://arxiv.org/abs/2210.02591)
 
 
 
@@ -174,7 +174,7 @@ Sept 2022
 
 #h(1.35em)K. Agashe et al.
 
-#h(1.35em)[arxiv.org/abs/2209.11267](https://arxiv.org/abs/2209.11267)
+#h(1.35em) [arxiv.org/abs/2209.11267](https://arxiv.org/abs/2209.11267)
 
 
 
@@ -186,7 +186,7 @@ Sept 2022
 
 #h(1.35em)T. Bose et al.
 
-#h(1.35em)[arxiv.org/abs/2209.13128](https://arxiv.org/abs/2209.13128)
+#h(1.35em) [arxiv.org/abs/2209.13128](https://arxiv.org/abs/2209.13128)
 
 
 
@@ -196,9 +196,9 @@ Apr 2022
 
 #set par(hanging-indent: 1.35em)
 
-#h(1.35em)K. Agashe, S. Airen, R. Franceschini, D. Kim, D. Sathyan
+#h(1.35em)K. Agashe, S. Airen, R. Franceschini, D. Kim, **D. Sathyan**
 
-#h(1.35em)[arxiv.org/abs/2204.02928](https://arxiv.org/abs/2204.02928)
+#h(1.35em) [arxiv.org/abs/2204.02928](https://arxiv.org/abs/2204.02928)
 
 
 
@@ -208,9 +208,9 @@ Mar 2022
 
 #set par(hanging-indent: 1.35em)
 
-#h(1.35em)K. Agashe, J.H. Collins, P. Du, M. Ekhterachian, S. Hong, D. Kim, R.K. Mishra, D. Sathyan
+#h(1.35em)K. Agashe, J.H. Collins, P. Du, M. Ekhterachian, S. Hong, D. Kim, R.K. Mishra, **D. Sathyan**
 
-#h(1.35em)[arxiv.org/abs/2203.13305](https://arxiv.org/abs/2203.13305)
+#h(1.35em) [arxiv.org/abs/2203.13305](https://arxiv.org/abs/2203.13305)
 
 
 
@@ -223,7 +223,7 @@ Nov 2021
 
 #h(1.35em)B.T. King et al.
 
-#h(1.35em)[arxiv.org/abs/2111.02076](https://arxiv.org/abs/2111.02076) (JINST 17 (2022) P02035)
+#h(1.35em) [arxiv.org/abs/2111.02076](https://arxiv.org/abs/2111.02076) (JINST 17 (2022) P02035)
 
 
 
@@ -235,7 +235,7 @@ Apr 2021
 
 #h(1.35em)Muon g-2 Collaboration
 
-#h(1.35em)[arxiv.org/abs/2104.03240](https://arxiv.org/abs/2104.03240) (Phys.Rev.Accel.Beams 24 (2021) 044002)
+#h(1.35em) [arxiv.org/abs/2104.03240](https://arxiv.org/abs/2104.03240) (Phys.Rev.Accel.Beams 24 (2021) 044002)
 
 
 
@@ -247,7 +247,7 @@ Apr 2021
 
 #h(1.35em)Muon g-2 Collaboration
 
-#h(1.35em)[arxiv.org/abs/2104.03281](https://arxiv.org/abs/2104.03281) (Phys.Rev.Lett. 126 (2021) 141801)
+#h(1.35em) [arxiv.org/abs/2104.03281](https://arxiv.org/abs/2104.03281) (Phys.Rev.Lett. 126 (2021) 141801)
 
 
 
@@ -258,8 +258,8 @@ Apr 2021
 
 #set par(hanging-indent: 1.35em);
 
-#h(1.35em)D. Sathyan
+#h(1.35em)**D. Sathyan**
 
-#h(1.35em)[drum.lib.umd.edu/items/f9b081c8-444a-4af2-b69e-c8156d11a2c9](https://drum.lib.umd.edu/items/f9b081c8-444a-4af2-b69e-c8156d11a2c9) (Ph.D. Thesis)
+#h(1.35em) [drum.lib.umd.edu/items/f9b081c8-444a-4af2-b69e-c8156d11a2c9](https://drum.lib.umd.edu/items/f9b081c8-444a-4af2-b69e-c8156d11a2c9) (Ph.D. Thesis)
 
 

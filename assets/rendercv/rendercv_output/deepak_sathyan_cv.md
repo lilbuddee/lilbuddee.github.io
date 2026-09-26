@@ -388,19 +388,19 @@ Teaching Assistant, University of Maryland
 
 
 
-## **[FILL IN: guest lecture title/venue]**
+## **Guest Lecture for Undergraduate E&M at University of Maryland**
 
-[FILL IN: date]
+Mar 2024
 
-Guest Lecture — [FILL IN: course and institution]
+Lectured on vector potentials in E&M
 
 
 
-## **[FILL IN: TAMU teaching activity]**
+## **Guest Lecture for Graduate E&M at Texas A&M University**
 
-[FILL IN: date]
+Oct 2025
 
-[FILL IN: role and details]
+Lectured on relativistic Larmor formula and charged particle motion in magnetic fields
 
 
 
@@ -620,13 +620,33 @@ Apr 2026
 
 
 
-## **Teaching Assistant Award**
+## **Ralph Myers & Friends of Physics Award**
 
 Dec 2019
 
 #set par(hanging-indent: 1.35em)
 
-#h(1.35em)University of Maryland Department of Physics
+#h(1.35em)Awarded by the University of Maryland Department of Physics
+
+
+
+## **Ralph Myers & Friends of Physics Award**
+
+May 2020
+
+#set par(hanging-indent: 1.35em)
+
+#h(1.35em)Awarded by the University of Maryland Department of Physics
+
+
+
+## **Alumni Award**
+
+May 2018
+
+#set par(hanging-indent: 1.35em)
+
+#h(1.35em)Awarded by the Boston University Department of Physics
 
 
 
