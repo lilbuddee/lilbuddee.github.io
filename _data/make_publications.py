@@ -698,10 +698,10 @@ cv["cv"]["sections"] = {
     "Snowmass2021 Contributions": snowmass_export,
     "Muon g-2 Articles": muong2_export,
     "Ph.D. Thesis": phd_thesis_export,
-    "Teaching": old_sections.get("Teaching", []),
-    "Mentoring": old_sections.get("Mentoring", []),
     "Seminars": with_reverse_position_numbers(old_sections.get("Seminars", [])),
     "Conference Talks": with_reverse_position_numbers(old_sections.get("Conference Talks", [])),
+    "Teaching": old_sections.get("Teaching", []),
+    "Mentoring": old_sections.get("Mentoring", []),
     # Conference/seminar organizing + refereeing, formerly just "Conferences Organized".
     "Service": old_sections.get("Service", []),
     "Awards": old_sections.get("Awards", []),

@@ -70,43 +70,6 @@ cv:
       - name: "Searches for sub-GeV Dark Matter: dark matter-neutrino interactions, dark photon and dark sector production, cosmic ray-dark matter scattering"
       - name: "Neutrino Physics: supernova neutrino attenuation and detection, open-system observables, neutrinophilic mediators, neutrino NSI"
 
-    Teaching:
-      - name: "Principles of Modern Physics"
-        date: "Spring 2024"
-        summary: "Teaching Assistant, University of Maryland"
-      - name: "Electricity and Magnetism I"
-        date: "Spring 2024"
-        summary: "Teaching Assistant, University of Maryland"
-      - name: "Mathematical Methods for Physics II"
-        date: "Fall 2021, Fall 2022"
-        summary: "Teaching Assistant, University of Maryland"
-      - name: "Fundamentals of Physics I"
-        date: "Summer 2019, Spring 2022"
-        summary: "Teaching Assistant, University of Maryland"
-      - name: "Introduction to Quantum Mechanics I"
-        date: "Fall 2020"
-        summary: "Teaching Assistant, University of Maryland"
-      - name: "Fundamentals of Physics for Biologists II"
-        date: "Spring 2019, Spring 2020"
-        summary: "Teaching Assistant, University of Maryland"
-      - name: "Fundamentals of Physics for Biologists"
-        date: "Fall 2018, Fall 2019"
-        summary: "Teaching Assistant, University of Maryland"
-      - name: "Guest Lecture for Undergraduate E&M at University of Maryland"
-        date: "2024-03"
-        summary: "Lectured on vector potentials in E&M"
-      - name: "Guest Lecture for Graduate E&M at Texas A&M University"
-        date: 2025-10
-        summary: "Lectured on relativistic Larmor formula and charged particle motion in magnetic fields"
-
-    # Mentoring:
-    #   - name: "[FILL IN: student name], [Undergraduate/Graduate Student]"
-    #     date: "[FILL IN: dates]"
-    #     summary: "[FILL IN: project/topic and level of involvement]"
-    #   - name: "[FILL IN: student name], [Undergraduate/Graduate Student]"
-    #     date: "[FILL IN: dates]"
-    #     summary: "[FILL IN: project/topic and level of involvement]"
-
     Seminars:
       - name: HEP Seminar at Northwestern University
         date: 2026-09
@@ -201,6 +164,43 @@ cv:
         date: 2020-05
         summary: "Signals of KK graviton from extended warped extra dimensions at the LHC (II)"
 
+    Teaching:
+      - name: "Principles of Modern Physics"
+        date: "Spring 2024"
+        summary: "Teaching Assistant, University of Maryland"
+      - name: "Electricity and Magnetism I"
+        date: "Spring 2024"
+        summary: "Teaching Assistant, University of Maryland"
+      - name: "Mathematical Methods for Physics II"
+        date: "Fall 2021, Fall 2022"
+        summary: "Teaching Assistant, University of Maryland"
+      - name: "Fundamentals of Physics I"
+        date: "Summer 2019, Spring 2022"
+        summary: "Teaching Assistant, University of Maryland"
+      - name: "Introduction to Quantum Mechanics I (Graduate)"
+        date: "Fall 2020"
+        summary: "Teaching Assistant, University of Maryland"
+      - name: "Fundamentals of Physics for Biologists II"
+        date: "Spring 2019, Spring 2020"
+        summary: "Teaching Assistant, University of Maryland"
+      - name: "Fundamentals of Physics for Biologists"
+        date: "Fall 2018, Fall 2019"
+        summary: "Teaching Assistant, University of Maryland"
+      - name: "Guest Lecture for Undergraduate E&M at University of Maryland"
+        date: "2024-03"
+        summary: "Lectured on vector potentials in E&M"
+      - name: "Guest Lecture for Graduate E&M at Texas A&M University"
+        date: 2025-10
+        summary: "Lectured on relativistic Larmor formula and charged particle motion in magnetic fields"
+
+    # Mentoring:
+    #   - name: "[FILL IN: student name], [Undergraduate/Graduate Student]"
+    #     date: "[FILL IN: dates]"
+    #     summary: "[FILL IN: project/topic and level of involvement]"
+    #   - name: "[FILL IN: student name], [Undergraduate/Graduate Student]"
+    #     date: "[FILL IN: dates]"
+    #     summary: "[FILL IN: project/topic and level of involvement]"
+
     Service:
       - name: "The Mitchell Conference on Collider, Dark Matter, and Neutrino Physics 2026"
         summary: |
@@ -286,9 +286,9 @@ cv:
       - name: "Dr. Bhaskar Dutta"
         icon: fa-solid fa-envelope
         summary: "Texas A&M University — dutta@tamu.edu"
-      - name: "Dr. Jason Kumar"
-        icon: fa-solid fa-envelope
-        summary: "University of Hawai'i — jkumar@hawaii.edu"
       - name: "Dr. Bhupal Dev"
         icon: fa-solid fa-envelope
         summary: "Washington University in St. Louis — bdev@wustl.edu"
+      - name: "Dr. Jason Kumar"
+        icon: fa-solid fa-envelope
+        summary: "University of Hawai'i — jkumar@hawaii.edu"

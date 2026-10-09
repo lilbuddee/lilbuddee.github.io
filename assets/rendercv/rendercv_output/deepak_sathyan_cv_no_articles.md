@@ -69,79 +69,6 @@ Advisor: Dr. Robert Carey
 
 
 
-# Teaching
-## **Principles of Modern Physics**
-
-Spring 2024
-
-Teaching Assistant, University of Maryland
-
-
-
-## **Electricity and Magnetism I**
-
-Spring 2024
-
-Teaching Assistant, University of Maryland
-
-
-
-## **Mathematical Methods for Physics II**
-
-Fall 2021, Fall 2022
-
-Teaching Assistant, University of Maryland
-
-
-
-## **Fundamentals of Physics I**
-
-Summer 2019, Spring 2022
-
-Teaching Assistant, University of Maryland
-
-
-
-## **Introduction to Quantum Mechanics I**
-
-Fall 2020
-
-Teaching Assistant, University of Maryland
-
-
-
-## **Fundamentals of Physics for Biologists II**
-
-Spring 2019, Spring 2020
-
-Teaching Assistant, University of Maryland
-
-
-
-## **Fundamentals of Physics for Biologists**
-
-Fall 2018, Fall 2019
-
-Teaching Assistant, University of Maryland
-
-
-
-## **Guest Lecture for Undergraduate E&M at University of Maryland**
-
-Mar 2024
-
-Lectured on vector potentials in E&M
-
-
-
-## **Guest Lecture for Graduate E&M at Texas A&M University**
-
-Oct 2025
-
-Lectured on relativistic Larmor formula and charged particle motion in magnetic fields
-
-
-
 # Seminars
 ## **#set par(hanging-indent: 0.984em);9.#h(0.3em)HEP Seminar at Northwestern University**
 
@@ -328,6 +255,79 @@ Signals of KK graviton from extended warped extra dimensions at the LHC (II)
 
 
 
+# Teaching
+## **Principles of Modern Physics**
+
+Spring 2024
+
+Teaching Assistant, University of Maryland
+
+
+
+## **Electricity and Magnetism I**
+
+Spring 2024
+
+Teaching Assistant, University of Maryland
+
+
+
+## **Mathematical Methods for Physics II**
+
+Fall 2021, Fall 2022
+
+Teaching Assistant, University of Maryland
+
+
+
+## **Fundamentals of Physics I**
+
+Summer 2019, Spring 2022
+
+Teaching Assistant, University of Maryland
+
+
+
+## **Introduction to Quantum Mechanics I (Graduate)**
+
+Fall 2020
+
+Teaching Assistant, University of Maryland
+
+
+
+## **Fundamentals of Physics for Biologists II**
+
+Spring 2019, Spring 2020
+
+Teaching Assistant, University of Maryland
+
+
+
+## **Fundamentals of Physics for Biologists**
+
+Fall 2018, Fall 2019
+
+Teaching Assistant, University of Maryland
+
+
+
+## **Guest Lecture for Undergraduate E&M at University of Maryland**
+
+Mar 2024
+
+Lectured on vector potentials in E&M
+
+
+
+## **Guest Lecture for Graduate E&M at Texas A&M University**
+
+Oct 2025
+
+Lectured on relativistic Larmor formula and charged particle motion in magnetic fields
+
+
+
 # Service
 ## **The Mitchell Conference on Collider, Dark Matter, and Neutrino Physics 2026**
 
@@ -468,14 +468,14 @@ Texas A&M University — dutta@tamu.edu
 
 
 
-## **Dr. Jason Kumar**
-
-University of Hawai'i — jkumar@hawaii.edu
-
-
-
 ## **Dr. Bhupal Dev**
 
 Washington University in St. Louis — bdev@wustl.edu
+
+
+
+## **Dr. Jason Kumar**
+
+University of Hawai'i — jkumar@hawaii.edu
 
 
