@@ -111,18 +111,18 @@ cv:
         summary: Producing the GeV Galactic Center Excess via Cosmic Ray-Dark
           Matter Scattering
       - name: "#set par(hanging-indent: 1.45em);12.#h(0.3em)Particle Physics on
-          the Plains at the University of Kansas [Contributed]"
+          the Plains at the University of Kansas [Contrib.]"
         date: 2025-11
         summary: A Baryon and Lepton Number Violation Model Testable at the LHC
       - name: "#set par(hanging-indent: 1.45em);11.#h(0.3em)CETUP* Workshop [Invited]"
         date: 2025-06
         summary: Can the LHC be sensitive to light dark mediators?
       - name: "#set par(hanging-indent: 1.45em);10.#h(0.3em)Phenomenology Conference
-          at the University of Pittsburgh [Contributed]"
+          at the University of Pittsburgh [Contrib.]"
         date: 2025-05
         summary: Can the LHC be sensitive to light dark mediators?
       - name: "#set par(hanging-indent: 1.45em);#box(width: 0.466em)[]9.#h(0.3em)Particle
-          Physics on the Plains at the University of Kansas [Contributed]"
+          Physics on the Plains at the University of Kansas [Contrib.]"
         date: 2024-11
         summary: A comprehensive analysis of supernova neutrino-dark matter interactions
       - name: "#set par(hanging-indent: 1.45em);#box(width: 0.466em)[]8.#h(0.3em)Texas
@@ -138,26 +138,26 @@ cv:
         date: 2024-05
         summary: A comprehensive analysis of supernova neutrino-dark matter interactions
       - name: "#set par(hanging-indent: 1.45em);#box(width: 0.466em)[]5.#h(0.3em)Particle
-          Physics on the Plains at the University of Kansas [Contributed]"
+          Physics on the Plains at the University of Kansas [Contrib.]"
         date: 2023-10
         summary: "A New Purpose for the W-mass Measurement: Searching for New
           Physics via l + MET"
       - name: "#set par(hanging-indent: 1.45em);#box(width: 0.466em)[]4.#h(0.3em)Phenomenology
-          Conference at the University of Pittsburgh [Contributed]"
+          Conference at the University of Pittsburgh [Contrib.]"
         date: 2023-05
         summary: Probing Dark Matter-Neutrino Interactions via Supernova Neutrinos
       - name: "#set par(hanging-indent: 1.45em);#box(width: 0.466em)[]3.#h(0.3em)Phenomenology
-          Conference at the University of Pittsburgh [Contributed]"
+          Conference at the University of Pittsburgh [Contrib.]"
         date: 2022-05
         summary: Model-Independent Measurement of Top Quark Mass Using B-Hadron
           Decay Lengths (Part I)
       - name: "#set par(hanging-indent: 1.45em);#box(width: 0.466em)[]2.#h(0.3em)April
-          APS Meeting [Contributed]"
+          APS Meeting [Contrib.]"
         date: 2021-04
         summary: Signals of KK graviton from extended warped extra dimensions
           at the LHC (II)
       - name: "#set par(hanging-indent: 1.45em);#box(width: 0.466em)[]1.#h(0.3em)Phenomenology
-          Conference at the University of Pittsburgh [Contributed]"
+          Conference at the University of Pittsburgh [Contrib.]"
         date: 2020-05
         summary: Signals of KK graviton from extended warped extra dimensions
           at the LHC (II)
