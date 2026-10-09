@@ -674,6 +674,28 @@ selected_export = [
     if p["selected"] == "true"
 ]
 
+AUTHOR_ORDER_NOTE = "Author order is alphabetical by last name, as per HEP convention."
+
+
+def author_order_note_entry():
+    """First item of the Publications section: a small italic line under the
+    heading. RenderCV has no per-section text hook, so this is a
+    PublicationEntry-shaped stand-in (empty authors list, no date/url/journal -
+    RenderCV drops every empty placeholder) whose title is raw Typst.
+
+    The template wraps TITLE in ** (Typst #strong), which adds a weight
+    *delta* (+300) that an inner #text(weight: ...) can't override; deltas
+    accumulate, so #strong(delta: -300) is what cancels it. RenderCV's
+    escaping also can't handle nested
+    #cmd[#cmd[...]] brackets or a double quote outside a #cmd(...), hence
+    markdown *...* for the italics and a quote-free #set for the size. The
+    website reads the plain-text "note" field instead (see publications.liquid)."""
+    return {
+        "title": f"*#set text(size: 0.9em);#strong(delta: -300)[{AUTHOR_ORDER_NOTE}]*",
+        "authors": [],
+        "note": AUTHOR_ORDER_NOTE,
+    }
+
 # cv["cv"]["sections"]["Publications"] = publications_export
 # cv["cv"]["sections"]["Selected Publications"] = selected_export
 
@@ -692,7 +714,7 @@ cv["cv"]["sections"] = {
     # order to read as one grouped "Research Papers" block on both the
     # website and the PDF). Published work leads, then preprints, then
     # in-prep, then the topical cross-listings and thesis at the end.
-    "Publications": refereed_export,
+    "Publications": [author_order_note_entry()] + refereed_export,
     "Preprints": in_review_export,
     "Articles in Preparation": articles_in_prep_export,
     "Snowmass2021 Contributions": snowmass_export,
