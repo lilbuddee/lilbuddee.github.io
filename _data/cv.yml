@@ -59,8 +59,8 @@ cv:
         -   name: 'Neutrino Physics: supernova neutrino attenuation and detection,
                 open-system observables, neutrinophilic mediators, neutrino NSI'
         Publications:
-        -   title: '*#set text(size: 0.9em);#strong(delta: -300)[Author order is alphabetical
-                by last name, as per HEP convention.]*'
+        -   title: '*#strong(delta: -300)[Author order is alphabetical by last name,
+                as per HEP convention.]#v(-0.8em)*'
             authors: []
             note: Author order is alphabetical by last name, as per HEP convention.
         -   title: '#set par(hanging-indent: 0.984em);5.#h(0.3em)New laboratory constraints

@@ -675,10 +675,11 @@ selected_export = [
 ]
 
 AUTHOR_ORDER_NOTE = "Author order is alphabetical by last name, as per HEP convention."
+AUTHOR_ORDER_NOTE_PULL_UP_EM = 0.8
 
 
 def author_order_note_entry():
-    """First item of the Publications section: a small italic line under the
+    """First item of the Publications section: an italic line under the
     heading. RenderCV has no per-section text hook, so this is a
     PublicationEntry-shaped stand-in (empty authors list, no date/url/journal -
     RenderCV drops every empty placeholder) whose title is raw Typst.
@@ -686,12 +687,16 @@ def author_order_note_entry():
     The template wraps TITLE in ** (Typst #strong), which adds a weight
     *delta* (+300) that an inner #text(weight: ...) can't override; deltas
     accumulate, so #strong(delta: -300) is what cancels it. RenderCV's
-    escaping also can't handle nested
-    #cmd[#cmd[...]] brackets or a double quote outside a #cmd(...), hence
-    markdown *...* for the italics and a quote-free #set for the size. The
-    website reads the plain-text "note" field instead (see publications.liquid)."""
+    escaping also can't handle nested #cmd[#cmd[...]] brackets or a double
+    quote outside a #cmd(...), hence markdown *...* for the italics.
+
+    The empty authors/url lines still render as blank lines (RenderCV only
+    drops *missing* placeholders, and an empty list counts as present), which
+    leaves a gap before the first paper; the trailing #v() pulls it back up.
+    The website reads the plain-text "note" field instead (see
+    publications.liquid)."""
     return {
-        "title": f"*#set text(size: 0.9em);#strong(delta: -300)[{AUTHOR_ORDER_NOTE}]*",
+        "title": f"*#strong(delta: -300)[{AUTHOR_ORDER_NOTE}]#v(-{AUTHOR_ORDER_NOTE_PULL_UP_EM}em)*",
         "authors": [],
         "note": AUTHOR_ORDER_NOTE,
     }

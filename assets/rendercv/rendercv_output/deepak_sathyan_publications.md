@@ -3,7 +3,7 @@
 
 
 # Publications
-## ***#set text(size: 0.9em);#strong(delta: -300)[Author order is alphabetical by last name, as per HEP convention.]***
+## ***#strong(delta: -300)[Author order is alphabetical by last name, as per HEP convention.]#v(-0.8em)***
 
 #set par(hanging-indent: 1.35em)
 
