@@ -1,5 +1,6 @@
 # Deepak Sathyan's CV
 
+- Phone: +1 901 340 1055
 - Email: [dsathyan@tamu.edu](mailto:dsathyan@tamu.edu)
 - Location: Mitchell Institute for Fundamental Physics and Astronomy, Texas A&M University, College Station, TX
 

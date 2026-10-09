@@ -421,7 +421,7 @@ Producing the GeV Galactic Center Excess via Cosmic Ray-Dark Matter Scattering
 
 
 
-## **#set par(hanging-indent: 1.45em);12.#h(0.3em)Particle Physics on the Plains at the University of Kansas [Contributed]**
+## **#set par(hanging-indent: 1.45em);12.#h(0.3em)Particle Physics on the Plains at the University of Kansas [Contrib.]**
 
 Nov 2025
 
@@ -437,7 +437,7 @@ Can the LHC be sensitive to light dark mediators?
 
 
 
-## **#set par(hanging-indent: 1.45em);10.#h(0.3em)Phenomenology Conference at the University of Pittsburgh [Contributed]**
+## **#set par(hanging-indent: 1.45em);10.#h(0.3em)Phenomenology Conference at the University of Pittsburgh [Contrib.]**
 
 May 2025
 
@@ -445,7 +445,7 @@ Can the LHC be sensitive to light dark mediators?
 
 
 
-## **#set par(hanging-indent: 1.45em);#box(width: 0.466em)[]9.#h(0.3em)Particle Physics on the Plains at the University of Kansas [Contributed]**
+## **#set par(hanging-indent: 1.45em);#box(width: 0.466em)[]9.#h(0.3em)Particle Physics on the Plains at the University of Kansas [Contrib.]**
 
 Nov 2024
 
@@ -477,7 +477,7 @@ A comprehensive analysis of supernova neutrino-dark matter interactions
 
 
 
-## **#set par(hanging-indent: 1.45em);#box(width: 0.466em)[]5.#h(0.3em)Particle Physics on the Plains at the University of Kansas [Contributed]**
+## **#set par(hanging-indent: 1.45em);#box(width: 0.466em)[]5.#h(0.3em)Particle Physics on the Plains at the University of Kansas [Contrib.]**
 
 Oct 2023
 
@@ -485,7 +485,7 @@ A New Purpose for the W-mass Measurement: Searching for New Physics via l + MET
 
 
 
-## **#set par(hanging-indent: 1.45em);#box(width: 0.466em)[]4.#h(0.3em)Phenomenology Conference at the University of Pittsburgh [Contributed]**
+## **#set par(hanging-indent: 1.45em);#box(width: 0.466em)[]4.#h(0.3em)Phenomenology Conference at the University of Pittsburgh [Contrib.]**
 
 May 2023
 
@@ -493,7 +493,7 @@ Probing Dark Matter-Neutrino Interactions via Supernova Neutrinos
 
 
 
-## **#set par(hanging-indent: 1.45em);#box(width: 0.466em)[]3.#h(0.3em)Phenomenology Conference at the University of Pittsburgh [Contributed]**
+## **#set par(hanging-indent: 1.45em);#box(width: 0.466em)[]3.#h(0.3em)Phenomenology Conference at the University of Pittsburgh [Contrib.]**
 
 May 2022
 
@@ -501,7 +501,7 @@ Model-Independent Measurement of Top Quark Mass Using B-Hadron Decay Lengths (Pa
 
 
 
-## **#set par(hanging-indent: 1.45em);#box(width: 0.466em)[]2.#h(0.3em)April APS Meeting [Contributed]**
+## **#set par(hanging-indent: 1.45em);#box(width: 0.466em)[]2.#h(0.3em)April APS Meeting [Contrib.]**
 
 Apr 2021
 
@@ -509,7 +509,7 @@ Signals of KK graviton from extended warped extra dimensions at the LHC (II)
 
 
 
-## **#set par(hanging-indent: 1.45em);#box(width: 0.466em)[]1.#h(0.3em)Phenomenology Conference at the University of Pittsburgh [Contributed]**
+## **#set par(hanging-indent: 1.45em);#box(width: 0.466em)[]1.#h(0.3em)Phenomenology Conference at the University of Pittsburgh [Contrib.]**
 
 May 2020
 

@@ -3,6 +3,16 @@
 
 
 # Publications
+## ***#set text(size: 0.9em);#strong(delta: -300)[Author order is alphabetical by last name, as per HEP convention.]***
+
+#set par(hanging-indent: 1.35em)
+
+#h(1.35em)
+
+#h(1.35em)
+
+
+
 ## **#set par(hanging-indent: 0.984em);5.#h(0.3em)New laboratory constraints on neutrinophilic mediators**
 
 July 2024
