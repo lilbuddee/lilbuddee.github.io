@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-10-09'
+  last_updated: '2026-10-12'
   source: inspirehep
 papers:
   Agashe:2020wph:
@@ -65,7 +65,7 @@ papers:
       Analysis'
     year: '2025'
   Dutta:2026rai:
-    citations: 0
+    citations: 1
     record_id: '3153585'
     title: Producing the GeV Galactic Center Excess via Cosmic Ray-Dark Matter Scattering
     year: '2026'
