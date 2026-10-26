@@ -367,7 +367,7 @@ Dec 2019
 
 #set par(hanging-indent: 1.35em)
 
-#h(1.35em)Awarded by the University of Maryland Department of Physics
+#h(1.35em)Awarded by the University of Maryland Department of Physics to outstanding Graduate Teaching Assistants
 
 #h(1.35em)
 
@@ -379,7 +379,7 @@ May 2020
 
 #set par(hanging-indent: 1.35em)
 
-#h(1.35em)Awarded by the University of Maryland Department of Physics
+#h(1.35em)Awarded by the University of Maryland Department of Physics to outstanding Graduate Teaching Assistants
 
 #h(1.35em)
 
