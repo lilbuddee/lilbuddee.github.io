@@ -81,6 +81,18 @@ Advisor: Dr. Robert Carey
 
 
 
+## **#set par(hanging-indent: 0.984em);6.#h(0.3em)New Constraints on Neutrino-Dark Matter Interactions: A Comprehensive Analysis**
+
+July 2025
+
+#set par(hanging-indent: 1.35em);
+
+#h(1.35em)P.S.B. Dev, D. Kim, **D. Sathyan**, K. Sinha, Y. Zhang
+
+#h(1.35em) [arxiv.org/abs/2507.01000](https://arxiv.org/abs/2507.01000) (JHEP 10 (2026) 207)
+
+
+
 ## **#set par(hanging-indent: 0.984em);5.#h(0.3em)New laboratory constraints on neutrinophilic mediators**
 
 July 2024
@@ -142,7 +154,7 @@ Aug 2020
 
 
 # Preprints
-## **#set par(hanging-indent: 0.984em);4.#h(0.3em)Intensity-Frontier Signals of Warped Extra Dimensions**
+## **#set par(hanging-indent: 0.984em);3.#h(0.3em)Intensity-Frontier Signals of Warped Extra Dimensions**
 
 Aug 2026
 
@@ -154,7 +166,7 @@ Aug 2026
 
 
 
-## **#set par(hanging-indent: 0.984em);3.#h(0.3em)Producing the GeV Galactic Center Excess via Cosmic Ray-Dark Matter Scattering**
+## **#set par(hanging-indent: 0.984em);2.#h(0.3em)Producing the GeV Galactic Center Excess via Cosmic Ray-Dark Matter Scattering**
 
 May 2026
 
@@ -166,7 +178,7 @@ May 2026
 
 
 
-## **#set par(hanging-indent: 0.984em);2.#h(0.3em)A Baryon and Lepton Number Violation Model Testable at the LHC**
+## **#set par(hanging-indent: 0.984em);1.#h(0.3em)A Baryon and Lepton Number Violation Model Testable at the LHC**
 
 Aug 2025
 
@@ -175,18 +187,6 @@ Aug 2025
 #h(1.35em)A. Bhoonah, F. Burk, D. Liu, T. Ou, **D. Sathyan**
 
 #h(1.35em) [arxiv.org/abs/2508.21064](https://arxiv.org/abs/2508.21064)
-
-
-
-## **#set par(hanging-indent: 0.984em);1.#h(0.3em)New Constraints on Neutrino-Dark Matter Interactions: A Comprehensive Analysis**
-
-July 2025
-
-#set par(hanging-indent: 1.35em)
-
-#h(1.35em)P.S.B. Dev, D. Kim, **D. Sathyan**, K. Sinha, Y. Zhang
-
-#h(1.35em) [arxiv.org/abs/2507.01000](https://arxiv.org/abs/2507.01000)
 
 
 
@@ -639,7 +639,7 @@ Dec 2019
 
 #set par(hanging-indent: 1.35em)
 
-#h(1.35em)Awarded by the University of Maryland Department of Physics
+#h(1.35em)Awarded by the University of Maryland Department of Physics to outstanding Graduate Teaching Assistants
 
 #h(1.35em)
 
@@ -651,7 +651,7 @@ May 2020
 
 #set par(hanging-indent: 1.35em)
 
-#h(1.35em)Awarded by the University of Maryland Department of Physics
+#h(1.35em)Awarded by the University of Maryland Department of Physics to outstanding Graduate Teaching Assistants
 
 #h(1.35em)
 
