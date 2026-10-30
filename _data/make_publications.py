@@ -230,34 +230,32 @@ def fetch_inspire_citations(entry):
     if cache_key in cache:
         return cache[cache_key].get("citations", 0)
 
+    # A just-published paper gets its DOI in papers.raw.bib before InspireHEP
+    # has indexed that DOI (it can lag the journal by weeks), so a DOI-only
+    # lookup finds nothing and would cache a permanent 0 - try the arXiv ID
+    # as a second query.
+    queries = []
     if doi:
-        url = f"https://inspirehep.net/api/literature?q=doi:{doi}"
-    else:
-        url = f"https://inspirehep.net/api/literature?q=arxiv:{arxiv_id}"
+        queries.append(f"https://inspirehep.net/api/literature?q=doi:{doi}")
+    if arxiv_id:
+        queries.append(f"https://inspirehep.net/api/literature?q=arxiv:{arxiv_id}")
 
-    try:
-        r = requests.get(url, timeout=10)
+    for url in queries:
+        try:
+            r = requests.get(url, timeout=10)
+            if r.status_code != 200:
+                continue
+            hits = r.json().get("hits", {}).get("hits", [])
+            if not hits:
+                continue
+            citations = int(hits[0].get("metadata", {}).get("citation_count", 0))
+            cache[cache_key] = {"citations": citations}
+            return citations
+        except Exception:
+            continue
 
-        if r.status_code != 200:
-            cache[cache_key] = {"citations": 0}
-            return 0
-
-        data = r.json()
-        hits = data.get("hits", {}).get("hits", [])
-
-        if not hits:
-            cache[cache_key] = {"citations": 0}
-            return 0
-
-        metadata = hits[0].get("metadata", {})
-        citations = int(metadata.get("citation_count", 0))
-
-        cache[cache_key] = {"citations": citations}
-        return citations
-
-    except Exception:
-        cache[cache_key] = {"citations": 0}
-        return 0
+    cache[cache_key] = {"citations": 0}
+    return 0
 
 # =========================
 # SCORING (FINAL)

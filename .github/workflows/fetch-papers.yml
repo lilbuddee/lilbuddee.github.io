@@ -18,12 +18,21 @@ jobs:
 
       - uses: actions/setup-python@v5
         with:
-          python-version: "3.11"
+          python-version: "3.12" # RenderCV needs 3.12+
 
       - run: pip install bibtexparser pyyaml requests
 
-      - name: Fetch new papers from InspireHEP
-        run: python "scripts/import requests.py"
+      - name: Sync papers from InspireHEP
+        # Adds papers not in papers.raw.bib yet, and fills in journal/volume/
+        # pages/doi for preprints InspireHEP now lists as published.
+        id: papers
+        run: |
+          python "scripts/import requests.py"
+          if git diff --quiet -- _bibliography/papers.raw.bib; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
 
       - name: Refresh InspireHEP citation counts
         # Runs every time (not just when a new paper was found) so citation
@@ -34,10 +43,23 @@ jobs:
         # Mon/Wed/Fri schedule to catch up to it.
         run: python scripts/fetch_inspire_citations.py
 
-      - name: Commit if papers.raw.bib or citations.yml changed
+      - name: Regenerate publication lists and CVs
+        # A push made with the default GITHUB_TOKEN never triggers other
+        # workflows, so update-publications.yml and render-cv.yml would not
+        # run after this job's commit. Without this step a new or newly
+        # published paper would sit in papers.raw.bib without ever reaching
+        # the website's publications page or the PDFs.
+        if: steps.papers.outputs.changed == 'true'
+        run: |
+          pip install "rendercv[full]"
+          python _data/make_publications.py
+          bash scripts/render_cvs.sh
+
+      - name: Commit and push
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add _bibliography/papers.raw.bib _data/citations.yml
-          git diff --cached --quiet || git commit -m "chore: add new papers from InspireHEP"
+          git add _bibliography _data assets
+          git diff --cached --quiet || git commit -m "chore: sync papers and citations from InspireHEP"
+          git pull --rebase origin main
           git push

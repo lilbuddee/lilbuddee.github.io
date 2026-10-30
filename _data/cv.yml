@@ -63,6 +63,17 @@ cv:
                 as per HEP convention.]#v(-0.8em)*'
             authors: []
             note: Author order is alphabetical by last name, as per HEP convention.
+        -   title: '#set par(hanging-indent: 0.984em);6.#h(0.3em)New Constraints on
+                Neutrino-Dark Matter Interactions: A Comprehensive Analysis'
+            authors:
+            - P.S.B. Dev
+            - D. Kim
+            - '**D. Sathyan**'
+            - K. Sinha
+            - Y. Zhang
+            date: 2025-07
+            journal: JHEP 10 (2026) 207
+            url: https://arxiv.org/abs/2507.01000
         -   title: '#set par(hanging-indent: 0.984em);5.#h(0.3em)New laboratory constraints
                 on neutrinophilic mediators'
             authors:
@@ -123,7 +134,7 @@ cv:
             journal: JHEP 11 (2020) 109
             url: https://arxiv.org/abs/2008.06480
         Preprints:
-        -   title: '#set par(hanging-indent: 0.984em);4.#h(0.3em)Intensity-Frontier
+        -   title: '#set par(hanging-indent: 0.984em);3.#h(0.3em)Intensity-Frontier
                 Signals of Warped Extra Dimensions'
             authors:
             - D. Kim
@@ -132,7 +143,7 @@ cv:
             date: 2026-08
             journal: null
             url: https://arxiv.org/abs/2608.20482
-        -   title: '#set par(hanging-indent: 0.984em);3.#h(0.3em)Producing the GeV
+        -   title: '#set par(hanging-indent: 0.984em);2.#h(0.3em)Producing the GeV
                 Galactic Center Excess via Cosmic Ray-Dark Matter Scattering'
             authors:
             - B. Dutta
@@ -143,7 +154,7 @@ cv:
             date: 2026-05
             journal: null
             url: https://arxiv.org/abs/2605.08010
-        -   title: '#set par(hanging-indent: 0.984em);2.#h(0.3em)A Baryon and Lepton
+        -   title: '#set par(hanging-indent: 0.984em);1.#h(0.3em)A Baryon and Lepton
                 Number Violation Model Testable at the LHC'
             authors:
             - A. Bhoonah
@@ -154,17 +165,6 @@ cv:
             date: 2025-08
             journal: null
             url: https://arxiv.org/abs/2508.21064
-        -   title: '#set par(hanging-indent: 0.984em);1.#h(0.3em)New Constraints on
-                Neutrino-Dark Matter Interactions: A Comprehensive Analysis'
-            authors:
-            - P.S.B. Dev
-            - D. Kim
-            - '**D. Sathyan**'
-            - K. Sinha
-            - Y. Zhang
-            date: 2025-07
-            journal: null
-            url: https://arxiv.org/abs/2507.01000
         Articles in Preparation:
         -   title: '#set par(hanging-indent: 0.984em);1.#h(0.3em)LHC as a Beam Dump:
                 Probing Light Dark Photons'

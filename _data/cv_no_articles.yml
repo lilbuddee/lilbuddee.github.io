@@ -1,268 +1,268 @@
 settings:
-  render_command:
-    design: ../assets/rendercv/design.yaml
-    locale: ../assets/rendercv/locale.yaml
-    typst_path: ../assets/rendercv/rendercv_output/deepak_sathyan_cv_no_articles.typ
-    pdf_path: ../assets/deepak_sathyan_cv_no_articles.pdf
-    html_path: ../assets/rendercv/rendercv_output/deepak_sathyan_cv_no_articles.html
-    dont_generate_markdown: false
-    dont_generate_html: false
-    dont_generate_typst: false
-    dont_generate_pdf: false
-    dont_generate_png: true
-    markdown_path: ../assets/rendercv/rendercv_output/deepak_sathyan_cv_no_articles.md
+    render_command:
+        design: ../assets/rendercv/design.yaml
+        locale: ../assets/rendercv/locale.yaml
+        typst_path: ../assets/rendercv/rendercv_output/deepak_sathyan_cv_no_articles.typ
+        pdf_path: ../assets/deepak_sathyan_cv_no_articles.pdf
+        html_path: ../assets/rendercv/rendercv_output/deepak_sathyan_cv_no_articles.html
+        dont_generate_markdown: false
+        dont_generate_html: false
+        dont_generate_typst: false
+        dont_generate_pdf: false
+        dont_generate_png: true
+        markdown_path: ../assets/rendercv/rendercv_output/deepak_sathyan_cv_no_articles.md
 cv:
-  name: Deepak Sathyan
-  headline: '#text(fill: black, style: "italic", size: 16pt)[Curriculum Vitae]#linebreak()#v(0.35cm)
-    [arXiv](https://arxiv.org/a/sathyan_d_1)  |  [InspireHEP](https://inspirehep.net/authors/1615022)  |
-    [Google Scholar](https://scholar.google.com/citations?user=29PfYjgAAAAJ)  |  [ORCID](https://orcid.org/0000-0001-9421-5480)  |  [Website](https://www.deepaksathyan.com)'
-  email: dsathyan@tamu.edu
-  phone: +1 (901) 340-1055
-  location: Mitchell Institute for Fundamental Physics and Astronomy, Texas A&M
-    University, College Station, TX
-  sections:
-    Experience:
-      - company: Mitchell Institute for Fundamental Physics and Astronomy
-        position: Postdoctoral Research Associate
-        location: College Station, TX
-        start_date: 2024-09
-        end_date: 2027-08
-        summary: Texas A&M University
-    Education:
-      - institution: University of Maryland
-        location: College Park, MD
-        url: https://umdphysics.umd.edu/
-        area: Physics
-        degree: Ph.D. in Physics
-        start_date: 2018-08
-        end_date: 2024-07
-        summary: |
-          Thesis: Unifying Searches for New Physics with Precision Measurements of the W Boson Mass
-          Advisor: Dr. Kaustubh Agashe
-      - institution: Boston University
-        location: Boston, MA
-        url: https://www.bu.edu/physics/
-        area: Physics
-        degree: Bachelor of Arts in Physics, Summa Cum Laude with Honors
-        start_date: 2014-08
-        end_date: 2018-05
-        summary: |
-          GPA: 3.9
-          Minor: Mathematics
-          Thesis: Muon (g-2): Searching for the Muon Electric Dipole Moment
-          Advisor: Dr. Robert Carey
-    Research Interests:
-      - name: "Beyond the Standard Model searches with Collider Physics: LHC and
-          muon collider phenomenology, Randall-Sundrum and baryon-number-violation
-          models"
-      - name: "Searches for sub-GeV Dark Matter: dark matter-neutrino interactions,
-          dark photon and dark sector production, cosmic ray-dark matter scattering"
-      - name: "Neutrino Physics: supernova neutrino attenuation and detection,
-          open-system observables, neutrinophilic mediators, neutrino NSI"
-    Seminars:
-      - name: "#set par(hanging-indent: 0.984em);9.#h(0.3em)HEP Seminar at Northwestern
-          University"
-        date: 2026-09
-        summary: Cosmic Ray–Dark Matter scattering explanation of the Galactic
-          Center Excess
-      - name: "#set par(hanging-indent: 0.984em);8.#h(0.3em)Fermilab Cosmic Physics
-          Center Seminar"
-        date: 2026-09
-        summary: Cosmic Ray–Dark Matter scattering explanation of the Galactic
-          Center Excess
-      - name: "#set par(hanging-indent: 0.984em);7.#h(0.3em)CMS Exotica general
-          meeting"
-        date: 2024-05
-        summary: "Unification of Searches and Measurements: Probing BSM with the
-          W boson mass measurement"
-      - name: "#set par(hanging-indent: 0.984em);6.#h(0.3em)Seminar at Texas A&M"
-        date: 2023-12
-        summary: "A New Purpose for the W-mass Measurement: Searching for New
-          Physics via l + MET"
-      - name: "#set par(hanging-indent: 0.984em);5.#h(0.3em)Seminar at UT Austin"
-        date: 2023-12
-        summary: "A New Purpose for the W-mass Measurement: Searching for New
-          Physics via l + MET"
-      - name: "#set par(hanging-indent: 0.984em);4.#h(0.3em)CMS SUSY general meeting"
-        date: 2023-11
-        summary: "A New Purpose for the W-mass Measurement: Searching for New
-          Physics via l + MET"
-      - name: "#set par(hanging-indent: 0.984em);3.#h(0.3em)HEP Seminar at University
-          of Pittsburgh"
-        date: 2023-11
-        summary: "A New Purpose for the W-mass Measurement: Searching for New
-          Physics via l + MET"
-      - name: "#set par(hanging-indent: 0.984em);2.#h(0.3em)HEP Seminar at Northwestern
-          University"
-        date: 2023-10
-        summary: "A New Purpose for the W-mass Measurement: Searching for New
-          Physics via l + MET"
-      - name: "#set par(hanging-indent: 0.984em);1.#h(0.3em)Theory Seminar at
-          Washington University in St. Louis"
-        date: 2023-10
-        summary: "A New Purpose for the W-mass Measurement: Searching for New
-          Physics via l + MET"
-    Conference Talks:
-      - name: "#set par(hanging-indent: 1.45em);14.#h(0.3em)Light Dark World 2026
-          at Carleton University [Invited]"
-        date: 2026-07
-        summary: Can the LHC be sensitive to the Light Dark World?
-      - name: "#set par(hanging-indent: 1.45em);13.#h(0.3em)CETUP* Workshop [Invited]"
-        date: 2026-06
-        summary: Producing the GeV Galactic Center Excess via Cosmic Ray-Dark
-          Matter Scattering
-      - name: "#set par(hanging-indent: 1.45em);12.#h(0.3em)Particle Physics on
-          the Plains at the University of Kansas [Contrib.]"
-        date: 2025-11
-        summary: A Baryon and Lepton Number Violation Model Testable at the LHC
-      - name: "#set par(hanging-indent: 1.45em);11.#h(0.3em)CETUP* Workshop [Invited]"
-        date: 2025-06
-        summary: Can the LHC be sensitive to light dark mediators?
-      - name: "#set par(hanging-indent: 1.45em);10.#h(0.3em)Phenomenology Conference
-          at the University of Pittsburgh [Contrib.]"
-        date: 2025-05
-        summary: Can the LHC be sensitive to light dark mediators?
-      - name: "#set par(hanging-indent: 1.45em);#box(width: 0.466em)[]9.#h(0.3em)Particle
-          Physics on the Plains at the University of Kansas [Contrib.]"
-        date: 2024-11
-        summary: A comprehensive analysis of supernova neutrino-dark matter interactions
-      - name: "#set par(hanging-indent: 1.45em);#box(width: 0.466em)[]8.#h(0.3em)Texas
-          TACOS @ UT Austin [Invited]"
-        date: 2024-10
-        summary: A comprehensive analysis of supernova neutrino-dark matter interactions
-      - name: "#set par(hanging-indent: 1.45em);#box(width: 0.466em)[]7.#h(0.3em)NuFact
-          2024 Conference at Argonne National Laboratory [Invited]"
-        date: 2024-09
-        summary: A comprehensive analysis of supernova neutrino-dark matter interactions
-      - name: "#set par(hanging-indent: 1.45em);#box(width: 0.466em)[]6.#h(0.3em)Mitchell
-          Conference at Texas A&M University [Invited]"
-        date: 2024-05
-        summary: A comprehensive analysis of supernova neutrino-dark matter interactions
-      - name: "#set par(hanging-indent: 1.45em);#box(width: 0.466em)[]5.#h(0.3em)Particle
-          Physics on the Plains at the University of Kansas [Contrib.]"
-        date: 2023-10
-        summary: "A New Purpose for the W-mass Measurement: Searching for New
-          Physics via l + MET"
-      - name: "#set par(hanging-indent: 1.45em);#box(width: 0.466em)[]4.#h(0.3em)Phenomenology
-          Conference at the University of Pittsburgh [Contrib.]"
-        date: 2023-05
-        summary: Probing Dark Matter-Neutrino Interactions via Supernova Neutrinos
-      - name: "#set par(hanging-indent: 1.45em);#box(width: 0.466em)[]3.#h(0.3em)Phenomenology
-          Conference at the University of Pittsburgh [Contrib.]"
-        date: 2022-05
-        summary: Model-Independent Measurement of Top Quark Mass Using B-Hadron
-          Decay Lengths (Part I)
-      - name: "#set par(hanging-indent: 1.45em);#box(width: 0.466em)[]2.#h(0.3em)April
-          APS Meeting [Contrib.]"
-        date: 2021-04
-        summary: Signals of KK graviton from extended warped extra dimensions
-          at the LHC (II)
-      - name: "#set par(hanging-indent: 1.45em);#box(width: 0.466em)[]1.#h(0.3em)Phenomenology
-          Conference at the University of Pittsburgh [Contrib.]"
-        date: 2020-05
-        summary: Signals of KK graviton from extended warped extra dimensions
-          at the LHC (II)
-    Teaching:
-      - name: Principles of Modern Physics
-        date: Spring 2024
-        summary: Teaching Assistant, University of Maryland
-      - name: Electricity and Magnetism I
-        date: Spring 2024
-        summary: Teaching Assistant, University of Maryland
-      - name: Mathematical Methods for Physics II
-        date: Fall 2021, Fall 2022
-        summary: Teaching Assistant, University of Maryland
-      - name: Fundamentals of Physics I
-        date: Summer 2019, Spring 2022
-        summary: Teaching Assistant, University of Maryland
-      - name: Introduction to Quantum Mechanics I (Graduate)
-        date: Fall 2020
-        summary: Teaching Assistant, University of Maryland
-      - name: Fundamentals of Physics for Biologists II
-        date: Spring 2019, Spring 2020
-        summary: Teaching Assistant, University of Maryland
-      - name: Fundamentals of Physics for Biologists
-        date: Fall 2018, Fall 2019
-        summary: Teaching Assistant, University of Maryland
-      - name: Guest Lecture for Undergraduate E&M at University of Maryland
-        date: 2024-03
-        summary: Lectured on vector potentials in E&M
-      - name: Guest Lecture for Graduate E&M at Texas A&M University
-        date: 2025-10
-        summary: Lectured on relativistic Larmor formula and charged particle
-          motion in magnetic fields
-    Service:
-      - name: The Mitchell Conference on Collider, Dark Matter, and Neutrino Physics
-          2026
-        summary: |
-          Conference Organizer — Texas A&M University, May 27-30, 2026
-      - name: The Mitchell Conference on Collider, Dark Matter, and Neutrino Physics
-          2025
-        summary: |
-          Conference Organizer — Texas A&M University, May 13-16, 2025
-      - name: Mitchell Institute High Energy Phenomenology, Experiment, and Cosmology
-          Seminar Series
-        summary: |
-          Weekly Seminar Organizer - Texas A&M University, Fall 2024 - Present
-    Awards:
-      - title: Breakthrough Prize in Fundamental Physics
-        authors:
-          - Awarded to the Muon g-2 Collaboration; recognized as a collaboration
-            member
-        date: 2026-04
-        awarder: Breakthrough Prize Board
-      - title: Ralph Myers & Friends of Physics Award
-        authors:
-          - Awarded by the University of Maryland Department of Physics to outstanding
-            Graduate Teaching Assistants
-        date: 2019-12
-      - title: Ralph Myers & Friends of Physics Award
-        authors:
-          - Awarded by the University of Maryland Department of Physics to outstanding
-            Graduate Teaching Assistants
-        date: 2020-05
-      - title: Alumni Award
-        authors:
-          - Awarded by the Boston University Department of Physics
-        date: 2018-05
-    Schools Attended:
-      - name: GGI Lectures on the Theory of Fundamental Interactions
-        date: 2023-01
-      - name: "TASI 2024: The Frontiers of Particle Theory"
-        date: 2024-06
-    Outreach:
-      - name: BU Student Mentorship Program PRISM
-        date: 2016 - 2018
-        summary: Mentored incoming freshman undergraduates in physics, providing
-          guidance on courses, research opportunities, and resources
-      - name: BU Outreach for Local High Schools
-        date: "2018"
-        summary: Demonstrated measurement of the charge-to-mass ratio of the electron
-          for local high schoolers in physics
-      - name: TAMU Physics and Engineering Festival
-        date: 2025 - present
-        summary: Presented demonstrations of fluid dynamics to the general public,
-          including high school students and families
-      - name: 'University of South Dakota talk: "My path through particle physics
-          research so far"'
-        date: 2024-12
-        summary: Presented my path through particle physics research to students,
-          showing a variety of interesting ideas to pursue
-    Skills:
-      - name: "Programming:"
-        summary: Mathematica, Python, C++
-      - name: "Physics Software:"
-        summary: MadGraph5_aMC@NLO, Pythia6, Pythia8, Delphes, ROOT, GEANT4, FeynRules
-    References:
-      - name: Dr. Kaustubh Agashe
-        icon: fa-solid fa-envelope
-        summary: University of Maryland, College Park — kagashe@umd.edu
-      - name: Dr. Bhaskar Dutta
-        icon: fa-solid fa-envelope
-        summary: Texas A&M University — dutta@tamu.edu
-      - name: Dr. Bhupal Dev
-        icon: fa-solid fa-envelope
-        summary: Washington University in St. Louis — bdev@wustl.edu
-      - name: Dr. Jason Kumar
-        icon: fa-solid fa-envelope
-        summary: University of Hawai'i — jkumar@hawaii.edu
+    name: Deepak Sathyan
+    headline: '#text(fill: black, style: "italic", size: 16pt)[Curriculum Vitae]#linebreak()#v(0.35cm)
+        [arXiv](https://arxiv.org/a/sathyan_d_1)  |  [InspireHEP](https://inspirehep.net/authors/1615022)  |
+        [Google Scholar](https://scholar.google.com/citations?user=29PfYjgAAAAJ)  |  [ORCID](https://orcid.org/0000-0001-9421-5480)  |  [Website](https://www.deepaksathyan.com)'
+    email: dsathyan@tamu.edu
+    phone: +1 (901) 340-1055
+    location: Mitchell Institute for Fundamental Physics and Astronomy, Texas A&M
+        University, College Station, TX
+    sections:
+        Experience:
+        -   company: Mitchell Institute for Fundamental Physics and Astronomy
+            position: Postdoctoral Research Associate
+            location: College Station, TX
+            start_date: 2024-09
+            end_date: 2027-08
+            summary: Texas A&M University
+        Education:
+        -   institution: University of Maryland
+            location: College Park, MD
+            url: https://umdphysics.umd.edu/
+            area: Physics
+            degree: Ph.D. in Physics
+            start_date: 2018-08
+            end_date: 2024-07
+            summary: |
+                Thesis: Unifying Searches for New Physics with Precision Measurements of the W Boson Mass
+                Advisor: Dr. Kaustubh Agashe
+        -   institution: Boston University
+            location: Boston, MA
+            url: https://www.bu.edu/physics/
+            area: Physics
+            degree: Bachelor of Arts in Physics, Summa Cum Laude with Honors
+            start_date: 2014-08
+            end_date: 2018-05
+            summary: |
+                GPA: 3.9
+                Minor: Mathematics
+                Thesis: Muon (g-2): Searching for the Muon Electric Dipole Moment
+                Advisor: Dr. Robert Carey
+        Research Interests:
+        -   name: 'Beyond the Standard Model searches with Collider Physics: LHC and
+                muon collider phenomenology, Randall-Sundrum and baryon-number-violation
+                models'
+        -   name: 'Searches for sub-GeV Dark Matter: dark matter-neutrino interactions,
+                dark photon and dark sector production, cosmic ray-dark matter scattering'
+        -   name: 'Neutrino Physics: supernova neutrino attenuation and detection,
+                open-system observables, neutrinophilic mediators, neutrino NSI'
+        Seminars:
+        -   name: '#set par(hanging-indent: 0.984em);9.#h(0.3em)HEP Seminar at Northwestern
+                University'
+            date: 2026-09
+            summary: Cosmic Ray–Dark Matter scattering explanation of the Galactic
+                Center Excess
+        -   name: '#set par(hanging-indent: 0.984em);8.#h(0.3em)Fermilab Cosmic Physics
+                Center Seminar'
+            date: 2026-09
+            summary: Cosmic Ray–Dark Matter scattering explanation of the Galactic
+                Center Excess
+        -   name: '#set par(hanging-indent: 0.984em);7.#h(0.3em)CMS Exotica general
+                meeting'
+            date: 2024-05
+            summary: 'Unification of Searches and Measurements: Probing BSM with the
+                W boson mass measurement'
+        -   name: '#set par(hanging-indent: 0.984em);6.#h(0.3em)Seminar at Texas A&M'
+            date: 2023-12
+            summary: 'A New Purpose for the W-mass Measurement: Searching for New
+                Physics via l + MET'
+        -   name: '#set par(hanging-indent: 0.984em);5.#h(0.3em)Seminar at UT Austin'
+            date: 2023-12
+            summary: 'A New Purpose for the W-mass Measurement: Searching for New
+                Physics via l + MET'
+        -   name: '#set par(hanging-indent: 0.984em);4.#h(0.3em)CMS SUSY general meeting'
+            date: 2023-11
+            summary: 'A New Purpose for the W-mass Measurement: Searching for New
+                Physics via l + MET'
+        -   name: '#set par(hanging-indent: 0.984em);3.#h(0.3em)HEP Seminar at University
+                of Pittsburgh'
+            date: 2023-11
+            summary: 'A New Purpose for the W-mass Measurement: Searching for New
+                Physics via l + MET'
+        -   name: '#set par(hanging-indent: 0.984em);2.#h(0.3em)HEP Seminar at Northwestern
+                University'
+            date: 2023-10
+            summary: 'A New Purpose for the W-mass Measurement: Searching for New
+                Physics via l + MET'
+        -   name: '#set par(hanging-indent: 0.984em);1.#h(0.3em)Theory Seminar at
+                Washington University in St. Louis'
+            date: 2023-10
+            summary: 'A New Purpose for the W-mass Measurement: Searching for New
+                Physics via l + MET'
+        Conference Talks:
+        -   name: '#set par(hanging-indent: 1.45em);14.#h(0.3em)Light Dark World 2026
+                at Carleton University [Invited]'
+            date: 2026-07
+            summary: Can the LHC be sensitive to the Light Dark World?
+        -   name: '#set par(hanging-indent: 1.45em);13.#h(0.3em)CETUP* Workshop [Invited]'
+            date: 2026-06
+            summary: Producing the GeV Galactic Center Excess via Cosmic Ray-Dark
+                Matter Scattering
+        -   name: '#set par(hanging-indent: 1.45em);12.#h(0.3em)Particle Physics on
+                the Plains at the University of Kansas [Contrib.]'
+            date: 2025-11
+            summary: A Baryon and Lepton Number Violation Model Testable at the LHC
+        -   name: '#set par(hanging-indent: 1.45em);11.#h(0.3em)CETUP* Workshop [Invited]'
+            date: 2025-06
+            summary: Can the LHC be sensitive to light dark mediators?
+        -   name: '#set par(hanging-indent: 1.45em);10.#h(0.3em)Phenomenology Conference
+                at the University of Pittsburgh [Contrib.]'
+            date: 2025-05
+            summary: Can the LHC be sensitive to light dark mediators?
+        -   name: '#set par(hanging-indent: 1.45em);#box(width: 0.466em)[]9.#h(0.3em)Particle
+                Physics on the Plains at the University of Kansas [Contrib.]'
+            date: 2024-11
+            summary: A comprehensive analysis of supernova neutrino-dark matter interactions
+        -   name: '#set par(hanging-indent: 1.45em);#box(width: 0.466em)[]8.#h(0.3em)Texas
+                TACOS @ UT Austin [Invited]'
+            date: 2024-10
+            summary: A comprehensive analysis of supernova neutrino-dark matter interactions
+        -   name: '#set par(hanging-indent: 1.45em);#box(width: 0.466em)[]7.#h(0.3em)NuFact
+                2024 Conference at Argonne National Laboratory [Invited]'
+            date: 2024-09
+            summary: A comprehensive analysis of supernova neutrino-dark matter interactions
+        -   name: '#set par(hanging-indent: 1.45em);#box(width: 0.466em)[]6.#h(0.3em)Mitchell
+                Conference at Texas A&M University [Invited]'
+            date: 2024-05
+            summary: A comprehensive analysis of supernova neutrino-dark matter interactions
+        -   name: '#set par(hanging-indent: 1.45em);#box(width: 0.466em)[]5.#h(0.3em)Particle
+                Physics on the Plains at the University of Kansas [Contrib.]'
+            date: 2023-10
+            summary: 'A New Purpose for the W-mass Measurement: Searching for New
+                Physics via l + MET'
+        -   name: '#set par(hanging-indent: 1.45em);#box(width: 0.466em)[]4.#h(0.3em)Phenomenology
+                Conference at the University of Pittsburgh [Contrib.]'
+            date: 2023-05
+            summary: Probing Dark Matter-Neutrino Interactions via Supernova Neutrinos
+        -   name: '#set par(hanging-indent: 1.45em);#box(width: 0.466em)[]3.#h(0.3em)Phenomenology
+                Conference at the University of Pittsburgh [Contrib.]'
+            date: 2022-05
+            summary: Model-Independent Measurement of Top Quark Mass Using B-Hadron
+                Decay Lengths (Part I)
+        -   name: '#set par(hanging-indent: 1.45em);#box(width: 0.466em)[]2.#h(0.3em)April
+                APS Meeting [Contrib.]'
+            date: 2021-04
+            summary: Signals of KK graviton from extended warped extra dimensions
+                at the LHC (II)
+        -   name: '#set par(hanging-indent: 1.45em);#box(width: 0.466em)[]1.#h(0.3em)Phenomenology
+                Conference at the University of Pittsburgh [Contrib.]'
+            date: 2020-05
+            summary: Signals of KK graviton from extended warped extra dimensions
+                at the LHC (II)
+        Teaching:
+        -   name: Principles of Modern Physics
+            date: Spring 2024
+            summary: Teaching Assistant, University of Maryland
+        -   name: Electricity and Magnetism I
+            date: Spring 2024
+            summary: Teaching Assistant, University of Maryland
+        -   name: Mathematical Methods for Physics II
+            date: Fall 2021, Fall 2022
+            summary: Teaching Assistant, University of Maryland
+        -   name: Fundamentals of Physics I
+            date: Summer 2019, Spring 2022
+            summary: Teaching Assistant, University of Maryland
+        -   name: Introduction to Quantum Mechanics I (Graduate)
+            date: Fall 2020
+            summary: Teaching Assistant, University of Maryland
+        -   name: Fundamentals of Physics for Biologists II
+            date: Spring 2019, Spring 2020
+            summary: Teaching Assistant, University of Maryland
+        -   name: Fundamentals of Physics for Biologists
+            date: Fall 2018, Fall 2019
+            summary: Teaching Assistant, University of Maryland
+        -   name: Guest Lecture for Undergraduate E&M at University of Maryland
+            date: 2024-03
+            summary: Lectured on vector potentials in E&M
+        -   name: Guest Lecture for Graduate E&M at Texas A&M University
+            date: 2025-10
+            summary: Lectured on relativistic Larmor formula and charged particle
+                motion in magnetic fields
+        Service:
+        -   name: The Mitchell Conference on Collider, Dark Matter, and Neutrino Physics
+                2026
+            summary: |
+                Conference Organizer — Texas A&M University, May 27-30, 2026
+        -   name: The Mitchell Conference on Collider, Dark Matter, and Neutrino Physics
+                2025
+            summary: |
+                Conference Organizer — Texas A&M University, May 13-16, 2025
+        -   name: Mitchell Institute High Energy Phenomenology, Experiment, and Cosmology
+                Seminar Series
+            summary: |
+                Weekly Seminar Organizer - Texas A&M University, Fall 2024 - Present
+        Awards:
+        -   title: Breakthrough Prize in Fundamental Physics
+            authors:
+            - Awarded to the Muon g-2 Collaboration; recognized as a collaboration
+                member
+            date: 2026-04
+            awarder: Breakthrough Prize Board
+        -   title: Ralph Myers & Friends of Physics Award
+            authors:
+            - Awarded by the University of Maryland Department of Physics to outstanding
+                Graduate Teaching Assistants
+            date: 2019-12
+        -   title: Ralph Myers & Friends of Physics Award
+            authors:
+            - Awarded by the University of Maryland Department of Physics to outstanding
+                Graduate Teaching Assistants
+            date: 2020-05
+        -   title: Alumni Award
+            authors:
+            - Awarded by the Boston University Department of Physics
+            date: 2018-05
+        Schools Attended:
+        -   name: GGI Lectures on the Theory of Fundamental Interactions
+            date: 2023-01
+        -   name: 'TASI 2024: The Frontiers of Particle Theory'
+            date: 2024-06
+        Outreach:
+        -   name: BU Student Mentorship Program PRISM
+            date: 2016 - 2018
+            summary: Mentored incoming freshman undergraduates in physics, providing
+                guidance on courses, research opportunities, and resources
+        -   name: BU Outreach for Local High Schools
+            date: '2018'
+            summary: Demonstrated measurement of the charge-to-mass ratio of the electron
+                for local high schoolers in physics
+        -   name: TAMU Physics and Engineering Festival
+            date: 2025 - present
+            summary: Presented demonstrations of fluid dynamics to the general public,
+                including high school students and families
+        -   name: 'University of South Dakota talk: "My path through particle physics
+                research so far"'
+            date: 2024-12
+            summary: Presented my path through particle physics research to students,
+                showing a variety of interesting ideas to pursue
+        Skills:
+        -   name: 'Programming:'
+            summary: Mathematica, Python, C++
+        -   name: 'Physics Software:'
+            summary: MadGraph5_aMC@NLO, Pythia6, Pythia8, Delphes, ROOT, GEANT4, FeynRules
+        References:
+        -   name: Dr. Kaustubh Agashe
+            icon: fa-solid fa-envelope
+            summary: University of Maryland, College Park — kagashe@umd.edu
+        -   name: Dr. Bhaskar Dutta
+            icon: fa-solid fa-envelope
+            summary: Texas A&M University — dutta@tamu.edu
+        -   name: Dr. Bhupal Dev
+            icon: fa-solid fa-envelope
+            summary: Washington University in St. Louis — bdev@wustl.edu
+        -   name: Dr. Jason Kumar
+            icon: fa-solid fa-envelope
+            summary: University of Hawai'i — jkumar@hawaii.edu
