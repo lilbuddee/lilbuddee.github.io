@@ -1,4 +1,7 @@
 import re
+import sys
+import time
+import unicodedata
 import requests
 import bibtexparser
 from pathlib import Path
@@ -102,6 +105,113 @@ def published_updates_from_inspire(literature_id):
     return {k: entries[0][k] for k in PUBLISHED_FIELDS if entries[0].get(k)}
 
 
+# InspireHEP can lag a journal's publication by weeks, but Crossref has the
+# paper as soon as the publisher registers it. Crossref names journals in
+# full and splits volume/issue differently than InspireHEP's BibTeX, so the
+# journals we can translate faithfully are listed explicitly; anything else
+# is left for InspireHEP to fill in rather than guessed at.
+#   "monthly": Crossref volume=year, issue=month; InspireHEP volume=month
+#              (JHEP 10 (2026) 207)
+#   "plain":   volume and article number carry over as they are
+#   "aps":     like "plain", plus the issue as `number`
+CROSSREF_JOURNALS = {
+    "Journal of High Energy Physics": ("JHEP", "monthly"),
+    "Journal of Cosmology and Astroparticle Physics": ("JCAP", "monthly"),
+    "Physics Letters B": ("Phys. Lett. B", "plain"),
+    "Nuclear Physics B": ("Nucl. Phys. B", "plain"),
+    "Physical Review D": ("Phys. Rev. D", "aps"),
+    "Physical Review Letters": ("Phys. Rev. Lett.", "aps"),
+    "Physical Review C": ("Phys. Rev. C", "aps"),
+    "Physical Review Research": ("Phys. Rev. Res.", "aps"),
+    "Physical Review Accelerators and Beams": ("Phys. Rev. Accel. Beams", "aps"),
+}
+CROSSREF_WORKS = "https://api.crossref.org/works"
+
+
+def normalize_text(text):
+    text = re.sub(r"<[^>]+>", "", text or "")  # markup in Crossref titles
+    text = unicodedata.normalize("NFKD", text).encode("ascii", "ignore").decode()
+    return re.sub(r"[^a-z0-9]", "", text.lower())
+
+
+def crossref_works(**params):
+    """Items from a Crossref works query; [] if Crossref is unreachable (a
+    flaky lookup must never fail the daily sync, but it is logged so an
+    outage doesn't look like "nothing published"). Crossref's public pool
+    allows about one request per second, so calls are spaced out and a
+    rate-limited one is retried."""
+    for attempt in range(3):
+        time.sleep(1.1)
+        try:
+            r = requests.get(CROSSREF_WORKS, params={"rows": 5, **params}, timeout=15)
+            if r.status_code == 429:
+                continue
+            r.raise_for_status()
+            return r.json()["message"]["items"]
+        except (requests.RequestException, ValueError, KeyError) as exc:
+            print(f"  ! Crossref lookup failed: {exc}", file=sys.stderr)
+            return []
+    print("  ! Crossref lookup rate-limited; skipping for this run", file=sys.stderr)
+    return []
+
+
+def crossref_to_bib_fields(item):
+    """BibTeX fields for a Crossref journal-article, in InspireHEP's
+    conventions; None if the journal isn't one we translate or the volume and
+    article number haven't been assigned yet (online-first)."""
+    journal, kind = CROSSREF_JOURNALS.get((item.get("container-title") or [""])[0], (None, None))
+    if not journal:
+        return None
+
+    volume = str(item.get("volume") or "").strip()
+    issue = str(item.get("issue") or "").strip()
+    pages = str(item.get("article-number") or item.get("page") or "").strip()
+    printed = (item.get("published-print") or item.get("issued") or {}).get("date-parts", [[None]])[0][0]
+    if not (volume and pages and printed):
+        return None
+
+    fields = {"doi": item["DOI"]}
+    if kind == "monthly":
+        if not (issue.isdigit() and volume.isdigit()):
+            return None
+        fields.update(journal=journal, volume=f"{int(issue):02d}", pages=pages.zfill(3), year=volume)
+        if journal == "JHEP":  # keep the publisher's canonical casing
+            fields["doi"] = f"10.1007/JHEP{int(issue):02d}({volume}){pages.zfill(3)}"
+    else:
+        fields.update(journal=journal, volume=volume, pages=pages, year=str(printed))
+        if kind == "aps" and issue:
+            fields["number"] = issue
+    return {k: fields[k] for k in PUBLISHED_FIELDS if k in fields}
+
+
+def published_updates_from_crossref(entry):
+    """Fields to add to an existing preprint entry, from Crossref; None if
+    Crossref has no published version of it yet.
+
+    Primary match is the publisher's own link between the journal article and
+    the arXiv preprint. Not every publisher deposits that link, so a second
+    pass accepts an identical title plus the same first author."""
+    arxiv = entry.get("eprint", "").replace("arXiv:", "").strip()
+    items = []
+    if arxiv:
+        items = crossref_works(filter=f"type:journal-article,relation.type:has-preprint,relation.object:{arxiv}")
+
+    if not items and entry.get("title"):
+        first_author = normalize_text(entry.get("author", "").split(" and ")[0].split(",")[0])
+        title = normalize_text(entry["title"])
+        for item in crossref_works(**{"query.bibliographic": f"{entry['title'].replace('{', '').replace('}', '')} {first_author}", "filter": "type:journal-article"}):
+            families = {normalize_text(a.get("family")) for a in item.get("author", [])}
+            if normalize_text((item.get("title") or [""])[0]) == title and first_author in families:
+                items = [item]
+                break
+
+    for item in items:
+        fields = crossref_to_bib_fields(item)
+        if fields:
+            return fields
+    return None
+
+
 def main():
     # load existing bib
     existing_keys = set()
@@ -138,7 +248,7 @@ def main():
     hits = r.json().get("hits", {}).get("hits", [])
 
     new_bibtex_blocks = []
-    upgrades = []  # (texkey, title, updates)
+    upgrades = []  # (texkey, title, updates, source)
     for hit in hits:
         meta = hit.get("metadata", {})
         lit_id = hit.get("id")
@@ -154,7 +264,7 @@ def main():
         if preprint_key and is_published_on_inspire(meta):
             updates = published_updates_from_inspire(lit_id)
             if updates:
-                upgrades.append((preprint_key, title, updates))
+                upgrades.append((preprint_key, title, updates, "InspireHEP"))
             continue
 
         # skip if already in bib
@@ -166,11 +276,20 @@ def main():
             new_bibtex_blocks.append(bibtex)
             print(f"  + added: {title}")
 
+    # Preprints InspireHEP hasn't caught up on yet: ask Crossref directly.
+    upgraded = {texkey for texkey, *_ in upgrades}
+    for texkey, entry in preprints_by_texkey.items():
+        if texkey in upgraded:
+            continue
+        updates = published_updates_from_crossref(entry)
+        if updates:
+            upgrades.append((texkey, entry.get("title", texkey).strip("{}"), updates, "Crossref"))
+
     if upgrades:
         text = BIB_RAW.read_text()
-        for texkey, title, updates in upgrades:
+        for texkey, title, updates, source in upgrades:
             text = upgrade_entry_in_text(text, texkey, updates)
-            print(f"  ^ now published: {title} ({updates.get('journal')} {updates.get('volume', '')} ({updates.get('year', '')}) {updates.get('pages', '')})")
+            print(f"  ^ now published: {title} ({updates.get('journal')} {updates.get('volume', '')} ({updates.get('year', '')}) {updates.get('pages', '')}) [via {source}]")
         BIB_RAW.write_text(text)
 
     if new_bibtex_blocks:

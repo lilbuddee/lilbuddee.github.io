@@ -24,7 +24,8 @@ jobs:
 
       - name: Sync papers from InspireHEP
         # Adds papers not in papers.raw.bib yet, and fills in journal/volume/
-        # pages/doi for preprints InspireHEP now lists as published.
+        # pages/doi for preprints that are now published - per InspireHEP, or
+        # per Crossref when InspireHEP hasn't caught up yet.
         id: papers
         run: |
           python "scripts/import requests.py"
