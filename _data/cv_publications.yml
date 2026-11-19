@@ -146,18 +146,7 @@ cv:
             date: null
             journal: In preparation
             url: null
-        -   title: '#set par(hanging-indent: 0.984em);3.#h(0.3em)Exploring open systems
-                approach to neutrino oscillations'
-            authors:
-            - A. Chandra Shekar
-            - K. Kelly
-            - '**D. Sathyan**'
-            - L. Strigari
-            - T. Zhou
-            date: null
-            journal: In preparation
-            url: null
-        -   title: '#set par(hanging-indent: 0.984em);4.#h(0.3em)LHC Signals for KK
+        -   title: '#set par(hanging-indent: 0.984em);3.#h(0.3em)LHC Signals for KK
                 Gravitons Producing 8-Particle Final States'
             authors:
             - K. Agashe
@@ -168,6 +157,39 @@ cv:
             - K. Panchal
             - D. Plotnikov
             - '**D. Sathyan**'
+            date: null
+            journal: In preparation
+            url: null
+        -   title: '#set par(hanging-indent: 0.984em);4.#h(0.3em)Complementarity Between
+                LHC Searches for Baryon Number Violation and Trilepton Nucleon Decay'
+            authors:
+            - A. Bhoonah
+            - F. Burk
+            - D. Liu
+            - T. Ou
+            - '**D. Sathyan**'
+            date: null
+            journal: In preparation
+            url: null
+        -   title: '#set par(hanging-indent: 0.984em);5.#h(0.3em)Exploring open systems
+                approach to neutrino oscillations'
+            authors:
+            - A. Chandra Shekar
+            - K. Kelly
+            - '**D. Sathyan**'
+            - L. Strigari
+            - T. Zhou
+            date: null
+            journal: In preparation
+            url: null
+        -   title: '#set par(hanging-indent: 0.984em);6.#h(0.3em)Effects of non-unitary
+                evolution of neutrinos on the astrophysical neutrino flavor triangle'
+            authors:
+            - G. Alves
+            - A. Chandra Shekar
+            - A. de Gouvêa
+            - '**D. Sathyan**'
+            - T. Zhou
             date: null
             journal: In preparation
             url: null

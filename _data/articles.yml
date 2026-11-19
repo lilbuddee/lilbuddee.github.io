@@ -6,7 +6,7 @@
     - H. Kim
     - T. Kim
     - D. Sathyan
-  date: 2026-09
+  date: 2026-12
   display_date: null
   journal: In preparation
   url: null
@@ -17,7 +17,7 @@
     - D. Kim
     - K. Kelly
     - D. Sathyan
-  date: 2027-01
+  date: 2026-12
   display_date: null
   journal: In preparation
   url: null
@@ -27,6 +27,17 @@
     - K. Kelly
     - D. Sathyan
     - L. Strigari
+    - T. Zhou
+  date: 2027-03
+  display_date: null
+  journal: In preparation
+  url: null
+- title: Effects of non-unitary evolution of neutrinos on the astrophysical neutrino flavor triangle
+  authors:
+    - G. Alves
+    - A. Chandra Shekar
+    - A. de Gouvêa
+    - D. Sathyan
     - T. Zhou
   date: 2027-03
   display_date: null
@@ -42,7 +53,18 @@
     - K. Panchal
     - D. Plotnikov
     - D. Sathyan
-  date: 2027-03
+  date: 2026-12
+  display_date: null
+  journal: In preparation
+  url: null
+- title: Complementarity Between LHC Searches for Baryon Number Violation and Trilepton Nucleon Decay
+  authors:
+    - A. Bhoonah
+    - F. Burk
+    - D. Liu
+    - T. Ou
+    - D. Sathyan
+  date: 2026-12
   display_date: null
   journal: In preparation
   url: null

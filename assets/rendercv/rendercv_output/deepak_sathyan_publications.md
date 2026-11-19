@@ -143,7 +143,27 @@ Aug 2025
 
 
 
-## **#set par(hanging-indent: 0.984em);3.#h(0.3em)Exploring open systems approach to neutrino oscillations**
+## **#set par(hanging-indent: 0.984em);3.#h(0.3em)LHC Signals for KK Gravitons Producing 8-Particle Final States**
+
+#set par(hanging-indent: 1.35em)
+
+#h(1.35em)K. Agashe, D. Kim, P. Maksimovic, S. Mondal, M. Osherson, K. Panchal, D. Plotnikov, **D. Sathyan**
+
+#h(1.35em) (In preparation)
+
+
+
+## **#set par(hanging-indent: 0.984em);4.#h(0.3em)Complementarity Between LHC Searches for Baryon Number Violation and Trilepton Nucleon Decay**
+
+#set par(hanging-indent: 1.35em)
+
+#h(1.35em)A. Bhoonah, F. Burk, D. Liu, T. Ou, **D. Sathyan**
+
+#h(1.35em) (In preparation)
+
+
+
+## **#set par(hanging-indent: 0.984em);5.#h(0.3em)Exploring open systems approach to neutrino oscillations**
 
 #set par(hanging-indent: 1.35em)
 
@@ -153,11 +173,11 @@ Aug 2025
 
 
 
-## **#set par(hanging-indent: 0.984em);4.#h(0.3em)LHC Signals for KK Gravitons Producing 8-Particle Final States**
+## **#set par(hanging-indent: 0.984em);6.#h(0.3em)Effects of non-unitary evolution of neutrinos on the astrophysical neutrino flavor triangle**
 
 #set par(hanging-indent: 1.35em)
 
-#h(1.35em)K. Agashe, D. Kim, P. Maksimovic, S. Mondal, M. Osherson, K. Panchal, D. Plotnikov, **D. Sathyan**
+#h(1.35em)G. Alves, A. Chandra Shekar, A. de Gouvêa, **D. Sathyan**, T. Zhou
 
 #h(1.35em) (In preparation)
 
