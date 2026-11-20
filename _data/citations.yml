@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-11-18'
+  last_updated: '2026-11-20'
   source: inspirehep
 papers:
   Agashe:2020wph:
@@ -37,7 +37,7 @@ papers:
       not available: see fulltext] and m$_{W}$'
     year: '2024'
   Begel:2025ldu:
-    citations: 11
+    citations: 12
     record_id: '2906143'
     title: United States Muon Collider Community White Paper for the European Strategy
       for Particle Physics Update
