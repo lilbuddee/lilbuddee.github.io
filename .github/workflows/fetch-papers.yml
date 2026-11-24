@@ -12,6 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+      actions: write # to start deploy.yml below
 
     steps:
       - uses: actions/checkout@v4
@@ -57,10 +58,23 @@ jobs:
           bash scripts/render_cvs.sh
 
       - name: Commit and push
+        id: push
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add _bibliography _data assets
-          git diff --cached --quiet || git commit -m "chore: sync papers and citations from InspireHEP"
+          if git diff --cached --quiet; then
+            exit 0
+          fi
+          git commit -m "chore: sync papers and citations from InspireHEP"
           git pull --rebase origin main
           git push
+          echo "pushed=true" >> "$GITHUB_OUTPUT"
+
+      - name: Redeploy the site
+        # A push made with the default GITHUB_TOKEN never triggers deploy.yml
+        # (workflow_dispatch is exempt), so start it explicitly.
+        if: steps.push.outputs.pushed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run deploy.yml --ref main
