@@ -91,6 +91,18 @@ cv:
             journal: JHEP 11 (2020) 109
             url: https://arxiv.org/abs/2008.06480
         Preprints:
+        -   title: '#set par(hanging-indent: 0.984em);4.#h(0.3em)A proposal for an
+                LHC search for baryon number violation in complementarity with trilepton
+                nucleon decay searches'
+            authors:
+            - A. Bhoonah
+            - F.M. Burk
+            - D. Liu
+            - T. Ou
+            - '**D. Sathyan**'
+            date: 2026-11
+            journal: null
+            url: https://arxiv.org/abs/2611.31142
         -   title: '#set par(hanging-indent: 0.984em);3.#h(0.3em)Intensity-Frontier
                 Signals of Warped Extra Dimensions'
             authors:
@@ -160,18 +172,7 @@ cv:
             date: null
             journal: In preparation
             url: null
-        -   title: '#set par(hanging-indent: 0.984em);4.#h(0.3em)Complementarity Between
-                LHC Searches for Baryon Number Violation and Trilepton Nucleon Decay'
-            authors:
-            - A. Bhoonah
-            - F. Burk
-            - D. Liu
-            - T. Ou
-            - '**D. Sathyan**'
-            date: null
-            journal: In preparation
-            url: null
-        -   title: '#set par(hanging-indent: 0.984em);5.#h(0.3em)Exploring open systems
+        -   title: '#set par(hanging-indent: 0.984em);4.#h(0.3em)Exploring open systems
                 approach to neutrino oscillations'
             authors:
             - A. Chandra Shekar
@@ -182,7 +183,7 @@ cv:
             date: null
             journal: In preparation
             url: null
-        -   title: '#set par(hanging-indent: 0.984em);6.#h(0.3em)Effects of non-unitary
+        -   title: '#set par(hanging-indent: 0.984em);5.#h(0.3em)Effects of non-unitary
                 evolution of neutrinos on the astrophysical neutrino flavor triangle'
             authors:
             - G. Alves
