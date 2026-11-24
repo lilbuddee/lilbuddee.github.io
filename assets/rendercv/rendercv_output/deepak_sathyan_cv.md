@@ -154,6 +154,18 @@ Aug 2020
 
 
 # Preprints
+## **#set par(hanging-indent: 0.984em);4.#h(0.3em)A proposal for an LHC search for baryon number violation in complementarity with trilepton nucleon decay searches**
+
+Nov 2026
+
+#set par(hanging-indent: 1.35em)
+
+#h(1.35em)A. Bhoonah, F.M. Burk, D. Liu, T. Ou, **D. Sathyan**
+
+#h(1.35em) [arxiv.org/abs/2611.31142](https://arxiv.org/abs/2611.31142)
+
+
+
 ## **#set par(hanging-indent: 0.984em);3.#h(0.3em)Intensity-Frontier Signals of Warped Extra Dimensions**
 
 Aug 2026
@@ -211,7 +223,17 @@ Aug 2025
 
 
 
-## **#set par(hanging-indent: 0.984em);3.#h(0.3em)Exploring open systems approach to neutrino oscillations**
+## **#set par(hanging-indent: 0.984em);3.#h(0.3em)LHC Signals for KK Gravitons Producing 8-Particle Final States**
+
+#set par(hanging-indent: 1.35em)
+
+#h(1.35em)K. Agashe, D. Kim, P. Maksimovic, S. Mondal, M. Osherson, K. Panchal, D. Plotnikov, **D. Sathyan**
+
+#h(1.35em) (In preparation)
+
+
+
+## **#set par(hanging-indent: 0.984em);4.#h(0.3em)Exploring open systems approach to neutrino oscillations**
 
 #set par(hanging-indent: 1.35em)
 
@@ -221,11 +243,11 @@ Aug 2025
 
 
 
-## **#set par(hanging-indent: 0.984em);4.#h(0.3em)LHC Signals for KK Gravitons Producing 8-Particle Final States**
+## **#set par(hanging-indent: 0.984em);5.#h(0.3em)Effects of non-unitary evolution of neutrinos on the astrophysical neutrino flavor triangle**
 
 #set par(hanging-indent: 1.35em)
 
-#h(1.35em)K. Agashe, D. Kim, P. Maksimovic, S. Mondal, M. Osherson, K. Panchal, D. Plotnikov, **D. Sathyan**
+#h(1.35em)G. Alves, A. Chandra Shekar, A. de Gouvêa, **D. Sathyan**, T. Zhou
 
 #h(1.35em) (In preparation)
 
