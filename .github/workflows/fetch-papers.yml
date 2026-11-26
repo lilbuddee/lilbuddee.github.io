@@ -21,7 +21,7 @@ jobs:
         with:
           python-version: "3.12" # RenderCV needs 3.12+
 
-      - run: pip install bibtexparser pyyaml requests
+      - run: pip install "bibtexparser<2" pyyaml requests # 2.x removed load()/loads()
 
       - name: Sync papers from InspireHEP
         # Adds papers not in papers.raw.bib yet, and fills in journal/volume/

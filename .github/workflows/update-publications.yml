@@ -22,7 +22,7 @@ jobs:
           python-version: "3.11"
 
       - name: Install dependencies
-        run: pip install bibtexparser pyyaml requests
+        run: pip install "bibtexparser<2" pyyaml requests # 2.x removed load()/loads()
 
       - name: Run publications script
         run: python _data/make_publications.py
