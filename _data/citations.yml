@@ -47,6 +47,12 @@ papers:
     record_id: '2964573'
     title: A Baryon and Lepton Number Violation Model Testable at the LHC
     year: '2025'
+  Bhoonah:2026mnl:
+    citations: 0
+    record_id: '3233390'
+    title: A proposal for an LHC search for baryon number violation in complementarity
+      with trilepton nucleon decay searches
+    year: '2026'
   Bose:2022obr:
     citations: 67
     record_id: '2157249'
